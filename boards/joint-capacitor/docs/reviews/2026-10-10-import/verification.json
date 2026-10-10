@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-10",
+  "client": "4.1.71.7a7261be",
+  "source_filename": "关节电容.eprj2",
+  "source_bytes": 4509696,
+  "source_unchanged": true,
+  "source_native_document_count": 302,
+  "preserved_container_documents": 300,
+  "document_records_equal_except_line_separators": true,
+  "board_and_config_storage": "BOARD 元数据存入 profile.boards；CONFIG META 存入 config；其余设置存入 config.settings，保留内部 ID。",
+  "documents": [
+    {
+      "board": "Board1",
+      "title": "Schematic1-P1",
+      "uuid": "560ef1156ddfc5bf",
+      "kind": "schematic",
+      "native_reopen": true,
+      "netlist_equal_except_projectId": true,
+      "drc_equal": true,
+      "drc": [
+        {
+          "type": "error",
+          "rule": "PIN2PAD",
+          "primitives": []
+        },
+        {
+          "type": "error",
+          "rule": "PIN2PAD",
+          "primitives": []
+        }
+      ],
+      "component_count": null,
+      "physical_pad_count": null,
+      "components_equal_except_project_libraryUuid": null,
+      "pad_count_equal": true
+    },
+    {
+      "board": "Board1",
+      "title": "PCB1",
+      "uuid": "03c35f1c4c5e1e87",
+      "kind": "pcb",
+      "native_reopen": true,
+      "netlist_equal_except_projectId": true,
+      "drc_equal": true,
+      "drc": [],
+      "component_count": 121,
+      "physical_pad_count": 391,
+      "components_equal_except_project_libraryUuid": true,
+      "pad_count_equal": true
+    }
+  ],
+  "native_export_config_payload_equal": true
+}
