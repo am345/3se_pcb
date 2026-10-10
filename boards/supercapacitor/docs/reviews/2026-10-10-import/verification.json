@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-10",
+  "client": "4.1.71.7a7261be",
+  "source_filename": "3SE 26超级电容.eprj2",
+  "source_bytes": 5648384,
+  "source_unchanged": true,
+  "source_native_document_count": 331,
+  "preserved_container_documents": 328,
+  "document_records_equal_except_line_separators": true,
+  "board_and_config_storage": "BOARD 元数据存入 profile.boards；CONFIG META 存入 config；其余设置存入 config.settings，保留内部 ID。",
+  "documents": [
+    {
+      "board": "功率板(下板",
+      "title": "Schematic3-P1",
+      "uuid": "ec08c95717f68565",
+      "kind": "schematic",
+      "native_reopen": true,
+      "netlist_equal_except_projectId": true,
+      "drc_equal": true,
+      "drc": [
+        {
+          "type": "warn",
+          "rule": "ATTRMATCHCODE",
+          "primitives": [
+            {
+              "primitiveId": "e11941",
+              "sheet": "ec08c95717f68565",
+              "name": "CN8($1I11941)"
+            },
+            {
+              "primitiveId": "e12610",
+              "sheet": "ec08c95717f68565",
+              "name": "CN9($1I12610)"
+            }
+          ]
+        }
+      ],
+      "component_count": null,
+      "physical_pad_count": null,
+      "components_equal_except_project_libraryUuid": null,
+      "pad_count_equal": true
+    },
+    {
+      "board": "功率板(下板",
+      "title": "PCB3",
+      "uuid": "035d5928d80d2631",
+      "kind": "pcb",
+      "native_reopen": true,
+      "netlist_equal_except_projectId": true,
+      "drc_equal": true,
+      "drc": [],
+      "component_count": 70,
+      "physical_pad_count": 193,
+      "components_equal_except_project_libraryUuid": true,
+      "pad_count_equal": true
+    },
+    {
+      "board": "控制板(上板",
+      "title": "Schematic2-P1",
+      "uuid": "dd68d502c4734039a28d410ef3a5ea7d",
+      "kind": "schematic",
+      "native_reopen": true,
+      "netlist_equal_except_projectId": true,
+      "drc_equal": true,
+      "drc": [
+        {
+          "type": "warn",
+          "rule": "GLOBALNETSHORTED",
+          "primitives": [
+            {
+              "primitiveId": "e1005",
+              "sheet": "dd68d502c4734039a28d410ef3a5ea7d",
+              "name": "$1N1005"
+            },
+            {
+              "primitiveId": "e1008",
+              "sheet": "dd68d502c4734039a28d410ef3a5ea7d",
+              "name": "$1N1008"
+            },
+            {
+              "primitiveId": "e1010",
+              "sheet": "dd68d502c4734039a28d410ef3a5ea7d",
+              "name": "$1N1010"
+            },
+            {
+              "primitiveId": "e1011",
+              "sheet": "dd68d502c4734039a28d410ef3a5ea7d",
+              "name": "$1N1011"
+            },
+            {
+              "primitiveId": "e1013",
+              "sheet": "dd68d502c4734039a28d410ef3a5ea7d",
+              "name": "$1N1013"
+            },
+            {
+              "primitiveId": "e1048",
+              "sheet": "dd68d502c4734039a28d410ef3a5ea7d",
+              "name": "$1N1048"
+            },
+            {
+              "primitiveId": "e6456",
+              "sheet": "dd68d502c4734039a28d410ef3a5ea7d",
+              "name": "$1N6456"
+            },
+            {
+              "primitiveId": "e9906",
+              "sheet": "dd68d502c4734039a28d410ef3a5ea7d",
+              "name": "$1N9906"
+            },
+            {
+              "primitiveId": "e13136",
+              "sheet": "dd68d502c4734039a28d410ef3a5ea7d",
+              "name": "$1N13136"
+            },
+            {
+              "primitiveId": "e17115",
+              "sheet": "dd68d502c4734039a28d410ef3a5ea7d",
+              "name": "$1N17115"
+            },
+            {
+              "primitiveId": "e50022",
+              "sheet": "dd68d502c4734039a28d410ef3a5ea7d",
+              "name": "$1N50022"
+            },
+            {
+              "primitiveId": "e75355",
+              "sheet": "dd68d502c4734039a28d410ef3a5ea7d",
+              "name": "$1N75355"
+            },
+            {
+              "primitiveId": "e75468",
+              "sheet": "dd68d502c4734039a28d410ef3a5ea7d",
+              "name": "$1N75468"
+            }
+          ]
+        },
+        {
+          "type": "warn",
+          "rule": "FLAGTONET",
+          "primitives": [
+            {
+              "primitiveId": "e15333",
+              "sheet": "dd68d502c4734039a28d410ef3a5ea7d",
+              "name": "+1.25V($1I15333)"
+            }
+          ]
+        },
+        {
+          "type": "warn",
+          "rule": "FLAGTONET",
+          "primitives": [
+            {
+              "primitiveId": "e15345",
+              "sheet": "dd68d502c4734039a28d410ef3a5ea7d",
+              "name": "+3.3V($1I15345)"
+            }
+          ]
+        },
+        {
+          "type": "warn",
+          "rule": "ONENETNAME",
+          "net": "+1.25V、+3.3V",
+          "primitives": [
+            {
+              "primitiveId": "e13136",
+              "sheet": "dd68d502c4734039a28d410ef3a5ea7d",
+              "name": "$1N13136"
+            }
+          ]
+        },
+        {
+          "type": "warn",
+          "rule": "ATTRMATCHCODE",
+          "primitives": [
+            {
+              "primitiveId": "e1458",
+              "sheet": "dd68d502c4734039a28d410ef3a5ea7d",
+              "name": "LED1($1I1458)"
+            }
+          ]
+        }
+      ],
+      "component_count": null,
+      "physical_pad_count": null,
+      "components_equal_except_project_libraryUuid": null,
+      "pad_count_equal": true
+    },
+    {
+      "board": "控制板(上板",
+      "title": "PCB2",
+      "uuid": "36b7f5491675426f81167ed01acaa0ca",
+      "kind": "pcb",
+      "native_reopen": true,
+      "netlist_equal_except_projectId": true,
+      "drc_equal": true,
+      "drc": [],
+      "component_count": 116,
+      "physical_pad_count": 347,
+      "components_equal_except_project_libraryUuid": true,
+      "pad_count_equal": true
+    }
+  ],
+  "native_export_config_payload_equal": true
+}

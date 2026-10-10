@@ -1,0 +1,86 @@
+{
+  "name": "关节电容",
+  "format": "folder",
+  "owner_uuid": "9a627b55019346898833a4076315ca17",
+  "creator_uuid": "9a627b55019346898833a4076315ca17",
+  "modifier_uuid": "9a627b55019346898833a4076315ca17",
+  "created_at": "2026-07-26 22:01:36",
+  "updated_at": "2026-09-03 11:56:41",
+  "content": "",
+  "archive": false,
+  "cbb_project": 0,
+  "pcb_count": 1,
+  "config": {
+    "defaultSheet": "8f60d5d8730af0a0",
+    "settings": {
+      "UNIVERSAL": {
+        "dataType": "UNIVERSAL",
+        "data": {
+          "allowLibRename": true,
+          "defaultNetName": true,
+          "wireMultipleNet": true,
+          "netFlagCrossLayerConnection": true,
+          "netLabelCrossPageConnection": true,
+          "busGenerateNetClass": true,
+          "relevanceDisplayRow": "SINGLE",
+          "relevanceBelongSchPage": "NAME",
+          "relevanceLocation": "ZONE",
+          "multipartCrossLayer": true
+        }
+      }
+    }
+  },
+  "profile": {
+    "boards": {
+      "56f1158598613a99": {
+        "uuid": "56f1158598613a99",
+        "version": "1785103297221",
+        "updateTime": 1785103297221,
+        "title": "Board1",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "8d454cecfdfc6a21": {
+        "uuid": "8d454cecfdfc6a21",
+        "version": "1785846419398",
+        "updateTime": 1785846419398,
+        "name": "Schematic1",
+        "source": "",
+        "board": "56f1158598613a99",
+        "zIndex": null
+      }
+    },
+    "sheets": {
+      "560ef1156ddfc5bf": {
+        "uuid": "560ef1156ddfc5bf",
+        "version": "1788407801369",
+        "updateTime": 1788407801369,
+        "title": "P1",
+        "source": "",
+        "zIndex": 1,
+        "schematic_uuid": "8d454cecfdfc6a21"
+      }
+    },
+    "pcbs": {
+      "03c35f1c4c5e1e87": {
+        "uuid": "03c35f1c4c5e1e87",
+        "version": "1788332743806",
+        "updateTime": 1788332743806,
+        "title": "PCB1",
+        "source": "",
+        "board": "56f1158598613a99",
+        "zIndex": null,
+        "parent_uuid": ""
+      }
+    },
+    "panels": {},
+    "blockSymbols": {},
+    "simSchematics": {},
+    "simulations": {},
+    "owner": {
+      "uuid": "9a627b55019346898833a4076315ca17"
+    }
+  },
+  "default_sheet": "8f60d5d8730af0a0"
+}
