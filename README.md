@@ -33,8 +33,7 @@ cd 3se_pcb
 │   ├── workflow.md              # 新建、迁移、协作、投板归档流程
 │   └── skills.md                # Skill 来源、版本、用途和限制
 ├── templates/
-│   ├── board-readme.md          # 新板 README 模板
-│   └── release-notes.md         # 投板发布说明模板
+│   └── board-readme.md          # 新板 README 模板
 └── boards/
     └── <board-id>/
         ├── README.md            # 本板入口及当前状态
@@ -50,7 +49,6 @@ cd 3se_pcb
 
 - 每块板用一个稳定的英文目录名，例如 `serialleg-logger`。普通迭代由 Git 记录，不复制“最终版”“新最终版”目录。
 - 正式投板版本用板名加版本的 Git 标签，例如 `serialleg-logger/r1.0`；标签指向实际生成生产文件的提交。
-- Gerber、钻孔、生产 BOM、贴片坐标和原理图 PDF 附在对应 [GitHub Release](https://github.com/am345/3se_pcb/releases)，使用[发布模板](templates/release-notes.md)。
 - 临时导出放各板 `outputs/`，Git 默认忽略。用于支撑结论的检查报告和实测记录放 `docs/`，保留日期、适用版本和检查范围。
 - 当前导入的日志板是设计草稿，没有生产发布；导入时的 BOM 和检查报告是历史快照。
 
