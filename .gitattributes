@@ -1,0 +1,38 @@
+# 文档统一换行；原生 EDA 工程保持原字节换行，仍使用文本差异
+* text=auto
+*.md text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.csv text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.ps1 text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+*.eprj3 -text diff
+*.esch2 -text diff
+*.epcb2 -text diff
+*.epan2 -text diff
+*.esym2 -text diff
+*.ecfg -text diff
+*.evar -text diff
+*.kicad_pro -text diff
+*.kicad_sch -text diff
+*.kicad_pcb -text diff
+*.kicad_sym -text diff
+*.kicad_mod -text diff
+
+# 数据库工程与归档按二进制管理
+*.eprj binary
+*.eprj2 binary
+*.epro binary
+*.epro2 binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.pdf binary
+*.zip binary
+*.7z binary
+*.step binary
+*.stp binary

@@ -1,0 +1,27 @@
+# 系统与编辑器临时文件
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+
+# 本地导出、缓存及凭据
+**/outputs/
+**/.cache/
+__pycache__/
+.venv/
+.env
+.env.*
+!.env.example
+
+# KiCad 个人会话、锁和自动备份；保留工程及项目库配置
+*.kicad_prl
+*.lck
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+_autosave-*
+fp-info-cache
+
+# 不全局忽略 ZIP、CSV、PDF、STEP 或旧 EDA 工程，它们可能是必要源资料

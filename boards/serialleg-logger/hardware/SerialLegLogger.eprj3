@@ -1,0 +1,72 @@
+{
+  "name": "SerialLegLogger",
+  "owner_uuid": "a105ac1cbcea426781eae07d21a61163",
+  "creator_uuid": "a105ac1cbcea426781eae07d21a61163",
+  "created_at": "2026-10-10 01:42:01",
+  "updated_at": "2026-10-10 01:56:03",
+  "modifier_uuid": "a105ac1cbcea426781eae07d21a61163",
+  "content": "",
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "ticket": 1,
+  "g_ticket": 1,
+  "boards": [],
+  "block_symbol_attrs_groups": {},
+  "default_sheet": "",
+  "branch_uuid": "",
+  "pcb_count": 1,
+  "format": "folder",
+  "profile": {
+    "boards": {
+      "b2e1c5e8f8b85760": {
+        "uuid": "b2e1c5e8f8b85760",
+        "title": "Board1",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "4aaaff8693e51ceb": {
+        "uuid": "4aaaff8693e51ceb",
+        "name": "Logger",
+        "board": "b2e1c5e8f8b85760",
+        "source": "",
+        "version": "1791613746832",
+        "updateTime": 1791613746832
+      }
+    },
+    "sheets": {
+      "705f0c5067bd3436": {
+        "uuid": "705f0c5067bd3436",
+        "title": "Main",
+        "schematic_uuid": "4aaaff8693e51ceb",
+        "zIndex": 1,
+        "source": "",
+        "version": "1791613746832",
+        "updateTime": 1791613746832
+      }
+    },
+    "pcbs": {
+      "b306d946a8c90058": {
+        "uuid": "b306d946a8c90058",
+        "title": "Logger",
+        "board": "b2e1c5e8f8b85760",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1791614430123",
+        "updateTime": 1791614430123
+      }
+    },
+    "panels": {},
+    "blockSymbols": {},
+    "owner": {
+      "uuid": "a105ac1cbcea426781eae07d21a61163"
+    },
+    "simSchematics": {},
+    "simulations": {}
+  },
+  "config": {
+    "defaultSheet": "",
+    "settings": {}
+  }
+}

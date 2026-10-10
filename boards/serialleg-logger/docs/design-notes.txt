@@ -1,0 +1,54 @@
+SerialLeg 独立日志板 — R0.1 设计草稿
+更新：2026-10-10
+
+用途与边界
+从机器人主控接收二进制日志，独立缓冲并写入 microSD。USB 和 UART 同时预留，首版固件选一种输入。此工程属于硬件设计阶段，尚无日志板固件，也未制作或测试样板。
+
+主要器件
+U1 ESP32-S3-MINI-1-N4R2：4 MB Flash、2 MB PSRAM。无线功能暂不启用；可用日志缓冲小于 PSRAM 标称容量，需给软件和通信留空间。
+J5 TF-015：microSD 卡座，使用 4-bit SDMMC。建议首轮以 20 MHz 总线、32 GB FAT32 卡验证持续写入与长尾停顿。
+U2 AP63203WU-7：5 V 转 3.3 V 降压电源。L1 4.7 uH；标称额定电流 3.3 A、饱和电流 5.5 A。5 V 输入下计算电感纹波约 0.22 A，最终需测纹波及负载阶跃。
+U3 TPS2553DBVR-1：USB VBUS 限流开关，49.9 kOhm 设定约 0.52 A 典型限流，范围和温度偏差以 TI 数据手册为准。过流锁断，USB_EN 默认下拉关闭。
+U4 SN74LVC1G17DBVR：UART 接收缓冲，支持掉电输入隔离。
+U5 USBLC6-2SC6：USB 数据线 ESD 防护。
+Q1 AO3401A：5 V 输入反接保护。
+C15 150 uF + C10 22 uF：USB Host 输出储能；C15 有极性，装配注意正负。
+
+接口与线束
+J1：GH 1.25 mm 2-pin，1=稳定 5 V 输入，2=GND。禁止接机器人 24 V 电池。建议使用独立、限流的 5 V 电源。若从达妙板 5 V 取电，须先核算共享电源余量；本板并非电源故障隔离器。
+J2：USB Type-A 母座，Host。用正常 A-to-C 数据线连接达妙板 USB Device。R7 为 VBUS 串联 0 Ohm 断开位置，默认装配。
+  达妙主板 USB VBUS 经二极管进入自身 5 V 电源，日志板可能给未上电的达妙主板送电。U3 的反向阻断不阻止这种正向供电。机器人主板应先正常供电，再启用 USB_EN；必要时移除 R7，且另行验证 VBUS 检测与枚举。
+J3：GH 1.25 mm 3-pin，1=GND，2=RX（接机器人 TX），3=可选 TX。R12 默认 DNP，不焊接，因此默认不会向机器人发数据。信号约定为 3.3 V TTL，不是 RS-232 或 RS-485。
+  J3 并非达妙板 UART 接口的直通同序线束。达妙板参考原理图中 UART7/UART10 4-pin 为 5 V、GND、RX、TX，接线时必须按信号对应，不能按编号直插。
+J4：2.54 mm 1x6 下载排针，1=GND、2=3V3 参考、3=ESP UART0 TX、4=ESP UART0 RX、5=EN、6=BOOT。使用外部 3.3 V TTL 下载器，禁止接 5 V TTL。2 脚是电平参考，不应与另一个供电输出并联。
+SW1=复位，SW2=BOOT，SW3=停止并完成日志文件写入。D1=记录状态，D2=错误状态（本版均为红色 LED，以丝印区分）。
+
+固件引脚分配
+GPIO4 UART 日志 RX；GPIO5 可选 UART TX（R12 DNP）。
+GPIO7 STOP_N；GPIO8 LED_REC；GPIO9 LED_ERR。
+GPIO11 SD CMD；GPIO12 SD CLK；GPIO13/14/15/16 SD D0/D1/D2/D3；GPIO17 SD_CD_N。
+GPIO18 USB_EN；GPIO19 USB D-；GPIO20 USB D+；GPIO21 USB_FAULT_N。
+GPIO43/44 UART0 下载 TX/RX；GPIO0 BOOT；EN 复位。
+GPIO3/45/46 不接外部负载，保留默认启动配置；GPIO26 不使用，避免与模块 PSRAM 冲突。
+
+对机器人实时性的约束
+主控侧只做带时间戳的数据快照和非阻塞 DMA/USB 入队，不等待 SD 卡完成写入；队列满时丢日志并记录序号/丢包计数，不阻塞控制环。
+日志板侧分离收包和写卡任务，使用内部 RAM 做 DMA 暂存、PSRAM 做环形缓冲。USB/UART 吞吐、缓存容量与 1 kHz 数据量需要实际压力测试。PSRAM 不能消除持续输入超过卡写速的情况。
+突然断电可能丢失缓冲及文件系统尾部数据。本版没有电池或保持电源，C15 不是掉电续写电源。应先按 STOP 等待完成，再断电或取卡。
+
+机械与制造
+PCB 板框 45 x 40 mm，计划四层。模块天线和 USB 插口伸出板边，外形与插拔空间大于板框尺寸。安装孔和机箱连接尚未定稿。
+当前器件来自嘉立创实际库，采购前还需确认库存、替代料、卡座/连接器方向、装配高度和钢网开窗。J4 是通用排针，其料号匹配提示需在采购定型时处理。
+不能仅凭自动布线和 DRC 就投板；需检查 USB 差分阻抗和连续参考面、降压回路、SD 信号回流、所有供电分支的线宽和过孔，以及丝印和阻焊。
+
+主要核对来源
+Espressif 模组数据手册：https://documentation.espressif.com/esp32-s3-mini-1_mini-1u_datasheet_en.html
+Espressif 硬件设计指南：https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/schematic-checklist.html
+Espressif 模块布局指南：https://docs.espressif.com/projects/esp-hardware-design-guidelines/en/latest/esp32s3/pcb-layout-design.html
+Diodes AP63203：https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf
+TI TPS2553：https://www.ti.com/lit/ds/symlink/tps2553.pdf
+TI SN74LVC1G17：https://www.ti.com/lit/ds/symlink/sn74lvc1g17.pdf
+达妙板参考：D:/RoboMaster/dmmc02/dm-mc02/2D图纸/原理图/CtrBoard-H7_V1.0-240124.pdf，USB/接口页。
+
+当前布线状态补充（2026-10-10）
+首轮走线已保存，连接检查和已启用的铜间距检查通过。仍有两项 USB 差分长度差错误；地平面仅有边界，尚未生成填充。逻辑铜层为四层，制造叠层、介质厚度尚未配置。此版本是布局与布线草稿，详细未完成项见“先读我-检查结果.txt”。

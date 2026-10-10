@@ -1,0 +1,134 @@
+{
+  "drc": [
+    {
+      "name": "Differential Pair Error",
+      "list": [
+        {
+          "name": "Track to Track",
+          "list": [
+            {
+              "visible": true,
+              "errorType": "Differential Pair Error",
+              "errorObjType": "Track to Track",
+              "ruleName": "differentialPair",
+              "ruleTypeName": "Differential Pair",
+              "obj1": {
+                "suffix": "(USB_DP_MCU)",
+                "typeName": "Track"
+              },
+              "obj2": {
+                "suffix": "(USB_DM_MCU)",
+                "typeName": "Track"
+              },
+              "explanation": {
+                "str": "{obj1} to {obj2} length tolerance is {width}, should be {shouldBe}",
+                "param": {
+                  "width": "114.6mil",
+                  "shouldBe": "<=10mil",
+                  "obj1": "Object 1",
+                  "obj2": "object 2",
+                  "type": "DifferentPairLengthError"
+                },
+                "errData": {
+                  "globalIndex": "err11",
+                  "position": {
+                    "x": 58.917075,
+                    "y": 91.63225
+                  },
+                  "name": "differentialPair",
+                  "net_P": "USB_DP_MCU",
+                  "net_N": "USB_DM_MCU",
+                  "toleranceScope": 1,
+                  "toleranceUnit": "mm",
+                  "value_P": 42.80899255038692,
+                  "value_N": 31.346488471253853,
+                  "unableComputeDelay": false,
+                  "errorType": "Differential Pair Error"
+                }
+              },
+              "objs": [
+                "USB_DP_MCU",
+                "USB_DM_MCU"
+              ],
+              "globalIndex": "err11",
+              "globalIndexIsNet": true,
+              "pos": {
+                "x": 58.917075,
+                "y": 91.63225
+              },
+              "parentId": "DRCTab|_|Errors|_|Differential Pair Error|_|Track to Track"
+            },
+            {
+              "visible": true,
+              "errorType": "Differential Pair Error",
+              "errorObjType": "Track to Track",
+              "ruleName": "differentialPair",
+              "ruleTypeName": "Differential Pair",
+              "obj1": {
+                "suffix": "(USB_DP)",
+                "typeName": "Track"
+              },
+              "obj2": {
+                "suffix": "(USB_DM)",
+                "typeName": "Track"
+              },
+              "explanation": {
+                "str": "{obj1} to {obj2} length tolerance is {width}, should be {shouldBe}",
+                "param": {
+                  "width": "86.7mil",
+                  "shouldBe": "<=10mil",
+                  "obj1": "Object 1",
+                  "obj2": "object 2",
+                  "type": "DifferentPairLengthError"
+                },
+                "errData": {
+                  "globalIndex": "err12",
+                  "position": {
+                    "x": 110.681775,
+                    "y": 59.031774999999996
+                  },
+                  "name": "differentialPair",
+                  "net_P": "USB_DP",
+                  "net_N": "USB_DM",
+                  "toleranceScope": 1,
+                  "toleranceUnit": "mm",
+                  "value_P": 146.2768761863694,
+                  "value_N": 137.6022446443223,
+                  "unableComputeDelay": false,
+                  "errorType": "Differential Pair Error"
+                }
+              },
+              "objs": [
+                "USB_DP",
+                "USB_DM"
+              ],
+              "globalIndex": "err12",
+              "globalIndexIsNet": true,
+              "pos": {
+                "x": 110.681775,
+                "y": 59.031774999999996
+              },
+              "parentId": "DRCTab|_|Errors|_|Differential Pair Error|_|Track to Track"
+            }
+          ],
+          "count": 2,
+          "title": [
+            "Track",
+            "to",
+            "Track",
+            "(2)"
+          ],
+          "visible": true
+        }
+      ],
+      "visible": true,
+      "count": 2,
+      "title": [
+        "Differential Pair Error",
+        "(2)"
+      ]
+    }
+  ],
+  "lines": 665,
+  "vias": 71
+}
