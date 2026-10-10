@@ -19,7 +19,7 @@ cd 3se_pcb
 
 1. 从上面的索引进入对应板子的 README，查看软件版本、接口和已知问题。
 2. 在 EDA 中打开该板 `hardware/` 内的原生工程入口。
-3. 修改前阅读 [AGENTS.md](AGENTS.md)；新增板子和投板归档遵循[工作流程](docs/workflow.md)。
+3. 修改前阅读 [AGENTS.md](AGENTS.md)；新增板子和投板归档遵循[工作流程](docs/workflow.md)，工具选择见 [Skills 使用说明](docs/skills.md)。
 
 嘉立创 `.eprj3` 是文件夹工程：索引、原理图、PCB 和相关资源必须一起保留，不能只下载单个 `.eprj3` 文件。KiCad 工程也须保留其项目库和相对路径引用。
 
@@ -30,7 +30,8 @@ cd 3se_pcb
 ├── README.md                    # 板卡索引
 ├── AGENTS.md                    # Agent 设计和验证约定
 ├── docs/
-│   └── workflow.md              # 新建、迁移、协作、投板归档流程
+│   ├── workflow.md              # 新建、迁移、协作、投板归档流程
+│   └── skills.md                # Skill 来源、版本、用途和限制
 ├── templates/
 │   ├── board-readme.md          # 新板 README 模板
 │   └── release-notes.md         # 投板发布说明模板
