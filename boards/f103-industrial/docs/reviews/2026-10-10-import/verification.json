@@ -1,0 +1,279 @@
+{
+  "date": "2026-10-10",
+  "client": "4.1.71.7a7261be",
+  "source_filename": "f103工控板V1.eprj2",
+  "source_unchanged": true,
+  "native_reopen": true,
+  "source_native_document_count": 300,
+  "preserved_container_documents": 298,
+  "document_records_equal_except_dochead_outer_ticket_and_separators": true,
+  "board_and_project_config": "原 BOARD / CONFIG 数据写入工程索引；保留文档 ID",
+  "schematic_netlist_equal_except_projectId": true,
+  "pcb_netlist_equal_except_projectId": true,
+  "pcb_components_equal_except_project_libraryUuid": true,
+  "component_count": 64,
+  "physical_pad_count": 232,
+  "numbered_pin_count": 228,
+  "schematic_pcb_pin_net_differences": [],
+  "schematic_warnings_by_rule": {
+    "NETOBJECTONGRID": 20,
+    "ATTRMATCHCODE": 1
+  },
+  "schematic_drc": [
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "e8241",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "CN2"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "faf491aed2937ea9",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "R2"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "09d02499fce4e8bd",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "C11"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "e79d7a3ae9a7ab71",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "R4"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "7a1d0cbf9030d737",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "R5"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "099b0a2deb7a1326",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "C3"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "f9530ec9e4471baa",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "C4"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "e8457",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "PA10_DBUS"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "e3237",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "VCC_24V"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "e4983",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "GND"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "e8335",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "$1N8335"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "e8376",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "GND"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "e8497",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "VCC_5V"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "e27626",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "$1N27626"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "e53651",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "VCC_24V"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "e54464",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "$1N54464"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "89e43f571b31ca56",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "$1N65309"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "e48ae0acdf25bc90",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "$1N65319"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "c778aaa55c73b0e5",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "$1N65324"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "NETOBJECTONGRID",
+      "primitives": [
+        {
+          "primitiveId": "8da261b1d7ad3a5e",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "$1N65328"
+        }
+      ]
+    },
+    {
+      "type": "warn",
+      "rule": "ATTRMATCHCODE",
+      "primitives": [
+        {
+          "primitiveId": "e8241",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "CN2($1I8241)"
+        },
+        {
+          "primitiveId": "e16236",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "LED1($1I16236)"
+        },
+        {
+          "primitiveId": "e16280",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "LED2($1I16280)"
+        },
+        {
+          "primitiveId": "e24370",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "SW1($1I24370)"
+        },
+        {
+          "primitiveId": "e24419",
+          "sheet": "552a5f2b56614c2f85f12071c6719adf",
+          "name": "SW2($1I24419)"
+        }
+      ]
+    }
+  ],
+  "pcb_drc": [],
+  "static_skill_validator": "未通过；旧 UUID / 删除占位记录等不符合脚本假设，原生客户端及逐记录对照通过；未改写原始记录迎合校验器",
+  "physical_testing": "本次未进行",
+  "autorouting_executed": false
+}

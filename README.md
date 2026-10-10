@@ -7,6 +7,8 @@
 | 板子 | 用途 | 当前设计版本 | 状态 | 最近投板版本 |
 | --- | --- | --- | --- | --- |
 | [SerialLeg Logger](boards/serialleg-logger/README.md) | USB / UART 接收机器人日志，写入 microSD | R0.1 草稿 | 设计中；尚有 DRC 问题 | 无 |
+| [F103 工控板](boards/f103-industrial/README.md) | STM32F103 工控 / 培训板 | V1，已转 `.eprj3` | 设计中；PCB DRC 0 项，原理图有警告 | 未登记 |
+| [电容计](boards/capacitance-meter/README.md) | 8–50 F / 3 V 电容测量核心 | 原理图 V0.4 / PCB V0.1 | 设计中；布线未完成 | 无 |
 
 状态统一使用：`设计中`、`待投板`、`已投板`、`已验证`、`停用`。已投板不代表已验证；状态和问题以各板 README 为准。
 

@@ -1,0 +1,64 @@
+{
+  "name": "F103-Industrial-V1",
+  "format": "folder",
+  "owner_uuid": "a105ac1cbcea426781eae07d21a61163",
+  "creator_uuid": "a105ac1cbcea426781eae07d21a61163",
+  "modifier_uuid": "a105ac1cbcea426781eae07d21a61163",
+  "created_at": "2024-11-20 22:26:00",
+  "updated_at": "2026-10-10 03:06:18",
+  "content": "F103 工控板 V1；保留原生导出记录和内部 ID 的文件夹工程",
+  "archive": false,
+  "cbb_project": 0,
+  "pcb_count": 1,
+  "config": {
+    "defaultSheet": ""
+  },
+  "profile": {
+    "boards": {
+      "1494c7705a323f14": {
+        "uuid": "1494c7705a323f14",
+        "version": "1787837740855",
+        "updateTime": 1787837740855,
+        "title": "Board1",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "430ded373e92444baef4e77ca9436fd1": {
+        "uuid": "430ded373e92444baef4e77ca9436fd1",
+        "version": "1790316664661",
+        "updateTime": 1790316664661,
+        "name": "Schematic1",
+        "board": "1494c7705a323f14",
+        "source": ""
+      }
+    },
+    "sheets": {
+      "552a5f2b56614c2f85f12071c6719adf": {
+        "uuid": "552a5f2b56614c2f85f12071c6719adf",
+        "version": "1791294810615",
+        "updateTime": 1791294810615,
+        "title": "P1",
+        "schematic_uuid": "430ded373e92444baef4e77ca9436fd1",
+        "zIndex": 1
+      }
+    },
+    "pcbs": {
+      "efa0d4cc93f040a1b0f001343ea60093": {
+        "uuid": "efa0d4cc93f040a1b0f001343ea60093",
+        "version": "1791615978679",
+        "updateTime": 1791615978679,
+        "title": "PCB1",
+        "board": "1494c7705a323f14",
+        "parent_uuid": ""
+      }
+    },
+    "panels": {},
+    "blockSymbols": {},
+    "simSchematics": {},
+    "simulations": {},
+    "owner": {
+      "uuid": "a105ac1cbcea426781eae07d21a61163"
+    }
+  }
+}

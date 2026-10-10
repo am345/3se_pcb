@@ -1,0 +1,96 @@
+{
+  "name": "电容计-测量核心-PCB-V0.1",
+  "owner_uuid": "a105ac1cbcea426781eae07d21a61163",
+  "creator_uuid": "a105ac1cbcea426781eae07d21a61163",
+  "created_at": "2026-10-09 09:56:27",
+  "updated_at": "2026-10-09 09:56:27",
+  "modifier_uuid": "a105ac1cbcea426781eae07d21a61163",
+  "content": "8–50 F / 3 V 测量核心；60 × 45 mm 双面板；5 mm 脚距直插座；单页分区原理图 V0.4；首轮布线已保存，整板未布完",
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "ticket": 1,
+  "g_ticket": 1,
+  "boards": [],
+  "block_symbol_attrs_groups": {},
+  "default_sheet": "1e3ed16cfe7668cb",
+  "branch_uuid": "",
+  "pcb_count": 0,
+  "format": "folder",
+  "profile": {
+    "boards": {
+      "fb12fc5e725a16f6": {
+        "uuid": "fb12fc5e725a16f6",
+        "title": "Board1_1",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "884fd06e146eb6de": {
+        "uuid": "884fd06e146eb6de",
+        "name": "电容测量核心",
+        "board": "fb12fc5e725a16f6",
+        "source": "",
+        "version": "1791614773660",
+        "updateTime": 1791614773660
+      }
+    },
+    "sheets": {
+      "a43db162aaf26ebd": {
+        "uuid": "a43db162aaf26ebd",
+        "title": "电容计_总原理图",
+        "schematic_uuid": "884fd06e146eb6de",
+        "zIndex": 1,
+        "source": "",
+        "version": "1791614773660",
+        "updateTime": 1791614773660
+      }
+    },
+    "pcbs": {
+      "8b8c5ec0a544bc8c": {
+        "uuid": "8b8c5ec0a544bc8c",
+        "title": "PCB1",
+        "board": "fb12fc5e725a16f6",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1791614815517",
+        "updateTime": 1791614815517
+      }
+    },
+    "panels": {
+      "564517b44198bfc0": {
+        "uuid": "564517b44198bfc0",
+        "title": "Panel1",
+        "zIndex": null
+      }
+    },
+    "blockSymbols": {},
+    "owner": {
+      "uuid": "a105ac1cbcea426781eae07d21a61163"
+    },
+    "simSchematics": {},
+    "simulations": {}
+  },
+  "config": {
+    "defaultSheet": "1e3ed16cfe7668cb",
+    "settings": {
+      "UNIVERSAL": {
+        "dataType": "UNIVERSAL",
+        "data": {
+          "allowLibRename": true,
+          "defaultNetName": true,
+          "wireMultipleNet": true,
+          "netFlagCrossLayerConnection": true,
+          "netLabelCrossPageConnection": true,
+          "busGenerateNetClass": true,
+          "relevanceDisplayRow": "SINGLE",
+          "relevanceBelongSchPage": "NAME",
+          "relevanceLocation": "ZONE",
+          "multipartCrossLayer": true,
+          "nonElectronicAddIntoBom": false,
+          "nonElectronicUpdatePcb": false
+        }
+      }
+    }
+  }
+}
