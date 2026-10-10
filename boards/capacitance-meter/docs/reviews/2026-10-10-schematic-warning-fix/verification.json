@@ -1,0 +1,119 @@
+{
+  "date": "2026-10-10",
+  "client": "JLCEDA Pro 4.1.71.7a7261be",
+  "baseCommit": "1c5adfb12cb6c7954a1988aa6d8e730d7dd5e1e3",
+  "branch": "codex/capacitance-pcb-fix",
+  "source": "hardware/电容计-测量核心-PCB-V0.1.eprj3",
+  "sourceState": "上述基线的未提交工作区；接续同日 PCB 布线修复，完成原理图警告整理及 PCB 属性同步",
+  "nativeReopen": true,
+  "nativeCheckMethod": "关闭编辑会话并新建客户端会话，打开保存文件；sch_Drc.check(true,false,true)、pcb_Drc.check(true,false,true)",
+  "schematicWarningsBefore": {
+    "NETOBJECTONGRID": 9,
+    "ATTRMATCHCODE": 2
+  },
+  "schematicErrorsAfter": 0,
+  "schematicWarningsAfter": 0,
+  "pcbDrcAfter": [],
+  "standardizedComponents": 38,
+  "components": 55,
+  "pins": 174,
+  "connectedPins": 164,
+  "intentionalUnconnectedPins": [
+    "U4.1",
+    "U4.3",
+    "U4.7",
+    "U4.8",
+    "U1.1",
+    "U1.5",
+    "U1.8",
+    "U6.1",
+    "U6.5",
+    "U6.8"
+  ],
+  "schematicPinNetChanges": [],
+  "schematicPcbPinNetDifferences": [],
+  "pcbPhysicalGeometryUnchanged": true,
+  "schematicWireRecordsUnchanged": true,
+  "schematicComponentPlacementsUnchanged": true,
+  "ruleConfigurationUnchanged": true,
+  "netRuleAssignmentsUnchanged": true,
+  "schematicSettingsFileUnchanged": true,
+  "copperFills": [
+    {
+      "id": "cdcd6976ead2a2c7",
+      "layer": 1,
+      "filled": true,
+      "preserveSilos": false
+    },
+    {
+      "id": "ffef5dacbd1f3128",
+      "layer": 2,
+      "filled": true,
+      "preserveSilos": false
+    }
+  ],
+  "noPourRegions": 67,
+  "copperPolylines": 173,
+  "vias": 91,
+  "preview": "images/schematic-erc-fixed-20261010.png",
+  "pcbPreviews": [
+    {
+      "file": "images/pcb-top-repaired-20261010.png",
+      "freshExportByteIdentical": true
+    },
+    {
+      "file": "images/pcb-bottom-repaired-20261010.png",
+      "freshExportByteIdentical": true
+    },
+    {
+      "file": "images/pcb-silkscreen-repaired-20261010.png",
+      "freshExportByteIdentical": true
+    }
+  ],
+  "reviewedNoConnectSymbols": [
+    {
+      "ref": "U4",
+      "part": "REF5025AIDR",
+      "movedPins": [
+        "1",
+        "8"
+      ],
+      "relativeXBefore": [
+        -4,
+        4
+      ],
+      "relativeXAfter": [
+        -5,
+        5
+      ],
+      "pin7NameBefore": "DNC",
+      "pin7NameAfter": "NC"
+    },
+    {
+      "ref": "U1/U6",
+      "part": "OPA197IDR",
+      "movedPins": [
+        "1",
+        "8"
+      ],
+      "relativeXBefore": [
+        -4,
+        4
+      ],
+      "relativeXAfter": [
+        -5,
+        5
+      ]
+    }
+  ],
+  "schemaValidatorExecuted": false,
+  "schemaValidationNote": "已读官方格式 companion、PIN/ATTR 说明和 schema；未安装 Ajv，未运行上游独立 validator；使用原生重开、网表、规则检查和渲染验证",
+  "checksNotPerformed": [
+    "实物上电、精度、温升/线性 SOA 与环路稳定性测试",
+    "连接器、电容与散热器实物装配核对",
+    "生产输出包重新生成与板厂放行"
+  ],
+  "autoRoutingUsed": false,
+  "ordered": false,
+  "productionTagCreated": false
+}

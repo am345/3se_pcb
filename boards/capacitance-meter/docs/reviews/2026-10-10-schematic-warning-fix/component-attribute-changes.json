@@ -1,0 +1,478 @@
+[
+  {
+    "ref": "U4",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "REF5025",
+        "after": "REF5025AIDR"
+      }
+    ]
+  },
+  {
+    "ref": "C5",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "100nF / COMP",
+        "after": "100nF"
+      }
+    ]
+  },
+  {
+    "ref": "C8",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "1uF / NR",
+        "after": "1uF"
+      }
+    ]
+  },
+  {
+    "ref": "U3",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "MCP4921",
+        "after": "MCP4921-E/SN"
+      }
+    ]
+  },
+  {
+    "ref": "R4",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "10k",
+        "after": "10kΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R3",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "10k",
+        "after": "10kΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R5",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "10k",
+        "after": "10kΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R16",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "10k",
+        "after": "10kΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R1",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "9.09k 1%",
+        "after": "9.09kΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R2",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "1k",
+        "after": "1kΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R6",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "1k",
+        "after": "1kΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R15",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "1k",
+        "after": "1kΩ"
+      }
+    ]
+  },
+  {
+    "ref": "U1",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "OPA197",
+        "after": "OPA197IDR"
+      }
+    ]
+  },
+  {
+    "ref": "U6",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "OPA197",
+        "after": "OPA197IDR"
+      }
+    ]
+  },
+  {
+    "ref": "R7",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "100k",
+        "after": "100kΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R9",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "100k",
+        "after": "100kΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R10",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "0R1 / 1%",
+        "after": "100mΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R11",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "0R1 / 1%",
+        "after": "100mΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R12",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "0R1 / 1%",
+        "after": "100mΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R13",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "0R1 / 1%",
+        "after": "100mΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R14",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "0R1 / 1%",
+        "after": "100mΩ"
+      }
+    ]
+  },
+  {
+    "ref": "U5",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "74HCT4066",
+        "after": "CD74HCT4066M"
+      }
+    ]
+  },
+  {
+    "ref": "Q2",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "2N3904",
+        "after": "2N3904BU"
+      }
+    ]
+  },
+  {
+    "ref": "R8",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "4.7k",
+        "after": "4.7kΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R28",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "4.7k",
+        "after": "4.7kΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R29",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "4.7k",
+        "after": "4.7kΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R21",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "200k / 0.1%",
+        "after": "200kΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R23",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "200k / 0.1%",
+        "after": "200kΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R22",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "100k / 0.1%",
+        "after": "100kΩ"
+      }
+    ]
+  },
+  {
+    "ref": "R24",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "100k / 0.1%",
+        "after": "100kΩ"
+      }
+    ]
+  },
+  {
+    "ref": "U2",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "MCP3424",
+        "after": "MCP3424-E/SL"
+      }
+    ]
+  },
+  {
+    "ref": "R25",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "100R",
+        "after": "100Ω"
+      }
+    ]
+  },
+  {
+    "ref": "R26",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "100R",
+        "after": "100Ω"
+      }
+    ]
+  },
+  {
+    "ref": "R27",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "100R",
+        "after": "100Ω"
+      }
+    ]
+  },
+  {
+    "ref": "R30",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "0R",
+        "after": "0Ω"
+      }
+    ]
+  },
+  {
+    "ref": "R31",
+    "changes": [
+      {
+        "key": "Name",
+        "before": "0R",
+        "after": "0Ω"
+      }
+    ]
+  },
+  {
+    "ref": "J3",
+    "changes": [
+      {
+        "key": "Datasheet",
+        "after": "https://item.szlcsc.com/datasheet/B-2100S10P-B110/125662.html"
+      },
+      {
+        "key": "Description",
+        "before": "",
+        "after": "插针结构:2x5P;间距:2.54mm;行距:2.54mm;圆针/方针:方针;安装方式:直插;排数:双排;总PIN位数:10P;额定电流:3A;额定电压:-;配合针长度:6mm;塑高:2.54mm;端接针长度:3mm;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;颜色:黑色;"
+      },
+      {
+        "key": "LCSC Part Name",
+        "after": "2x5P 间距:2.54mm 方针 直插"
+      },
+      {
+        "key": "Manufacturer",
+        "before": "",
+        "after": "Ckmtw(灿科盟)"
+      },
+      {
+        "key": "Manufacturer Part",
+        "before": "",
+        "after": "B-2100S10P-B110"
+      },
+      {
+        "key": "Name",
+        "before": "CONTROL",
+        "after": "B-2100S10P-B110"
+      },
+      {
+        "key": "Number of Pins",
+        "after": "10P"
+      },
+      {
+        "key": "Pin Structure",
+        "after": "2x5P"
+      },
+      {
+        "key": "Pitch",
+        "after": "2.54mm"
+      },
+      {
+        "key": "Row Spacing",
+        "after": "2.54mm"
+      },
+      {
+        "key": "Supplier",
+        "before": "",
+        "after": "LCSC"
+      },
+      {
+        "key": "用途",
+        "after": "控制接口 CONTROL"
+      }
+    ]
+  },
+  {
+    "ref": "J4",
+    "changes": [
+      {
+        "key": "Datasheet",
+        "after": "https://item.szlcsc.com/datasheet/B-2100S10P-B110/125662.html"
+      },
+      {
+        "key": "Description",
+        "before": "",
+        "after": "插针结构:2x5P;间距:2.54mm;行距:2.54mm;圆针/方针:方针;安装方式:直插;排数:双排;总PIN位数:10P;额定电流:3A;额定电压:-;配合针长度:6mm;塑高:2.54mm;端接针长度:3mm;触头材质:黄铜;触头镀层:金;工作温度:-40℃~+105℃;颜色:黑色;"
+      },
+      {
+        "key": "LCSC Part Name",
+        "after": "2x5P 间距:2.54mm 方针 直插"
+      },
+      {
+        "key": "Manufacturer",
+        "before": "",
+        "after": "Ckmtw(灿科盟)"
+      },
+      {
+        "key": "Manufacturer Part",
+        "before": "",
+        "after": "B-2100S10P-B110"
+      },
+      {
+        "key": "Name",
+        "before": "CALIBRATION",
+        "after": "B-2100S10P-B110"
+      },
+      {
+        "key": "Number of Pins",
+        "after": "10P"
+      },
+      {
+        "key": "Pin Structure",
+        "after": "2x5P"
+      },
+      {
+        "key": "Pitch",
+        "after": "2.54mm"
+      },
+      {
+        "key": "Row Spacing",
+        "after": "2.54mm"
+      },
+      {
+        "key": "Supplier",
+        "before": "",
+        "after": "LCSC"
+      },
+      {
+        "key": "用途",
+        "after": "校准接口 CALIBRATION"
+      }
+    ]
+  }
+]

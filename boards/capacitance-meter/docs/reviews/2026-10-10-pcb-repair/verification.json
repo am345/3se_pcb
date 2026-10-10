@@ -1,0 +1,105 @@
+{
+  "date": "2026-10-10",
+  "client": "JLCEDA Pro 4.1.71.7a7261be",
+  "baseCommit": "1c5adfb12cb6c7954a1988aa6d8e730d7dd5e1e3",
+  "branch": "codex/capacitance-pcb-fix",
+  "source": "hardware/电容计-测量核心-PCB-V0.1.eprj3",
+  "sourceState": "基于上述提交的本次未提交工作区；原理图 V0.4 / PCB V0.1 布线修复",
+  "nativeReopen": true,
+  "nativeCheckMethod": "新建 headless 客户端会话；打开已保存原理图与 PCB；sch_Drc.check(true,false,true)、pcb_Drc.check(true,false,true)",
+  "pcbDrcBefore": {
+    "Connection Error": 123
+  },
+  "pcbDrcAfter": [],
+  "schematicErrors": 0,
+  "schematicWarningsByRule": {
+    "NETOBJECTONGRID": 9,
+    "ATTRMATCHCODE": 2
+  },
+  "components": 55,
+  "componentPads": 174,
+  "connectedPins": 164,
+  "intentionalUnconnectedPins": [
+    "U4.1",
+    "U4.3",
+    "U4.7",
+    "U4.8",
+    "U1.1",
+    "U1.5",
+    "U1.8",
+    "U6.1",
+    "U6.5",
+    "U6.8"
+  ],
+  "schematicPcbPinNetDifferences": [],
+  "schematicPanelUnchanged": [
+    {
+      "file": "sch/电容测量核心/电容计_总原理图.esch2",
+      "byteIdentical": true
+    },
+    {
+      "file": "sch/电容测量核心/电容测量核心.ecfg",
+      "byteIdentical": true
+    },
+    {
+      "file": "panel/Panel1.epan2",
+      "byteIdentical": true
+    }
+  ],
+  "ruleConfigurationUnchanged": true,
+  "netRuleAssignmentsUnchanged": true,
+  "copperPolylines": 173,
+  "vias": 91,
+  "copperFills": [
+    {
+      "layer": 1,
+      "filled": true,
+      "preserveSilos": false,
+      "id": "cdcd6976ead2a2c7"
+    },
+    {
+      "layer": 2,
+      "filled": true,
+      "preserveSilos": false,
+      "id": "ffef5dacbd1f3128"
+    }
+  ],
+  "noPourRegions": 67,
+  "noPourRegionRules": [
+    7
+  ],
+  "modifiedPlacement": [
+    {
+      "designator": "C22",
+      "xMm": 46.5,
+      "yMm": 21.5,
+      "rotation": 180
+    },
+    {
+      "designator": "C23",
+      "xMm": 52.5,
+      "yMm": 30.5,
+      "rotation": 90
+    },
+    {
+      "designator": "J4",
+      "xMm": 47,
+      "yMm": 40.5,
+      "rotation": 0
+    }
+  ],
+  "groundReference": {
+    "star": "R14.2 → 独立 0.35 mm 短支路 → (39.2,34.5) mm AGND 过孔/参考面",
+    "powerReturn": "R14.2 → 原 1.2 mm 走线与双过孔 → J2",
+    "lowSense": "R14.2 → (40.48,33) mm 取样过孔 → R27.1；J4.4 从该取样过孔单独引出",
+    "capacitorNegativeSense": "J2 → R31.1；J2 与两层模拟地铜隔离"
+  },
+  "checksNotPerformed": [
+    "实物上电、测量精度、线性 SOA/温升和环路稳定性测试",
+    "实际电容插拔、支撑结构和散热器装配验证",
+    "板厂对订单层叠与装配资料的最终确认"
+  ],
+  "autoRoutingUsed": false,
+  "ordered": false,
+  "productionTagCreated": false
+}

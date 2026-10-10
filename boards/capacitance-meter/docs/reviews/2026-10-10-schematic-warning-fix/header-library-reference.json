@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-10",
+  "method": "lib_Device.searchByProperties({supplierId:\"C124387\"}, 系统库)",
+  "supplierPart": "C124387",
+  "name": "B-2100S10P-B110",
+  "manufacturer": "Ckmtw(灿科盟)",
+  "manufacturerPart": "B-2100S10P-B110",
+  "supplier": "LCSC",
+  "footprint": {
+    "name": "HDR-TH_10P-P2.54-V-M-R2-C5-S2.54",
+    "uuid": "124489ea8a6e4227b0ce5323b33b4bde"
+  },
+  "datasheet": "https://item.szlcsc.com/datasheet/B-2100S10P-B110/125662.html",
+  "scope": "物料属性与库封装身份核对；未验证实际连接器装配空间"
+}

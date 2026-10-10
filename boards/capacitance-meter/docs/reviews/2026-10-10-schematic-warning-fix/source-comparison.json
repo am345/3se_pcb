@@ -1,0 +1,51 @@
+{
+  "pcbPhysicalDifferences": [],
+  "pcbChanges": {
+    "SYMBOL/DOCHEAD/client,updateTime": 21,
+    "SYMBOL/PIN/x": 4,
+    "SYMBOL/ATTR/value": 1,
+    "FOOTPRINT/DOCHEAD/client,updateTime": 11,
+    "DEVICE/DOCHEAD/client,updateTime": 22,
+    "PCB/DOCHEAD/client,updateTime,version": 1,
+    "PCB/COMPONENT/attrs": 55,
+    "PCB/ATTR/value": 25
+  },
+  "schematicChanges": {
+    "SYMBOL/DOCHEAD/client,updateTime": 24,
+    "SYMBOL/PIN/x": 4,
+    "SYMBOL/ATTR/value": 1,
+    "FOOTPRINT/DOCHEAD/client,updateTime": 11,
+    "DEVICE/DOCHEAD/client,updateTime": 25,
+    "BLOB/DOCHEAD/client,updateTime": 1,
+    "SCH_PAGE/DOCHEAD/client,updateTime,version": 1,
+    "SCH_PAGE/ATTR/align": 793,
+    "SCH_PAGE/ATTR/align,strikeout,zIndex": 93,
+    "SCH_PAGE/ATTR/align,strikeout": 59,
+    "SCH_PAGE/ATTR/value,zIndex": 36,
+    "SCH_PAGE/COMPONENT/attrs": 37,
+    "SCH_PAGE/ATTR/align,fontSize,valueVisible,x,y,zIndex": 1,
+    "SCH_PAGE/ATTR/align,fontSize,value,x,y,zIndex": 2,
+    "SCH_PAGE/ATTR/align,value": 8,
+    "SCH_PAGE/ATTR/x": 6,
+    "SCH_PAGE/ATTR/fontSize": 32,
+    "SCH_PAGE/TEXT/value": 1,
+    "SCH_PAGE/ATTR/strikeout,zIndex": 2,
+    "SCH_PAGE/ATTR/align,color,fillColor,fontFamily,fontSize,fontWeight,italic,key,keyVisible,parentId,rotation,strikeout,underline,value,valueVisible,x,y,yAxisDirection,zIndex": 38,
+    "SCH_PAGE/ATTR/align,color,fillColor,fontFamily,fontSize,fontWeight,italic,key,keyVisible,parentId,rotation,underline,value,valueVisible,x,y,yAxisDirection,zIndex": 14,
+    "SCH_PAGE/TEXT/align,color,fillColor,fontFamily,fontSize,fontWeight,italic,rotation,underline,value,x,y,yAxisDirection,zIndex": 3
+  },
+  "ruleConfigurationUnchanged": true,
+  "netRuleAssignmentsUnchanged": true,
+  "schematicWireRecordsUnchanged": true,
+  "schematicComponentPlacementsUnchanged": true,
+  "byteIdenticalFiles": [
+    {
+      "file": "sch/电容测量核心/电容测量核心.ecfg",
+      "byteIdentical": true
+    },
+    {
+      "file": "panel/Panel1.epan2",
+      "byteIdentical": true
+    }
+  ]
+}

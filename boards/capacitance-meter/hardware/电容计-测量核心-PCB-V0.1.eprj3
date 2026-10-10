@@ -5,7 +5,7 @@
   "created_at": "2026-10-09 09:56:27",
   "updated_at": "2026-10-09 09:56:27",
   "modifier_uuid": "a105ac1cbcea426781eae07d21a61163",
-  "content": "8–50 F / 3 V 测量核心；60 × 45 mm 双面板；5 mm 脚距直插座；单页分区原理图 V0.4；首轮布线已保存，整板未布完",
+  "content": "8–50 F / 3 V 测量核心；60 × 45 mm 双面板；5 mm 脚距直插座；原理图 V0.4 / PCB V0.1；2026-10-10 布线与地平面完成，原理图 0 错误 / 0 警告，PCB DRC 0 项；尚未实测",
   "archive": false,
   "cbb_project": 0,
   "thumb": "",
@@ -31,8 +31,8 @@
         "name": "电容测量核心",
         "board": "fb12fc5e725a16f6",
         "source": "",
-        "version": "1791614773660",
-        "updateTime": 1791614773660
+        "version": "1791639667226",
+        "updateTime": 1791639667226
       }
     },
     "sheets": {
@@ -42,8 +42,8 @@
         "schematic_uuid": "884fd06e146eb6de",
         "zIndex": 1,
         "source": "",
-        "version": "1791614773660",
-        "updateTime": 1791614773660
+        "version": "1791639667226",
+        "updateTime": 1791639667226
       }
     },
     "pcbs": {
@@ -53,8 +53,8 @@
         "board": "fb12fc5e725a16f6",
         "parent_uuid": "",
         "source": "",
-        "version": "1791614815517",
-        "updateTime": 1791614815517
+        "version": "1791640020730",
+        "updateTime": 1791640020730
       }
     },
     "panels": {
