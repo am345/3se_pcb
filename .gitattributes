@@ -36,3 +36,6 @@
 *.7z binary
 *.step binary
 *.stp binary
+
+# 固件并入前打包的 git 历史
+*.bundle binary

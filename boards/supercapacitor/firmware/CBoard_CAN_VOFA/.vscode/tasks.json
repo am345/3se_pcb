@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "CBoard: build",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "tools/tool.py",
+        "build"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "CBoard: flash",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "tools/tool.py",
+        "flash",
+        "--build"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+# Legacy IDE build output
+*/SuperCap_V3.1/
+*/RTE/
+RTE/
+Objects/
+Listings/
+DebugConfig/
+*.o
+*.obj
+*.d
+*.crf
+*.dep
+*.lnp
+*.axf
+*.elf
+*.htm
+*.map
+*.lst
+*.__i
+*.iex
+*.hex
+*.bin
+*.bak
+
+# User specific legacy IDE files
+*.uvproj
+*.uvprojx
+*.uvopt
+*.uvoptx
+*.uvguix.*
+
+# CMake / VS Code build output
+.build/
+build/
+build.ninja
+.ninja_*
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Python / Code Runner temporary files
+__pycache__/
+*.py[cod]
+tempCodeRunnerFile.*

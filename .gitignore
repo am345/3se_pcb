@@ -25,3 +25,6 @@ _autosave-*
 fp-info-cache
 
 # 不全局忽略 ZIP、CSV、PDF、STEP 或旧 EDA 工程，它们可能是必要源资料
+
+# 本地 AI 工具权限设置（随压缩包带入时不入库）
+**/.claude/settings.local.json

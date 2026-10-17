@@ -9,7 +9,7 @@
 | [SerialLeg Logger](boards/serialleg-logger/README.md) | USB / UART 接收机器人日志，写入 microSD | R0.1 草稿 | 设计中；尚有 DRC 问题 | 无 |
 | [F103 工控板](boards/f103-industrial/README.md) | STM32F103 工控 / 培训板 | V1，已转 `.eprj3` | 设计中；PCB DRC 0 项，原理图有警告 | 未登记 |
 | [电容计](boards/capacitance-meter/README.md) | 8–50 F / 3 V 电容测量核心 | 原理图 V0.4 / PCB V0.1 | 设计中；布线未完成 | 无 |
-| [3SE 26 超级电容](boards/supercapacitor/README.md) | 超级电容控制板与功率板 | 原工程，已转 `.eprj3`；版本待确认 | 设计中；原理图保留 6 条原有警告 | 待确认 |
+| [3SE 26 超级电容](boards/supercapacitor/README.md) | 超级电容控制板与功率板，含 STM32G474 板载固件 | 原工程，已转 `.eprj3`；固件源自原仓库提交 `1fafeae` | 已投板（据固件文档有 1～6 号板，对应的上板版本待确认）；原理图保留 6 条原有警告 | 未登记 |
 | [关节电容](boards/joint-capacitor/README.md) | 关节电容工程 | 原工程，已转 `.eprj3`；版本待确认 | 设计中；原理图保留 2 条原有错误 | 待确认 |
 
 状态统一使用：`设计中`、`待投板`、`已投板`、`已验证`、`停用`。已投板不代表已验证；状态和问题以各板 README 为准。
@@ -42,6 +42,7 @@ cd 3se_pcb
     └── <board-id>/
         ├── README.md            # 本板入口及当前状态
         ├── hardware/            # 完整的可编辑工程
+        ├── firmware/            # 随板维护的板载固件；需要时创建
         ├── docs/                # 设计依据、接口说明、验证记录
         ├── images/              # 原理图、PCB、实物预览
         └── mechanical/          # 安装尺寸和外壳；需要时创建

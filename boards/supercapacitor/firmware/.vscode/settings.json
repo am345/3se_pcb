@@ -1,0 +1,16 @@
+{
+  "cmake.generator": "Ninja",
+  "cmake.buildDirectory": "${workspaceFolder}/.build/debug",
+  "cmake.configureSettings": {
+    "CMAKE_TOOLCHAIN_FILE": "${workspaceFolder}/cmake/gcc-arm-none-eabi.cmake",
+    "CMAKE_BUILD_TYPE": "Debug"
+  },
+  "cmake.configureOnOpen": true,
+  "C_Cpp.default.compileCommands": "${workspaceFolder}/.build/debug/compile_commands.json",
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+  "python.defaultInterpreterPath": "python",
+  "code-runner.executorMap": {
+    "python": "python -u"
+  },
+  "code-runner.runInTerminal": true
+}
