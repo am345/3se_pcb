@@ -57,3 +57,4 @@
 - 必需的大型 STEP、机械装配等文件达到实际管理瓶颈时，再单独评估 Git LFS；不要一开始把全部 EDA 文本文件转成 LFS。
 - `libraries/` 只用于确实共享的库。共用库更新须检查引用它的板子，发布标签保留相应历史。
 - 固件已有独立仓库时，在板 README 记录链接、硬件兼容范围与对应 tag/commit。
+- 只服务于单块板的板载固件放 `boards/<board-id>/firmware/`。从外部导入时先在原仓库提交未完成的改动，用 `git bundle` 把历史打包放到板 `docs/firmware-history/`，再复制不含 `.git` 的文件树；用两边的文件 blob 对比确认内容一致。

@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "CBoard: debug ST-LINK",
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "stlink",
+      "cwd": "${workspaceFolder}/CBoard_CAN_VOFA",
+      "executable": "${workspaceFolder}/CBoard_CAN_VOFA/.build/debug/CBoard_CAN_VOFA.elf",
+      "device": "STM32F407IGHx",
+      "runToEntryPoint": "main",
+      "preLaunchTask": "CBoard: build"
+    }
+  ]
+}

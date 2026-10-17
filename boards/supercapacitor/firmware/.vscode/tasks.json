@@ -1,0 +1,59 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "CMake: configure",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "-S",
+        "${workspaceFolder}",
+        "-B",
+        "${workspaceFolder}/.build/debug",
+        "-G",
+        "Ninja",
+        "-DCMAKE_TOOLCHAIN_FILE=${workspaceFolder}/cmake/gcc-arm-none-eabi.cmake",
+        "-DCMAKE_BUILD_TYPE=Debug"
+      ],
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "CMake: build",
+      "type": "shell",
+      "command": "cmake",
+      "args": [
+        "--build",
+        "${workspaceFolder}/.build/debug"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "dependsOn": "CMake: configure",
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "CBoard: build",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "CBoard_CAN_VOFA/tools/tool.py",
+        "build"
+      ],
+      "group": "build",
+      "problemMatcher": "$gcc"
+    },
+    {
+      "label": "CBoard: flash",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "CBoard_CAN_VOFA/tools/tool.py",
+        "flash",
+        "--build"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
