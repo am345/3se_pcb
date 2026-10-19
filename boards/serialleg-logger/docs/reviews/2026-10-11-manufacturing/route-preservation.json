@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-11",
+  "comparison": "本轮起始工作区与最终文件的有效 LINE/VIA 记录正文，排除版本票据",
+  "results": {
+    "LINE": {
+      "before": 574,
+      "after": 574,
+      "unchanged": true
+    },
+    "VIA": {
+      "before": 119,
+      "after": 119,
+      "unchanged": true
+    }
+  }
+}

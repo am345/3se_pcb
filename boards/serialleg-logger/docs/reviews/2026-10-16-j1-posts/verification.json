@@ -1,0 +1,52 @@
+{
+  "pads_unchanged": true,
+  "lines_unchanged": true,
+  "vias_unchanged": true,
+  "regions_unchanged": true,
+  "outlines_unchanged": true,
+  "placements_unchanged": true,
+  "pinmap_unchanged": true,
+  "sch_pcb_pinmap_match": true,
+  "native_DRC": [],
+  "native_ERC": [
+    {
+      "type": "warn",
+      "rule": "ATTRMATCHCODE",
+      "primitives": [
+        {
+          "primitiveId": "a57e5f99cd335263",
+          "sheet": "705f0c5067bd3436",
+          "name": "U1($1I82)"
+        },
+        {
+          "primitiveId": "5ad61c0edd51ddb3",
+          "sheet": "705f0c5067bd3436",
+          "name": "L1($1I92)"
+        }
+      ]
+    }
+  ],
+  "J1_NPTH_mm": [
+    [
+      99.788,
+      -22.118,
+      0.65
+    ],
+    [
+      89.188,
+      -22.118,
+      0.65
+    ]
+  ],
+  "hole_pitch_mm": 10.6,
+  "new_hole_min_copper_clearance_mm": 0.2565023043977291,
+  "ground_no_floating": true,
+  "reference_missing_mm2": 0.0,
+  "extra_review": "丝印距离不足、USB插座侧10mil线宽、实际H40采购与机械试配等前轮事项，本轮未改动。",
+  "rule_note": "未修改规则数值；原生保存去掉 GND 对默认 copperRegion 的冗余绑定，仍使用该默认规则。",
+  "date": "2026-10-16",
+  "software": "嘉立创EDA专业版 4.1.71.7a7261be",
+  "source": "hardware/SerialLegLogger.eprj3 与完整 hardware 目录；未提交工作树",
+  "base_commit": "27a9aebb6f87ded35f4d1f7330f6f76075f9c465",
+  "format_note": "孔图元由原生 API 生成，按官方 3.0 格式保存并经客户端重开及钻孔导出核对；未声称外部完整 schema 校验通过。"
+}

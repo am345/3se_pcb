@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-10",
+  "revision": "R0.2 P16 工作区草稿",
+  "baseCommit": "27a9aebb6f87ded35f4d1f7330f6f76075f9c465",
+  "software": "嘉立创 EDA 专业版 4.1.71.7a7261be",
+  "schematicVersion": "1791658486223",
+  "pcbVersion": "1791658055268",
+  "verification": {
+    "pcbDrc": 0,
+    "schematicElectricalErrors": 0,
+    "schematicWarningGroups": 1,
+    "warningRefs": [
+      "U1",
+      "J4"
+    ],
+    "components": 65,
+    "pinEntries": 250,
+    "netlistDifferences": 0
+  },
+  "mechanical": {
+    "units": "mm",
+    "pcbBoundingBox": [
+      55,
+      47.54
+    ],
+    "matedHeightNominal": 7.5,
+    "dmStep": "CtrBoard-H7_V1.0-240112A.step",
+    "referenceComponentBounds": [
+      {
+        "ref": "P16",
+        "min": [
+          22.05158945649829,
+          -5.750027170747615,
+          -0.5451763335439637
+        ],
+        "max": [
+          27.251591038850535,
+          5.749973714408069,
+          3.504824151652798
+        ],
+        "count": 8142
+      },
+      {
+        "ref": "P11",
+        "min": [
+          48.31079425448454,
+          3.804996005042674,
+          -2.9999477932280003
+        ],
+        "max": [
+          55.961897499544925,
+          13.977539334653212,
+          8.540046610074
+        ],
+        "count": 2184
+      },
+      {
+        "ref": "P6",
+        "min": [
+          48.31109079575169,
+          1.1300370267676887,
+          -3
+        ],
+        "max": [
+          55.93109106221631,
+          3.6700381814477216,
+          8
+        ],
+        "count": 88
+      }
+    ],
+    "coordinateMapping": {
+      "globalX": "17.03159025 + loggerX_mil * 0.0254",
+      "globalY": "-18.542 + loggerY_mil * 0.0254",
+      "loggerBottomZ": 7.5
+    },
+    "state": "基于公开模型和尺寸图的草稿，未实物试配"
+  },
+  "stackup": {
+    "reference": "JLC04161H-3313",
+    "nominalBoardThicknessMm": 1.6,
+    "coreMm": 1.265,
+    "prepregMmEach": 0.0994,
+    "outerCopperMm": 0.035,
+    "innerCopperMm": 0.0152,
+    "impedanceConfirmed": false
+  },
+  "annotationPersistenceCheck": {
+    "title": "SerialLeg 日志板 R0.2 — DM-MC02 P16 直插 / USB 联锁草稿",
+    "stale": 0,
+    "tiny": 0
+  }
+}

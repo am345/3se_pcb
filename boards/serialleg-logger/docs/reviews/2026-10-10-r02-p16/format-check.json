@@ -1,0 +1,252 @@
+[
+  {
+    "type": "POUR",
+    "id": "72e253a13ff9afd9",
+    "valid": false,
+    "errors": [
+      {
+        "field": "groupId",
+        "message": "must be string",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "type": "POURED",
+    "id": "[\"POURED\",\"72e253a13ff9afd9\"]",
+    "valid": true,
+    "errors": []
+  },
+  {
+    "type": "POUR",
+    "id": "7d61593fa5d04859",
+    "valid": false,
+    "errors": [
+      {
+        "field": "groupId",
+        "message": "must be string",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "type": "POURED",
+    "id": "[\"POURED\",\"7d61593fa5d04859\"]",
+    "valid": true,
+    "errors": []
+  },
+  {
+    "type": "POUR",
+    "id": "d80c6a9dd2780be1",
+    "valid": false,
+    "errors": [
+      {
+        "field": "groupId",
+        "message": "must be string",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "type": "POURED",
+    "id": "[\"POURED\",\"d80c6a9dd2780be1\"]",
+    "valid": true,
+    "errors": []
+  },
+  {
+    "type": "LAYER_PHYS",
+    "id": "[\"LAYER_PHYS\",3]",
+    "valid": false,
+    "errors": [
+      {
+        "field": "permittivity",
+        "message": "must be number",
+        "severity": "ERROR"
+      },
+      {
+        "field": "lossTangent",
+        "message": "must be number",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "type": "LAYER_PHYS",
+    "id": "[\"LAYER_PHYS\",7]",
+    "valid": false,
+    "errors": [
+      {
+        "field": "permittivity",
+        "message": "must be number",
+        "severity": "ERROR"
+      },
+      {
+        "field": "lossTangent",
+        "message": "must be number",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "type": "LAYER_PHYS",
+    "id": "[\"LAYER_PHYS\",5]",
+    "valid": false,
+    "errors": [
+      {
+        "field": "lossTangent",
+        "message": "must be number",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "type": "LAYER_PHYS",
+    "id": "[\"LAYER_PHYS\",1]",
+    "valid": false,
+    "errors": [
+      {
+        "field": "permittivity",
+        "message": "must be number",
+        "severity": "ERROR"
+      },
+      {
+        "field": "lossTangent",
+        "message": "must be number",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "type": "LAYER_PHYS",
+    "id": "[\"LAYER_PHYS\",361]",
+    "valid": false,
+    "errors": [
+      {
+        "field": "lossTangent",
+        "message": "must be number",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "type": "LAYER_PHYS",
+    "id": "[\"LAYER_PHYS\",15]",
+    "valid": false,
+    "errors": [
+      {
+        "field": "permittivity",
+        "message": "must be number",
+        "severity": "ERROR"
+      },
+      {
+        "field": "lossTangent",
+        "message": "must be number",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "type": "LAYER_PHYS",
+    "id": "[\"LAYER_PHYS\",362]",
+    "valid": false,
+    "errors": [
+      {
+        "field": "lossTangent",
+        "message": "must be number",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "type": "LAYER_PHYS",
+    "id": "[\"LAYER_PHYS\",16]",
+    "valid": false,
+    "errors": [
+      {
+        "field": "permittivity",
+        "message": "must be number",
+        "severity": "ERROR"
+      },
+      {
+        "field": "lossTangent",
+        "message": "must be number",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "type": "LAYER_PHYS",
+    "id": "[\"LAYER_PHYS\",363]",
+    "valid": false,
+    "errors": [
+      {
+        "field": "lossTangent",
+        "message": "must be number",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "type": "LAYER_PHYS",
+    "id": "[\"LAYER_PHYS\",2]",
+    "valid": false,
+    "errors": [
+      {
+        "field": "permittivity",
+        "message": "must be number",
+        "severity": "ERROR"
+      },
+      {
+        "field": "lossTangent",
+        "message": "must be number",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "type": "LAYER_PHYS",
+    "id": "[\"LAYER_PHYS\",6]",
+    "valid": false,
+    "errors": [
+      {
+        "field": "lossTangent",
+        "message": "must be number",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "type": "LAYER_PHYS",
+    "id": "[\"LAYER_PHYS\",8]",
+    "valid": false,
+    "errors": [
+      {
+        "field": "permittivity",
+        "message": "must be number",
+        "severity": "ERROR"
+      },
+      {
+        "field": "lossTangent",
+        "message": "must be number",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "type": "LAYER_PHYS",
+    "id": "[\"LAYER_PHYS\",4]",
+    "valid": false,
+    "errors": [
+      {
+        "field": "permittivity",
+        "message": "must be number",
+        "severity": "ERROR"
+      },
+      {
+        "field": "lossTangent",
+        "message": "must be number",
+        "severity": "ERROR"
+      }
+    ]
+  }
+]

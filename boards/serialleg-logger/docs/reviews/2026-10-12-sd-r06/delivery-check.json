@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-12",
+  "pcbVersion": "1791856297817",
+  "schematicVersion": "1791856903440",
+  "canonicalNativeSession": "d96cd774-2e2d-4fc3-abe6-d74e43f84f42",
+  "loadMethod": "关闭旧 CLI 窗口后新建正式工程会话；原理图与 PCB 均重新载入后导出网表及检查",
+  "localLinksChecked": 69,
+  "brokenLinks": [],
+  "canonicalSourceEqualsCheckedCopy": true,
+  "canonicalDRC": [],
+  "schematicERCWarnings": 1,
+  "schematicNetlistDifferences": [],
+  "sdMainTracksFullyCoveredByOneL2GroundRegion": true,
+  "boardOutlineAndInterfacePositionsUnchanged": true,
+  "bracketCollisions": 0,
+  "physicalSignalIntegrityAndFitTested": false,
+  "productionReleased": false
+}

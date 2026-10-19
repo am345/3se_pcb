@@ -1,0 +1,22 @@
+{
+  "lines": 615,
+  "vias": 77,
+  "duplicateLines": 0,
+  "duplicateVias": 0,
+  "manualPlanMatchesNativeCopper": true,
+  "SDMainSegmentsVerifiedAgainstNative": 85,
+  "unchangedInterfaces": [
+    "J1",
+    "J2",
+    "J4",
+    "J5",
+    "U1",
+    "SW1",
+    "SW2",
+    "SW3",
+    "C15"
+  ],
+  "outlineAndKeepoutsAndContactsUnchanged": true,
+  "USBSignalCopperUnchanged": true,
+  "defaultAssembly": 64
+}

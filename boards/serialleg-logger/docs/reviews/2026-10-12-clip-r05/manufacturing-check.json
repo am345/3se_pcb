@@ -1,0 +1,233 @@
+{
+  "unit": "mm",
+  "arc_step_rad": 0.02,
+  "circle_segments": 128,
+  "scope": "Gerber 几何检查；不代替板厂 CAM 或实物装配",
+  "limitations": [
+    "阻焊桥仅检查合并后独立开窗之间的距离，不把同网焊盘与过孔的共同开窗判断为错误。",
+    "弧线及圆按折线近似；边界结果需结合原生 DRC 与板厂 CAM。",
+    "未自动核对阻抗、钢网厚度与开口比例、器件高度及装配方向。"
+  ],
+  "layers": {
+    "top": {
+      "mask_openings": 130,
+      "min_silk_to_mask": 0.16920999999999964,
+      "silk_aperture_widths": [
+        0.1524,
+        0.3187
+      ],
+      "silk_clearance_violations": [],
+      "mask_bridge_violations": []
+    },
+    "bottom": {
+      "mask_openings": 140,
+      "min_silk_to_mask": 0.9754403724879533,
+      "silk_aperture_widths": [
+        0.1524,
+        0.9902
+      ],
+      "silk_clearance_violations": [],
+      "mask_bridge_violations": []
+    }
+  },
+  "pth_annular_ring": {
+    "minimum": 0.290576,
+    "failures": [],
+    "count": 12
+  },
+  "via": {
+    "count": 92
+  },
+  "npth_to_copper": {
+    "minimum": 0.23428141336474467,
+    "measurements": [
+      {
+        "layer": "Gerber_TopLayer.GTL",
+        "hole": [
+          8.87,
+          23.842,
+          0.7
+        ],
+        "clearance": 0.23428141336474467
+      },
+      {
+        "layer": "Gerber_TopLayer.GTL",
+        "hole": [
+          8.87,
+          13.242,
+          0.7
+        ],
+        "clearance": 0.23428141336474653
+      },
+      {
+        "layer": "Gerber_TopLayer.GTL",
+        "hole": [
+          28.36672,
+          4.50063,
+          1.0
+        ],
+        "clearance": 0.2564975917693363
+      },
+      {
+        "layer": "Gerber_TopLayer.GTL",
+        "hole": [
+          28.36418,
+          12.50061,
+          1.0
+        ],
+        "clearance": 0.256497591769335
+      },
+      {
+        "layer": "Gerber_InnerLayer1.G1",
+        "hole": [
+          8.87,
+          23.842,
+          0.7
+        ],
+        "clearance": 0.25104822189473674
+      },
+      {
+        "layer": "Gerber_InnerLayer1.G1",
+        "hole": [
+          8.87,
+          13.242,
+          0.7
+        ],
+        "clearance": 0.2565048938587538
+      },
+      {
+        "layer": "Gerber_InnerLayer1.G1",
+        "hole": [
+          28.36672,
+          4.50063,
+          1.0
+        ],
+        "clearance": 0.2564975917693363
+      },
+      {
+        "layer": "Gerber_InnerLayer1.G1",
+        "hole": [
+          28.36418,
+          12.50061,
+          1.0
+        ],
+        "clearance": 0.256497591769335
+      },
+      {
+        "layer": "Gerber_InnerLayer2.G2",
+        "hole": [
+          8.87,
+          23.842,
+          0.7
+        ],
+        "clearance": 0.25104822189473674
+      },
+      {
+        "layer": "Gerber_InnerLayer2.G2",
+        "hole": [
+          8.87,
+          13.242,
+          0.7
+        ],
+        "clearance": 0.2565048938587538
+      },
+      {
+        "layer": "Gerber_InnerLayer2.G2",
+        "hole": [
+          28.36672,
+          4.50063,
+          1.0
+        ],
+        "clearance": 0.25649593993352127
+      },
+      {
+        "layer": "Gerber_InnerLayer2.G2",
+        "hole": [
+          28.36418,
+          12.50061,
+          1.0
+        ],
+        "clearance": 0.25649489031805534
+      },
+      {
+        "layer": "Gerber_BottomLayer.GBL",
+        "hole": [
+          8.87,
+          23.842,
+          0.7
+        ],
+        "clearance": 0.25104822189473674
+      },
+      {
+        "layer": "Gerber_BottomLayer.GBL",
+        "hole": [
+          8.87,
+          13.242,
+          0.7
+        ],
+        "clearance": 0.3999999999999986
+      },
+      {
+        "layer": "Gerber_BottomLayer.GBL",
+        "hole": [
+          28.36672,
+          4.50063,
+          1.0
+        ],
+        "clearance": 0.3432799999999965
+      },
+      {
+        "layer": "Gerber_BottomLayer.GBL",
+        "hole": [
+          28.36418,
+          12.50061,
+          1.0
+        ],
+        "clearance": 0.25649313387736894
+      }
+    ],
+    "failures": []
+  },
+  "edge_to_copper": {
+    "minimum": 0.3048000000000002,
+    "measurements": [
+      {
+        "layer": "Gerber_TopLayer.GTL",
+        "clearance": 0.32198999999999955,
+        "outside_board_mm2": 0.0
+      },
+      {
+        "layer": "Gerber_InnerLayer1.G1",
+        "clearance": 0.3048000000000002,
+        "outside_board_mm2": 0.0
+      },
+      {
+        "layer": "Gerber_InnerLayer2.G2",
+        "clearance": 0.3301940498353489,
+        "outside_board_mm2": 0.0
+      },
+      {
+        "layer": "Gerber_BottomLayer.GBL",
+        "clearance": 0.32700000000000173,
+        "outside_board_mm2": 0.0
+      }
+    ],
+    "failures": []
+  },
+  "via_annular_ring_min": 0.15239999999999998,
+  "silk_source": {
+    "minimum_font_mil": 30,
+    "minimum_line_mil": 6
+  },
+  "drills": {
+    "pth_count": 12,
+    "via_count": 92,
+    "npth_count": 4,
+    "minimum_via_diameter": 0.3048,
+    "minimum_pth_pair_gap": 1.0800100000000001
+  },
+  "paste_on_component_drills": {
+    "scope": "NPTH 与连接器 PTH 钻孔区域不应有锡膏开口；不涵盖全部钢网规则。",
+    "failures": []
+  }
+}

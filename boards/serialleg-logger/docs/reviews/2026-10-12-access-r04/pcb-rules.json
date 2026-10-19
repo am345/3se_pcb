@@ -1,0 +1,1287 @@
+[
+  {
+    "type": "RULE_TEMPLATE",
+    "id": "RULE_TEMPLATE",
+    "value": {
+      "name": "自定义配置1"
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"SAFE\",\"copperThickness1oz\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "isForAll": "ALL",
+        "safeSpacing": [
+          {
+            "layerId": 1,
+            "isOpen": true,
+            "content": [
+              [
+                4.0157
+              ],
+              [
+                5.9843,
+                5.9843
+              ],
+              [
+                5.9843,
+                5.9843,
+                5.9843
+              ],
+              [
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843
+              ],
+              [
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843
+              ],
+              [
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843
+              ],
+              [
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843
+              ],
+              [
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10
+              ],
+              [
+                11.811,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                10,
+                6
+              ],
+              [
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                10,
+                11.811,
+                6
+              ],
+              [
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                6,
+                10,
+                6,
+                6,
+                6
+              ],
+              [
+                11.8,
+                11.8,
+                11.8,
+                11.8,
+                11.8,
+                11.8,
+                11.8,
+                10,
+                11.8,
+                11.8,
+                11.8
+              ],
+              [
+                11.811,
+                11.811,
+                11.811,
+                11.811,
+                11.811,
+                11.811,
+                11.811,
+                11.811,
+                11.811,
+                11.811,
+                11.811,
+                11.811
+              ]
+            ],
+            "columnNames": []
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"SAFE\",\"copperThickness2oz\"]",
+    "value": {
+      "ruleState": "NORMAL",
+      "ruleContext": {
+        "unit": "mm",
+        "isForAll": "ALL",
+        "safeSpacing": [
+          {
+            "layerId": 1,
+            "isOpen": true,
+            "content": [
+              [
+                7.9921
+              ],
+              [
+                5.9843,
+                5.9843
+              ],
+              [
+                5.9843,
+                5.9843,
+                5.9843
+              ],
+              [
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843
+              ],
+              [
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843
+              ],
+              [
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843
+              ],
+              [
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843
+              ],
+              [
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10,
+                10
+              ],
+              [
+                11.811,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                10,
+                5.9843
+              ],
+              [
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                10,
+                5.9843,
+                5.9843
+              ],
+              [
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                5.9843,
+                10,
+                5.9843,
+                5.9843,
+                5.9843
+              ],
+              [
+                11.811,
+                11.811,
+                11.811,
+                11.811,
+                11.811,
+                11.811,
+                11.811,
+                10,
+                11.811,
+                11.811,
+                11.811
+              ],
+              [
+                6.929,
+                6.929,
+                6.929,
+                6.929,
+                6.929,
+                6.929,
+                6.929,
+                10,
+                6.929,
+                6.929,
+                6.929,
+                6.929
+              ]
+            ],
+            "columnNames": []
+          }
+        ]
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"OTHER\",\"otherClearance\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "deviceClearance": 0,
+        "thru2SmdClearance": 0,
+        "holeClearance": 11.811
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"CREEPAGE\",\"creepage\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "creepageDistance": 0,
+        "ignoreLayer": true
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"TRACK\",\"copperThickness1oz\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "track": {
+          "isOpen": true,
+          "content": [
+            {
+              "layerId": 1,
+              "stroMin": 5,
+              "stroDef": 10,
+              "stroMax": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"TRACK\",\"copperThickness2oz\"]",
+    "value": {
+      "ruleState": "NORMAL",
+      "ruleContext": {
+        "unit": "mm",
+        "track": {
+          "isOpen": true,
+          "content": [
+            {
+              "layerId": 1,
+              "stroMin": 7.9921,
+              "stroDef": 10,
+              "stroMax": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"NET_LENGTH\",\"netLength\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "netLenMin": 0,
+        "netLenMax": 0
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"NET_LENGTH_TOLERANCE\",\"netLengthTolerance\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "netLengthTolerance": 1000
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"DIFFER_ENTAIL\",\"differentialPair\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "stroWidth": {
+          "isOpen": true,
+          "content": [
+            {
+              "layerId": 1,
+              "stroMin": 5,
+              "stroMax": 100,
+              "stroDef": 10
+            }
+          ]
+        },
+        "spacing": {
+          "isOpen": true,
+          "content": [
+            {
+              "layerId": 1,
+              "spacMin": 6,
+              "spacDef": 6
+            }
+          ]
+        },
+        "differPairLenTolerMax": 10,
+        "toleranceUnit": "mm"
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"BLIND\",\"blindVia\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "blinds": {
+          "content": []
+        }
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"RADIUS\",\"viaSize\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "minRadius": 9.8425,
+        "defRadius": 12.0079,
+        "maxRadius": 196.8504,
+        "minInner": 5.9055,
+        "defInner": 6.0039,
+        "maxInner": 124.0157
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"PLANE\",\"innerPlane\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "mulPad": {
+          "isOpen": true,
+          "content": [
+            {
+              "layerId": 1,
+              "connType": "DIVERGENCE",
+              "spoSpac": 10,
+              "spoWidth": 10,
+              "spoAng": 90
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"COPPER\",\"copperRegion\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "sglPad": {
+          "isOpen": true,
+          "content": [
+            {
+              "layerId": 1,
+              "connType": "DIVERGENCE",
+              "spoSpac": 10,
+              "spoWidth": 10,
+              "spoAng": 90
+            }
+          ]
+        },
+        "mulPad": {
+          "isOpen": true,
+          "content": [
+            {
+              "layerId": 1,
+              "connType": "DIVERGENCE",
+              "spoSpac": 10,
+              "spoWidth": 10,
+              "spoAng": 90
+            }
+          ]
+        },
+        "track": {
+          "isOpen": true,
+          "content": [
+            {
+              "layerId": 1,
+              "connType": "DIRECT"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"PASTE\",\"pasteMaskExpansion\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "padTopExpan": 0,
+        "padBotExpan": 0,
+        "testPointTopExpan": -1000,
+        "testPointBotExpan": -1000
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"SOLDER\",\"solderMaskExpansion\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "padTopExpan": 0,
+        "padBotExpan": 0,
+        "viaTopExpan": -1000,
+        "viaBotExpan": -1000,
+        "testPointTopExpan": 2,
+        "testPointBotExpan": 2
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"AUTO_ROUTER\",\"Common\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "routingCorner": "L45",
+        "isKeep": 1,
+        "viaQuantity": "LESS",
+        "routingEffectPriority": "COMPLETION_FIRST",
+        "layers": [
+          1,
+          2,
+          12
+        ],
+        "ignoreNets": []
+      }
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"DIFF_PAIR\",\"USB_FS\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"DIFF_PAIR\",\"USB_MCU\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"HEIGHT\",\"height\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "maxHeight": 0
+      }
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"GND\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"5V_SYS\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {
+        "TRACK": "POWER"
+      },
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"BUCK_SW\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {
+        "TRACK": "POWER"
+      },
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"BUCK_BST\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"3V3\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {
+        "TRACK": "POWER"
+      },
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"EN\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"USB_VBUS\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {
+        "TRACK": "POWER"
+      },
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"LED_REC_A\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"LED_ERR_A\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"5V_IN\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {
+        "TRACK": "POWER"
+      },
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"USB_DP\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"USB_DM\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"UART_TX_EXT\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"UART_RX_EXT\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"BOOT\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"PROG_RX\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"PROG_TX\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"SD_D2\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"SD_D3\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"SD_CMD\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"SD_CLK\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"SD_D0\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"SD_D1\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"SD_CD_N\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"PWR_GATE\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"USB_ILIM\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"USB_EN\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"USB_FAULT_N\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"USB_SWITCHED\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {
+        "TRACK": "POWER"
+      },
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"USB_DP_MCU\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"USB_DM_MCU\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"UART_RX_BUF\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"UART_TX_MCU\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"SD_CLK_MCU\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"SD_CMD_MCU\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"SD_D0_MCU\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"SD_D1_MCU\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"SD_D2_MCU\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"SD_D3_MCU\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"STOP_N\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"LED_REC\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"LED_ERR\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"UART_RX\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"TRACK\",\"POWER\"]",
+    "value": {
+      "ruleState": "NORMAL",
+      "ruleContext": {
+        "unit": "mm",
+        "track": {
+          "isOpen": true,
+          "content": [
+            {
+              "layerId": 1,
+              "stroMin": 10,
+              "stroDef": 20,
+              "stroMax": 100
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"DFM_ACUTE_ANGLE\",\"AcuteAngle\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "minAngle": 90
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"DFM_HOLE_FALLS_ON_PAD\",\"HoleFallsonPad\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {}
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"DFM_BARE_TRACK_ENDS\",\"BareTrackEnds\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {}
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"DFM_PAD_RING_DEFECT\",\"PadHoleRing\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "minRingWidth": 5.9055
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"DFM_TRACK_NECKDOWN\",\"TrackNeckdown\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "minNeckWidth": 5
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"DFM_SHORT_CIRCUIT_DETECT\",\"ShortCircuitPrompt\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {}
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"DFM_MIN_COPPER_WIDTH\",\"MinimumCopperWidth\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "minCopperWidth": 3.937
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"DFM_DISCONNECTED_VIAS\",\"NoConnectedVias\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {}
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"DFM_MIN_HOLE_SIZE\",\"HoleSize\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "minHoleSize": 11.811
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"DFM_NPTH_2_COPPER\",\"NPTHtoCopper\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "minClearance": 7.874
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"DFM_SOLDER_MASK_BRIDGE\",\"SolderMaskBridge\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "minClearance": 3.937
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"DFM_SMASK_OPENING_COPPER\",\"SMaskOpeningCopper\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "minClearance": 3.5433
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"DFM_PAD_NEGATIVE_OPENING\",\"PadNegativeOpening\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {}
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"DFM_SILKSCREEN_2_PAD\",\"SilkscreentoPad\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "minClearance": 5.9055
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"DFM_SILKSCREEN_2_HOLE\",\"SilkscreentoHole\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "minClearance": 5.9055
+      }
+    }
+  },
+  {
+    "type": "RULE",
+    "id": "[\"RULE\",\"DFM_SILKSCREEN_LINE_WIDTH\",\"SilkscreenLineWidth\"]",
+    "value": {
+      "ruleState": "DEFAULT",
+      "ruleContext": {
+        "unit": "mm",
+        "minLineWidth": 5.9055
+      }
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"USB_EN_GATED\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"MAIN_SENSE\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"MAIN_PWR_IN\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  },
+  {
+    "type": "RULE_SELECTOR",
+    "id": "[\"RULE_SELECTOR\",[\"NET\",\"MAIN_SENSE_MID\"]]",
+    "value": {
+      "ruleOrder": 4,
+      "ruleKeyValue": {},
+      "copperValue": {},
+      "innerPlaneValue": {},
+      "parent": null
+    }
+  }
+]

@@ -1,0 +1,296 @@
+[
+  {
+    "id": "2948d233403de986",
+    "valid": false,
+    "errors": [
+      {
+        "field": "groupId",
+        "message": "must have required property 'groupId'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "locked",
+        "message": "must have required property 'locked'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "strikeout",
+        "message": "must have required property 'strikeout'",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "id": "e735437bcc31d68f",
+    "valid": false,
+    "errors": [
+      {
+        "field": "groupId",
+        "message": "must have required property 'groupId'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "locked",
+        "message": "must have required property 'locked'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "strikeout",
+        "message": "must have required property 'strikeout'",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "id": "a2c19ead164a5fc5",
+    "valid": false,
+    "errors": [
+      {
+        "field": "groupId",
+        "message": "must have required property 'groupId'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "locked",
+        "message": "must have required property 'locked'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "strikeout",
+        "message": "must have required property 'strikeout'",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "id": "eae8f4066e4ed82f",
+    "valid": false,
+    "errors": [
+      {
+        "field": "groupId",
+        "message": "must have required property 'groupId'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "locked",
+        "message": "must have required property 'locked'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "strikeout",
+        "message": "must have required property 'strikeout'",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "id": "438918a0517df154",
+    "valid": false,
+    "errors": [
+      {
+        "field": "groupId",
+        "message": "must have required property 'groupId'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "locked",
+        "message": "must have required property 'locked'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "strikeout",
+        "message": "must have required property 'strikeout'",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "id": "ed7f21f5954f7bf7",
+    "valid": false,
+    "errors": [
+      {
+        "field": "groupId",
+        "message": "must have required property 'groupId'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "locked",
+        "message": "must have required property 'locked'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "strikeout",
+        "message": "must have required property 'strikeout'",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "id": "9cabeb29199ea9db",
+    "valid": false,
+    "errors": [
+      {
+        "field": "groupId",
+        "message": "must have required property 'groupId'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "locked",
+        "message": "must have required property 'locked'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "strikeout",
+        "message": "must have required property 'strikeout'",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "id": "18edf26f6c7a2f44",
+    "valid": false,
+    "errors": [
+      {
+        "field": "groupId",
+        "message": "must have required property 'groupId'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "locked",
+        "message": "must have required property 'locked'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "strikeout",
+        "message": "must have required property 'strikeout'",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "id": "6299708a9ba9cca8",
+    "valid": false,
+    "errors": [
+      {
+        "field": "groupId",
+        "message": "must have required property 'groupId'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "locked",
+        "message": "must have required property 'locked'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "strikeout",
+        "message": "must have required property 'strikeout'",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "id": "72ec00425f167c2b",
+    "valid": false,
+    "errors": [
+      {
+        "field": "groupId",
+        "message": "must have required property 'groupId'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "locked",
+        "message": "must have required property 'locked'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "strikeout",
+        "message": "must have required property 'strikeout'",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "id": "fa699b933f47ad41",
+    "valid": false,
+    "errors": [
+      {
+        "field": "groupId",
+        "message": "must have required property 'groupId'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "locked",
+        "message": "must have required property 'locked'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "strikeout",
+        "message": "must have required property 'strikeout'",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "id": "b4e9577fb440582b",
+    "valid": false,
+    "errors": [
+      {
+        "field": "groupId",
+        "message": "must have required property 'groupId'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "locked",
+        "message": "must have required property 'locked'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "strikeout",
+        "message": "must have required property 'strikeout'",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "id": "efe279de149ea582",
+    "valid": false,
+    "errors": [
+      {
+        "field": "groupId",
+        "message": "must have required property 'groupId'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "locked",
+        "message": "must have required property 'locked'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "strikeout",
+        "message": "must have required property 'strikeout'",
+        "severity": "ERROR"
+      }
+    ]
+  },
+  {
+    "id": "1db00f10ca9f7957",
+    "valid": false,
+    "errors": [
+      {
+        "field": "groupId",
+        "message": "must have required property 'groupId'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "locked",
+        "message": "must have required property 'locked'",
+        "severity": "ERROR"
+      },
+      {
+        "field": "strikeout",
+        "message": "must have required property 'strikeout'",
+        "severity": "ERROR"
+      }
+    ]
+  }
+]

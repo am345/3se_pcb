@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-12",
+  "method": "正式客户端最终 API 几何与已检查副本逐类比较；忽略对象 ID、async 标记及工程副本各自的 libraryUuid 命名空间；资源本身的 UUID、名称、焊盘和几何仍比较",
+  "projectLibraryNamespaces": {
+    "checked": [
+      "637c67c7db9d450f7c2447fc1890ba9f98f81a0f6bd2d555e66f5f1d99efa650"
+    ],
+    "canonical": [
+      "7299e5e11eab3773f3e5682ef1b80e9eff10ba03057ef7fcf72bf1f04f53ce86"
+    ]
+  },
+  "comparisons": {
+    "components": true,
+    "pads": true,
+    "lines": true,
+    "vias": true,
+    "outlines": true,
+    "strings": true,
+    "pours": true,
+    "regions": true,
+    "freepads": true
+  }
+}

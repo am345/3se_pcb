@@ -1,0 +1,23 @@
+{
+  "revision": "R0.5-M1",
+  "description": "P16 直插日志板绝缘卡扣托架，打印试配草稿",
+  "units": "mm",
+  "board_underside_z": 7.5,
+  "board_thickness": 1.6,
+  "retention_vertical_gap": 0.25,
+  "xy_running_clearance": 0.20,
+  "clip_overlap": 0.50,
+  "clip_beam_thickness": 1.00,
+  "clip_beam_width": 3.00,
+  "frame_bottom_z": -6.4,
+  "frame_top_z": -3.8,
+  "outer_rail_x": [57.5, 60.3],
+  "mount_centers": [[53.80063025, -18.00098], [53.80063025, 18.00098]],
+  "mount_boss_diameter": 4.0,
+  "mount_screw_clearance": 2.2,
+  "mount_slot_travel": 0.4,
+  "usb_clip_y": -27.75,
+  "rear_clip_y": 15.85,
+  "material_target": "绝缘、非碳纤填充 PA12；SLS/MJF 试配。不得把此目标当作已验证的材料强度。",
+  "height_note": "7.5 mm 为名义配合高度；打印前测量实际 H40/H35 配合高度，修改本参数重建。不得靠螺钉或卡扣把日志板压到错误高度。"
+}

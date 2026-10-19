@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-12",
+  "pcbVersion": "1791814612820",
+  "unchangedRules": 84,
+  "componentModelFootprintNetChanges": [],
+  "J1PlacementUnchanged": true,
+  "mountingHolesUnchanged": true,
+  "BOMRows": 65,
+  "defaultPlacementRows": 64,
+  "placementMatchesNativeXYAndSide": true,
+  "localLinksChecked": 60,
+  "brokenLinks": [],
+  "canonicalNativeReopenVerified": false,
+  "note": "正式路径新 CLI 会话重开超时；字节一致性通过，原生 DRC 结果来自已保存重开的相同副本。"
+}

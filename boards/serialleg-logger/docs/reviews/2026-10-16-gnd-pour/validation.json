@@ -1,0 +1,931 @@
+{
+  "date": "2026-10-16",
+  "software": "EasyEDA Pro 4.1.71.7a7261be",
+  "source": "hardware/SerialLegLogger.eprj3 及完整 hardware 目录；未提交工作树",
+  "base_commit": "27a9aebb6f87ded35f4d1f7330f6f76075f9c465",
+  "scope": "添加顶底层 GND 覆铜、36 个人工选点的地过孔及 10 个高速信号侧铜避让区；保存重开后原生 DRC 和网表检查。",
+  "geometry_and_native_DRC": {
+    "counts": {
+      "components": 43,
+      "tracks": 357,
+      "vias": 108,
+      "pours": 7,
+      "new_GND_vias": 36
+    },
+    "native_DRC": [],
+    "trace_geometry_changes": [],
+    "component_changes": [],
+    "rule_changes": [],
+    "existing_stackup_and_keepout_changes": [],
+    "outline_changed": false,
+    "PCB_netlist_changed": false,
+    "SCH_PCB_match": true,
+    "pin_count": 195,
+    "GND": {
+      "1": {
+        "area_mm2": 940.4900345634479,
+        "planar_regions": 9,
+        "antenna_overlap_mm2": 0.0,
+        "native_approximation_unanchored": [],
+        "Gerber_regions_without_via_or_ground_PTH": [],
+        "Gerber_copper_area_excluding_drills_mm2": 924.4846743660929,
+        "Gerber_ground_regions": 9,
+        "Gerber_antenna_overlap_mm2": 0.0,
+        "Gerber_all_nets_antenna_overlap_mm2": 0.0
+      },
+      "2": {
+        "area_mm2": 1154.028738664222,
+        "planar_regions": 4,
+        "antenna_overlap_mm2": 0.0,
+        "native_approximation_unanchored": [],
+        "Gerber_regions_without_via_or_ground_PTH": [],
+        "Gerber_copper_area_excluding_drills_mm2": 1137.9257140533168,
+        "Gerber_ground_regions": 4,
+        "Gerber_antenna_overlap_mm2": 0.0,
+        "Gerber_all_nets_antenna_overlap_mm2": 0.0
+      },
+      "15": {
+        "area_mm2": 1373.7254256267704,
+        "planar_regions": 1,
+        "antenna_overlap_mm2": 0.0,
+        "native_approximation_unanchored": [],
+        "Gerber_regions_without_via_or_ground_PTH": [],
+        "Gerber_copper_area_excluding_drills_mm2": 1357.61491582925,
+        "Gerber_ground_regions": 1,
+        "Gerber_antenna_overlap_mm2": 0.0,
+        "Gerber_all_nets_antenna_overlap_mm2": 0.0
+      },
+      "16": {
+        "area_mm2": 1373.7254256267704,
+        "planar_regions": 1,
+        "antenna_overlap_mm2": 0.0,
+        "native_approximation_unanchored": [],
+        "Gerber_regions_without_via_or_ground_PTH": [],
+        "Gerber_copper_area_excluding_drills_mm2": 1357.61491582925,
+        "Gerber_ground_regions": 1,
+        "Gerber_antenna_overlap_mm2": 0.0,
+        "Gerber_all_nets_antenna_overlap_mm2": 0.0
+      }
+    },
+    "signal_reference": [
+      {
+        "net": "$1N279",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_CLK_MCU",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_CMD",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_CMD_MCU",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_D0",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_D0_MCU",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_D1",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_D1_MCU",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_D2",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_D2_MCU",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_D3",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_D3_MCU",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "USB_DM",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "USB_DM",
+        "layer": 2,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "USB_DM_MCU",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "USB_DP",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "USB_DP",
+        "layer": 2,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "USB_DP_MCU",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      }
+    ],
+    "GND_pour_clearance": [
+      {
+        "net": "$1N279",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 12.12728073520437,
+        "min_trace_to_GND_pour_mm": 0.30803293067419096
+      },
+      {
+        "net": "SD_CLK_MCU",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 22.872999999999934,
+        "min_trace_to_GND_pour_mm": 0.5809741999999983
+      },
+      {
+        "net": "SD_CMD",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 12.199982469526514,
+        "min_trace_to_GND_pour_mm": 0.30987955472597345
+      },
+      {
+        "net": "SD_CMD_MCU",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 22.873000000000047,
+        "min_trace_to_GND_pour_mm": 0.5809742000000012
+      },
+      {
+        "net": "SD_D0",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 12.199982469525972,
+        "min_trace_to_GND_pour_mm": 0.3098795547259597
+      },
+      {
+        "net": "SD_D0_MCU",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 22.873000000000154,
+        "min_trace_to_GND_pour_mm": 0.5809742000000039
+      },
+      {
+        "net": "SD_D1",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 12.127280735204776,
+        "min_trace_to_GND_pour_mm": 0.3080329306742013
+      },
+      {
+        "net": "SD_D1_MCU",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 22.872999999999813,
+        "min_trace_to_GND_pour_mm": 0.5809741999999952
+      },
+      {
+        "net": "SD_D2",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 12.127280735205026,
+        "min_trace_to_GND_pour_mm": 0.3080329306742077
+      },
+      {
+        "net": "SD_D2_MCU",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 12.199999999999818,
+        "min_trace_to_GND_pour_mm": 0.3098799999999954
+      },
+      {
+        "net": "SD_D3",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 36.614967343276476,
+        "min_trace_to_GND_pour_mm": 0.9300201705192225
+      },
+      {
+        "net": "SD_D3_MCU",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 12.127280735204339,
+        "min_trace_to_GND_pour_mm": 0.3080329306741902
+      },
+      {
+        "net": "USB_DM",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 12.199999999999704,
+        "min_trace_to_GND_pour_mm": 0.3098799999999925
+      },
+      {
+        "net": "USB_DM",
+        "layer": 2,
+        "min_trace_to_GND_pour_mil": 12.12728073520475,
+        "min_trace_to_GND_pour_mm": 0.3080329306742006
+      },
+      {
+        "net": "USB_DM_MCU",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 22.873000000000047,
+        "min_trace_to_GND_pour_mm": 0.5809742000000012
+      },
+      {
+        "net": "USB_DP",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 12.199999999999704,
+        "min_trace_to_GND_pour_mm": 0.3098799999999925
+      },
+      {
+        "net": "USB_DP",
+        "layer": 2,
+        "min_trace_to_GND_pour_mil": 12.12728073520483,
+        "min_trace_to_GND_pour_mm": 0.3080329306742027
+      },
+      {
+        "net": "USB_DP_MCU",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 20.60799999999972,
+        "min_trace_to_GND_pour_mm": 0.5234431999999929
+      }
+    ],
+    "5V_IN_pours": {
+      "1": {
+        "before_mm2": 3.947138909133004,
+        "after_mm2": 3.8525704838093544
+      },
+      "2": {
+        "before_mm2": 8.439804141558314,
+        "after_mm2": 8.336588152123444
+      }
+    }
+  },
+  "schematic_changes_except_document_header": [],
+  "ERC": "本轮没有改原理图，未重复运行 ERC；前轮为 0 错误、1 组 U1/L1 ATTRMATCHCODE 警告。",
+  "new_GND_vias": [
+    {
+      "x_mil": 4400,
+      "y_mil": -825,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 4580,
+      "y_mil": -750,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 4580,
+      "y_mil": -1000,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 4580,
+      "y_mil": -1200,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 4580,
+      "y_mil": -1450,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 4580,
+      "y_mil": -1700,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 4440,
+      "y_mil": -1740,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 4250,
+      "y_mil": -1140,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 4210,
+      "y_mil": -1190,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 4030,
+      "y_mil": -1230,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 3970,
+      "y_mil": -1400,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 3810,
+      "y_mil": -1550,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 3970,
+      "y_mil": -970,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 3800,
+      "y_mil": -1070,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 3680,
+      "y_mil": -1270,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 3580,
+      "y_mil": -1420,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 2840,
+      "y_mil": -1200,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 2840,
+      "y_mil": -1400,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 2840,
+      "y_mil": -1550,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 2990,
+      "y_mil": -1050,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 2950,
+      "y_mil": -1220,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 2950,
+      "y_mil": -1430,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 2950,
+      "y_mil": -1660,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 2830,
+      "y_mil": -1750,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 2820,
+      "y_mil": -1945,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 2820,
+      "y_mil": -2145,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 3050,
+      "y_mil": -1960,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 3480,
+      "y_mil": -2010,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 3490,
+      "y_mil": -2190,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 3450,
+      "y_mil": -2280,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 4020,
+      "y_mil": -835,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 3990,
+      "y_mil": -1045,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 3890,
+      "y_mil": -1720,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 4040,
+      "y_mil": -1740,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 3740,
+      "y_mil": -1120,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    },
+    {
+      "x_mil": 3600,
+      "y_mil": -1070,
+      "hole_mil": 12,
+      "diameter_mil": 24
+    }
+  ],
+  "added_pours_and_keepouts": [
+    {
+      "keepouts": [
+        {
+          "name": "高速线侧铜避让_L1_1",
+          "id": "73642b430ab318da"
+        },
+        {
+          "name": "高速线侧铜避让_L1_2",
+          "id": "e692b29aef5d27d3"
+        },
+        {
+          "name": "高速线侧铜避让_L1_3",
+          "id": "f5db67aeabede9b4"
+        },
+        {
+          "name": "高速线侧铜避让_L1_4",
+          "id": "a85f84627a853753"
+        },
+        {
+          "name": "高速线侧铜避让_L1_5",
+          "id": "d3e5410409432422"
+        },
+        {
+          "name": "高速线侧铜避让_L1_6",
+          "id": "958635e4a4917075"
+        },
+        {
+          "name": "高速线侧铜避让_L1_7",
+          "id": "7b442c775b9859fd"
+        },
+        {
+          "name": "高速线侧铜避让_L1_8",
+          "id": "4bde777d8d84444c"
+        },
+        {
+          "name": "高速线侧铜避让_L1_9",
+          "id": "6126e1680afd284d"
+        },
+        {
+          "name": "高速线侧铜避让_L2_1",
+          "id": "0cb2f82d9b2bdf4f"
+        }
+      ]
+    },
+    {
+      "vias": [
+        {
+          "name": "USB接口和板边1",
+          "id": "9d82499aa3db5b28"
+        },
+        {
+          "name": "USB接口和板边2",
+          "id": "6e67b5b37a8a23e4"
+        },
+        {
+          "name": "USB接口和板边3",
+          "id": "7595f0bb9fbd333f"
+        },
+        {
+          "name": "USB接口和板边4",
+          "id": "14813a96ea899622"
+        },
+        {
+          "name": "USB接口和板边5",
+          "id": "816e5656fc7aef6a"
+        },
+        {
+          "name": "USB接口和板边6",
+          "id": "fdc00084a6057407"
+        },
+        {
+          "name": "USB接口和板边7",
+          "id": "de88c97f9576e4bb"
+        },
+        {
+          "name": "USB两侧接地1",
+          "id": "52a2444c10a7e894"
+        },
+        {
+          "name": "USB两侧接地2",
+          "id": "f5f76026d9bc6714"
+        },
+        {
+          "name": "USB两侧接地3",
+          "id": "a6b9501b922c7459"
+        },
+        {
+          "name": "USB两侧接地4",
+          "id": "74d0901146cb5680"
+        },
+        {
+          "name": "USB两侧接地5",
+          "id": "fed49c47c4453d34"
+        },
+        {
+          "name": "USB两侧接地6",
+          "id": "b487c28dce398554"
+        },
+        {
+          "name": "USB两侧接地7",
+          "id": "08459cda83862187"
+        },
+        {
+          "name": "USB两侧接地8",
+          "id": "13cc9a949fefd62b"
+        },
+        {
+          "name": "USB两侧接地9",
+          "id": "3198bebc4cede384"
+        },
+        {
+          "name": "SD卡和左板边1",
+          "id": "ad48fa7576c6c66d"
+        },
+        {
+          "name": "SD卡和左板边2",
+          "id": "3465926e45001539"
+        }
+      ]
+    },
+    {
+      "vias": [
+        {
+          "name": "SD卡和左板边3",
+          "id": "f28653f3d0620c13"
+        },
+        {
+          "name": "SD卡和左板边4",
+          "id": "185151ba2808e6ee"
+        },
+        {
+          "name": "SD卡和左板边5",
+          "id": "33ba4f42ef3bf9d5"
+        },
+        {
+          "name": "SD卡和左板边6",
+          "id": "3de2bfe85586c510"
+        },
+        {
+          "name": "SD卡和左板边7",
+          "id": "b4b7fc5b367d66e6"
+        },
+        {
+          "name": "模组周边及接地铜分区1",
+          "id": "e524f8e7072d12c8"
+        },
+        {
+          "name": "模组周边及接地铜分区2",
+          "id": "0a64c1c656cd4fa8"
+        },
+        {
+          "name": "模组周边及接地铜分区3",
+          "id": "23a9c50acd6dea4a"
+        },
+        {
+          "name": "模组周边及接地铜分区4",
+          "id": "3aa1914395b1e707"
+        },
+        {
+          "name": "模组周边及接地铜分区5",
+          "id": "675bbf60bc30fbad"
+        },
+        {
+          "name": "模组周边及接地铜分区6",
+          "id": "4e3fda0e99f98710"
+        },
+        {
+          "name": "模组周边及接地铜分区7",
+          "id": "81a247812cb425b7"
+        },
+        {
+          "name": "电源和P16周边1",
+          "id": "c07c000c6e62b565"
+        },
+        {
+          "name": "电源和P16周边2",
+          "id": "1818da881aa03e0c"
+        },
+        {
+          "name": "电源和P16周边3",
+          "id": "78544cba1adbc3bd"
+        },
+        {
+          "name": "电源和P16周边4",
+          "id": "e0760ad8c3b09a3d"
+        },
+        {
+          "name": "电源和P16周边5",
+          "id": "37590aff0cfb2e03"
+        },
+        {
+          "name": "电源和P16周边6",
+          "id": "e3f33838e618b2e0"
+        }
+      ]
+    },
+    {
+      "pours": [
+        {
+          "layer": 1,
+          "id": "fd35398836152d68"
+        },
+        {
+          "layer": 2,
+          "id": "d2e64fb238e66bd6"
+        }
+      ]
+    },
+    {
+      "fills": [
+        {
+          "id": "ef9b19a5a2901786",
+          "layer": 2,
+          "net": "5V_IN"
+        },
+        {
+          "id": "0a3bc065948ec1e0",
+          "layer": 1,
+          "net": "5V_IN"
+        },
+        {
+          "id": "6a6af0377b0a5154",
+          "layer": 15,
+          "net": "GND"
+        },
+        {
+          "id": "17ce2486dac2adf4",
+          "layer": 16,
+          "net": "GND"
+        },
+        {
+          "id": "1fbad68dad07874c",
+          "layer": 1,
+          "net": "GND"
+        },
+        {
+          "id": "fd35398836152d68",
+          "layer": 1,
+          "net": "GND"
+        },
+        {
+          "id": "d2e64fb238e66bd6",
+          "layer": 2,
+          "net": "GND"
+        }
+      ]
+    }
+  ],
+  "impedance_actual_minimum_pour_gap": [
+    {
+      "grid_h_divisions": 20,
+      "pair": false,
+      "side_ground_gap_mm": 0.3080329306741902,
+      "ohm": 51.374,
+      "iterations": [
+        718,
+        686
+      ],
+      "seconds": 1.3
+    },
+    {
+      "grid_h_divisions": 20,
+      "pair": true,
+      "side_ground_gap_mm": 0.3080329306741902,
+      "ohm": 88.6,
+      "iterations": [
+        647,
+        624
+      ],
+      "seconds": 1.3
+    },
+    {
+      "grid_h_divisions": 28,
+      "pair": false,
+      "side_ground_gap_mm": 0.3080329306741902,
+      "ohm": 50.947,
+      "iterations": [
+        997,
+        935
+      ],
+      "seconds": 10.7
+    },
+    {
+      "grid_h_divisions": 28,
+      "pair": true,
+      "side_ground_gap_mm": 0.3080329306741902,
+      "ohm": 89.79,
+      "iterations": [
+        898,
+        865
+      ],
+      "seconds": 9.6
+    }
+  ],
+  "impedance_gap_sensitivity": [
+    {
+      "grid_h_divisions": 20,
+      "pair": false,
+      "side_ground_gap_mm": null,
+      "ohm": 51.673,
+      "iterations": [
+        763,
+        700
+      ],
+      "seconds": 2.3
+    },
+    {
+      "grid_h_divisions": 20,
+      "pair": false,
+      "side_ground_gap_mm": 0.3048,
+      "ohm": 51.374,
+      "iterations": [
+        718,
+        686
+      ],
+      "seconds": 2.0
+    },
+    {
+      "grid_h_divisions": 20,
+      "pair": true,
+      "side_ground_gap_mm": null,
+      "ohm": 88.757,
+      "iterations": [
+        693,
+        642
+      ],
+      "seconds": 1.8
+    },
+    {
+      "grid_h_divisions": 20,
+      "pair": true,
+      "side_ground_gap_mm": 0.3048,
+      "ohm": 88.59,
+      "iterations": [
+        647,
+        624
+      ],
+      "seconds": 2.0
+    },
+    {
+      "grid_h_divisions": 28,
+      "pair": false,
+      "side_ground_gap_mm": null,
+      "ohm": 51.229,
+      "iterations": [
+        1042,
+        966
+      ],
+      "seconds": 12.5
+    },
+    {
+      "grid_h_divisions": 28,
+      "pair": false,
+      "side_ground_gap_mm": 0.3048,
+      "ohm": 50.937,
+      "iterations": [
+        996,
+        935
+      ],
+      "seconds": 12.6
+    },
+    {
+      "grid_h_divisions": 28,
+      "pair": true,
+      "side_ground_gap_mm": null,
+      "ohm": 89.943,
+      "iterations": [
+        958,
+        889
+      ],
+      "seconds": 13.4
+    },
+    {
+      "grid_h_divisions": 28,
+      "pair": true,
+      "side_ground_gap_mm": 0.3048,
+      "ohm": 89.783,
+      "iterations": [
+        898,
+        962
+      ],
+      "seconds": 15.4
+    }
+  ],
+  "impedance_model": {
+    "method": "固定截面二维静电有限差分；由实际介质与空气电容求准 TEM 阻抗，含两侧共面地。",
+    "dielectric_mm": 0.0994,
+    "dielectric_Dk": 4.1,
+    "outer_copper_mm": 0.035,
+    "signal_width_mm": 0.1524,
+    "USB_pair_gap_mm": 0.1524,
+    "mask_mm": 0.0152,
+    "mask_Dk": 3.8,
+    "grid_h_divisions": [
+      20,
+      28
+    ]
+  },
+  "Gerber_checks": {
+    "top": {
+      "silk_on_mask_opening_mm2": 0.0,
+      "silk_outside_board_mm2": 0.0,
+      "silk_collisions": []
+    },
+    "bottom": {
+      "silk_on_mask_opening_mm2": 0.0,
+      "silk_outside_board_mm2": 0.0,
+      "silk_collisions": []
+    },
+    "drills": {
+      "npth": 2,
+      "pth_export": 120,
+      "via_export": 108,
+      "min_via_mm": 0.3048
+    }
+  },
+  "measurement_notes": [
+    "POURED 实心轮廓包含 fineness 笔宽，当前为 8 mil；已计入每侧 4 mil 并对照 Gerber 0.2032 mm aperture。",
+    "实际地铜连通以原生 Gerber 铜区、地过孔和接地连接器通孔交叉核对；面积扣除实际钻孔。",
+    "新增覆铜与原 5V_IN 区域自动避让，输入铜区仍保留，局部边界略收缩。",
+    "SD/USB 路径、线宽和信号过孔未修改，前轮几何长度结论继续适用。"
+  ],
+  "limits": [
+    "阻抗结果针对均匀走线截面，未替代连接器/焊盘/过孔的三维电磁仿真。",
+    "介质、铜截面和阻焊为目标层叠与近似模型；仍需板厂确认实际控制阻抗条件。",
+    "没有实物装配、USB 通信、SD 写入、温升或 EMC 测试；未发布生产包。"
+  ]
+}

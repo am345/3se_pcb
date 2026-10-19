@@ -1,0 +1,361 @@
+{
+  "date": "2026-10-16",
+  "software": "EasyEDA Pro 4.1.71.7a7261be",
+  "source": "hardware/SerialLegLogger.eprj3 及完整 hardware 目录；未提交工作树",
+  "base_commit": "27a9aebb6f87ded35f4d1f7330f6f76075f9c465",
+  "method": "保留用户布线，逐网人工确定折点，由原生 API 落图；未使用自动寻路或 computer use。",
+  "counts": {
+    "components": 43,
+    "tracks": 357,
+    "vias": 72,
+    "track_layers": {
+      "1": 301,
+      "2": 56
+    }
+  },
+  "native_DRC": [],
+  "native_ERC": [
+    {
+      "type": "warn",
+      "rule": "ATTRMATCHCODE",
+      "primitives": [
+        {
+          "primitiveId": "a57e5f99cd335263",
+          "sheet": "705f0c5067bd3436",
+          "name": "U1($1I82)"
+        },
+        {
+          "primitiveId": "5ad61c0edd51ddb3",
+          "sheet": "705f0c5067bd3436",
+          "name": "L1($1I92)"
+        }
+      ]
+    }
+  ],
+  "netlist_pin_entries": 195,
+  "netlist_differences": [],
+  "schematic_changes_except_document_header": [],
+  "rule_records": 69,
+  "rule_changes": [
+    {
+      "key": [
+        "RULE_SELECTOR",
+        "[\"RULE_SELECTOR\",[\"NET\",\"5V\"]]"
+      ],
+      "before": {
+        "ruleOrder": 4,
+        "ruleKeyValue": {
+          "COPPER": "copperRegion"
+        },
+        "copperValue": {},
+        "innerPlaneValue": {},
+        "parent": null
+      },
+      "after": {
+        "ruleOrder": 4,
+        "ruleKeyValue": {},
+        "copperValue": {},
+        "innerPlaneValue": {},
+        "parent": null
+      }
+    }
+  ],
+  "rule_change_note": "仅客户端保存清除无 5V 覆铜使用的冗余默认连接方式绑定；数值规则、检查开关和错误豁免未修改。",
+  "stackup_changes": [],
+  "component_moves": [
+    {
+      "ref": "C6",
+      "before": {
+        "x": 3655,
+        "y": -2310,
+        "rotation": 180
+      },
+      "after": {
+        "x": 3655,
+        "y": -2320,
+        "rotation": 180
+      }
+    },
+    {
+      "ref": "C13",
+      "before": {
+        "x": 3405,
+        "y": -1390,
+        "rotation": -90.00000000000001
+      },
+      "after": {
+        "x": 3600,
+        "y": -1265,
+        "rotation": 90
+      }
+    }
+  ],
+  "SD_centerline_lengths_including_resistor_pad_span": {
+    "CLK": {
+      "length_mil": 1139.651,
+      "length_mm": 28.9471,
+      "layer": 1,
+      "signal_vias": 0,
+      "delta_to_CLK_mil": 0.0
+    },
+    "CMD": {
+      "length_mil": 1106.278,
+      "length_mm": 28.0995,
+      "layer": 1,
+      "signal_vias": 0,
+      "delta_to_CLK_mil": -33.373
+    },
+    "D0": {
+      "length_mil": 1137.51,
+      "length_mm": 28.8928,
+      "layer": 1,
+      "signal_vias": 0,
+      "delta_to_CLK_mil": -2.141
+    },
+    "D1": {
+      "length_mil": 1174.378,
+      "length_mm": 29.8292,
+      "layer": 1,
+      "signal_vias": 0,
+      "delta_to_CLK_mil": 34.727
+    },
+    "D2": {
+      "length_mil": 1099.175,
+      "length_mm": 27.919,
+      "layer": 1,
+      "signal_vias": 0,
+      "delta_to_CLK_mil": -40.476
+    },
+    "D3": {
+      "length_mil": 1105.512,
+      "length_mm": 28.08,
+      "layer": 1,
+      "signal_vias": 0,
+      "delta_to_CLK_mil": -34.139
+    }
+  },
+  "USB_centerline_lengths": {
+    "USB_DP": 1506.8082815090347,
+    "USB_DM": 1500.8799410394663,
+    "USB_DP_MCU": 45.149747468305875,
+    "USB_DM_MCU": 60.26854249492385,
+    "main_pair_delta_mil": 5.928340469568411,
+    "including_MCU_delta_mil": 9.190454557049634,
+    "including_MCU_delta_mm": 0.2334375457490607
+  },
+  "reference_planes": {
+    "15": {
+      "copper_mm2": 1320.8627969131423,
+      "islands": 1
+    },
+    "16": {
+      "copper_mm2": 1320.8627969131423,
+      "islands": 1
+    }
+  },
+  "reference_width_check": [
+    {
+      "net": "$1N279",
+      "layer": 1,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 1,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 2,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "SD_CLK_MCU",
+      "layer": 1,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "SD_CMD",
+      "layer": 1,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "SD_CMD_MCU",
+      "layer": 1,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "SD_D0",
+      "layer": 1,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "SD_D0_MCU",
+      "layer": 1,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "SD_D1",
+      "layer": 1,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "SD_D1_MCU",
+      "layer": 1,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "SD_D2",
+      "layer": 1,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "SD_D2_MCU",
+      "layer": 1,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "SD_D3",
+      "layer": 1,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "SD_D3_MCU",
+      "layer": 1,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "USB_DM",
+      "layer": 1,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "USB_DM",
+      "layer": 2,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "USB_DM_MCU",
+      "layer": 1,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "USB_DP",
+      "layer": 1,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "USB_DP",
+      "layer": 2,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    },
+    {
+      "net": "USB_DP_MCU",
+      "layer": 1,
+      "unreferenced_mm2": 0.0,
+      "locations": []
+    }
+  ],
+  "reference_exclusions": "信号自身过孔及连接器通孔的局部避空区；已检查换层邻近地过孔。",
+  "native_gerber_silk_check": {
+    "top": {
+      "silk_on_mask_opening_mm2": 0.0,
+      "silk_outside_board_mm2": 0.0,
+      "silk_collisions": []
+    },
+    "bottom": {
+      "silk_on_mask_opening_mm2": 0.0,
+      "silk_outside_board_mm2": 0.0,
+      "silk_collisions": []
+    },
+    "drills": {
+      "npth": 2,
+      "pth_export": 84,
+      "via_export": 72,
+      "min_via_mm": 0.3048
+    }
+  },
+  "impedance_estimate": [
+    {
+      "grid_h_divisions": 12,
+      "pair": false,
+      "mask": false,
+      "ohm": 54.172,
+      "iterations": 428
+    },
+    {
+      "grid_h_divisions": 12,
+      "pair": false,
+      "mask": true,
+      "ohm": 51.163,
+      "iterations": 472
+    },
+    {
+      "grid_h_divisions": 12,
+      "pair": true,
+      "mask": false,
+      "ohm": 99.877,
+      "iterations": 400
+    },
+    {
+      "grid_h_divisions": 12,
+      "pair": true,
+      "mask": true,
+      "ohm": 92.568,
+      "iterations": 393
+    },
+    {
+      "grid_h_divisions": 20,
+      "pair": false,
+      "mask": false,
+      "ohm": 54.918,
+      "iterations": 704
+    },
+    {
+      "grid_h_divisions": 20,
+      "pair": false,
+      "mask": true,
+      "ohm": 51.673,
+      "iterations": 700
+    },
+    {
+      "grid_h_divisions": 20,
+      "pair": true,
+      "mask": false,
+      "ohm": 95.728,
+      "iterations": 652
+    },
+    {
+      "grid_h_divisions": 20,
+      "pair": true,
+      "mask": true,
+      "ohm": 88.757,
+      "iterations": 642
+    }
+  ],
+  "limits": [
+    "阻抗为矩形铜截面与阻焊近似模型估算，尚非板厂确认或实测。",
+    "回流检查覆盖实际铜线宽度，不代表完整电磁仿真。",
+    "未完成实物叠装、USB 枚举、持续写卡、温升与掉电测试。",
+    "原生 PDF 再次导出超时；交付预览来自最后一次成功的原生 Gerber。"
+  ]
+}

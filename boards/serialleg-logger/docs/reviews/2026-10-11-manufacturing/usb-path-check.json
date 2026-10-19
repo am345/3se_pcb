@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-11",
+  "method": "从原生 LINE 中心线计算长度，与当前实际 L2 GND 填充多边形做交差计算；不含器件内部延迟，不是阻抗仿真",
+  "nets": {
+    "USB_DM_MCU": {
+      "length_mm": 7.112857320485959,
+      "layer_ids": [
+        1
+      ],
+      "width_mil": [
+        6
+      ],
+      "via_count": 0,
+      "centerline_without_L2_ground_mm": 0.0,
+      "locations": []
+    },
+    "USB_DM": {
+      "length_mm": 31.95637627314212,
+      "layer_ids": [
+        1
+      ],
+      "width_mil": [
+        6
+      ],
+      "via_count": 0,
+      "centerline_without_L2_ground_mm": 1.057634476599901,
+      "locations": [
+        {
+          "line_id": "b969fe54a375884f",
+          "uncovered_mm": 1.057634476599901,
+          "bbox": [
+            39.2470855234001,
+            9.15924,
+            40.30472,
+            9.15924
+          ]
+        }
+      ]
+    },
+    "USB_DP_MCU": {
+      "length_mm": 7.11287264385534,
+      "layer_ids": [
+        1
+      ],
+      "width_mil": [
+        6
+      ],
+      "via_count": 0,
+      "centerline_without_L2_ground_mm": 0.0,
+      "locations": []
+    },
+    "USB_DP": {
+      "length_mm": 31.807874972891803,
+      "layer_ids": [
+        1
+      ],
+      "width_mil": [
+        6
+      ],
+      "via_count": 0,
+      "centerline_without_L2_ground_mm": 1.057634476599901,
+      "locations": [
+        {
+          "line_id": "723f7846087b8464",
+          "uncovered_mm": 1.057634476599901,
+          "bbox": [
+            39.2470855234001,
+            11.16076,
+            40.30472,
+            11.16076
+          ]
+        }
+      ]
+    }
+  },
+  "total_mm": {
+    "DM": 39.06923359362808,
+    "DP": 38.92074761674714
+  },
+  "difference_mm": 0.14848597688093434,
+  "limits": "端接通孔反焊盘区域无地投影；不评定场分布、眼图及 EMC"
+}

@@ -1,0 +1,1385 @@
+{
+  "date": "2026-10-16",
+  "software": "EasyEDA Pro 4.1.71.7a7261be",
+  "source": "hardware/SerialLegLogger.eprj3 及完整 hardware 目录；未提交工作树",
+  "base_commit": "27a9aebb6f87ded35f4d1f7330f6f76075f9c465",
+  "scope": "人工改五处信号线急转角，更新一个既有高速线覆铜避让区，重填全部七个铜区并保存重开；没有自动布线或 computer use。",
+  "edits": [
+    {
+      "name": "SD_D2 卡座前折返点",
+      "net": "SD_D2",
+      "layer": 1,
+      "width": 6,
+      "before": [
+        [
+          3235,
+          -1490
+        ],
+        [
+          3210,
+          -1465.1
+        ],
+        [
+          3224.4,
+          -1450.7
+        ]
+      ],
+      "after": [
+        [
+          3235,
+          -1490
+        ],
+        [
+          3218,
+          -1473
+        ],
+        [
+          3218,
+          -1457.1
+        ],
+        [
+          3224.4,
+          -1450.7
+        ]
+      ],
+      "length_delta_mil": -6.656777172162592
+    },
+    {
+      "name": "SD_CLK 模组出口",
+      "net": "SD_CLK_MCU",
+      "layer": 1,
+      "width": 6,
+      "before": [
+        [
+          3447.3,
+          -1803.4
+        ],
+        [
+          3447.3,
+          -1776
+        ],
+        [
+          3470,
+          -1776
+        ]
+      ],
+      "after": [
+        [
+          3447.3,
+          -1803.4
+        ],
+        [
+          3447.3,
+          -1784
+        ],
+        [
+          3455.3,
+          -1776
+        ],
+        [
+          3470,
+          -1776
+        ]
+      ],
+      "length_delta_mil": -4.686291501015241
+    },
+    {
+      "name": "SD_CMD 蛇形入口",
+      "net": "SD_CMD",
+      "layer": 1,
+      "width": 6,
+      "before": [
+        [
+          3165,
+          -1505
+        ],
+        [
+          3165,
+          -1364.4
+        ],
+        [
+          3180,
+          -1364.4
+        ],
+        [
+          3186,
+          -1358.4
+        ],
+        [
+          3186,
+          -1340.4
+        ]
+      ],
+      "after": [
+        [
+          3165,
+          -1505
+        ],
+        [
+          3165,
+          -1385.4
+        ],
+        [
+          3186,
+          -1364.4
+        ],
+        [
+          3186,
+          -1340.4
+        ]
+      ],
+      "length_delta_mil": -8.786796564403573
+    },
+    {
+      "name": "SD_D3 蛇形入口",
+      "net": "SD_D3",
+      "layer": 1,
+      "width": 6,
+      "before": [
+        [
+          3190,
+          -1485
+        ],
+        [
+          3190,
+          -1407.6
+        ],
+        [
+          3194,
+          -1407.6
+        ],
+        [
+          3200,
+          -1401.6
+        ],
+        [
+          3200,
+          -1383.6
+        ]
+      ],
+      "after": [
+        [
+          3190,
+          -1485
+        ],
+        [
+          3190,
+          -1417.6
+        ],
+        [
+          3200,
+          -1407.6
+        ],
+        [
+          3200,
+          -1383.6
+        ]
+      ],
+      "length_delta_mil": -2.3431457505076168
+    },
+    {
+      "name": "BOOT 底层转角",
+      "net": "BOOT",
+      "layer": 2,
+      "width": 10,
+      "before": [
+        [
+          3625.34,
+          -2135
+        ],
+        [
+          3625.34,
+          -1585
+        ],
+        [
+          3735,
+          -1585
+        ]
+      ],
+      "after": [
+        [
+          3625.34,
+          -2135
+        ],
+        [
+          3625.34,
+          -1605
+        ],
+        [
+          3645.34,
+          -1585
+        ],
+        [
+          3735,
+          -1585
+        ]
+      ],
+      "length_delta_mil": -11.715728752538098
+    }
+  ],
+  "native_checks_and_copper": {
+    "counts": {
+      "components": 43,
+      "tracks": 358,
+      "vias": 108,
+      "pours": 7,
+      "new_GND_vias": 0
+    },
+    "native_DRC": [],
+    "trace_geometry_changes": [
+      [
+        "BOOT",
+        2,
+        10
+      ],
+      [
+        "SD_D2",
+        1,
+        6
+      ],
+      [
+        "SD_CMD",
+        1,
+        6
+      ],
+      [
+        "SD_CLK_MCU",
+        1,
+        6
+      ],
+      [
+        "SD_D3",
+        1,
+        6
+      ]
+    ],
+    "component_changes": [],
+    "rule_changes": [],
+    "existing_stackup_and_keepout_changes": [
+      [
+        "REGION",
+        "73642b430ab318da"
+      ]
+    ],
+    "outline_changed": false,
+    "PCB_netlist_changed": false,
+    "SCH_PCB_match": true,
+    "pin_count": 195,
+    "GND": {
+      "1": {
+        "area_mm2": 940.4900345634479,
+        "planar_regions": 9,
+        "antenna_overlap_mm2": 0.0,
+        "native_approximation_unanchored": [],
+        "Gerber_regions_without_via_or_ground_PTH": [],
+        "Gerber_copper_area_excluding_drills_mm2": 924.4846743660929,
+        "Gerber_ground_regions": 9,
+        "Gerber_antenna_overlap_mm2": 0.0,
+        "Gerber_all_nets_antenna_overlap_mm2": 0.0
+      },
+      "2": {
+        "area_mm2": 1154.2335370678827,
+        "planar_regions": 4,
+        "antenna_overlap_mm2": 0.0,
+        "native_approximation_unanchored": [],
+        "Gerber_regions_without_via_or_ground_PTH": [],
+        "Gerber_copper_area_excluding_drills_mm2": 1138.130507648603,
+        "Gerber_ground_regions": 4,
+        "Gerber_antenna_overlap_mm2": 0.0,
+        "Gerber_all_nets_antenna_overlap_mm2": 0.0
+      },
+      "15": {
+        "area_mm2": 1373.7254256267704,
+        "planar_regions": 1,
+        "antenna_overlap_mm2": 0.0,
+        "native_approximation_unanchored": [],
+        "Gerber_regions_without_via_or_ground_PTH": [],
+        "Gerber_copper_area_excluding_drills_mm2": 1357.61491582925,
+        "Gerber_ground_regions": 1,
+        "Gerber_antenna_overlap_mm2": 0.0,
+        "Gerber_all_nets_antenna_overlap_mm2": 0.0
+      },
+      "16": {
+        "area_mm2": 1373.7254256267704,
+        "planar_regions": 1,
+        "antenna_overlap_mm2": 0.0,
+        "native_approximation_unanchored": [],
+        "Gerber_regions_without_via_or_ground_PTH": [],
+        "Gerber_copper_area_excluding_drills_mm2": 1357.61491582925,
+        "Gerber_ground_regions": 1,
+        "Gerber_antenna_overlap_mm2": 0.0,
+        "Gerber_all_nets_antenna_overlap_mm2": 0.0
+      }
+    },
+    "signal_reference": [
+      {
+        "net": "$1N279",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_CLK_MCU",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_CMD",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_CMD_MCU",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_D0",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_D0_MCU",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_D1",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_D1_MCU",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_D2",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_D2_MCU",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_D3",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "SD_D3_MCU",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "USB_DM",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "USB_DM",
+        "layer": 2,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "USB_DM_MCU",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "USB_DP",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "USB_DP",
+        "layer": 2,
+        "missing_reference_mm2": 0.0
+      },
+      {
+        "net": "USB_DP_MCU",
+        "layer": 1,
+        "missing_reference_mm2": 0.0
+      }
+    ],
+    "GND_pour_clearance": [
+      {
+        "net": "$1N279",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 12.12728073520437,
+        "min_trace_to_GND_pour_mm": 0.30803293067419096
+      },
+      {
+        "net": "SD_CLK_MCU",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 22.872999999999934,
+        "min_trace_to_GND_pour_mm": 0.5809741999999983
+      },
+      {
+        "net": "SD_CMD",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 12.199982469526514,
+        "min_trace_to_GND_pour_mm": 0.30987955472597345
+      },
+      {
+        "net": "SD_CMD_MCU",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 22.873000000000047,
+        "min_trace_to_GND_pour_mm": 0.5809742000000012
+      },
+      {
+        "net": "SD_D0",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 12.199982469525972,
+        "min_trace_to_GND_pour_mm": 0.3098795547259597
+      },
+      {
+        "net": "SD_D0_MCU",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 22.873000000000154,
+        "min_trace_to_GND_pour_mm": 0.5809742000000039
+      },
+      {
+        "net": "SD_D1",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 12.127280735204776,
+        "min_trace_to_GND_pour_mm": 0.3080329306742013
+      },
+      {
+        "net": "SD_D1_MCU",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 22.872999999999813,
+        "min_trace_to_GND_pour_mm": 0.5809741999999952
+      },
+      {
+        "net": "SD_D2",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 12.127280735205026,
+        "min_trace_to_GND_pour_mm": 0.3080329306742077
+      },
+      {
+        "net": "SD_D2_MCU",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 12.199999999999818,
+        "min_trace_to_GND_pour_mm": 0.3098799999999954
+      },
+      {
+        "net": "SD_D3",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 36.614967343276476,
+        "min_trace_to_GND_pour_mm": 0.9300201705192225
+      },
+      {
+        "net": "SD_D3_MCU",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 12.127280735204339,
+        "min_trace_to_GND_pour_mm": 0.3080329306741902
+      },
+      {
+        "net": "USB_DM",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 12.199999999999704,
+        "min_trace_to_GND_pour_mm": 0.3098799999999925
+      },
+      {
+        "net": "USB_DM",
+        "layer": 2,
+        "min_trace_to_GND_pour_mil": 12.12728073520475,
+        "min_trace_to_GND_pour_mm": 0.3080329306742006
+      },
+      {
+        "net": "USB_DM_MCU",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 22.873000000000047,
+        "min_trace_to_GND_pour_mm": 0.5809742000000012
+      },
+      {
+        "net": "USB_DP",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 12.199999999999704,
+        "min_trace_to_GND_pour_mm": 0.3098799999999925
+      },
+      {
+        "net": "USB_DP",
+        "layer": 2,
+        "min_trace_to_GND_pour_mil": 12.12728073520483,
+        "min_trace_to_GND_pour_mm": 0.3080329306742027
+      },
+      {
+        "net": "USB_DP_MCU",
+        "layer": 1,
+        "min_trace_to_GND_pour_mil": 20.60799999999972,
+        "min_trace_to_GND_pour_mm": 0.5234431999999929
+      }
+    ],
+    "5V_IN_pours": {
+      "1": {
+        "before_mm2": 3.8525704838093544,
+        "after_mm2": 3.8525704838093544
+      },
+      "2": {
+        "before_mm2": 8.336588152123444,
+        "after_mm2": 8.336588152123444
+      }
+    }
+  },
+  "signal_corner_review": {
+    "nets_reviewed": [
+      "$1N307",
+      "BOOT",
+      "EN",
+      "PROG_TX",
+      "PROG_RX",
+      "SD_CD_N",
+      "SD_D1",
+      "SD_D0",
+      "$1N347",
+      "$1N349",
+      "LED_REC",
+      "LED_ERR",
+      "SD_D1_MCU",
+      "SD_D0_MCU",
+      "SD_CLK_MCU",
+      "SD_CMD_MCU",
+      "SD_D3_MCU",
+      "SD_D2_MCU",
+      "$1N279",
+      "SD_CMD",
+      "SD_D3",
+      "USB_DP",
+      "USB_DM",
+      "USB_DP_MCU",
+      "USB_DM_MCU",
+      "SD_D2"
+    ],
+    "free_sharp_corners_before": [
+      {
+        "net": "BOOT",
+        "layer": 2,
+        "point_mil": [
+          3625.34,
+          -1585
+        ],
+        "inside_angle_deg": 90.0,
+        "degree": 2,
+        "lines": [
+          "0e0990d04e58d7c1",
+          "98c37c112c3ca376"
+        ],
+        "neighbors": [
+          [
+            3625.34,
+            -2135
+          ],
+          [
+            3735,
+            -1585
+          ]
+        ]
+      },
+      {
+        "net": "SD_CLK_MCU",
+        "layer": 1,
+        "point_mil": [
+          3447.3,
+          -1776
+        ],
+        "inside_angle_deg": 90.0,
+        "degree": 2,
+        "lines": [
+          "105b683f95e0e7f9",
+          "8d1607a968e4f81e"
+        ],
+        "neighbors": [
+          [
+            3470,
+            -1776
+          ],
+          [
+            3447.3,
+            -1803.4
+          ]
+        ]
+      },
+      {
+        "net": "SD_CMD",
+        "layer": 1,
+        "point_mil": [
+          3165,
+          -1364.4
+        ],
+        "inside_angle_deg": 90.0,
+        "degree": 2,
+        "lines": [
+          "c2f6561e85535646",
+          "eb4e2300476713f1"
+        ],
+        "neighbors": [
+          [
+            3180,
+            -1364.4
+          ],
+          [
+            3165,
+            -1505
+          ]
+        ]
+      },
+      {
+        "net": "SD_D3",
+        "layer": 1,
+        "point_mil": [
+          3190,
+          -1407.6
+        ],
+        "inside_angle_deg": 90.0,
+        "degree": 2,
+        "lines": [
+          "213130ee53bb2222",
+          "a028920aa6209731"
+        ],
+        "neighbors": [
+          [
+            3194,
+            -1407.6
+          ],
+          [
+            3190,
+            -1485
+          ]
+        ]
+      },
+      {
+        "net": "SD_D2",
+        "layer": 1,
+        "point_mil": [
+          3210,
+          -1465.1
+        ],
+        "inside_angle_deg": 89.8852,
+        "degree": 2,
+        "lines": [
+          "88948de04f6cb1f7",
+          "e006027d44438aaa"
+        ],
+        "neighbors": [
+          [
+            3224.4,
+            -1450.6999999999998
+          ],
+          [
+            3235,
+            -1490
+          ]
+        ]
+      }
+    ],
+    "free_sharp_corners_after": [],
+    "pad_or_via_connections_retained": [
+      {
+        "net": "BOOT",
+        "layer": 1,
+        "point_mil": [
+          3625.34,
+          -2170
+        ],
+        "inside_angle_deg": 90.0,
+        "degree": 2,
+        "lines": [
+          "0e294b42e9ec8d7c",
+          "2f4376d2480cd87e"
+        ],
+        "neighbors": [
+          [
+            3625.34,
+            -2135
+          ],
+          [
+            3598.4749999999995,
+            -2170
+          ]
+        ]
+      },
+      {
+        "net": "EN",
+        "layer": 1,
+        "point_mil": [
+          2952,
+          -2327.56
+        ],
+        "inside_angle_deg": 90.0,
+        "degree": 2,
+        "lines": [
+          "fc98f9256497bb57",
+          "3b19ba97850a9740"
+        ],
+        "neighbors": [
+          [
+            2952,
+            -2321.4386
+          ],
+          [
+            2992.085,
+            -2327.56
+          ]
+        ]
+      },
+      {
+        "net": "SD_CD_N",
+        "layer": 1,
+        "point_mil": [
+          3324.57,
+          -1104.81
+        ],
+        "inside_angle_deg": 0.1443,
+        "degree": 4,
+        "lines": [
+          "d9fb02e58140308c",
+          "2cf5ec609342e574"
+        ],
+        "neighbors": [
+          [
+            3440.5299999999997,
+            -1104.81
+          ],
+          [
+            3400,
+            -1105
+          ]
+        ]
+      },
+      {
+        "net": "SD_CD_N",
+        "layer": 1,
+        "point_mil": [
+          3324.57,
+          -1104.81
+        ],
+        "inside_angle_deg": 0.1443,
+        "degree": 4,
+        "lines": [
+          "4ffd2775db9c4b90",
+          "609574bcf24dec97"
+        ],
+        "neighbors": [
+          [
+            3320.6,
+            -1104.81
+          ],
+          [
+            3320.6,
+            -1104.8
+          ]
+        ]
+      },
+      {
+        "net": "USB_DP",
+        "layer": 1,
+        "point_mil": [
+          4134.8,
+          -937.6
+        ],
+        "inside_angle_deg": 90.0,
+        "degree": 2,
+        "lines": [
+          "12cd57637a9aee26",
+          "10c19e20c0b77d25"
+        ],
+        "neighbors": [
+          [
+            4134.8,
+            -900
+          ],
+          [
+            4225.2,
+            -937.6
+          ]
+        ]
+      },
+      {
+        "net": "USB_DM",
+        "layer": 1,
+        "point_mil": [
+          4134.8,
+          -1012.4
+        ],
+        "inside_angle_deg": 90.0,
+        "degree": 2,
+        "lines": [
+          "ceece86f3f6804d3",
+          "55e8519a2b329e64"
+        ],
+        "neighbors": [
+          [
+            4134.8,
+            -1050
+          ],
+          [
+            4225.2,
+            -1012.4
+          ]
+        ]
+      }
+    ],
+    "criterion": "连续两段信号线的连接点在焊盘/过孔外，内夹角小于 134 度作为候选；人工确认后改为 45 度转向。134 度只用于吸收坐标舍入误差，不是修改 EDA 规则。"
+  },
+  "lengths_before": {
+    "SD": {
+      "CLK": {
+        "length_mil": 1139.651038586687,
+        "length_mm": 28.94713638010185,
+        "source": {
+          "mil": 161.25281374238557,
+          "line_ids": [
+            "8d1607a968e4f81e",
+            "105b683f95e0e7f9",
+            "7de87ef446f78f07",
+            "790d3c7d60e220ba",
+            "c90b8bb598246897"
+          ],
+          "endpoint_adjustment_mil": 0.0,
+          "layers": [
+            1
+          ]
+        },
+        "main": {
+          "mil": 918.9982248443014,
+          "line_ids": [
+            "09c275b4fe678aac",
+            "96ea8cea96daa9d0",
+            "0f16dc2b70af2ae0",
+            "acffa162aba8bb41",
+            "3990e29fdbea62b2",
+            "8343c0bad63aa95c",
+            "60198bbe1de470d2",
+            "25a8df38a1dfc4d5",
+            "0c89369fb2a53a7a",
+            "6b662df3dd905194",
+            "9f3f967c1f15b8a5",
+            "28d2721627772e35",
+            "475ea5f2ad0d6587",
+            "7a94b2cf2c030669",
+            "433ea3aafa9db5eb"
+          ],
+          "endpoint_adjustment_mil": 0.0,
+          "layers": [
+            1
+          ]
+        },
+        "resistor_span_mil": 59.40000000000009,
+        "signal_vias": 0,
+        "delta_to_CLK_mil": 0.0
+      },
+      "CMD": {
+        "length_mil": 1106.2781597253734,
+        "length_mm": 28.099465257024484,
+        "source": {
+          "mil": 152.57707781109747,
+          "line_ids": [
+            "880876c45a1bce43",
+            "003cb3498b106c93",
+            "ceca17afb75e3715"
+          ],
+          "endpoint_adjustment_mil": 0.0,
+          "layers": [
+            1
+          ]
+        },
+        "main": {
+          "mil": 894.3010819142758,
+          "line_ids": [
+            "b3c060f3a6dcfda1",
+            "1490b42081ab89f3",
+            "66151a70c6c142e1",
+            "64bf3798f6b98a8f",
+            "eb4e2300476713f1",
+            "c2f6561e85535646",
+            "2e9a800d25f10995",
+            "ad72ec8258534585",
+            "f40f739b2e5b7609",
+            "2909701a8008a364",
+            "e224158c7a8b9218",
+            "3215bdce748a31ea",
+            "9bec49f5dabc5acb",
+            "1d47fbd4eea33adb",
+            "22c49682c0533c2c",
+            "126da1c651c57981",
+            "08de0ae318cd4128",
+            "dc9f0c12a5b887fe",
+            "f2524f7d70eb800a",
+            "efc749069f0e514c",
+            "68ad857d2cf6fa9d",
+            "8c4e2561e06e13db"
+          ],
+          "endpoint_adjustment_mil": 0.0,
+          "layers": [
+            1
+          ]
+        },
+        "resistor_span_mil": 59.40000000000009,
+        "signal_vias": 0,
+        "delta_to_CLK_mil": -33.372878861313666
+      },
+      "D0": {
+        "length_mil": 1137.5002089490172,
+        "length_mm": 28.892505307305036,
+        "source": {
+          "mil": 101.93738084913149,
+          "line_ids": [
+            "2cc5344d653e6d90",
+            "d8adbc99c70ac176"
+          ],
+          "endpoint_adjustment_mil": 4.547473508864641e-13,
+          "layers": [
+            1
+          ]
+        },
+        "main": {
+          "mil": 976.1628280998857,
+          "line_ids": [
+            "c7dafe04010b17ec",
+            "6fccf940ee68679d",
+            "328b1fc13e302305",
+            "acfa8541d955714e",
+            "f41f415bf596d1c6",
+            "df7ddb1347b46194",
+            "9774ac0ce5b4a056"
+          ],
+          "endpoint_adjustment_mil": 0.0,
+          "layers": [
+            1
+          ]
+        },
+        "resistor_span_mil": 59.40000000000009,
+        "signal_vias": 0,
+        "delta_to_CLK_mil": -2.150829637669858
+      },
+      "D1": {
+        "length_mil": 1174.378210486802,
+        "length_mm": 29.829206546364766,
+        "source": {
+          "mil": 125.96072144624362,
+          "line_ids": [
+            "cc224c58624844ac",
+            "5b77453777c24755",
+            "51f2ffb8782b38da"
+          ],
+          "endpoint_adjustment_mil": 0.0,
+          "layers": [
+            1
+          ]
+        },
+        "main": {
+          "mil": 989.0174890405581,
+          "line_ids": [
+            "dfba456a95f4c6a2",
+            "5e50919f9a7920d5",
+            "a4393ac904b76476",
+            "69fcd250a7514ffb",
+            "e25479c31ce0ba55",
+            "c17fe50e45f08536",
+            "978349e81eeab024"
+          ],
+          "endpoint_adjustment_mil": 0.0,
+          "layers": [
+            1
+          ]
+        },
+        "resistor_span_mil": 59.40000000000009,
+        "signal_vias": 0,
+        "delta_to_CLK_mil": 34.727171900114854
+      },
+      "D2": {
+        "length_mil": 1099.1748426133756,
+        "length_mm": 27.91904100237974,
+        "source": {
+          "mil": 92.27808748764143,
+          "line_ids": [
+            "8d3512d7c4e9eb01",
+            "dad26815d4c0b34d"
+          ],
+          "endpoint_adjustment_mil": 2.2737367544323206e-13,
+          "layers": [
+            1
+          ]
+        },
+        "main": {
+          "mil": 947.4967551257346,
+          "line_ids": [
+            "85b2d4f6ce371493",
+            "7ebe569014e1b5f9",
+            "30a6ddab06a5d11c",
+            "6af47365ab1744b6",
+            "3e0c5e1d83b846c5",
+            "9bb908b10467fd4c",
+            "27f7f45c1ade1889",
+            "e006027d44438aaa",
+            "88948de04f6cb1f7",
+            "2ae87d14366e75d7"
+          ],
+          "endpoint_adjustment_mil": 2.2737367544323206e-13,
+          "layers": [
+            1
+          ]
+        },
+        "resistor_span_mil": 59.399999999999636,
+        "signal_vias": 0,
+        "delta_to_CLK_mil": -40.476195973311405
+      },
+      "D3": {
+        "length_mil": 1105.5117600329309,
+        "length_mm": 28.07999870483644,
+        "source": {
+          "mil": 220.11067811865462,
+          "line_ids": [
+            "2f44b07d71087ff7",
+            "d28ee75cee11d263",
+            "a46879cd68ac32e5",
+            "7140a620c664f0f7",
+            "28f53bba519d9926"
+          ],
+          "endpoint_adjustment_mil": 0.0,
+          "layers": [
+            1
+          ]
+        },
+        "main": {
+          "mil": 826.001081914276,
+          "line_ids": [
+            "e135479baa38e91d",
+            "d5fdcd8e4c73dd17",
+            "fbd0c7148aedb3b7",
+            "8473829317fca2c5",
+            "a028920aa6209731",
+            "213130ee53bb2222",
+            "bc5fa2694e15dcb4",
+            "0530a8467d0f2a93",
+            "69ecb818ae821ad9",
+            "d3ac59283e7108a8",
+            "77f9c59ee9aebb1d",
+            "1e7eded1848b4055",
+            "f9f763293b4e1f7a",
+            "7528e4411da8b585",
+            "84416f815b522061",
+            "568f30b101816363",
+            "3137ce9aa5aaff7d",
+            "2b09b25b2bcabf6c",
+            "c0b4b2aa0a4c4f72",
+            "57f842cd3f76baf4",
+            "aeaab39043ce92bd",
+            "6c4fd01b5d8b9789"
+          ],
+          "endpoint_adjustment_mil": 0.0,
+          "layers": [
+            1
+          ]
+        },
+        "resistor_span_mil": 59.40000000000009,
+        "signal_vias": 0,
+        "delta_to_CLK_mil": -34.139278553756185
+      }
+    },
+    "USB": {
+      "USB_DP": 1506.8082815090347,
+      "USB_DM": 1500.8799410394663,
+      "USB_DP_MCU": 45.149747468305875,
+      "USB_DM_MCU": 60.26854249492385,
+      "main_pair_delta_mil": 5.928340469568411,
+      "including_MCU_delta_mil": 9.190454557049634,
+      "including_MCU_delta_mm": 0.2334375457490607
+    }
+  },
+  "lengths_after": {
+    "SD": {
+      "CLK": {
+        "length_mil": 1134.964747085672,
+        "length_mm": 28.828104575976063,
+        "source": {
+          "mil": 156.56652224137034,
+          "line_ids": [
+            "da83e7044964d856",
+            "68f0baa05bdd64f0",
+            "057dd68c05171d36",
+            "7de87ef446f78f07",
+            "790d3c7d60e220ba",
+            "c90b8bb598246897"
+          ],
+          "endpoint_adjustment_mil": 0.0,
+          "layers": [
+            1
+          ]
+        },
+        "main": {
+          "mil": 918.9982248443014,
+          "line_ids": [
+            "09c275b4fe678aac",
+            "96ea8cea96daa9d0",
+            "0f16dc2b70af2ae0",
+            "acffa162aba8bb41",
+            "3990e29fdbea62b2",
+            "8343c0bad63aa95c",
+            "60198bbe1de470d2",
+            "25a8df38a1dfc4d5",
+            "0c89369fb2a53a7a",
+            "6b662df3dd905194",
+            "9f3f967c1f15b8a5",
+            "28d2721627772e35",
+            "475ea5f2ad0d6587",
+            "7a94b2cf2c030669",
+            "433ea3aafa9db5eb"
+          ],
+          "endpoint_adjustment_mil": 0.0,
+          "layers": [
+            1
+          ]
+        },
+        "resistor_span_mil": 59.40000000000009,
+        "signal_vias": 0,
+        "delta_to_CLK_mil": 0.0
+      },
+      "CMD": {
+        "length_mil": 1097.4913631609697,
+        "length_mm": 27.87628062428863,
+        "source": {
+          "mil": 152.57707781109747,
+          "line_ids": [
+            "880876c45a1bce43",
+            "003cb3498b106c93",
+            "ceca17afb75e3715"
+          ],
+          "endpoint_adjustment_mil": 0.0,
+          "layers": [
+            1
+          ]
+        },
+        "main": {
+          "mil": 885.5142853498722,
+          "line_ids": [
+            "b3c060f3a6dcfda1",
+            "1490b42081ab89f3",
+            "66151a70c6c142e1",
+            "64bf3798f6b98a8f",
+            "02aff4be2d3b7bf3",
+            "2eca41190eb89526",
+            "bff9fc31e111dcaa",
+            "f40f739b2e5b7609",
+            "2909701a8008a364",
+            "e224158c7a8b9218",
+            "3215bdce748a31ea",
+            "9bec49f5dabc5acb",
+            "1d47fbd4eea33adb",
+            "22c49682c0533c2c",
+            "126da1c651c57981",
+            "08de0ae318cd4128",
+            "dc9f0c12a5b887fe",
+            "f2524f7d70eb800a",
+            "efc749069f0e514c",
+            "68ad857d2cf6fa9d",
+            "8c4e2561e06e13db"
+          ],
+          "endpoint_adjustment_mil": 0.0,
+          "layers": [
+            1
+          ]
+        },
+        "resistor_span_mil": 59.40000000000009,
+        "signal_vias": 0,
+        "delta_to_CLK_mil": -37.47338392470215
+      },
+      "D0": {
+        "length_mil": 1137.5002089490172,
+        "length_mm": 28.892505307305036,
+        "source": {
+          "mil": 101.93738084913149,
+          "line_ids": [
+            "2cc5344d653e6d90",
+            "d8adbc99c70ac176"
+          ],
+          "endpoint_adjustment_mil": 4.547473508864641e-13,
+          "layers": [
+            1
+          ]
+        },
+        "main": {
+          "mil": 976.1628280998857,
+          "line_ids": [
+            "c7dafe04010b17ec",
+            "6fccf940ee68679d",
+            "328b1fc13e302305",
+            "acfa8541d955714e",
+            "f41f415bf596d1c6",
+            "df7ddb1347b46194",
+            "9774ac0ce5b4a056"
+          ],
+          "endpoint_adjustment_mil": 0.0,
+          "layers": [
+            1
+          ]
+        },
+        "resistor_span_mil": 59.40000000000009,
+        "signal_vias": 0,
+        "delta_to_CLK_mil": 2.53546186334529
+      },
+      "D1": {
+        "length_mil": 1174.378210486802,
+        "length_mm": 29.829206546364766,
+        "source": {
+          "mil": 125.96072144624362,
+          "line_ids": [
+            "cc224c58624844ac",
+            "5b77453777c24755",
+            "51f2ffb8782b38da"
+          ],
+          "endpoint_adjustment_mil": 0.0,
+          "layers": [
+            1
+          ]
+        },
+        "main": {
+          "mil": 989.0174890405581,
+          "line_ids": [
+            "dfba456a95f4c6a2",
+            "5e50919f9a7920d5",
+            "a4393ac904b76476",
+            "69fcd250a7514ffb",
+            "e25479c31ce0ba55",
+            "c17fe50e45f08536",
+            "978349e81eeab024"
+          ],
+          "endpoint_adjustment_mil": 0.0,
+          "layers": [
+            1
+          ]
+        },
+        "resistor_span_mil": 59.40000000000009,
+        "signal_vias": 0,
+        "delta_to_CLK_mil": 39.41346340113
+      },
+      "D2": {
+        "length_mil": 1092.5180654412131,
+        "length_mm": 27.749958862206814,
+        "source": {
+          "mil": 92.27808748764143,
+          "line_ids": [
+            "8d3512d7c4e9eb01",
+            "dad26815d4c0b34d"
+          ],
+          "endpoint_adjustment_mil": 2.2737367544323206e-13,
+          "layers": [
+            1
+          ]
+        },
+        "main": {
+          "mil": 940.839977953572,
+          "line_ids": [
+            "85b2d4f6ce371493",
+            "7ebe569014e1b5f9",
+            "30a6ddab06a5d11c",
+            "6af47365ab1744b6",
+            "3e0c5e1d83b846c5",
+            "9bb908b10467fd4c",
+            "27f7f45c1ade1889",
+            "f2a9079279631c50",
+            "5a5b0f8b2565f4e0",
+            "8f705e41a0ab1edb",
+            "2ae87d14366e75d7"
+          ],
+          "endpoint_adjustment_mil": 2.2737367544323206e-13,
+          "layers": [
+            1
+          ]
+        },
+        "resistor_span_mil": 59.399999999999636,
+        "signal_vias": 0,
+        "delta_to_CLK_mil": -42.44668164445875
+      },
+      "D3": {
+        "length_mil": 1103.1686142824233,
+        "length_mm": 28.02048280277355,
+        "source": {
+          "mil": 220.11067811865462,
+          "line_ids": [
+            "2f44b07d71087ff7",
+            "d28ee75cee11d263",
+            "a46879cd68ac32e5",
+            "7140a620c664f0f7",
+            "28f53bba519d9926"
+          ],
+          "endpoint_adjustment_mil": 0.0,
+          "layers": [
+            1
+          ]
+        },
+        "main": {
+          "mil": 823.6579361637685,
+          "line_ids": [
+            "e135479baa38e91d",
+            "d5fdcd8e4c73dd17",
+            "fbd0c7148aedb3b7",
+            "8473829317fca2c5",
+            "2db05422ebf829de",
+            "214cee9f0570c487",
+            "da3671e6e4a6d773",
+            "69ecb818ae821ad9",
+            "d3ac59283e7108a8",
+            "77f9c59ee9aebb1d",
+            "1e7eded1848b4055",
+            "f9f763293b4e1f7a",
+            "7528e4411da8b585",
+            "84416f815b522061",
+            "568f30b101816363",
+            "3137ce9aa5aaff7d",
+            "2b09b25b2bcabf6c",
+            "c0b4b2aa0a4c4f72",
+            "57f842cd3f76baf4",
+            "aeaab39043ce92bd",
+            "6c4fd01b5d8b9789"
+          ],
+          "endpoint_adjustment_mil": 0.0,
+          "layers": [
+            1
+          ]
+        },
+        "resistor_span_mil": 59.40000000000009,
+        "signal_vias": 0,
+        "delta_to_CLK_mil": -31.79613280324861
+      }
+    },
+    "USB": {
+      "USB_DP": 1506.8082815090347,
+      "USB_DM": 1500.8799410394663,
+      "USB_DP_MCU": 45.149747468305875,
+      "USB_DM_MCU": 60.26854249492385,
+      "main_pair_delta_mil": 5.928340469568411,
+      "including_MCU_delta_mil": 9.190454557049634,
+      "including_MCU_delta_mm": 0.2334375457490607
+    }
+  },
+  "length_convention": "按原生回读的既有铜线量测，包含 MCU 至串阻、串阻焊盘中心跨度及至卡座的主路径，不计上拉支线。端点与焊盘中心的微小舍入偏差补入长度。",
+  "Gerber_checks": {
+    "top": {
+      "silk_on_mask_opening_mm2": 0.0,
+      "silk_outside_board_mm2": 0.0,
+      "silk_collisions": []
+    },
+    "bottom": {
+      "silk_on_mask_opening_mm2": 0.0,
+      "silk_outside_board_mm2": 0.0,
+      "silk_collisions": []
+    },
+    "drills": {
+      "npth": 2,
+      "pth_export": 120,
+      "via_export": 108,
+      "min_via_mm": 0.3048
+    }
+  },
+  "schematic_changes_except_document_header": [],
+  "ERC": "原理图未改，本轮未重复 ERC；前轮 0 错误、1 组 U1/L1 ATTRMATCHCODE 警告仍保留。",
+  "impedance": "线宽、USB 线间隙、层叠均未改变；修改后的覆铜间距仍满足上一轮 12 mil 最小值假设。本轮未重复均匀截面场求解，未进行转角三维仿真。",
+  "limits": [
+    "DRC 与几何检查不能证明反射为零；未进行 IBIS/三维电磁或样板信号完整性实测。",
+    "未发布生产包；板厂阻抗确认、机械试配与功能验证仍待完成。"
+  ]
+}

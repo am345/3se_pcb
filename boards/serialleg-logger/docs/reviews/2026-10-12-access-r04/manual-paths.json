@@ -1,0 +1,6278 @@
+{
+  "description": "人工固定节点表；无寻路及自动优化",
+  "removeLines": [],
+  "removeVias": [],
+  "lines": [
+    {
+      "net": "USB_DM_MCU",
+      "layer": 1,
+      "lineWidth": 6,
+      "startX": 750,
+      "startY": 753.4,
+      "endX": 750,
+      "endY": 710
+    },
+    {
+      "net": "USB_DP_MCU",
+      "layer": 1,
+      "lineWidth": 6,
+      "startX": 783.5,
+      "startY": 753.4,
+      "endX": 783.5,
+      "endY": 710
+    },
+    {
+      "net": "USB_DM_MCU",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 750,
+      "startY": 710,
+      "endX": 735,
+      "endY": 684.7
+    },
+    {
+      "net": "USB_DP_MCU",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 783.5,
+      "startY": 710,
+      "endX": 798.5,
+      "endY": 684.7
+    },
+    {
+      "net": "USB_DM",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 735,
+      "startY": 625.3,
+      "endX": 735,
+      "endY": 605
+    },
+    {
+      "net": "USB_DM",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 735,
+      "startY": 605,
+      "endX": 755,
+      "endY": 585
+    },
+    {
+      "net": "USB_DM",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 755,
+      "startY": 585,
+      "endX": 755,
+      "endY": 340
+    },
+    {
+      "net": "USB_DM",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 755,
+      "startY": 340,
+      "endX": 625,
+      "endY": 210
+    },
+    {
+      "net": "USB_DM",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 625,
+      "startY": 210,
+      "endX": 572.6,
+      "endY": 210
+    },
+    {
+      "net": "USB_DM",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 572.6,
+      "startY": 210,
+      "endX": 572.6,
+      "endY": 155.2
+    },
+    {
+      "net": "USB_DM",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 572.6,
+      "startY": 155.2,
+      "endX": 572.6,
+      "endY": 64.8
+    },
+    {
+      "net": "USB_DM",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 572.6,
+      "startY": 64.8,
+      "endX": 570.6,
+      "endY": 62.8
+    },
+    {
+      "net": "USB_DM",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 570.6,
+      "startY": 62.8,
+      "endX": 570.6,
+      "endY": 6.2
+    },
+    {
+      "net": "USB_DP",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 798.5,
+      "startY": 625.3,
+      "endX": 798.5,
+      "endY": 600
+    },
+    {
+      "net": "USB_DP",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 798.5,
+      "startY": 600,
+      "endX": 803.5,
+      "endY": 595
+    },
+    {
+      "net": "USB_DP",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 803.5,
+      "startY": 595,
+      "endX": 834.372,
+      "endY": 595
+    },
+    {
+      "net": "USB_DP",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 834.372,
+      "startY": 595,
+      "endX": 839.372,
+      "endY": 590
+    },
+    {
+      "net": "USB_DP",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 839.372,
+      "startY": 590,
+      "endX": 839.372,
+      "endY": 565
+    },
+    {
+      "net": "USB_DP",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 839.372,
+      "startY": 565,
+      "endX": 769,
+      "endY": 494.628
+    },
+    {
+      "net": "USB_DP",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 769,
+      "startY": 494.628,
+      "endX": 769,
+      "endY": 334.201
+    },
+    {
+      "net": "USB_DP",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 769,
+      "startY": 334.201,
+      "endX": 647.4,
+      "endY": 212.601
+    },
+    {
+      "net": "USB_DP",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 647.4,
+      "startY": 212.601,
+      "endX": 647.4,
+      "endY": 155.2
+    },
+    {
+      "net": "USB_DP",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 647.4,
+      "startY": 155.2,
+      "endX": 647.4,
+      "endY": 64.8
+    },
+    {
+      "net": "USB_DP",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 647.4,
+      "startY": 64.8,
+      "endX": 649.4,
+      "endY": 62.8
+    },
+    {
+      "net": "USB_DP",
+      "layer": 2,
+      "lineWidth": 6,
+      "startX": 649.4,
+      "startY": 62.8,
+      "endX": 649.4,
+      "endY": 6.2
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 610,
+      "startY": 155.2,
+      "endX": 610,
+      "endY": 125
+    },
+    {
+      "net": "SD_CMD_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 475.4,
+      "startY": 795.8,
+      "endX": 435,
+      "endY": 795.8
+    },
+    {
+      "net": "SD_CMD_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 435,
+      "startY": 795.8,
+      "endX": 435,
+      "endY": 690
+    },
+    {
+      "net": "SD_CMD_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 435,
+      "startY": 690,
+      "endX": 445,
+      "endY": 680
+    },
+    {
+      "net": "SD_CMD_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 445,
+      "startY": 680,
+      "endX": 445,
+      "endY": 679.7
+    },
+    {
+      "net": "SD_CLK_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 515.8,
+      "startY": 753.4,
+      "endX": 515.8,
+      "endY": 738
+    },
+    {
+      "net": "SD_CLK_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 515.8,
+      "startY": 738,
+      "endX": 515,
+      "endY": 737.2
+    },
+    {
+      "net": "SD_CLK_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 515,
+      "startY": 737.2,
+      "endX": 515,
+      "endY": 714.7
+    },
+    {
+      "net": "SD_D0_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 549.2,
+      "startY": 753.4,
+      "endX": 549.2,
+      "endY": 740
+    },
+    {
+      "net": "SD_D0_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 549.2,
+      "startY": 740,
+      "endX": 555,
+      "endY": 734.2
+    },
+    {
+      "net": "SD_D0_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 555,
+      "startY": 734.2,
+      "endX": 555,
+      "endY": 649.7
+    },
+    {
+      "net": "SD_D1_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 582.7,
+      "startY": 753.4,
+      "endX": 582.7,
+      "endY": 690
+    },
+    {
+      "net": "SD_D1_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 582.7,
+      "startY": 690,
+      "endX": 595,
+      "endY": 677.7
+    },
+    {
+      "net": "SD_D1_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 595,
+      "startY": 677.7,
+      "endX": 595,
+      "endY": 669.7
+    },
+    {
+      "net": "SD_D2_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 616.1,
+      "startY": 753.4,
+      "endX": 616.1,
+      "endY": 710
+    },
+    {
+      "net": "SD_D2_MCU",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 616.1,
+      "startY": 710,
+      "endX": 640.3,
+      "endY": 710
+    },
+    {
+      "net": "SD_D2_MCU",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 640.3,
+      "startY": 710,
+      "endX": 650,
+      "endY": 719.7
+    },
+    {
+      "net": "SD_D3_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 649.6,
+      "startY": 753.4,
+      "endX": 649.6,
+      "endY": 680
+    },
+    {
+      "net": "SD_D3_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 649.6,
+      "startY": 680,
+      "endX": 660,
+      "endY": 669.6
+    },
+    {
+      "net": "SD_D3_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 660,
+      "startY": 669.6,
+      "endX": 660,
+      "endY": 644.7
+    },
+    {
+      "net": "SD_D2",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 650,
+      "startY": 660.3,
+      "endX": 650,
+      "endY": 605
+    },
+    {
+      "net": "SD_D2",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 650,
+      "startY": 605,
+      "endX": 615,
+      "endY": 570
+    },
+    {
+      "net": "SD_D2",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 615,
+      "startY": 570,
+      "endX": 640,
+      "endY": 545
+    },
+    {
+      "net": "SD_D2",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 640,
+      "startY": 545,
+      "endX": 665,
+      "endY": 520
+    },
+    {
+      "net": "SD_D2",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 665,
+      "startY": 520,
+      "endX": 665,
+      "endY": 495.1
+    },
+    {
+      "net": "SD_D2",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 665,
+      "startY": 495.1,
+      "endX": 699.4,
+      "endY": 460.7
+    },
+    {
+      "net": "SD_D2",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 684.7,
+      "startY": 520,
+      "endX": 684.7,
+      "endY": 540
+    },
+    {
+      "net": "SD_D2",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 684.7,
+      "startY": 540,
+      "endX": 674.7,
+      "endY": 550
+    },
+    {
+      "net": "SD_D2",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 674.7,
+      "startY": 550,
+      "endX": 635,
+      "endY": 550
+    },
+    {
+      "net": "SD_D2",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 635,
+      "startY": 550,
+      "endX": 615,
+      "endY": 570
+    },
+    {
+      "net": "SD_D3",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 660,
+      "startY": 585.3,
+      "endX": 660,
+      "endY": 590
+    },
+    {
+      "net": "SD_D3",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 660,
+      "startY": 590,
+      "endX": 670,
+      "endY": 600
+    },
+    {
+      "net": "SD_D3",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 670,
+      "startY": 600,
+      "endX": 735,
+      "endY": 600
+    },
+    {
+      "net": "SD_D3",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 735,
+      "startY": 600,
+      "endX": 790,
+      "endY": 545
+    },
+    {
+      "net": "SD_D3",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 790,
+      "startY": 545,
+      "endX": 790,
+      "endY": 417.6
+    },
+    {
+      "net": "SD_D3",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 790,
+      "startY": 417.6,
+      "endX": 699.5,
+      "endY": 417.6
+    },
+    {
+      "net": "SD_D3",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 514.7,
+      "startY": 500,
+      "endX": 525,
+      "endY": 489.7
+    },
+    {
+      "net": "SD_D3",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 525,
+      "startY": 489.7,
+      "endX": 525,
+      "endY": 475
+    },
+    {
+      "net": "SD_D3",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 525,
+      "startY": 475,
+      "endX": 525,
+      "endY": 535
+    },
+    {
+      "net": "SD_D3",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 525,
+      "startY": 535,
+      "endX": 650,
+      "endY": 535
+    },
+    {
+      "net": "SD_D3",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 650,
+      "startY": 535,
+      "endX": 680,
+      "endY": 565
+    },
+    {
+      "net": "SD_D3",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 680,
+      "startY": 565,
+      "endX": 680,
+      "endY": 590
+    },
+    {
+      "net": "SD_D3",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 680,
+      "startY": 590,
+      "endX": 680,
+      "endY": 600
+    },
+    {
+      "net": "SD_CMD",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 445,
+      "startY": 620.3,
+      "endX": 450,
+      "endY": 620.3
+    },
+    {
+      "net": "SD_CMD",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 450,
+      "startY": 620.3,
+      "endX": 470,
+      "endY": 600
+    },
+    {
+      "net": "SD_CMD",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 470,
+      "startY": 600,
+      "endX": 490,
+      "endY": 620
+    },
+    {
+      "net": "SD_CMD",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 490,
+      "startY": 620,
+      "endX": 490,
+      "endY": 750
+    },
+    {
+      "net": "SD_CMD",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 490,
+      "startY": 750,
+      "endX": 470,
+      "endY": 770
+    },
+    {
+      "net": "SD_CMD",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 470,
+      "startY": 770,
+      "endX": 470,
+      "endY": 800
+    },
+    {
+      "net": "SD_CMD",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 470,
+      "startY": 800,
+      "endX": 505,
+      "endY": 835
+    },
+    {
+      "net": "SD_CMD",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 505,
+      "startY": 835,
+      "endX": 940,
+      "endY": 835
+    },
+    {
+      "net": "SD_CMD",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 940,
+      "startY": 835,
+      "endX": 970,
+      "endY": 805
+    },
+    {
+      "net": "SD_CMD",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 970,
+      "startY": 805,
+      "endX": 970,
+      "endY": 355
+    },
+    {
+      "net": "SD_CMD",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 970,
+      "startY": 355,
+      "endX": 950.5,
+      "endY": 374.5
+    },
+    {
+      "net": "SD_CMD",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 950.5,
+      "startY": 374.5,
+      "endX": 699.4,
+      "endY": 374.5
+    },
+    {
+      "net": "SD_CMD",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 514.7,
+      "startY": 560,
+      "endX": 500,
+      "endY": 574.7
+    },
+    {
+      "net": "SD_CMD",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 500,
+      "startY": 574.7,
+      "endX": 490,
+      "endY": 585
+    },
+    {
+      "net": "SD_CMD",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 490,
+      "startY": 585,
+      "endX": 470,
+      "endY": 600
+    },
+    {
+      "net": "SD_CLK",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 515,
+      "startY": 655.3,
+      "endX": 515,
+      "endY": 600
+    },
+    {
+      "net": "SD_CLK",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 515,
+      "startY": 600,
+      "endX": 515,
+      "endY": 590
+    },
+    {
+      "net": "SD_CLK",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 515,
+      "startY": 590,
+      "endX": 475,
+      "endY": 550
+    },
+    {
+      "net": "SD_CLK",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 475,
+      "startY": 550,
+      "endX": 450,
+      "endY": 550
+    },
+    {
+      "net": "SD_CLK",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 450,
+      "startY": 550,
+      "endX": 440,
+      "endY": 560
+    },
+    {
+      "net": "SD_CLK",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 440,
+      "startY": 560,
+      "endX": 440,
+      "endY": 830
+    },
+    {
+      "net": "SD_CLK",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 440,
+      "startY": 830,
+      "endX": 475,
+      "endY": 865
+    },
+    {
+      "net": "SD_CLK",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 475,
+      "startY": 865,
+      "endX": 965,
+      "endY": 865
+    },
+    {
+      "net": "SD_CLK",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 965,
+      "startY": 865,
+      "endX": 995,
+      "endY": 835
+    },
+    {
+      "net": "SD_CLK",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 995,
+      "startY": 835,
+      "endX": 995,
+      "endY": 275
+    },
+    {
+      "net": "SD_CLK",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 995,
+      "startY": 275,
+      "endX": 982.1,
+      "endY": 287.9
+    },
+    {
+      "net": "SD_CLK",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 982.1,
+      "startY": 287.9,
+      "endX": 699.4,
+      "endY": 287.9
+    },
+    {
+      "net": "SD_D0",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 555,
+      "startY": 590.3,
+      "endX": 550,
+      "endY": 580
+    },
+    {
+      "net": "SD_D0",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 550,
+      "startY": 580,
+      "endX": 540,
+      "endY": 590
+    },
+    {
+      "net": "SD_D0",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 540,
+      "startY": 590,
+      "endX": 540,
+      "endY": 640
+    },
+    {
+      "net": "SD_D0",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 540,
+      "startY": 640,
+      "endX": 525,
+      "endY": 655
+    },
+    {
+      "net": "SD_D0",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 525,
+      "startY": 655,
+      "endX": 525,
+      "endY": 810
+    },
+    {
+      "net": "SD_D0",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 525,
+      "startY": 810,
+      "endX": 550,
+      "endY": 835
+    },
+    {
+      "net": "SD_D0",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 550,
+      "startY": 835,
+      "endX": 550,
+      "endY": 900
+    },
+    {
+      "net": "SD_D0",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 550,
+      "startY": 900,
+      "endX": 990,
+      "endY": 900
+    },
+    {
+      "net": "SD_D0",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 990,
+      "startY": 900,
+      "endX": 1020,
+      "endY": 870
+    },
+    {
+      "net": "SD_D0",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 1020,
+      "startY": 870,
+      "endX": 1020,
+      "endY": 231.5
+    },
+    {
+      "net": "SD_D0",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 1020,
+      "startY": 231.5,
+      "endX": 990,
+      "endY": 201.5
+    },
+    {
+      "net": "SD_D0",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 990,
+      "startY": 201.5,
+      "endX": 699.4,
+      "endY": 201.5
+    },
+    {
+      "net": "SD_D0",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 565,
+      "startY": 489.7,
+      "endX": 585,
+      "endY": 489.7
+    },
+    {
+      "net": "SD_D0",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 585,
+      "startY": 489.7,
+      "endX": 585,
+      "endY": 500
+    },
+    {
+      "net": "SD_D0",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 585,
+      "startY": 500,
+      "endX": 600,
+      "endY": 485
+    },
+    {
+      "net": "SD_D0",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 600,
+      "startY": 485,
+      "endX": 600,
+      "endY": 440
+    },
+    {
+      "net": "SD_D0",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 600,
+      "startY": 440,
+      "endX": 510,
+      "endY": 440
+    },
+    {
+      "net": "SD_D0",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 510,
+      "startY": 440,
+      "endX": 480,
+      "endY": 470
+    },
+    {
+      "net": "SD_D0",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 480,
+      "startY": 470,
+      "endX": 480,
+      "endY": 530
+    },
+    {
+      "net": "SD_D0",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 480,
+      "startY": 530,
+      "endX": 545,
+      "endY": 580
+    },
+    {
+      "net": "SD_D0",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 545,
+      "startY": 580,
+      "endX": 550,
+      "endY": 580
+    },
+    {
+      "net": "SD_D1",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 595,
+      "startY": 610.3,
+      "endX": 610,
+      "endY": 610.3
+    },
+    {
+      "net": "SD_D1",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 610,
+      "startY": 610.3,
+      "endX": 625,
+      "endY": 615
+    },
+    {
+      "net": "SD_D1",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 625,
+      "startY": 615,
+      "endX": 605,
+      "endY": 635
+    },
+    {
+      "net": "SD_D1",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 605,
+      "startY": 635,
+      "endX": 590,
+      "endY": 650
+    },
+    {
+      "net": "SD_D1",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 590,
+      "startY": 650,
+      "endX": 590,
+      "endY": 790
+    },
+    {
+      "net": "SD_D1",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 590,
+      "startY": 790,
+      "endX": 600,
+      "endY": 800
+    },
+    {
+      "net": "SD_D1",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 600,
+      "startY": 800,
+      "endX": 600,
+      "endY": 935
+    },
+    {
+      "net": "SD_D1",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 600,
+      "startY": 935,
+      "endX": 1015,
+      "endY": 935
+    },
+    {
+      "net": "SD_D1",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 1015,
+      "startY": 935,
+      "endX": 1045,
+      "endY": 905
+    },
+    {
+      "net": "SD_D1",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 1045,
+      "startY": 905,
+      "endX": 1045,
+      "endY": 158.3
+    },
+    {
+      "net": "SD_D1",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 485,
+      "startY": 444.7,
+      "endX": 465,
+      "endY": 450
+    },
+    {
+      "net": "SD_D1",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 465,
+      "startY": 450,
+      "endX": 570,
+      "endY": 555
+    },
+    {
+      "net": "SD_D1",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 570,
+      "startY": 555,
+      "endX": 590,
+      "endY": 575
+    },
+    {
+      "net": "SD_D1",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 590,
+      "startY": 575,
+      "endX": 590,
+      "endY": 600
+    },
+    {
+      "net": "SD_D1",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 590,
+      "startY": 600,
+      "endX": 595,
+      "endY": 605
+    },
+    {
+      "net": "SD_D1",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 595,
+      "startY": 605,
+      "endX": 595,
+      "endY": 610.3
+    },
+    {
+      "net": "SD_D1",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1045,
+      "startY": 158.3,
+      "endX": 699.4,
+      "endY": 158.3
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 683.1,
+      "startY": 753.4,
+      "endX": 683.1,
+      "endY": 728.1
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 683.1,
+      "startY": 728.1,
+      "endX": 690,
+      "endY": 721.2
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 690,
+      "startY": 721.2,
+      "endX": 690,
+      "endY": 710
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 690,
+      "startY": 710,
+      "endX": 670,
+      "endY": 730
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 670,
+      "startY": 730,
+      "endX": 660,
+      "endY": 740
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 660,
+      "startY": 740,
+      "endX": 660,
+      "endY": 810
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 660,
+      "startY": 810,
+      "endX": 640,
+      "endY": 830
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 640,
+      "startY": 830,
+      "endX": 640,
+      "endY": 1000
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 640,
+      "startY": 1000,
+      "endX": 1040,
+      "endY": 1000
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 1040,
+      "startY": 1000,
+      "endX": 1089,
+      "endY": 951
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 1089,
+      "startY": 951,
+      "endX": 1089,
+      "endY": 565
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 1089,
+      "startY": 565,
+      "endX": 1080,
+      "endY": 556
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 1080,
+      "startY": 556,
+      "endX": 1080,
+      "endY": 114.8
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 1080,
+      "startY": 114.8,
+      "endX": 1070,
+      "endY": 114.8
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1070,
+      "startY": 114.8,
+      "endX": 699.4,
+      "endY": 114.8
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 485,
+      "startY": 344.7,
+      "endX": 455,
+      "endY": 344.7
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 455,
+      "startY": 344.7,
+      "endX": 440,
+      "endY": 350
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 440,
+      "startY": 350,
+      "endX": 430,
+      "endY": 340
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 430,
+      "startY": 340,
+      "endX": 430,
+      "endY": 90
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 430,
+      "startY": 90,
+      "endX": 450,
+      "endY": 70
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 450,
+      "startY": 70,
+      "endX": 645,
+      "endY": 70
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 645,
+      "startY": 70,
+      "endX": 665,
+      "endY": 90
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 665,
+      "startY": 90,
+      "endX": 665,
+      "endY": 114.8
+    },
+    {
+      "net": "SD_CD_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 665,
+      "startY": 114.8,
+      "endX": 699.4,
+      "endY": 114.8
+    },
+    {
+      "net": "5V_IN",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 378.7,
+      "startY": 871.7,
+      "endX": 435,
+      "endY": 871.7
+    },
+    {
+      "net": "5V_IN",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 435,
+      "startY": 871.7,
+      "endX": 450,
+      "endY": 886.7
+    },
+    {
+      "net": "5V_IN",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 450,
+      "startY": 886.7,
+      "endX": 450,
+      "endY": 995.6
+    },
+    {
+      "net": "5V_IN",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 450,
+      "startY": 995.6,
+      "endX": 425.6,
+      "endY": 1020
+    },
+    {
+      "net": "5V_IN",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 378.7,
+      "startY": 840.2,
+      "endX": 425,
+      "endY": 840.2
+    },
+    {
+      "net": "5V_IN",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 425,
+      "startY": 840.2,
+      "endX": 450,
+      "endY": 865.2
+    },
+    {
+      "net": "5V_IN",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 450,
+      "startY": 865.2,
+      "endX": 450,
+      "endY": 886.7
+    },
+    {
+      "net": "PWR_GATE",
+      "layer": 2,
+      "lineWidth": 10,
+      "startX": 504.4,
+      "startY": 1057.4,
+      "endX": 530,
+      "endY": 1057.4
+    },
+    {
+      "net": "PWR_GATE",
+      "layer": 2,
+      "lineWidth": 10,
+      "startX": 530,
+      "startY": 1057.4,
+      "endX": 542.6,
+      "endY": 1070
+    },
+    {
+      "net": "PWR_GATE",
+      "layer": 2,
+      "lineWidth": 10,
+      "startX": 542.6,
+      "startY": 1070,
+      "endX": 545.3,
+      "endY": 1070
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 504.4,
+      "startY": 982.6,
+      "endX": 520,
+      "endY": 967
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 520,
+      "startY": 967,
+      "endX": 520,
+      "endY": 945
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 520,
+      "startY": 945,
+      "endX": 495,
+      "endY": 920
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 495,
+      "startY": 920,
+      "endX": 495,
+      "endY": 880
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 495,
+      "startY": 880,
+      "endX": 515,
+      "endY": 860
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 515,
+      "startY": 860,
+      "endX": 710,
+      "endY": 860
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 710,
+      "startY": 860,
+      "endX": 740,
+      "endY": 860
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 740,
+      "startY": 860,
+      "endX": 762.6,
+      "endY": 837.4
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 762.6,
+      "startY": 837.4,
+      "endX": 762.6,
+      "endY": 832.8
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 762.6,
+      "startY": 832.8,
+      "endX": 800,
+      "endY": 832.8
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 710,
+      "startY": 857.6,
+      "endX": 710,
+      "endY": 860
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 860.6,
+      "startY": 775,
+      "endX": 820,
+      "endY": 775
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 820,
+      "startY": 775,
+      "endX": 790,
+      "endY": 805
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 790,
+      "startY": 805,
+      "endX": 790,
+      "endY": 822.8
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 790,
+      "startY": 822.8,
+      "endX": 800,
+      "endY": 832.8
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 860.6,
+      "startY": 775,
+      "endX": 875,
+      "endY": 760.6
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 875,
+      "startY": 760.6,
+      "endX": 885,
+      "endY": 750.6
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 885,
+      "startY": 750.6,
+      "endX": 885,
+      "endY": 730
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 885,
+      "startY": 730,
+      "endX": 945,
+      "endY": 730
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 945,
+      "startY": 730,
+      "endX": 945,
+      "endY": 715
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 10,
+      "startX": 945,
+      "startY": 715,
+      "endX": 945,
+      "endY": 650
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 945,
+      "startY": 650,
+      "endX": 925,
+      "endY": 630
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 925,
+      "startY": 630,
+      "endX": 900,
+      "endY": 615
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 16,
+      "lineWidth": 20,
+      "startX": 900,
+      "startY": 615,
+      "endX": 941,
+      "endY": 574
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 16,
+      "lineWidth": 20,
+      "startX": 941,
+      "startY": 574,
+      "endX": 941,
+      "endY": 250
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 16,
+      "lineWidth": 20,
+      "startX": 941,
+      "startY": 250,
+      "endX": 950,
+      "endY": 230
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 950,
+      "startY": 230,
+      "endX": 952.6,
+      "endY": 260
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 952.6,
+      "startY": 260,
+      "endX": 957.4,
+      "endY": 270.6
+    },
+    {
+      "net": "5V_SYS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 957.4,
+      "startY": 270.6,
+      "endX": 957.4,
+      "endY": 314.8
+    },
+    {
+      "net": "BUCK_SW",
+      "layer": 2,
+      "lineWidth": 30,
+      "startX": 800,
+      "startY": 927.2,
+      "endX": 800,
+      "endY": 955
+    },
+    {
+      "net": "BUCK_SW",
+      "layer": 2,
+      "lineWidth": 30,
+      "startX": 800,
+      "startY": 955,
+      "endX": 807.4,
+      "endY": 980
+    },
+    {
+      "net": "BUCK_SW",
+      "layer": 2,
+      "lineWidth": 30,
+      "startX": 807.4,
+      "startY": 980,
+      "endX": 807.4,
+      "endY": 1000
+    },
+    {
+      "net": "BUCK_SW",
+      "layer": 2,
+      "lineWidth": 30,
+      "startX": 807.4,
+      "startY": 1000,
+      "endX": 755,
+      "endY": 1052.4
+    },
+    {
+      "net": "BUCK_SW",
+      "layer": 2,
+      "lineWidth": 30,
+      "startX": 755,
+      "startY": 1052.4,
+      "endX": 707.5,
+      "endY": 1130
+    },
+    {
+      "net": "BUCK_BST",
+      "layer": 2,
+      "lineWidth": 10,
+      "startX": 837.4,
+      "startY": 927.2,
+      "endX": 837.4,
+      "endY": 954.8
+    },
+    {
+      "net": "BUCK_BST",
+      "layer": 2,
+      "lineWidth": 10,
+      "startX": 837.4,
+      "startY": 954.8,
+      "endX": 862.6,
+      "endY": 980
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 35,
+      "startX": 912.5,
+      "startY": 1130,
+      "endX": 940,
+      "endY": 1157.5
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 35,
+      "startX": 940,
+      "startY": 1157.5,
+      "endX": 940,
+      "endY": 1189.4
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 35,
+      "startX": 940,
+      "startY": 1189.4,
+      "endX": 970.6,
+      "endY": 1220
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 35,
+      "startX": 970.6,
+      "startY": 1220,
+      "endX": 950,
+      "endY": 1240.6
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 35,
+      "startX": 950,
+      "startY": 1240.6,
+      "endX": 950,
+      "endY": 1265.6
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 35,
+      "startX": 950,
+      "startY": 1265.6,
+      "endX": 930.6,
+      "endY": 1285
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 10,
+      "startX": 837.4,
+      "startY": 832.8,
+      "endX": 860,
+      "endY": 855.4
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 10,
+      "startX": 860,
+      "startY": 855.4,
+      "endX": 880,
+      "endY": 875.4
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 10,
+      "startX": 880,
+      "startY": 875.4,
+      "endX": 900,
+      "endY": 895.4
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 10,
+      "startX": 900,
+      "startY": 895.4,
+      "endX": 900,
+      "endY": 1000
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 10,
+      "startX": 900,
+      "startY": 1000,
+      "endX": 912.5,
+      "endY": 1012.5
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 10,
+      "startX": 912.5,
+      "startY": 1012.5,
+      "endX": 912.5,
+      "endY": 1130
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 30,
+      "startX": 930.6,
+      "startY": 1285,
+      "endX": 900,
+      "endY": 1285
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 30,
+      "startX": 900,
+      "startY": 1285,
+      "endX": 875,
+      "endY": 1260
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 30,
+      "startX": 875,
+      "startY": 1260,
+      "endX": 840,
+      "endY": 1260
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 875,
+      "startY": 1260,
+      "endX": 850,
+      "endY": 1285
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 850,
+      "startY": 1285,
+      "endX": 500,
+      "endY": 1285
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 500,
+      "startY": 1285,
+      "endX": 465,
+      "endY": 1250
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 465,
+      "startY": 1250,
+      "endX": 452.6,
+      "endY": 1210
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 452.6,
+      "startY": 1210,
+      "endX": 448.8,
+      "endY": 1187.4
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 448.8,
+      "startY": 1187.4,
+      "endX": 435,
+      "endY": 1187.4
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 25,
+      "startX": 435,
+      "startY": 1187.4,
+      "endX": 420,
+      "endY": 1155
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 20,
+      "startX": 420,
+      "startY": 1155,
+      "endX": 427.6,
+      "endY": 1162.6
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 20,
+      "startX": 427.6,
+      "startY": 1162.6,
+      "endX": 427.6,
+      "endY": 1197.3
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 20,
+      "startX": 427.6,
+      "startY": 1197.3,
+      "endX": 475.4,
+      "endY": 1197.3
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 20,
+      "startX": 370,
+      "startY": 1139.4,
+      "endX": 405,
+      "endY": 1139.4
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 20,
+      "startX": 405,
+      "startY": 1139.4,
+      "endX": 427.6,
+      "endY": 1162
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 20,
+      "startX": 427.6,
+      "startY": 1162,
+      "endX": 427.6,
+      "endY": 1197.3
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 12,
+      "startX": 370.3,
+      "startY": 1280,
+      "endX": 325,
+      "endY": 1280
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 12,
+      "startX": 325,
+      "startY": 1280,
+      "endX": 310,
+      "endY": 1265
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 12,
+      "startX": 310,
+      "startY": 1265,
+      "endX": 310,
+      "endY": 1165
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 12,
+      "startX": 310,
+      "startY": 1165,
+      "endX": 335,
+      "endY": 1139.4
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 12,
+      "startX": 335,
+      "startY": 1139.4,
+      "endX": 370,
+      "endY": 1139.4
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 12,
+      "startX": 370,
+      "startY": 1139.4,
+      "endX": 315,
+      "endY": 1139.4
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 12,
+      "startX": 315,
+      "startY": 1139.4,
+      "endX": 300,
+      "endY": 1124.4
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 12,
+      "startX": 300,
+      "startY": 1124.4,
+      "endX": 300,
+      "endY": 1060
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 12,
+      "startX": 300,
+      "startY": 1060,
+      "endX": 259.7,
+      "endY": 1020
+    },
+    {
+      "net": "3V3",
+      "layer": 16,
+      "lineWidth": 12,
+      "startX": 875,
+      "startY": 1260,
+      "endX": 1050,
+      "endY": 1260
+    },
+    {
+      "net": "3V3",
+      "layer": 16,
+      "lineWidth": 12,
+      "startX": 1050,
+      "startY": 1260,
+      "endX": 1080,
+      "endY": 1265
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 1080,
+      "startY": 1265,
+      "endX": 1085,
+      "endY": 1290
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 1085,
+      "startY": 1290,
+      "endX": 1120,
+      "endY": 1325
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 1120,
+      "startY": 1325,
+      "endX": 1155,
+      "endY": 1318.3
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 625,
+      "startY": 1285,
+      "endX": 625,
+      "endY": 1110
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 625,
+      "startY": 1110,
+      "endX": 624.7,
+      "endY": 1150
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 10,
+      "startX": 625,
+      "startY": 1110,
+      "endX": 637,
+      "endY": 1098
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 10,
+      "startX": 637,
+      "startY": 1098,
+      "endX": 637,
+      "endY": 1040
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 637,
+      "startY": 1040,
+      "endX": 615,
+      "endY": 1018
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 615,
+      "startY": 1018,
+      "endX": 610,
+      "endY": 1013
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 610,
+      "startY": 1013,
+      "endX": 610,
+      "endY": 970
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 610,
+      "startY": 970,
+      "endX": 590,
+      "endY": 970
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 590,
+      "startY": 970,
+      "endX": 570,
+      "endY": 975
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 12,
+      "startX": 570,
+      "startY": 975,
+      "endX": 574,
+      "endY": 971
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 12,
+      "startX": 574,
+      "startY": 971,
+      "endX": 574,
+      "endY": 819
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 12,
+      "startX": 574,
+      "startY": 819,
+      "endX": 565,
+      "endY": 810
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 565,
+      "startY": 810,
+      "endX": 574,
+      "endY": 801
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 574,
+      "startY": 801,
+      "endX": 574,
+      "endY": 770
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 574,
+      "startY": 770,
+      "endX": 585,
+      "endY": 759
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 585,
+      "startY": 759,
+      "endX": 585,
+      "endY": 630
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 585,
+      "startY": 630,
+      "endX": 585,
+      "endY": 530
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 585,
+      "startY": 530,
+      "endX": 615,
+      "endY": 530
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 615,
+      "startY": 530,
+      "endX": 625.3,
+      "endY": 520
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 625.3,
+      "startY": 520,
+      "endX": 625,
+      "endY": 485
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 625,
+      "startY": 485,
+      "endX": 660,
+      "endY": 485
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 660,
+      "startY": 485,
+      "endX": 677.6,
+      "endY": 467.4
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 677.6,
+      "startY": 467.4,
+      "endX": 677.6,
+      "endY": 450
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 677.6,
+      "startY": 450,
+      "endX": 695,
+      "endY": 450
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 695,
+      "startY": 450,
+      "endX": 705,
+      "endY": 440
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 705,
+      "startY": 440,
+      "endX": 705,
+      "endY": 400
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 705,
+      "startY": 400,
+      "endX": 689.4,
+      "endY": 380
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 689.4,
+      "startY": 380,
+      "endX": 705,
+      "endY": 365
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 705,
+      "startY": 365,
+      "endX": 705,
+      "endY": 340
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 705,
+      "startY": 340,
+      "endX": 695,
+      "endY": 330
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 695,
+      "startY": 330,
+      "endX": 670,
+      "endY": 330
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 670,
+      "startY": 330,
+      "endX": 648,
+      "endY": 331.2
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 15,
+      "startX": 648,
+      "startY": 331.2,
+      "endX": 699.4,
+      "endY": 331.2
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 585,
+      "startY": 630,
+      "endX": 455,
+      "endY": 630
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 455,
+      "startY": 630,
+      "endX": 431,
+      "endY": 606
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 431,
+      "startY": 606,
+      "endX": 431,
+      "endY": 560
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 431,
+      "startY": 560,
+      "endX": 455.3,
+      "endY": 560
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 431,
+      "startY": 560,
+      "endX": 431,
+      "endY": 500
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 431,
+      "startY": 500,
+      "endX": 455.3,
+      "endY": 500
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 431,
+      "startY": 500,
+      "endX": 431,
+      "endY": 425
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 431,
+      "startY": 425,
+      "endX": 450,
+      "endY": 405
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 450,
+      "startY": 405,
+      "endX": 470,
+      "endY": 385
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 470,
+      "startY": 385,
+      "endX": 485,
+      "endY": 385.3
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 485,
+      "startY": 385.3,
+      "endX": 515,
+      "endY": 385
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 515,
+      "startY": 385,
+      "endX": 525,
+      "endY": 375
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 525,
+      "startY": 375,
+      "endX": 525,
+      "endY": 300
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 525,
+      "startY": 300,
+      "endX": 500,
+      "endY": 275
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 500,
+      "startY": 275,
+      "endX": 485,
+      "endY": 275
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 485,
+      "startY": 275,
+      "endX": 485,
+      "endY": 285.3
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 485,
+      "startY": 385.3,
+      "endX": 535,
+      "endY": 385.3
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 535,
+      "startY": 385.3,
+      "endX": 565,
+      "endY": 415.3
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 565,
+      "startY": 415.3,
+      "endX": 565,
+      "endY": 430.3
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 18,
+      "startX": 912.5,
+      "startY": 1130,
+      "endX": 945,
+      "endY": 1097.5
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 18,
+      "startX": 945,
+      "startY": 1097.5,
+      "endX": 945,
+      "endY": 1000
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 18,
+      "startX": 945,
+      "startY": 1000,
+      "endX": 956.9,
+      "endY": 988.1
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 18,
+      "startX": 956.9,
+      "startY": 988.1,
+      "endX": 956.9,
+      "endY": 967.4
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 956.9,
+      "startY": 967.4,
+      "endX": 996.8,
+      "endY": 967.4
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 996.8,
+      "startY": 967.4,
+      "endX": 1010,
+      "endY": 954.2
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 1010,
+      "startY": 954.2,
+      "endX": 1010,
+      "endY": 910
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 1010,
+      "startY": 910,
+      "endX": 1027.4,
+      "endY": 892.6
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 1027.4,
+      "startY": 892.6,
+      "endX": 1063.2,
+      "endY": 892.6
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 1063.2,
+      "startY": 892.6,
+      "endX": 1070,
+      "endY": 882.6
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 1070,
+      "startY": 882.6,
+      "endX": 1085,
+      "endY": 882.6
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 1085,
+      "startY": 882.6,
+      "endX": 1107,
+      "endY": 860
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 1107,
+      "startY": 860,
+      "endX": 1135,
+      "endY": 860
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 12,
+      "startX": 699.4,
+      "startY": 331.2,
+      "endX": 780,
+      "endY": 331.2
+    },
+    {
+      "net": "3V3",
+      "layer": 1,
+      "lineWidth": 12,
+      "startX": 780,
+      "startY": 331.2,
+      "endX": 800,
+      "endY": 350
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 800,
+      "startY": 350,
+      "endX": 800,
+      "endY": 405
+    },
+    {
+      "net": "3V3",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 800,
+      "startY": 405,
+      "endX": 800.3,
+      "endY": 455
+    },
+    {
+      "net": "USB_SWITCHED",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 957.4,
+      "startY": 405.2,
+      "endX": 980,
+      "endY": 405.2
+    },
+    {
+      "net": "USB_SWITCHED",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 980,
+      "startY": 405.2,
+      "endX": 1080,
+      "endY": 405.2
+    },
+    {
+      "net": "USB_SWITCHED",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 1080,
+      "startY": 405.2,
+      "endX": 1110,
+      "endY": 375.2
+    },
+    {
+      "net": "USB_SWITCHED",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 1110,
+      "startY": 375.2,
+      "endX": 1110,
+      "endY": 285
+    },
+    {
+      "net": "USB_SWITCHED",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 1110,
+      "startY": 285,
+      "endX": 1079.7,
+      "endY": 254.7
+    },
+    {
+      "net": "USB_SWITCHED",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 1079.7,
+      "startY": 254.7,
+      "endX": 1040,
+      "endY": 254.7
+    },
+    {
+      "net": "USB_ILIM",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 920,
+      "startY": 405.2,
+      "endX": 920,
+      "endY": 445
+    },
+    {
+      "net": "USB_ILIM",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 920,
+      "startY": 445,
+      "endX": 940,
+      "endY": 465
+    },
+    {
+      "net": "USB_ILIM",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 940,
+      "startY": 465,
+      "endX": 1020.3,
+      "endY": 465
+    },
+    {
+      "net": "USB_ILIM",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1020.3,
+      "startY": 465,
+      "endX": 1030.3,
+      "endY": 440
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 1040,
+      "startY": 195.3,
+      "endX": 1070,
+      "endY": 195.3
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 1070,
+      "startY": 195.3,
+      "endX": 1070,
+      "endY": 225
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 1070,
+      "startY": 225,
+      "endX": 1160,
+      "endY": 225
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 1160,
+      "startY": 225,
+      "endX": 1160,
+      "endY": 65
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 1160,
+      "startY": 65,
+      "endX": 900,
+      "endY": 65
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 900,
+      "startY": 65,
+      "endX": 900,
+      "endY": -10
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 900,
+      "startY": -10,
+      "endX": 800,
+      "endY": -10
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 800,
+      "startY": -10,
+      "endX": 790,
+      "endY": -65
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 790,
+      "startY": -65,
+      "endX": 730,
+      "endY": -125
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 730,
+      "startY": -125,
+      "endX": 515,
+      "endY": -125
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 515,
+      "startY": -125,
+      "endX": 472.2,
+      "endY": -82.2
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 472.2,
+      "startY": -82.2,
+      "endX": 472.2,
+      "endY": 6.2
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 472.2,
+      "startY": 6.2,
+      "endX": 472.2,
+      "endY": 62.8
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 472.2,
+      "startY": 62.8,
+      "endX": 509.4,
+      "endY": 100
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 509.4,
+      "startY": 100,
+      "endX": 515,
+      "endY": 135
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 515,
+      "startY": 135,
+      "endX": 515,
+      "endY": 162.6
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 515,
+      "startY": 162.6,
+      "endX": 497.6,
+      "endY": 180
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 497.6,
+      "startY": 180,
+      "endX": 525,
+      "endY": 207.4
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 20,
+      "startX": 525,
+      "startY": 207.4,
+      "endX": 525,
+      "endY": 250
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 1,
+      "lineWidth": 25,
+      "startX": 525,
+      "startY": 250,
+      "endX": 550,
+      "endY": 275
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 1,
+      "lineWidth": 25,
+      "startX": 550,
+      "startY": 275,
+      "endX": 550,
+      "endY": 350.6
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 472.2,
+      "startY": 6.2,
+      "endX": 505,
+      "endY": 41
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 505,
+      "startY": 41,
+      "endX": 516,
+      "endY": 52
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 516,
+      "startY": 52,
+      "endX": 610,
+      "endY": 52
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 610,
+      "startY": 52,
+      "endX": 610,
+      "endY": 40
+    },
+    {
+      "net": "USB_VBUS",
+      "layer": 2,
+      "lineWidth": 10,
+      "startX": 610,
+      "startY": 40,
+      "endX": 610,
+      "endY": 64.8
+    },
+    {
+      "net": "UART_RX_EXT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 221.3,
+      "startY": 777.2,
+      "endX": 275,
+      "endY": 777.2
+    },
+    {
+      "net": "UART_RX_EXT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 275,
+      "startY": 777.2,
+      "endX": 280,
+      "endY": 782.2
+    },
+    {
+      "net": "UART_RX_EXT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 280,
+      "startY": 782.2,
+      "endX": 280,
+      "endY": 1040
+    },
+    {
+      "net": "UART_RX_EXT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 280,
+      "startY": 1040,
+      "endX": 350,
+      "endY": 1110
+    },
+    {
+      "net": "UART_RX_EXT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 350,
+      "startY": 1110,
+      "endX": 350,
+      "endY": 1145
+    },
+    {
+      "net": "UART_RX_EXT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 350,
+      "startY": 1145,
+      "endX": 340,
+      "endY": 1155
+    },
+    {
+      "net": "UART_RX_EXT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 340,
+      "startY": 1155,
+      "endX": 338,
+      "endY": 1200
+    },
+    {
+      "net": "UART_RX_EXT",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 338,
+      "startY": 1200,
+      "endX": 450,
+      "endY": 1200
+    },
+    {
+      "net": "UART_RX_EXT",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 450,
+      "startY": 1200,
+      "endX": 475,
+      "endY": 1210
+    },
+    {
+      "net": "UART_RX_EXT",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 475,
+      "startY": 1210,
+      "endX": 510,
+      "endY": 1210
+    },
+    {
+      "net": "UART_RX_EXT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 510,
+      "startY": 1210,
+      "endX": 520.3,
+      "endY": 1240
+    },
+    {
+      "net": "UART_TX_EXT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 221.3,
+      "startY": 745.7,
+      "endX": 290,
+      "endY": 745.7
+    },
+    {
+      "net": "UART_TX_EXT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 290,
+      "startY": 745.7,
+      "endX": 300,
+      "endY": 755.7
+    },
+    {
+      "net": "UART_TX_EXT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 300,
+      "startY": 755.7,
+      "endX": 300,
+      "endY": 960
+    },
+    {
+      "net": "UART_TX_EXT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 300,
+      "startY": 960,
+      "endX": 340,
+      "endY": 1000
+    },
+    {
+      "net": "UART_TX_EXT",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 340,
+      "startY": 1000,
+      "endX": 370.3,
+      "endY": 1000
+    },
+    {
+      "net": "UART_TX_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 429.7,
+      "startY": 1000,
+      "endX": 460,
+      "endY": 1000
+    },
+    {
+      "net": "UART_TX_MCU",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 460,
+      "startY": 1000,
+      "endX": 475.4,
+      "endY": 996.5
+    },
+    {
+      "net": "UART_RX_BUF",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 579.7,
+      "startY": 1240,
+      "endX": 595,
+      "endY": 1224.7
+    },
+    {
+      "net": "UART_RX_BUF",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 595,
+      "startY": 1224.7,
+      "endX": 595,
+      "endY": 1165
+    },
+    {
+      "net": "UART_RX_BUF",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 595,
+      "startY": 1165,
+      "endX": 580,
+      "endY": 1150
+    },
+    {
+      "net": "UART_RX_BUF",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 580,
+      "startY": 1150,
+      "endX": 565.3,
+      "endY": 1150
+    },
+    {
+      "net": "UART_RX_BUF",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 565.3,
+      "startY": 1150,
+      "endX": 551.2,
+      "endY": 1150
+    },
+    {
+      "net": "UART_RX",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 448.8,
+      "startY": 1112.6,
+      "endX": 435,
+      "endY": 1100
+    },
+    {
+      "net": "UART_RX",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 435,
+      "startY": 1100,
+      "endX": 435,
+      "endY": 1085
+    },
+    {
+      "net": "UART_RX",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 435,
+      "startY": 1085,
+      "endX": 425,
+      "endY": 1075
+    },
+    {
+      "net": "UART_RX",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 425,
+      "startY": 1075,
+      "endX": 425,
+      "endY": 1050
+    },
+    {
+      "net": "UART_RX",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 425,
+      "startY": 1050,
+      "endX": 445,
+      "endY": 1030
+    },
+    {
+      "net": "UART_RX",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 445,
+      "startY": 1030,
+      "endX": 475.4,
+      "endY": 1030
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 378.7,
+      "startY": 903.2,
+      "endX": 345,
+      "endY": 903.2
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 345,
+      "startY": 903.2,
+      "endX": 331,
+      "endY": 908
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 331,
+      "startY": 908,
+      "endX": 355,
+      "endY": 900
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 355,
+      "startY": 900,
+      "endX": 405,
+      "endY": 900
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 405,
+      "startY": 900,
+      "endX": 427,
+      "endY": 922
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 427,
+      "startY": 922,
+      "endX": 573,
+      "endY": 922
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 573,
+      "startY": 922,
+      "endX": 578,
+      "endY": 927
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 578,
+      "startY": 927,
+      "endX": 578,
+      "endY": 945
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 578,
+      "startY": 945,
+      "endX": 610,
+      "endY": 977
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 610,
+      "startY": 977,
+      "endX": 610,
+      "endY": 1210
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 610,
+      "startY": 1210,
+      "endX": 1000,
+      "endY": 1210
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 1000,
+      "startY": 1210,
+      "endX": 1080,
+      "endY": 1170
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1080,
+      "startY": 1170,
+      "endX": 1089,
+      "endY": 1161
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1089,
+      "startY": 1161,
+      "endX": 1089,
+      "endY": 725
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1089,
+      "startY": 725,
+      "endX": 1045,
+      "endY": 725
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1045,
+      "startY": 725,
+      "endX": 975,
+      "endY": 655
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 975,
+      "startY": 655,
+      "endX": 905,
+      "endY": 655
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 905,
+      "startY": 655,
+      "endX": 905,
+      "endY": 674.7
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 905,
+      "startY": 674.7,
+      "endX": 915.3,
+      "endY": 685
+    },
+    {
+      "net": "MAIN_SENSE_MID",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 974.7,
+      "startY": 685,
+      "endX": 974.7,
+      "endY": 719.4
+    },
+    {
+      "net": "MAIN_SENSE_MID",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 974.7,
+      "startY": 719.4,
+      "endX": 990.3,
+      "endY": 735
+    },
+    {
+      "net": "MAIN_SENSE",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1049.7,
+      "startY": 735,
+      "endX": 1040,
+      "endY": 760
+    },
+    {
+      "net": "MAIN_SENSE",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1040,
+      "startY": 760,
+      "endX": 1040,
+      "endY": 820
+    },
+    {
+      "net": "MAIN_SENSE",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1040,
+      "startY": 820,
+      "endX": 1029.7,
+      "endY": 840
+    },
+    {
+      "net": "MAIN_SENSE",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1029.7,
+      "startY": 840,
+      "endX": 1033,
+      "endY": 860
+    },
+    {
+      "net": "MAIN_SENSE",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1033,
+      "startY": 860,
+      "endX": 1033,
+      "endY": 873
+    },
+    {
+      "net": "MAIN_SENSE",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1033,
+      "startY": 873,
+      "endX": 990,
+      "endY": 873
+    },
+    {
+      "net": "MAIN_SENSE",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 990,
+      "startY": 873,
+      "endX": 990,
+      "endY": 915
+    },
+    {
+      "net": "MAIN_SENSE",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 990,
+      "startY": 915,
+      "endX": 975,
+      "endY": 930
+    },
+    {
+      "net": "MAIN_SENSE",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 975,
+      "startY": 930,
+      "endX": 956.9,
+      "endY": 930
+    },
+    {
+      "net": "MAIN_SENSE",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1049.7,
+      "startY": 735,
+      "endX": 1078,
+      "endY": 735
+    },
+    {
+      "net": "MAIN_SENSE",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1078,
+      "startY": 735,
+      "endX": 1089,
+      "endY": 724
+    },
+    {
+      "net": "MAIN_SENSE",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1089,
+      "startY": 724,
+      "endX": 1089,
+      "endY": 656.4
+    },
+    {
+      "net": "MAIN_SENSE",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1089,
+      "startY": 656.4,
+      "endX": 1087.6,
+      "endY": 655
+    },
+    {
+      "net": "USB_EN",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 716.5,
+      "startY": 753.4,
+      "endX": 716.5,
+      "endY": 725
+    },
+    {
+      "net": "USB_EN",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 716.5,
+      "startY": 725,
+      "endX": 745,
+      "endY": 754
+    },
+    {
+      "net": "USB_EN",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 745,
+      "startY": 754,
+      "endX": 910,
+      "endY": 754
+    },
+    {
+      "net": "USB_EN",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 910,
+      "startY": 754,
+      "endX": 910,
+      "endY": 710
+    },
+    {
+      "net": "USB_EN",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 910,
+      "startY": 710,
+      "endX": 900,
+      "endY": 700
+    },
+    {
+      "net": "USB_EN",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 900,
+      "startY": 700,
+      "endX": 900,
+      "endY": 690
+    },
+    {
+      "net": "USB_EN",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 900,
+      "startY": 690,
+      "endX": 870,
+      "endY": 660
+    },
+    {
+      "net": "USB_EN",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 870,
+      "startY": 660,
+      "endX": 870,
+      "endY": 650
+    },
+    {
+      "net": "USB_EN",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 870,
+      "startY": 650,
+      "endX": 875,
+      "endY": 645
+    },
+    {
+      "net": "USB_EN",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 875,
+      "startY": 645,
+      "endX": 875,
+      "endY": 605
+    },
+    {
+      "net": "USB_EN",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 875,
+      "startY": 605,
+      "endX": 900,
+      "endY": 580
+    },
+    {
+      "net": "USB_EN",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 900,
+      "startY": 580,
+      "endX": 930.3,
+      "endY": 580
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 989.7,
+      "startY": 580,
+      "endX": 989.7,
+      "endY": 560
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 989.7,
+      "startY": 560,
+      "endX": 979.7,
+      "endY": 550
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 979.7,
+      "startY": 550,
+      "endX": 895,
+      "endY": 550
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 895,
+      "startY": 550,
+      "endX": 880,
+      "endY": 535
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 880,
+      "startY": 535,
+      "endX": 835,
+      "endY": 490
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 835,
+      "startY": 490,
+      "endX": 835,
+      "endY": 400
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 835,
+      "startY": 400,
+      "endX": 835,
+      "endY": 350
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 835,
+      "startY": 350,
+      "endX": 853,
+      "endY": 335
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 853,
+      "startY": 335,
+      "endX": 882.6,
+      "endY": 314.8
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 882.6,
+      "startY": 314.8,
+      "endX": 870,
+      "endY": 302
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 870,
+      "startY": 302,
+      "endX": 870,
+      "endY": 285
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 870,
+      "startY": 285,
+      "endX": 830,
+      "endY": 245
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 830,
+      "startY": 245,
+      "endX": 830,
+      "endY": 250.3
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 895,
+      "startY": 550,
+      "endX": 960,
+      "endY": 615
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 960,
+      "startY": 615,
+      "endX": 1060,
+      "endY": 615
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1060,
+      "startY": 615,
+      "endX": 1115,
+      "endY": 600
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 1115,
+      "startY": 600,
+      "endX": 1110,
+      "endY": 699
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 1110,
+      "startY": 699,
+      "endX": 1089,
+      "endY": 720
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 1089,
+      "startY": 720,
+      "endX": 1089,
+      "endY": 980
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 1089,
+      "startY": 980,
+      "endX": 1060,
+      "endY": 1015
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1060,
+      "startY": 1015,
+      "endX": 1060,
+      "endY": 970
+    },
+    {
+      "net": "USB_EN_GATED",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1060,
+      "startY": 970,
+      "endX": 1063.2,
+      "endY": 967.4
+    },
+    {
+      "net": "USB_FAULT_N",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 882.6,
+      "startY": 405.2,
+      "endX": 880,
+      "endY": 415
+    },
+    {
+      "net": "USB_FAULT_N",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 880,
+      "startY": 415,
+      "endX": 859.7,
+      "endY": 435.3
+    },
+    {
+      "net": "USB_FAULT_N",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 859.7,
+      "startY": 435.3,
+      "endX": 859.7,
+      "endY": 455
+    },
+    {
+      "net": "USB_FAULT_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 816.9,
+      "startY": 753.4,
+      "endX": 816.9,
+      "endY": 710
+    },
+    {
+      "net": "USB_FAULT_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 816.9,
+      "startY": 710,
+      "endX": 835,
+      "endY": 691.9
+    },
+    {
+      "net": "USB_FAULT_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 835,
+      "startY": 691.9,
+      "endX": 835,
+      "endY": 620
+    },
+    {
+      "net": "USB_FAULT_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 835,
+      "startY": 620,
+      "endX": 865,
+      "endY": 575
+    },
+    {
+      "net": "USB_FAULT_N",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 865,
+      "startY": 575,
+      "endX": 850,
+      "endY": 535
+    },
+    {
+      "net": "USB_FAULT_N",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 850,
+      "startY": 535,
+      "endX": 890,
+      "endY": 495
+    },
+    {
+      "net": "USB_FAULT_N",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 890,
+      "startY": 495,
+      "endX": 890,
+      "endY": 490
+    },
+    {
+      "net": "USB_FAULT_N",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 890,
+      "startY": 490,
+      "endX": 885,
+      "endY": 485
+    },
+    {
+      "net": "USB_FAULT_N",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 885,
+      "startY": 485,
+      "endX": 885,
+      "endY": 475
+    },
+    {
+      "net": "USB_FAULT_N",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 885,
+      "startY": 475,
+      "endX": 880,
+      "endY": 470
+    },
+    {
+      "net": "USB_FAULT_N",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 880,
+      "startY": 470,
+      "endX": 859.7,
+      "endY": 455
+    },
+    {
+      "net": "PROG_TX",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1024.6,
+      "startY": 1063.5,
+      "endX": 1046,
+      "endY": 1063.5
+    },
+    {
+      "net": "PROG_TX",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1046,
+      "startY": 1063.5,
+      "endX": 1065,
+      "endY": 1045
+    },
+    {
+      "net": "PROG_TX",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1065,
+      "startY": 1045,
+      "endX": 1083,
+      "endY": 1027
+    },
+    {
+      "net": "PROG_TX",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1083,
+      "startY": 1027,
+      "endX": 1083,
+      "endY": 1015
+    },
+    {
+      "net": "PROG_TX",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1083,
+      "startY": 1015,
+      "endX": 1100,
+      "endY": 998
+    },
+    {
+      "net": "PROG_TX",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1100,
+      "startY": 998,
+      "endX": 1135,
+      "endY": 960
+    },
+    {
+      "net": "PROG_RX",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1024.6,
+      "startY": 1096.9,
+      "endX": 1057,
+      "endY": 1096.9
+    },
+    {
+      "net": "PROG_RX",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1057,
+      "startY": 1096.9,
+      "endX": 1065,
+      "endY": 1083
+    },
+    {
+      "net": "PROG_RX",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1065,
+      "startY": 1083,
+      "endX": 1080,
+      "endY": 1086
+    },
+    {
+      "net": "PROG_RX",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1080,
+      "startY": 1086,
+      "endX": 1106,
+      "endY": 1060
+    },
+    {
+      "net": "PROG_RX",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1106,
+      "startY": 1060,
+      "endX": 1135,
+      "endY": 1060
+    },
+    {
+      "net": "LED_REC_A",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 259.5,
+      "startY": 1120,
+      "endX": 265,
+      "endY": 1114.5
+    },
+    {
+      "net": "LED_REC_A",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 265,
+      "startY": 1114.5,
+      "endX": 265,
+      "endY": 1095
+    },
+    {
+      "net": "LED_REC_A",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 265,
+      "startY": 1095,
+      "endX": 265,
+      "endY": 1114.7
+    },
+    {
+      "net": "LED_REC_A",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 265,
+      "startY": 1114.7,
+      "endX": 259.7,
+      "endY": 1120
+    },
+    {
+      "net": "LED_ERR_A",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 259.5,
+      "startY": 1250,
+      "endX": 260,
+      "endY": 1249.5
+    },
+    {
+      "net": "LED_ERR_A",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 260,
+      "startY": 1249.5,
+      "endX": 260,
+      "endY": 1205
+    },
+    {
+      "net": "LED_ERR_A",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 260,
+      "startY": 1205,
+      "endX": 260,
+      "endY": 1249.7
+    },
+    {
+      "net": "LED_ERR_A",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 260,
+      "startY": 1249.7,
+      "endX": 259.7,
+      "endY": 1250
+    },
+    {
+      "net": "LED_REC",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 475.4,
+      "startY": 896.1,
+      "endX": 520,
+      "endY": 896.1
+    },
+    {
+      "net": "LED_REC",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 520,
+      "startY": 896.1,
+      "endX": 520,
+      "endY": 915
+    },
+    {
+      "net": "LED_REC",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 520,
+      "startY": 915,
+      "endX": 530,
+      "endY": 925
+    },
+    {
+      "net": "LED_REC",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 530,
+      "startY": 925,
+      "endX": 530,
+      "endY": 1000
+    },
+    {
+      "net": "LED_REC",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 530,
+      "startY": 1000,
+      "endX": 575,
+      "endY": 1025
+    },
+    {
+      "net": "LED_REC",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 575,
+      "startY": 1025,
+      "endX": 575,
+      "endY": 1080
+    },
+    {
+      "net": "LED_REC",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 575,
+      "startY": 1080,
+      "endX": 485,
+      "endY": 1080
+    },
+    {
+      "net": "LED_REC",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 485,
+      "startY": 1080,
+      "endX": 475,
+      "endY": 1070
+    },
+    {
+      "net": "LED_REC",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 475,
+      "startY": 1070,
+      "endX": 475,
+      "endY": 950
+    },
+    {
+      "net": "LED_REC",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 475,
+      "startY": 950,
+      "endX": 425,
+      "endY": 900
+    },
+    {
+      "net": "LED_REC",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 425,
+      "startY": 900,
+      "endX": 360,
+      "endY": 880
+    },
+    {
+      "net": "LED_REC",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 360,
+      "startY": 880,
+      "endX": 250,
+      "endY": 880
+    },
+    {
+      "net": "LED_REC",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 250,
+      "startY": 880,
+      "endX": 250,
+      "endY": 1010
+    },
+    {
+      "net": "LED_REC",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 250,
+      "startY": 1010,
+      "endX": 225,
+      "endY": 1035
+    },
+    {
+      "net": "LED_REC",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 225,
+      "startY": 1035,
+      "endX": 225,
+      "endY": 1180
+    },
+    {
+      "net": "LED_REC",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 225,
+      "startY": 1180,
+      "endX": 210,
+      "endY": 1195
+    },
+    {
+      "net": "LED_REC",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 210,
+      "startY": 1195,
+      "endX": 187,
+      "endY": 1170
+    },
+    {
+      "net": "LED_REC",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 187,
+      "startY": 1170,
+      "endX": 187,
+      "endY": 1133.3
+    },
+    {
+      "net": "LED_REC",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 187,
+      "startY": 1133.3,
+      "endX": 200.3,
+      "endY": 1120
+    },
+    {
+      "net": "LED_ERR",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 475.4,
+      "startY": 862.7,
+      "endX": 435,
+      "endY": 862.7
+    },
+    {
+      "net": "LED_ERR",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 435,
+      "startY": 862.7,
+      "endX": 430,
+      "endY": 867.7
+    },
+    {
+      "net": "LED_ERR",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 430,
+      "startY": 867.7,
+      "endX": 430,
+      "endY": 940
+    },
+    {
+      "net": "LED_ERR",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 430,
+      "startY": 940,
+      "endX": 419,
+      "endY": 965
+    },
+    {
+      "net": "LED_ERR",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 419,
+      "startY": 965,
+      "endX": 410,
+      "endY": 974
+    },
+    {
+      "net": "LED_ERR",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 410,
+      "startY": 974,
+      "endX": 320,
+      "endY": 974
+    },
+    {
+      "net": "LED_ERR",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 320,
+      "startY": 974,
+      "endX": 295,
+      "endY": 999
+    },
+    {
+      "net": "LED_ERR",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 295,
+      "startY": 999,
+      "endX": 295,
+      "endY": 1040
+    },
+    {
+      "net": "LED_ERR",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 295,
+      "startY": 1040,
+      "endX": 310,
+      "endY": 1055
+    },
+    {
+      "net": "LED_ERR",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 310,
+      "startY": 1055,
+      "endX": 310,
+      "endY": 1250
+    },
+    {
+      "net": "LED_ERR",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 310,
+      "startY": 1250,
+      "endX": 300,
+      "endY": 1260
+    },
+    {
+      "net": "LED_ERR",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 300,
+      "startY": 1260,
+      "endX": 300,
+      "endY": 1300
+    },
+    {
+      "net": "LED_ERR",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 300,
+      "startY": 1300,
+      "endX": 240,
+      "endY": 1300
+    },
+    {
+      "net": "LED_ERR",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 240,
+      "startY": 1300,
+      "endX": 200.3,
+      "endY": 1260.3
+    },
+    {
+      "net": "LED_ERR",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 200.3,
+      "startY": 1260.3,
+      "endX": 200.3,
+      "endY": 1250
+    },
+    {
+      "net": "STOP_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 475.4,
+      "startY": 929.6,
+      "endX": 510,
+      "endY": 929.6
+    },
+    {
+      "net": "STOP_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 510,
+      "startY": 929.6,
+      "endX": 510,
+      "endY": 1015
+    },
+    {
+      "net": "STOP_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 510,
+      "startY": 1015,
+      "endX": 515,
+      "endY": 1020
+    },
+    {
+      "net": "STOP_N",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 515,
+      "startY": 1020,
+      "endX": 515,
+      "endY": 1060
+    },
+    {
+      "net": "STOP_N",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 515,
+      "startY": 1060,
+      "endX": 255,
+      "endY": 1060
+    },
+    {
+      "net": "STOP_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 255,
+      "startY": 1060,
+      "endX": 200.3,
+      "endY": 1020
+    },
+    {
+      "net": "STOP_N",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 214,
+      "startY": 730,
+      "endX": 160,
+      "endY": 730
+    },
+    {
+      "net": "STOP_N",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 160,
+      "startY": 730,
+      "endX": 146,
+      "endY": 744
+    },
+    {
+      "net": "STOP_N",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 146,
+      "startY": 744,
+      "endX": 146,
+      "endY": 933
+    },
+    {
+      "net": "STOP_N",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 146,
+      "startY": 933,
+      "endX": 195,
+      "endY": 982
+    },
+    {
+      "net": "STOP_N",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 195,
+      "startY": 982,
+      "endX": 195,
+      "endY": 1000
+    },
+    {
+      "net": "STOP_N",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 195,
+      "startY": 1000,
+      "endX": 255,
+      "endY": 1060
+    },
+    {
+      "net": "BOOT",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 221,
+      "startY": 890,
+      "endX": 214,
+      "endY": 944
+    },
+    {
+      "net": "BOOT",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 214,
+      "startY": 944,
+      "endX": 215,
+      "endY": 965
+    },
+    {
+      "net": "BOOT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 215,
+      "startY": 965,
+      "endX": 210,
+      "endY": 990
+    },
+    {
+      "net": "BOOT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 210,
+      "startY": 990,
+      "endX": 228,
+      "endY": 1008
+    },
+    {
+      "net": "BOOT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 228,
+      "startY": 1008,
+      "endX": 228,
+      "endY": 1140
+    },
+    {
+      "net": "BOOT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 228,
+      "startY": 1140,
+      "endX": 287,
+      "endY": 1199
+    },
+    {
+      "net": "BOOT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 287,
+      "startY": 1199,
+      "endX": 287,
+      "endY": 1248
+    },
+    {
+      "net": "BOOT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 287,
+      "startY": 1248,
+      "endX": 347,
+      "endY": 1308
+    },
+    {
+      "net": "BOOT",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 347,
+      "startY": 1308,
+      "endX": 430,
+      "endY": 1310
+    },
+    {
+      "net": "BOOT",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 430,
+      "startY": 1310,
+      "endX": 429.7,
+      "endY": 1280
+    },
+    {
+      "net": "BOOT",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 475.4,
+      "startY": 1163.9,
+      "endX": 510,
+      "endY": 1170
+    },
+    {
+      "net": "BOOT",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 510,
+      "startY": 1170,
+      "endX": 555,
+      "endY": 1170
+    },
+    {
+      "net": "BOOT",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 555,
+      "startY": 1170,
+      "endX": 580,
+      "endY": 1195
+    },
+    {
+      "net": "BOOT",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 580,
+      "startY": 1195,
+      "endX": 580,
+      "endY": 1245
+    },
+    {
+      "net": "BOOT",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 580,
+      "startY": 1245,
+      "endX": 510,
+      "endY": 1315
+    },
+    {
+      "net": "BOOT",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 510,
+      "startY": 1315,
+      "endX": 430,
+      "endY": 1310
+    },
+    {
+      "net": "BOOT",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 430,
+      "startY": 1310,
+      "endX": 440,
+      "endY": 1318
+    },
+    {
+      "net": "BOOT",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 440,
+      "startY": 1318,
+      "endX": 1065,
+      "endY": 1318
+    },
+    {
+      "net": "BOOT",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 1065,
+      "startY": 1318,
+      "endX": 1100,
+      "endY": 1283
+    },
+    {
+      "net": "BOOT",
+      "layer": 16,
+      "lineWidth": 8,
+      "startX": 1100,
+      "startY": 1283,
+      "endX": 1135,
+      "endY": 1260
+    },
+    {
+      "net": "EN",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 221,
+      "startY": 570,
+      "endX": 160,
+      "endY": 570
+    },
+    {
+      "net": "EN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 160,
+      "startY": 570,
+      "endX": 190,
+      "endY": 600
+    },
+    {
+      "net": "EN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 190,
+      "startY": 600,
+      "endX": 190,
+      "endY": 940
+    },
+    {
+      "net": "EN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 190,
+      "startY": 940,
+      "endX": 295,
+      "endY": 940
+    },
+    {
+      "net": "EN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 295,
+      "startY": 940,
+      "endX": 330,
+      "endY": 975
+    },
+    {
+      "net": "EN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 330,
+      "startY": 975,
+      "endX": 365,
+      "endY": 975
+    },
+    {
+      "net": "EN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 365,
+      "startY": 975,
+      "endX": 385,
+      "endY": 995
+    },
+    {
+      "net": "EN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 385,
+      "startY": 995,
+      "endX": 540,
+      "endY": 995
+    },
+    {
+      "net": "EN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 540,
+      "startY": 995,
+      "endX": 540,
+      "endY": 1255
+    },
+    {
+      "net": "EN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 540,
+      "startY": 1255,
+      "endX": 575,
+      "endY": 1290
+    },
+    {
+      "net": "EN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 575,
+      "startY": 1290,
+      "endX": 1050,
+      "endY": 1290
+    },
+    {
+      "net": "EN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 1050,
+      "startY": 1290,
+      "endX": 1070,
+      "endY": 1310
+    },
+    {
+      "net": "EN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 1070,
+      "startY": 1310,
+      "endX": 1115,
+      "endY": 1310
+    },
+    {
+      "net": "EN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 1115,
+      "startY": 1310,
+      "endX": 1125,
+      "endY": 1320
+    },
+    {
+      "net": "EN",
+      "layer": 15,
+      "lineWidth": 8,
+      "startX": 1125,
+      "startY": 1320,
+      "endX": 1125,
+      "endY": 1370
+    },
+    {
+      "net": "EN",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1125,
+      "startY": 1370,
+      "endX": 1132.7,
+      "endY": 1377.7
+    },
+    {
+      "net": "EN",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1132.7,
+      "startY": 1377.7,
+      "endX": 1155,
+      "endY": 1377.7
+    },
+    {
+      "net": "EN",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1125,
+      "startY": 1370,
+      "endX": 1125,
+      "endY": 1335
+    },
+    {
+      "net": "EN",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1125,
+      "startY": 1335,
+      "endX": 1100,
+      "endY": 1310
+    },
+    {
+      "net": "EN",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1100,
+      "startY": 1310,
+      "endX": 1052,
+      "endY": 1315
+    },
+    {
+      "net": "EN",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1052,
+      "startY": 1315,
+      "endX": 1052,
+      "endY": 1235
+    },
+    {
+      "net": "EN",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1052,
+      "startY": 1235,
+      "endX": 1090,
+      "endY": 1197
+    },
+    {
+      "net": "EN",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1090,
+      "startY": 1197,
+      "endX": 1135,
+      "endY": 1160
+    },
+    {
+      "net": "EN",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1052,
+      "startY": 1285,
+      "endX": 1049.3,
+      "endY": 1264.3
+    },
+    {
+      "net": "EN",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1049.3,
+      "startY": 1264.3,
+      "endX": 1024.6,
+      "endY": 1264.3
+    },
+    {
+      "net": "EN",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 1024.6,
+      "startY": 1264.3,
+      "endX": 980,
+      "endY": 1264.3
+    },
+    {
+      "net": "EN",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 980,
+      "startY": 1264.3,
+      "endX": 980,
+      "endY": 1120
+    },
+    {
+      "net": "EN",
+      "layer": 1,
+      "lineWidth": 8,
+      "startX": 980,
+      "startY": 1120,
+      "endX": 990,
+      "endY": 1110
+    },
+    {
+      "net": "EN",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 990,
+      "startY": 1110,
+      "endX": 1002.4,
+      "endY": 1120
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 762.6,
+      "startY": 927.2,
+      "endX": 762.6,
+      "endY": 955
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 762.6,
+      "startY": 955,
+      "endX": 760,
+      "endY": 970
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 710,
+      "startY": 802.4,
+      "endX": 690,
+      "endY": 795
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 939.4,
+      "startY": 775,
+      "endX": 920,
+      "endY": 794
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 920,
+      "startY": 794,
+      "endX": 920,
+      "endY": 810
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 1049.4,
+      "startY": 1220,
+      "endX": 1040,
+      "endY": 1188
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 15,
+      "startX": 1040,
+      "startY": 1188,
+      "endX": 1005,
+      "endY": 1175
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 15,
+      "startX": 370,
+      "startY": 1060.6,
+      "endX": 345,
+      "endY": 1060.6
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 15,
+      "startX": 345,
+      "startY": 1060.6,
+      "endX": 335,
+      "endY": 1035
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 12,
+      "startX": 372.4,
+      "startY": 1197.3,
+      "endX": 370,
+      "endY": 1235
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 12,
+      "startX": 699.4,
+      "startY": 244.7,
+      "endX": 640,
+      "endY": 265
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 610.6,
+      "startY": 380,
+      "endX": 610.6,
+      "endY": 405
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 610.6,
+      "startY": 405,
+      "endX": 620,
+      "endY": 420
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 620,
+      "startY": 420,
+      "endX": 622.4,
+      "endY": 450
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 430.6,
+      "startY": 100,
+      "endX": 455,
+      "endY": 125
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 455,
+      "startY": 125,
+      "endX": 470,
+      "endY": 145
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 470,
+      "startY": 145,
+      "endX": 442.4,
+      "endY": 180
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 920,
+      "startY": 314.8,
+      "endX": 920,
+      "endY": 335
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 920,
+      "startY": 335,
+      "endX": 912,
+      "endY": 352
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 830,
+      "startY": 309.7,
+      "endX": 800,
+      "endY": 310
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 1070,
+      "startY": 827.4,
+      "endX": 1067,
+      "endY": 798
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1032.4,
+      "startY": 655,
+      "endX": 1020,
+      "endY": 667.4
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1020,
+      "startY": 667.4,
+      "endX": 1020,
+      "endY": 777
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1020,
+      "startY": 777,
+      "endX": 990,
+      "endY": 807
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 990,
+      "startY": 807,
+      "endX": 939.4,
+      "endY": 775
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 515.8,
+      "startY": 1306.6,
+      "endX": 984.3,
+      "endY": 1306.6
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 984.3,
+      "startY": 1306.6,
+      "endX": 1025.6,
+      "endY": 1305.6
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 515.8,
+      "startY": 1306.6,
+      "endX": 474.4,
+      "endY": 1305.6
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 750,
+      "startY": 1306.6,
+      "endX": 750,
+      "endY": 1265
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 750,
+      "startY": 1265,
+      "endX": 785,
+      "endY": 1240
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 1009.4,
+      "startY": 1285,
+      "endX": 1050,
+      "endY": 1285
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 1050,
+      "startY": 1285,
+      "endX": 1055,
+      "endY": 1255
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 12,
+      "startX": 1055,
+      "startY": 1255,
+      "endX": 1049.4,
+      "endY": 1220
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 1005,
+      "startY": 1175,
+      "endX": 1024.6,
+      "endY": 1163.9
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 1024.6,
+      "startY": 1163.9,
+      "endX": 1024.6,
+      "endY": 1197.3
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 685,
+      "startY": 965,
+      "endX": 815,
+      "endY": 965
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 685,
+      "startY": 1030,
+      "endX": 815,
+      "endY": 1030
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 685,
+      "startY": 1095,
+      "endX": 815,
+      "endY": 1095
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 760,
+      "startY": 970,
+      "endX": 750,
+      "endY": 965
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 750,
+      "startY": 965,
+      "endX": 750,
+      "endY": 1095
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 750,
+      "startY": 1095,
+      "endX": 815,
+      "endY": 1095
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 815,
+      "startY": 1095,
+      "endX": 810,
+      "endY": 1130
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 474.4,
+      "startY": 754.4,
+      "endX": 465,
+      "endY": 745
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 465,
+      "startY": 745,
+      "endX": 465,
+      "endY": 720
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1063.2,
+      "startY": 930,
+      "endX": 1030,
+      "endY": 930
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1030,
+      "startY": 930,
+      "endX": 1030,
+      "endY": 1000
+    },
+    {
+      "net": "GND",
+      "layer": 2,
+      "lineWidth": 8,
+      "startX": 1030,
+      "startY": 1000,
+      "endX": 990,
+      "endY": 1040
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 720.6,
+      "startY": 645.7,
+      "endX": 765,
+      "endY": 645.7
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 765,
+      "startY": 645.7,
+      "endX": 765,
+      "endY": 655
+    },
+    {
+      "net": "GND",
+      "layer": 1,
+      "lineWidth": 10,
+      "startX": 200.5,
+      "startY": 1250,
+      "endX": 230,
+      "endY": 1220
+    }
+  ],
+  "vias": [
+    {
+      "net": "USB_DM_MCU",
+      "x": 750,
+      "y": 710,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "USB_DP_MCU",
+      "x": 783.5,
+      "y": 710,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 610,
+      "y": 125,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 855,
+      "y": 710,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 755,
+      "y": 790,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_D2_MCU",
+      "x": 616.1,
+      "y": 710,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_D2",
+      "x": 615,
+      "y": 570,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_D3",
+      "x": 525,
+      "y": 475,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_D3",
+      "x": 680,
+      "y": 590,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_CMD",
+      "x": 470,
+      "y": 600,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_CMD",
+      "x": 970,
+      "y": 355,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_CLK",
+      "x": 515,
+      "y": 600,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_CLK",
+      "x": 995,
+      "y": 275,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_D0",
+      "x": 550,
+      "y": 580,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_D0",
+      "x": 525,
+      "y": 810,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_D0",
+      "x": 550,
+      "y": 900,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_D0",
+      "x": 990,
+      "y": 201.5,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_D0",
+      "x": 585,
+      "y": 500,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_D1",
+      "x": 625,
+      "y": 615,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_D1",
+      "x": 600,
+      "y": 800,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_D1",
+      "x": 600,
+      "y": 935,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_D1",
+      "x": 1045,
+      "y": 158.3,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_D1",
+      "x": 465,
+      "y": 450,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_CD_N",
+      "x": 690,
+      "y": 710,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_CD_N",
+      "x": 660,
+      "y": 810,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_CD_N",
+      "x": 640,
+      "y": 1000,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_CD_N",
+      "x": 1070,
+      "y": 114.8,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "SD_CD_N",
+      "x": 440,
+      "y": 350,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "5V_SYS",
+      "x": 900,
+      "y": 615,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "5V_SYS",
+      "x": 950,
+      "y": 230,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "3V3",
+      "x": 875,
+      "y": 1260,
+      "holeDiameter": 16,
+      "diameter": 32
+    },
+    {
+      "net": "3V3",
+      "x": 840,
+      "y": 1260,
+      "holeDiameter": 16,
+      "diameter": 32
+    },
+    {
+      "net": "3V3",
+      "x": 420,
+      "y": 1155,
+      "holeDiameter": 20,
+      "diameter": 40
+    },
+    {
+      "net": "3V3",
+      "x": 1080,
+      "y": 1265,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "3V3",
+      "x": 570,
+      "y": 975,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "3V3",
+      "x": 565,
+      "y": 810,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "3V3",
+      "x": 648,
+      "y": 331.2,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "3V3",
+      "x": 800,
+      "y": 350,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "USB_VBUS",
+      "x": 525,
+      "y": 250,
+      "holeDiameter": 16,
+      "diameter": 32
+    },
+    {
+      "net": "USB_VBUS",
+      "x": 610,
+      "y": 40,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "UART_RX_EXT",
+      "x": 338,
+      "y": 1200,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "UART_RX_EXT",
+      "x": 510,
+      "y": 1210,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "UART_TX_EXT",
+      "x": 340,
+      "y": 1000,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "UART_RX",
+      "x": 435,
+      "y": 1085,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "x": 331,
+      "y": 908,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "x": 1080,
+      "y": 1170,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "MAIN_PWR_IN",
+      "x": 905,
+      "y": 655,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "USB_EN",
+      "x": 716.5,
+      "y": 725,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "USB_EN",
+      "x": 870,
+      "y": 650,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "USB_EN_GATED",
+      "x": 895,
+      "y": 550,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "USB_EN_GATED",
+      "x": 835,
+      "y": 400,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "USB_EN_GATED",
+      "x": 1115,
+      "y": 600,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "USB_EN_GATED",
+      "x": 1060,
+      "y": 1015,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "USB_FAULT_N",
+      "x": 865,
+      "y": 575,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "USB_FAULT_N",
+      "x": 890,
+      "y": 490,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "PROG_TX",
+      "x": 1065,
+      "y": 1045,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "PROG_RX",
+      "x": 1065,
+      "y": 1083,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "LED_REC_A",
+      "x": 265,
+      "y": 1095,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "LED_ERR_A",
+      "x": 260,
+      "y": 1205,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "LED_REC",
+      "x": 575,
+      "y": 1025,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "LED_REC",
+      "x": 210,
+      "y": 1195,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "LED_ERR",
+      "x": 419,
+      "y": 965,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "LED_ERR",
+      "x": 300,
+      "y": 1300,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "STOP_N",
+      "x": 515,
+      "y": 1020,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "STOP_N",
+      "x": 255,
+      "y": 1060,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "STOP_N",
+      "x": 160,
+      "y": 730,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "BOOT",
+      "x": 215,
+      "y": 965,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "BOOT",
+      "x": 430,
+      "y": 1310,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "BOOT",
+      "x": 510,
+      "y": 1170,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "EN",
+      "x": 160,
+      "y": 570,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "EN",
+      "x": 1125,
+      "y": 1370,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "EN",
+      "x": 990,
+      "y": 1110,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 760,
+      "y": 970,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 690,
+      "y": 795,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 920,
+      "y": 810,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 1005,
+      "y": 1175,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 335,
+      "y": 1035,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 370,
+      "y": 1235,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 640,
+      "y": 265,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 620,
+      "y": 420,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 470,
+      "y": 145,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 912,
+      "y": 352,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 800,
+      "y": 310,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 1067,
+      "y": 798,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 168,
+      "y": 830,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 810,
+      "y": 1130,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 785,
+      "y": 1240,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 715,
+      "y": 975,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 465,
+      "y": 720,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 990,
+      "y": 1040,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 765,
+      "y": 655,
+      "holeDiameter": 12,
+      "diameter": 24
+    },
+    {
+      "net": "GND",
+      "x": 230,
+      "y": 1220,
+      "holeDiameter": 12,
+      "diameter": 24
+    }
+  ]
+}

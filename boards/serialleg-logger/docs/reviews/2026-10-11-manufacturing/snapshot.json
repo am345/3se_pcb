@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-11",
+  "revision": "R0.2 P16 工作区草稿",
+  "baseCommit": "27a9aebb6f87ded35f4d1f7330f6f76075f9c465",
+  "software": "嘉立创 EDA 专业版 4.1.71.7a7261be",
+  "schematicVersion": "1791707528462",
+  "pcbVersion": "1791709431364",
+  "verification": {
+    "nativeReopen": true,
+    "pcbDrc": 0,
+    "schematicElectricalErrors": 0,
+    "schematicWarnings": [
+      "U1 ATTRMATCHCODE"
+    ],
+    "netlistComponents": 65,
+    "netlistPinEntries": 250,
+    "netlistDifferences": 0,
+    "physicalSilkStrings": 17,
+    "c15PositiveSilkPresentAfterReopen": true,
+    "nativeFullDfmExecuted": false,
+    "gerberGeometryCheck": "manufacturing-check.json",
+    "physicalTestsPerformed": false
+  },
+  "assembly": {
+    "bomDesignators": 65,
+    "fit": 64,
+    "smd": 62,
+    "throughHole": 2,
+    "dnp": [
+      "R12"
+    ]
+  },
+  "mechanical": "mechanical-check.json",
+  "manual": {
+    "title": "达妙科技DM-MC-Board02电机开发板使用说明书V1.1.pdf",
+    "pdfPages": [
+      4,
+      5,
+      14
+    ],
+    "external5VContinuousA": 2,
+    "actualPeripheralLoadKnown": false
+  },
+  "referenceSkillVersions": {
+    "easyedaEprj3": "40c94e129df18e94232f8c94260134bfcac6cabf",
+    "easyedaFormat": "9e42727cc4cf13a8e442140e8e7794ae94d5f41b",
+    "kicadDesignGuidance": "604669c50807ae019aa4b5c7e6acacb833035406"
+  },
+  "nativeGeometryChanges": {
+    "signalLineRecordsUnchanged": 574,
+    "viasUnchanged": 119,
+    "groundFillSubpaths": [
+      {
+        "id": "[\"POURED\",\"72e253a13ff9afd9\"]",
+        "paths": 65
+      },
+      {
+        "id": "[\"POURED\",\"7d61593fa5d04859\"]",
+        "paths": 49
+      },
+      {
+        "id": "[\"POURED\",\"d80c6a9dd2780be1\"]",
+        "paths": 42
+      }
+    ]
+  },
+  "manufacturingReleased": false
+}

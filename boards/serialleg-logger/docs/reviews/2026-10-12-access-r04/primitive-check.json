@@ -1,0 +1,10 @@
+{
+  "native_line_count": 633,
+  "native_via_count": 92,
+  "exact_duplicate_lines": 0,
+  "exact_duplicate_vias": 0,
+  "placement_rows": 64,
+  "R12_in_placement": false,
+  "raw_placement_rows": 65,
+  "dnp_filter": "按照原生 addIntoBom=false / Assembly=DNP，排除 R12"
+}

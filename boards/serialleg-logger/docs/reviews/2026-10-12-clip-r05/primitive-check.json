@@ -1,0 +1,13 @@
+{
+  "lines": 633,
+  "vias": 92,
+  "duplicateLines": 0,
+  "duplicateVias": 0,
+  "mechanicalContactAnnotations": 6,
+  "looseNPTHPadsRemaining": 0,
+  "PCBMountingHoles": 0,
+  "defaultPlacementRows": 64,
+  "J1Unchanged": true,
+  "assetComparison": "忽略工作副本/正式工程对应的 libraryUuid 会话绑定；比较器件与封装内部 UUID、名称、装配状态和引脚网络",
+  "footprintNPTHFromGerber": 4
+}

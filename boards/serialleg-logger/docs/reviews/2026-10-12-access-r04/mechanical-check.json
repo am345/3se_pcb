@@ -1,0 +1,780 @@
+{
+  "date": "2026-10-12",
+  "source": "DM-MC02 官方 CtrBoard-H7_V1.0-240112A.step；资料仓库提交 0ad8a919495c6da38f36b9352ca1118e490ef4c2",
+  "mapping": {
+    "x": "17.03159025 + x_mil*0.0254",
+    "y": "-18.542 + y_mil*0.0254",
+    "underside_z_mm": 7.5,
+    "pcb_thickness_mm": 1.6
+  },
+  "bbox_mm": [
+    35.75304,
+    49.71796
+  ],
+  "area_mm2": 1070.4111365928,
+  "previous_area_mm2": 1666.0291066448,
+  "area_reduction_percent": 35.750754154080134,
+  "outline_dm_mm": [
+    [
+      23.88959025,
+      -29.464
+    ],
+    [
+      23.88959025,
+      -17.018
+    ],
+    [
+      26.93759025,
+      -16.256
+    ],
+    [
+      26.93759025,
+      -14.732000000000001
+    ],
+    [
+      27.31859025,
+      -14.351000000000003
+    ],
+    [
+      27.31859025,
+      -6.096000000000002
+    ],
+    [
+      20.33359025,
+      -6.096000000000002
+    ],
+    [
+      20.33359025,
+      5.333999999999996
+    ],
+    [
+      21.34959025,
+      6.349999999999998
+    ],
+    [
+      21.34959025,
+      15.366999999999997
+    ],
+    [
+      44.97159025,
+      15.366999999999997
+    ],
+    [
+      44.97159025,
+      17.272
+    ],
+    [
+      51.52479025,
+      17.272
+    ],
+    [
+      51.52479025,
+      20.25396
+    ],
+    [
+      56.08663025,
+      20.25396
+    ],
+    [
+      56.08663025,
+      15.494
+    ],
+    [
+      47.25759025,
+      15.494
+    ],
+    [
+      47.25759025,
+      -16.154400000000003
+    ],
+    [
+      51.52479025,
+      -16.154400000000003
+    ],
+    [
+      51.52479025,
+      -15.748000000000001
+    ],
+    [
+      56.08663025,
+      -15.748000000000001
+    ],
+    [
+      56.08663025,
+      -20.253960000000003
+    ],
+    [
+      51.52479025,
+      -20.253960000000003
+    ],
+    [
+      51.52479025,
+      -17.9324
+    ],
+    [
+      41.16159025,
+      -17.9324
+    ],
+    [
+      41.16159025,
+      -29.464
+    ],
+    [
+      23.88959025,
+      -29.464
+    ]
+  ],
+  "interfaces": [
+    {
+      "ref": "P12",
+      "bbox_mm": [
+        15.214998751153736,
+        -15.125001013385955,
+        5.2206547999922304e-05,
+        20.17499896653378,
+        -6.875000830392611,
+        4.0600521753236665
+      ],
+      "bare_bbox_clearance_mm": 0.7949801814786559,
+      "covered_area_mm2": 0.0,
+      "clearance_after_0_5mm_planar_allowance_mm": 0.2949801814786559
+    },
+    {
+      "ref": "P13",
+      "bbox_mm": [
+        15.214998751153736,
+        6.874998986612044,
+        5.2206547999922304e-05,
+        20.17499896653378,
+        15.124999169605386,
+        4.0600521753236665
+      ],
+      "bare_bbox_clearance_mm": 1.174591283466217,
+      "covered_area_mm2": 0.0,
+      "clearance_after_0_5mm_planar_allowance_mm": 0.6745912834662171
+    },
+    {
+      "ref": "P15",
+      "bbox_mm": [
+        20.720003633966734,
+        -15.125001013385955,
+        5.2206547999922304e-05,
+        25.68000384934678,
+        -6.875000830392611,
+        4.0600521753236665
+      ],
+      "bare_bbox_clearance_mm": 0.7790008303926088,
+      "covered_area_mm2": 0.0,
+      "clearance_after_0_5mm_planar_allowance_mm": 0.2790008303926088
+    },
+    {
+      "ref": "P6",
+      "bbox_mm": [
+        48.3110907957517,
+        1.1300370267677078,
+        -3.0,
+        55.93109106221621,
+        3.670038181447702,
+        8.0
+      ],
+      "bare_bbox_clearance_mm": 1.0535005457517033,
+      "covered_area_mm2": 0.0,
+      "clearance_after_0_5mm_planar_allowance_mm": 0.5535005457517033
+    },
+    {
+      "ref": "P11",
+      "bbox_mm": [
+        48.31079415448453,
+        3.8049959050426754,
+        -2.9999477932280003,
+        55.96189749954492,
+        13.9775394346532,
+        8.540046610074
+      ],
+      "bare_bbox_clearance_mm": 1.0532039044845336,
+      "covered_area_mm2": 0.0,
+      "clearance_after_0_5mm_planar_allowance_mm": 0.5532039044845336
+    },
+    {
+      "ref": "P1",
+      "bbox_mm": [
+        41.2545953906249,
+        -19.872799438761866,
+        -0.02200095653514164,
+        51.404595547985856,
+        -14.672798965804665,
+        3.377999043465
+      ],
+      "bare_bbox_clearance_mm": 0.0,
+      "covered_area_mm2": 26.94074367170721
+    },
+    {
+      "ref": "J1",
+      "bbox_mm": [
+        20.676001179469743,
+        11.73039559605466,
+        -0.995001826299114,
+        29.616001817656,
+        19.630396513798416,
+        3.2049985933299943
+      ],
+      "bare_bbox_clearance_mm": 0.0,
+      "covered_area_mm2": 30.061668711762493,
+      "pcb_recession_behind_front_mm": 4.263396513798419
+    },
+    {
+      "ref": "P4",
+      "bbox_mm": [
+        30.780578248915667,
+        14.807740727864148,
+        5.220677199977203e-05,
+        36.52943069188855,
+        19.666770734361698,
+        4.259201712725
+      ],
+      "bare_bbox_clearance_mm": 0.0,
+      "covered_area_mm2": 3.2150990328734115,
+      "pcb_recession_behind_front_mm": 4.299770734361701
+    },
+    {
+      "ref": "P5",
+      "bbox_mm": [
+        37.525573366103664,
+        14.807740727864148,
+        5.220677199977203e-05,
+        43.27442580907655,
+        19.666770734361698,
+        4.259201712725
+      ],
+      "bare_bbox_clearance_mm": 0.0,
+      "covered_area_mm2": 3.2150990328734115,
+      "pcb_recession_behind_front_mm": 4.299770734361701
+    },
+    {
+      "ref": "P10",
+      "bbox_mm": [
+        44.32900719917786,
+        14.778463816438764,
+        5.220677199965687e-05,
+        51.32737618907056,
+        19.62733396815748,
+        4.399026777918
+      ],
+      "bare_bbox_clearance_mm": 0.0,
+      "covered_area_mm2": 13.314486491640436,
+      "pcb_recession_behind_front_mm": 2.355333968157481
+    },
+    {
+      "ref": "U13",
+      "bbox_mm": [
+        50.814987905655364,
+        -15.17499784307147,
+        5.2208261999905914e-05,
+        55.71498864318126,
+        0.5750027959522139,
+        4.400052336716
+      ],
+      "bare_bbox_clearance_mm": 0.5730021569285313,
+      "covered_area_mm2": 0.0
+    },
+    {
+      "ref": "P2",
+      "bbox_mm": [
+        0.32822778824856247,
+        6.92557441425019,
+        5.220677199977203e-05,
+        5.1872575456528125,
+        12.674426665116004,
+        4.259201712725
+      ],
+      "bare_bbox_clearance_mm": 15.229724341132147,
+      "covered_area_mm2": 0.0
+    },
+    {
+      "ref": "P3",
+      "bbox_mm": [
+        0.32822778824856247,
+        -12.674431689264809,
+        5.220677199977203e-05,
+        5.1872575456528125,
+        -6.925579438398996,
+        4.259201712725
+      ],
+      "bare_bbox_clearance_mm": 15.169034129943528,
+      "covered_area_mm2": 0.0
+    },
+    {
+      "ref": "P7",
+      "bbox_mm": [
+        -0.17963484047839806,
+        14.599551992231108,
+        -2.375023752450943,
+        15.320365169811506,
+        19.79955215798695,
+        8.925004768739774
+      ],
+      "bare_bbox_clearance_mm": 6.029225080188493,
+      "covered_area_mm2": 0.0
+    },
+    {
+      "ref": "P8",
+      "bbox_mm": [
+        -0.1796500992673975,
+        -19.800441904248895,
+        -2.375023752450943,
+        15.320349911022507,
+        -14.600441738493053,
+        8.925004768739774
+      ],
+      "bare_bbox_clearance_mm": 8.569240338977494,
+      "covered_area_mm2": 0.0
+    },
+    {
+      "ref": "P9",
+      "bbox_mm": [
+        0.00931352620584125,
+        -6.660760038441067,
+        -3.156001620157,
+        13.959313715046202,
+        6.6392399794462555,
+        5.2939985798430005
+      ],
+      "bare_bbox_clearance_mm": 6.374276534953799,
+      "covered_area_mm2": 0.0
+    },
+    {
+      "ref": "SW1",
+      "bbox_mm": [
+        36.080672728768256,
+        -19.638344068812657,
+        -0.49994790514900006,
+        40.68066626487398,
+        -16.078348588539995,
+        3.3000468334460002
+      ],
+      "bare_bbox_clearance_mm": 0.0,
+      "covered_area_mm2": 16.375956197819825
+    },
+    {
+      "ref": "SW2",
+      "bbox_mm": [
+        20.51046704029225,
+        -19.638344068812657,
+        -0.49994790514900006,
+        25.11046057639798,
+        -16.078348588539995,
+        3.3000468334460002
+      ],
+      "bare_bbox_clearance_mm": 0.0,
+      "covered_area_mm2": 3.385415862801204
+    },
+    {
+      "ref": "FPC1",
+      "bbox_mm": [
+        52.283848143846754,
+        -14.455866974288497,
+        -2.8322936901510722,
+        55.78384824252595,
+        -0.44586700649275296,
+        -1.8122925030038988
+      ],
+      "bare_bbox_clearance_mm": 1.292133025711504,
+      "covered_area_mm2": 0.0
+    }
+  ],
+  "bottom_body_height_assumptions": [
+    {
+      "logger": "U4",
+      "damiao": "R2",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 0.1858061003046039,
+      "nominal_vertical_gap_mm": 5.2637999
+    },
+    {
+      "logger": "U4",
+      "damiao": "J1",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 0.26555444269985246,
+      "nominal_vertical_gap_mm": 2.2950014066700057
+    },
+    {
+      "logger": "U3",
+      "damiao": "BUZZER1",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.2889806331706795,
+      "nominal_vertical_gap_mm": 3.499999790721479
+    },
+    {
+      "logger": "C9",
+      "damiao": "BUZZER1",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.2799948800051193,
+      "nominal_vertical_gap_mm": 3.499999790721479
+    },
+    {
+      "logger": "C12",
+      "damiao": "J1",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.2799948800051222,
+      "nominal_vertical_gap_mm": 2.2950014066700057
+    },
+    {
+      "logger": "Q1",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 0.7387635960986111,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "Q1",
+      "damiao": "R54",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 0.18580616121841698,
+      "nominal_vertical_gap_mm": 5.2637999
+    },
+    {
+      "logger": "R19",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 0.8109510120514959,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "R20",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.2799948800051306,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "R21",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 0.4882441950755706,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "R21",
+      "damiao": "L6",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 0.35216771014151627,
+      "nominal_vertical_gap_mm": 2.5
+    },
+    {
+      "logger": "R22",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.2799948800051193,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "R23",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 0.8109510120514959,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "R24",
+      "damiao": "L6",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 0.536645681173138,
+      "nominal_vertical_gap_mm": 2.5
+    },
+    {
+      "logger": "R10",
+      "damiao": "R52",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 0.0005511147993300872,
+      "nominal_vertical_gap_mm": 5.2637999
+    },
+    {
+      "logger": "R17",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.2799948800051193,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "R29",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.279994880005125,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "R31",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.279994880005125,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "C10",
+      "damiao": "U18",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.8463540866555495,
+      "nominal_vertical_gap_mm": 4.560000200705
+    },
+    {
+      "logger": "R4",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.2799948800051193,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "R5",
+      "damiao": "Y1",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 0.8086516632455233,
+      "nominal_vertical_gap_mm": 4.899999854977249
+    },
+    {
+      "logger": "R5",
+      "damiao": "BUZZER1",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 0.026167998866546298,
+      "nominal_vertical_gap_mm": 3.499999790721479
+    },
+    {
+      "logger": "R6",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.2799948800051164,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "R7",
+      "damiao": "BUZZER1",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.0394281894425759,
+      "nominal_vertical_gap_mm": 3.499999790721479
+    },
+    {
+      "logger": "R8",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.2799948800051193,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "R9",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.2799948800051306,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "R26",
+      "damiao": "D18",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 0.1980268726144059,
+      "nominal_vertical_gap_mm": 5.099999989343873
+    },
+    {
+      "logger": "R26",
+      "damiao": "D14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 0.37416438372871924,
+      "nominal_vertical_gap_mm": 4.399999999999949
+    },
+    {
+      "logger": "R27",
+      "damiao": "J1",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.2799948800051306,
+      "nominal_vertical_gap_mm": 2.2950014066700057
+    },
+    {
+      "logger": "U5",
+      "damiao": "U18",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.7609106893159316,
+      "nominal_vertical_gap_mm": 4.560000200705
+    },
+    {
+      "logger": "U5",
+      "damiao": "R89",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 5.6624714328776494e-05,
+      "nominal_vertical_gap_mm": 5.1499999
+    },
+    {
+      "logger": "U5",
+      "damiao": "R80",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 0.5291455743890725,
+      "nominal_vertical_gap_mm": 5.1499999
+    },
+    {
+      "logger": "C17",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.2799948800051277,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "R28",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.279994880005125,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "U6",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 4.639981440018556,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "U2",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 4.639981440018557,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "L1",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 4.5,
+      "overlap_area_mm2": 5.021419333611635,
+      "nominal_vertical_gap_mm": 1.3972599999999815
+    },
+    {
+      "logger": "L1",
+      "damiao": "U6",
+      "logger_assumed_height_mm": 4.5,
+      "overlap_area_mm2": 7.579586619297764,
+      "nominal_vertical_gap_mm": 2.1
+    },
+    {
+      "logger": "L1",
+      "damiao": "U5",
+      "logger_assumed_height_mm": 4.5,
+      "overlap_area_mm2": 6.66418452785032,
+      "nominal_vertical_gap_mm": 2.1
+    },
+    {
+      "logger": "L1",
+      "damiao": "R12",
+      "logger_assumed_height_mm": 4.5,
+      "overlap_area_mm2": 0.18580610030461256,
+      "nominal_vertical_gap_mm": 2.7637999
+    },
+    {
+      "logger": "L1",
+      "damiao": "C16",
+      "logger_assumed_height_mm": 4.5,
+      "overlap_area_mm2": 0.18000000523740925,
+      "nominal_vertical_gap_mm": 2.74
+    },
+    {
+      "logger": "C1",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 2.4999646000608036,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "C2",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.279994880005108,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "C3",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.2799948800051193,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "C5",
+      "damiao": "R71",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 0.16727397113018255,
+      "nominal_vertical_gap_mm": 5.2637999
+    },
+    {
+      "logger": "C5",
+      "damiao": "D15",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 0.14639167072099438,
+      "nominal_vertical_gap_mm": 5.099999989343873
+    },
+    {
+      "logger": "R2",
+      "damiao": "P10",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.279994880005125,
+      "nominal_vertical_gap_mm": 1.1009732220819997
+    },
+    {
+      "logger": "C14",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.2799948800051193,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "C16",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.279994880005125,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    },
+    {
+      "logger": "R30",
+      "damiao": "U14",
+      "logger_assumed_height_mm": 2,
+      "overlap_area_mm2": 1.279994880005125,
+      "nominal_vertical_gap_mm": 3.8972599999999815
+    }
+  ],
+  "minimum_nominal_vertical_gap_mm": 1.1009732220819997,
+  "OD4mm_posts": [
+    {
+      "xy": [
+        53.80063025,
+        -18.000980000000002
+      ],
+      "ref": "P1",
+      "OD4mm_clearance_mm": 0.3960347020141413
+    },
+    {
+      "xy": [
+        53.80063025,
+        -18.000980000000002
+      ],
+      "ref": "P10",
+      "OD4mm_clearance_mm": 30.87261960328014
+    },
+    {
+      "xy": [
+        53.80063025,
+        18.00098
+      ],
+      "ref": "P1",
+      "OD4mm_clearance_mm": 30.761514420225126
+    },
+    {
+      "xy": [
+        53.80063025,
+        18.00098
+      ],
+      "ref": "P10",
+      "OD4mm_clearance_mm": 0.4732540609294347
+    }
+  ],
+  "physical_fit_verified": false,
+  "limitations": [
+    "GH/PWM/SBUS 插头按母座投影额外 0.5 mm 平面余量检查；未包含具体线束和弯折半径。",
+    "2 mm 底面器件高度及 L1 4.5 mm 均为保守模型假设，非逐料号高度公差认证。",
+    "H40/H35 7.5 mm 是名义叠高；实际公座、螺柱和达妙板版本必须试配。",
+    "P14/BOOT0 不在 STEP 实体清单；手册所示位置仍在覆盖区。将其作为拆板维护项，不宣称可直接操作。",
+    "Type-C 包胶、LCD 模组、外接设备及机架没有对应实体模型。"
+  ]
+}
