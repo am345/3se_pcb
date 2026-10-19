@@ -4,15 +4,15 @@
 
 ## 板卡索引
 
-| 板子 | 用途 | 当前设计版本 | 状态 | 最近投板版本 |
-| --- | --- | --- | --- | --- |
-| [SerialLeg Logger](boards/serialleg-logger/README.md) | DM-MC02 P16 直插供电，USB 日志写入 microSD | 2026-10-16 丝印与 USB 短线修订版，46.60 × 44.35 mm | 设计中；丝印间距修正、USB 插座侧短线改为 8 mil，覆铜重填、重开后原生 DRC 0 项；实际层叠确认、机械试配与实测待完成 | 无 |
-| [F103 工控板](boards/f103-industrial/README.md) | STM32F103 工控 / 培训板 | V1，已转 `.eprj3` | 已投板；已测试（用户确认） | 未登记 |
-| [3SE 26 超级电容](boards/supercapacitor/README.md) | 超级电容控制板与功率板，含 STM32G474 板载固件 | 原工程，已转 `.eprj3`；固件源自原仓库提交 `1fafeae` | 已投板（据固件文档有 1～6 号板，对应的上板版本待确认）；原理图保留 6 条原有警告 | 未登记 |
-| [关节电容](boards/joint-capacitor/README.md) | 关节电容工程 | 原工程，已转 `.eprj3`；版本待确认 | 设计中；原理图保留 2 条原有错误 | 待确认 |
-| [超级电容组](boards/supercap-bank/README.md) | 10 串 3.0 V（34 F + 10 F）电容组，配合 3SE 26 超级电容控制板 | V0.2 草稿，42.3 × 76 mm 蜂窝错位两层板 | 设计中；ERC 0、DRC 0，未投板、未实测 | 无 |
+| 板子 | 用途 | 最近更新 |
+| --- | --- | --- |
+| [SerialLeg Logger](boards/serialleg-logger/README.md) | DM-MC02 P16 直插供电，USB 日志写入 microSD | 2026-10-16 |
+| [F103 工控板](boards/f103-industrial/README.md) | STM32F103 工控 / 培训板 | 2026-10-10 |
+| [3SE 26 超级电容](boards/supercapacitor/README.md) | 超级电容控制板与功率板，含 STM32G474 板载固件 | 2026-10-17 |
+| [关节电容](boards/joint-capacitor/README.md) | 关节电容工程 | 2026-10-10 |
+| [超级电容组](boards/supercap-bank/README.md) | 10 串 3.0 V（34 F + 10 F）电容组，配合 3SE 26 超级电容控制板 | 2026-10-18 |
 
-状态统一使用：`设计中`、`待投板`、`已投板`、`已验证`、`停用`。已投板不代表已验证；状态和问题以各板 README 为准。
+“最近更新”是该板设计或记录最后一次修改的日期。当前版本、状态、投板版本和已知问题都以各板 README 为准；状态统一使用 `设计中`、`待投板`、`已投板`、`已验证`、`停用`，已投板不代表已验证。
 
 ## 开始使用
 
