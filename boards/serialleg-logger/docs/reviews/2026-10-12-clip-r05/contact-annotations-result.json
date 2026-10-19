@@ -1,0 +1,89 @@
+{
+  "zones": [
+    {
+      "name": "左托面",
+      "layer": 2,
+      "bboxDM": [
+        23.92959025,
+        -29.05,
+        26.18959025,
+        -26.45
+      ],
+      "id": "a65fef2d5f51da51",
+      "annotationId": "e6bc786645a207ce",
+      "annotationLayer": 14,
+      "validation": "按机械接触面、实际封装本体和通孔焊脚包络核对，非原生元件禁布区"
+    },
+    {
+      "name": "右托面",
+      "layer": 2,
+      "bboxDM": [
+        39.6,
+        -29.05,
+        40.6,
+        -26.45
+      ],
+      "id": "2b2e401ea2e74bf8",
+      "annotationId": "0baac4e7f3261075",
+      "annotationLayer": 14,
+      "validation": "按机械接触面、实际封装本体和通孔焊脚包络核对，非原生元件禁布区"
+    },
+    {
+      "name": "后托面",
+      "layer": 2,
+      "bboxDM": [
+        46.65759025,
+        15.2,
+        47.25759025,
+        16.5
+      ],
+      "id": "9114e193ebc2f967",
+      "annotationId": "5babf5eb37f01a90",
+      "annotationLayer": 14,
+      "validation": "按机械接触面、实际封装本体和通孔焊脚包络核对，非原生元件禁布区"
+    },
+    {
+      "name": "左卡扣",
+      "layer": 1,
+      "bboxDM": [
+        23.88959025,
+        -29.25,
+        24.38959025,
+        -26.25
+      ],
+      "id": "7809681c0c1cecc9",
+      "annotationId": "aebfb9d86a286a26",
+      "annotationLayer": 14,
+      "validation": "按机械接触面、实际封装本体和通孔焊脚包络核对，非原生元件禁布区"
+    },
+    {
+      "name": "右前卡扣",
+      "layer": 1,
+      "bboxDM": [
+        39.68,
+        -29.464,
+        40.53,
+        -28.964
+      ],
+      "id": "6f0a7798231db147",
+      "annotationId": "3fdf3dc82e94a228",
+      "annotationLayer": 14,
+      "validation": "按机械接触面、实际封装本体和通孔焊脚包络核对，非原生元件禁布区"
+    },
+    {
+      "name": "后卡扣",
+      "layer": 1,
+      "bboxDM": [
+        46.75759025,
+        15.25,
+        47.25759025,
+        16.45
+      ],
+      "id": "9e6adb529dc1906f",
+      "annotationId": "7ea7830c183adbbd",
+      "annotationLayer": 14,
+      "validation": "按机械接触面、实际封装本体和通孔焊脚包络核对，非原生元件禁布区"
+    }
+  ],
+  "drc": []
+}

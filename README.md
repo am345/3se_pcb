@@ -6,7 +6,7 @@
 
 | 板子 | 用途 | 当前设计版本 | 状态 | 最近投板版本 |
 | --- | --- | --- | --- | --- |
-| [SerialLeg Logger](boards/serialleg-logger/README.md) | USB / UART 接收机器人日志，写入 microSD | R0.1 草稿 | 设计中；尚有 DRC 问题 | 无 |
+| [SerialLeg Logger](boards/serialleg-logger/README.md) | DM-MC02 P16 直插供电，USB 日志写入 microSD | 2026-10-16 丝印与 USB 短线修订版，46.60 × 44.35 mm | 设计中；丝印间距修正、USB 插座侧短线改为 8 mil，覆铜重填、重开后原生 DRC 0 项；实际层叠确认、机械试配与实测待完成 | 无 |
 | [F103 工控板](boards/f103-industrial/README.md) | STM32F103 工控 / 培训板 | V1，已转 `.eprj3` | 设计中；PCB DRC 0 项，原理图有警告 | 未登记 |
 | [电容计](boards/capacitance-meter/README.md) | 8–50 F / 3 V 电容测量核心 | 原理图 V0.4 / PCB V0.1 | 设计中；布线未完成 | 无 |
 | [3SE 26 超级电容](boards/supercapacitor/README.md) | 超级电容控制板与功率板，含 STM32G474 板载固件 | 原工程，已转 `.eprj3`；固件源自原仓库提交 `1fafeae` | 已投板（据固件文档有 1～6 号板，对应的上板版本待确认）；原理图保留 6 条原有警告 | 未登记 |

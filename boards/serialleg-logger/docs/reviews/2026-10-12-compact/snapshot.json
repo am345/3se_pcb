@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-12",
+  "eda_version": "4.1.71.7a7261be",
+  "baseline_commit": "27a9aebb6f87ded35f4d1f7330f6f76075f9c465",
+  "working_tree": "未提交的 R0.3 紧凑版工程；无生产标签",
+  "project": "boards/serialleg-logger/hardware/SerialLegLogger.eprj3",
+  "schematic_version": "1791733447480",
+  "pcb_version": "1791780408455",
+  "components": 65,
+  "default_fit": 64,
+  "default_smt": 62,
+  "line_count": 626,
+  "via_count": 129,
+  "filled_ground_layers": [
+    1,
+    15,
+    2
+  ],
+  "native_refill_method": "IPCB_PrimitivePour.rebuildCopperRegion()，三个返回成功；保存并重开后 DRC 为 0",
+  "canonical_reopened": true,
+  "canonical_netlist_equal_to_checked_copy": true,
+  "schematic_preserved": true,
+  "computer_use_used": false,
+  "autorouter_used": false,
+  "production_files_released": false,
+  "physical_testing_performed": false
+}

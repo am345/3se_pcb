@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-15",
+  "software": "嘉立创EDA专业版 4.1.71.7a7261be",
+  "components": 43,
+  "padGeometryUnchanged": true,
+  "placementsUnchanged": true,
+  "tracksUnchanged": true,
+  "viasUnchanged": true,
+  "outlinesUnchanged": true,
+  "netlistUnchanged": true,
+  "schematicPcbNetlistMatch": true,
+  "erc": [
+    {
+      "type": "warn",
+      "rule": "ATTRMATCHCODE",
+      "primitives": [
+        {
+          "primitiveId": "a57e5f99cd335263",
+          "sheet": "705f0c5067bd3436",
+          "name": "U1($1I77)"
+        }
+      ]
+    }
+  ],
+  "beforeDrcCount": 165,
+  "afterDrcCount": 165,
+  "newDrcCount": 0,
+  "drcGroups": [
+    {
+      "name": "Clearance Error",
+      "count": 2
+    },
+    {
+      "name": "Connection Error",
+      "count": 163
+    }
+  ],
+  "embedded": [
+    {
+      "file": "boards/serialleg-logger/hardware/sch/Logger/Main.esch2",
+      "holes": 0,
+      "pads": 24
+    },
+    {
+      "file": "boards/serialleg-logger/hardware/pcb/Logger.epcb2",
+      "holes": 0,
+      "pads": 24
+    }
+  ],
+  "maxNativeSaveRoundingMil": 0.000020820059944526292,
+  "angleNormalization": "保存重开后270度可表达为-90度；按模360度比较，所有器件朝向不变。",
+  "drcComparison": "按错误类型、规则、对象ID、网络及间距门限比较；忽略重开后重新编号的错误索引。",
+  "projectVersions": {
+    "schematic": "1792075551674",
+    "pcb": "1792075195456",
+    "footprint": "1792075195456"
+  }
+}

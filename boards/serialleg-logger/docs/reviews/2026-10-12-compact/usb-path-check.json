@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-12",
+  "method": "原生最终 LINE 中心线与实际 Gerber L2 多边形交差；剔除非 GND 通孔焊盘及过孔铜，包含 0.001 mm 坐标近似余量；不含器件内部延迟，不是阻抗或眼图仿真",
+  "nets": {
+    "USB_DM_MCU": {
+      "length_mm": 6.883619909773577,
+      "layer_ids": [
+        1
+      ],
+      "width_mil": [
+        6
+      ],
+      "via_count": 0,
+      "centerline_without_L2_ground_mm": 0,
+      "locations": []
+    },
+    "USB_DM": {
+      "length_mm": 25.29362310691948,
+      "layer_ids": [
+        1
+      ],
+      "width_mil": [
+        6
+      ],
+      "via_count": 0,
+      "centerline_without_L2_ground_mm": 1.0802085283838503,
+      "locations": [
+        {
+          "line_id": "969d274caf6760cb",
+          "uncovered_mm": 0.7042885283838496,
+          "bbox": [
+            24.907239999999998,
+            11.2522,
+            25.405247194332112,
+            11.750207194332114
+          ]
+        },
+        {
+          "line_id": "e020fda05c0ef0a9",
+          "uncovered_mm": 0.3759200000000007,
+          "bbox": [
+            24.907239999999998,
+            10.87628,
+            24.907239999999998,
+            11.2522
+          ]
+        }
+      ]
+    },
+    "USB_DP_MCU": {
+      "length_mm": 7.112872643855341,
+      "layer_ids": [
+        1
+      ],
+      "width_mil": [
+        6
+      ],
+      "via_count": 0,
+      "centerline_without_L2_ground_mm": 0,
+      "locations": []
+    },
+    "USB_DP": {
+      "length_mm": 25.06402323061255,
+      "layer_ids": [
+        1
+      ],
+      "width_mil": [
+        6
+      ],
+      "via_count": 0,
+      "centerline_without_L2_ground_mm": 1.0865788324173784,
+      "locations": [
+        {
+          "line_id": "ce3a1c4694ece821",
+          "uncovered_mm": 0.6090588324173781,
+          "bbox": [
+            26.90876,
+            11.3538,
+            27.33942963054389,
+            11.784469630543889
+          ]
+        },
+        {
+          "line_id": "f9d3c579b3b5aa9c",
+          "uncovered_mm": 0.47752000000000017,
+          "bbox": [
+            26.90876,
+            10.87628,
+            26.90876,
+            11.3538
+          ]
+        }
+      ]
+    }
+  },
+  "total_mm": {
+    "DM": 32.177243016693055,
+    "DP": 32.17689587446789
+  },
+  "difference_mm": 0.000347142225166408,
+  "limits": "J2 通孔端接及反焊盘无地投影；还需板厂阻抗确认和实测信号质量"
+}

@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1680 1100" width="1680" height="1100"><rect width="100%" height="100%" fill="white"/>
+<text x="50" y="68" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="34" fill="#223b47">SerialLeg Logger R0.2｜P16 直插装配尺寸核对</text>
+<text x="50" y="110" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#61717c">2026-10-11 · 名义尺寸，单位 mm · 基于 DM-MC02 公开 STEP 与连接器系列图</text>
+<polygon points="50,141 1630,141 1630,207 50,207" fill="#fff4de" stroke="#edc787" stroke-width="2"/>
+<text x="74" y="183" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" fill="#865c20">这是装配核对图，不是实物配合认证。先核对 H40 / H35、针 1、定位柱和插拔空间。</text>
+<text x="50" y="288" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#223b47">俯视：主控顶面坐标系</text>
+<polygon points="100.0,353.0 749.6,353.0 749.6,817.0 100.0,817.0" fill="#eef1f4" stroke="#8f9ca6" stroke-width="3"/>
+<polygon points="297.56644689999996,823.6584 297.56644689999996,336.0881280000001 527.3856469,336.0881280000001 527.3856469,278.08706544 935.56634946,278.08706544 935.56634946,406.74280000000005 665.8664469,406.74280000000005 654.0808469,418.52840000000003 654.0808469,576.1608 659.9736469,582.0536000000001 935.56634946,582.0536000000001 935.56634946,823.6584 755.7316469,823.6584 755.7316469,829.5512 692.3840469,829.5512 692.3840469,823.6584 297.56644689999996,823.6584" fill="#e5f1eb" stroke="#277b75" stroke-width="4"/>
+<polyline points="100.0,817.0 749.6,817.0" fill="none" stroke="#9aa6ad" stroke-width="2"/>
+<polyline points="749.6,817.0 749.6,353.0" fill="none" stroke="#9aa6ad" stroke-width="2"/>
+<polyline points="749.6,353.0 100.0,353.0" fill="none" stroke="#9aa6ad" stroke-width="2"/>
+<polyline points="100.0,353.0 100.0,817.0" fill="none" stroke="#9aa6ad" stroke-width="2"/>
+<polygon points="355.7984376953802,518.3003049128664 416.1184560506662,518.3003049128664 416.1184560506662,651.7003151806723 355.7984376953802,651.7003151806723" fill="#ffe9c9" stroke="#b97724" stroke-width="2"/>
+<text x="385.9584468730232" y="593.0003100467694" text-anchor="middle" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20" fill="#8a5314">P16</text>
+<polygon points="660.4052133520206,422.86054371802277 749.158010994721,422.86054371802277 749.158010994721,540.862046341505 660.4052133520206,540.862046341505" fill="#ffe9c9" stroke="#b97724" stroke-width="2"/>
+<text x="704.7816121733708" y="489.8612950297639" text-anchor="middle" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20" fill="#8a5314">P11</text>
+<polygon points="660.4086532307196,542.4275570952065 748.8006563217092,542.4275570952065 748.8006563217092,571.8915704894948 660.4086532307196,571.8915704894948" fill="#ffe9c9" stroke="#b97724" stroke-width="2"/>
+<text x="704.6046547762144" y="565.1595637923507" text-anchor="middle" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20" fill="#8a5314">P6</text>
+<circle cx="724.0873108999999" cy="793.811368" r="13.92" fill="white" stroke="#277b75" stroke-width="2"/>
+<polyline points="704.0873108999999,793.811368 744.0873108999999,793.811368" fill="none" stroke="#277b75" stroke-width="1"/>
+<polyline points="724.0873108999999,773.811368 724.0873108999999,813.811368" fill="none" stroke="#277b75" stroke-width="1"/>
+<circle cx="724.0873108999999" cy="376.188632" r="13.92" fill="white" stroke="#277b75" stroke-width="2"/>
+<polyline points="704.0873108999999,376.188632 744.0873108999999,376.188632" fill="none" stroke="#277b75" stroke-width="1"/>
+<polyline points="724.0873108999999,356.188632 724.0873108999999,396.188632" fill="none" stroke="#277b75" stroke-width="1"/>
+<polyline points="297.56644689999996,278.08706544 297.56644689999996,234.00706544000002" fill="none" stroke="#697b86" stroke-width="2"/>
+<polyline points="935.56634946,278.08706544 935.56634946,234.00706544000002" fill="none" stroke="#697b86" stroke-width="2"/>
+<polyline points="297.56644689999996,234.00706544000002 935.56634946,234.00706544000002" fill="none" stroke="#697b86" stroke-width="2"/>
+<polygon points="935.56634946,234.00706544000002 926.3557395199712,237.90124886308652 926.3557395199712,230.11288201691352" fill="#697b86" stroke="#697b86" stroke-width="1"/>
+<polyline points="935.56634946,234.00706544000002 297.56644689999996,234.00706544000002" fill="none" stroke="#697b86" stroke-width="2"/>
+<polygon points="297.56644689999996,234.00706544000002 306.7770568400288,230.11288201691352 306.7770568400288,237.90124886308652" fill="#697b86" stroke="#697b86" stroke-width="1"/>
+<text x="616.56639818" y="226.00706544000002" text-anchor="middle" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#223b47">55.00</text>
+<polyline points="935.56634946,829.5512 991.2463494599999,829.5512" fill="none" stroke="#697b86" stroke-width="2"/>
+<polyline points="935.56634946,278.08706544 991.2463494599999,278.08706544" fill="none" stroke="#697b86" stroke-width="2"/>
+<polyline points="991.2463494599999,829.5512 991.2463494599999,278.08706544" fill="none" stroke="#697b86" stroke-width="2"/>
+<polygon points="991.2463494599999,278.08706544 995.1405328830864,287.29767538002886 987.3521660369134,287.29767538002886" fill="#697b86" stroke="#697b86" stroke-width="1"/>
+<polyline points="991.2463494599999,278.08706544 991.2463494599999,829.5512" fill="none" stroke="#697b86" stroke-width="2"/>
+<polygon points="991.2463494599999,829.5512 987.3521660369134,820.3405900599712 995.1405328830864,820.3405900599712" fill="#697b86" stroke="#697b86" stroke-width="1"/>
+<text x="1041.24634946" y="564.81913272" text-anchor="middle" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#223b47">47.54</text>
+<polyline points="724.0873108999999,793.8 854.0,793.8" fill="none" stroke="#697b86" stroke-width="2"/>
+<polyline points="724.0873108999999,376.20000000000005 854.0,376.20000000000005" fill="none" stroke="#697b86" stroke-width="2"/>
+<polyline points="854.0,793.8 854.0,376.20000000000005" fill="none" stroke="#697b86" stroke-width="2"/>
+<polygon points="854.0,376.20000000000005 857.8941834230865,385.4106099400289 850.1058165769135,385.4106099400289" fill="#697b86" stroke="#697b86" stroke-width="1"/>
+<polyline points="854.0,376.20000000000005 854.0,793.8" fill="none" stroke="#697b86" stroke-width="2"/>
+<polygon points="854.0,793.8 850.1058165769135,784.5893900599712 857.8941834230865,784.5893900599712" fill="#697b86" stroke="#697b86" stroke-width="1"/>
+<text x="894.0" y="643.0" text-anchor="middle" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#223b47">36.00</text>
+<text x="807.6" y="842.8" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20" fill="#223b47">2× Ø2.40</text>
+<text x="320" y="379" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="24" fill="#277b75">日志板板框</text>
+<text x="117" y="820" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20" fill="#73838e">DM-MC02 板框参考</text>
+<text x="470" y="658" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20" fill="#223b47">J1 底面公座 / P16 母座</text>
+<polyline points="462,649 416.68,585.0" fill="none" stroke="#697b86" stroke-width="2"/>
+<polygon points="416.68,585.0 425.1809106887681,590.2663571338818 418.8247881455835,594.7672864097744" fill="#697b86" stroke="#697b86" stroke-width="1"/>
+<text x="757" y="490" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20" fill="#9a6220">0.545 mm</text>
+<text x="757" y="555" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20" fill="#9a6220">0.546 mm</text>
+<polyline points="753,495 656.8,492.2" fill="none" stroke="#697b86" stroke-width="2"/>
+<polygon points="656.8,492.2 666.1200072188382,488.57543582746774 665.8934147465508,496.3605057681985" fill="#697b86" stroke="#697b86" stroke-width="1"/>
+<polyline points="753,557 656.8,561.8" fill="none" stroke="#697b86" stroke-width="2"/>
+<polygon points="656.8,561.8 665.8051029146615,557.4516530156443 666.1932288135785,565.2303429064393" fill="#697b86" stroke="#697b86" stroke-width="1"/>
+<text x="50" y="936" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="23" fill="#223b47">P6 缺口拐角局部扩大 0.508 mm，保持 USB 插座附近板边位置。</text>
+<text x="50" y="973" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="21" fill="#61717c">外接矩形不包含模块天线、插头和线缆；两孔实际中心距 36.002 mm。</text>
+<text x="1110" y="264" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="25" fill="#223b47">高度关系示意</text>
+<text x="1110" y="298" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20" fill="#61717c">Z = 0：主控 PCB 顶面</text>
+<polygon points="1110,640 1550,640 1550,665 1110,665" fill="#eef1f4" stroke="#8f9ca6" stroke-width="2"/>
+<polygon points="1110,448.9 1345,448.9 1345,482.5 1110,482.5" fill="#e5f1eb" stroke="#277b75" stroke-width="2"/>
+<polygon points="1180,482.5 1243,482.5 1243,640.0 1180,640.0" fill="#ffe9c9" stroke="#b97724" stroke-width="2"/>
+<polygon points="1400,460.65895 1500,460.65895 1500,640.0 1400,640.0" fill="#ffe9c9" stroke="#b97724" stroke-width="2"/>
+<text x="1120" y="419" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="19" fill="#277b75">日志板厚 1.6（候选）</text>
+<text x="1163" y="696" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20" fill="#223b47">P16 / J1</text>
+<text x="1400" y="696" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20" fill="#223b47">P11</text>
+<polyline points="1530,640 1530,482.5" fill="none" stroke="#697b86" stroke-width="2"/>
+<polygon points="1530,482.5 1533.8941834230866,491.71060994002886 1526.1058165769134,491.71060994002886" fill="#697b86" stroke="#697b86" stroke-width="1"/>
+<polyline points="1530,482.5 1530,640" fill="none" stroke="#697b86" stroke-width="2"/>
+<polygon points="1530,640 1526.1058165769134,630.7893900599712 1533.8941834230866,630.7893900599712" fill="#697b86" stroke="#697b86" stroke-width="1"/>
+<text x="1572.0" y="570.25" text-anchor="middle" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#223b47">7.5</text>
+<text x="1370" y="443" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="19" fill="#9a6220">8.54 高接口</text>
+<text x="1105" y="762" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#223b47">上板底面名义 Z = 7.50</text>
+<text x="1105" y="801" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#223b47">P6 高 8.00；P11 高 8.54</text>
+<text x="1105" y="846" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="22" fill="#223b47">高接口须穿过右侧缺口。</text>
+<text x="1105" y="884" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20" fill="#61717c">7.5 mm 不等于可直接下单的</text>
+<text x="1105" y="916" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20" fill="#61717c">安装柱尺寸，需试配确定。</text>
+<polyline points="50,1004 1630,1004" fill="none" stroke="#ccd5da" stroke-width="1"/>
+<text x="50" y="1050" text-anchor="start" font-family="Microsoft YaHei,Noto Sans CJK SC,sans-serif" font-size="20" fill="#61717c">来源：CtrBoard-H7_V1.0-240112A.step；SGDBM / SGDBF 系列尺寸图；当前原生 PCB 板框。</text>
+</svg>

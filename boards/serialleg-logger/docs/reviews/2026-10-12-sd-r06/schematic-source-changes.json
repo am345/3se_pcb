@@ -1,0 +1,430 @@
+[
+  {
+    "id": "6defca283793b39b",
+    "before": [
+      "ATTR",
+      {
+        "x": 759,
+        "y": -13,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 15,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "strikeout": false,
+        "align": "CENTER_MIDDLE",
+        "value": "R0.2 P16 草稿",
+        "keyVisible": null,
+        "valueVisible": null,
+        "key": "Version",
+        "fillColor": null,
+        "parentId": "5efb7e69285a3cce",
+        "zIndex": 6,
+        "locked": false,
+        "yAxisDirection": "up"
+      }
+    ],
+    "after": [
+      "ATTR",
+      {
+        "x": 759,
+        "y": -13,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 15,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "strikeout": false,
+        "align": "CENTER_MIDDLE",
+        "value": "R0.6 SD 布线草稿",
+        "keyVisible": null,
+        "valueVisible": null,
+        "key": "Version",
+        "fillColor": null,
+        "parentId": "5efb7e69285a3cce",
+        "zIndex": 6,
+        "locked": false,
+        "yAxisDirection": "up"
+      }
+    ]
+  },
+  {
+    "id": "69f514cc3ceee9fc",
+    "before": [
+      "ATTR",
+      {
+        "x": 365,
+        "y": 642,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 7.5,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "align": null,
+        "value": "SD_CLK_MCU",
+        "keyVisible": false,
+        "valueVisible": true,
+        "key": "NET",
+        "fillColor": null,
+        "parentId": "1b7ca4f6837c76a1",
+        "zIndex": 3,
+        "yAxisDirection": "up"
+      }
+    ],
+    "after": [
+      "ATTR",
+      {
+        "x": 365,
+        "y": 642,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 7.5,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "align": null,
+        "value": "SD_D3_MCU",
+        "keyVisible": false,
+        "valueVisible": true,
+        "key": "NET",
+        "fillColor": null,
+        "parentId": "1b7ca4f6837c76a1",
+        "zIndex": 3,
+        "yAxisDirection": "up"
+      }
+    ]
+  },
+  {
+    "id": "DOCHEAD",
+    "before": [
+      "DOCHEAD",
+      {
+        "docType": "SCH_PAGE",
+        "client": "000545d0905141e6",
+        "uuid": "705f0c5067bd3436",
+        "updateTime": 1791733447480,
+        "version": "1791733447480",
+        "editVersion": "4.1.71",
+        "user": {
+          "uuid": "a105ac1cbcea426781eae07d21a61163",
+          "nickname": "",
+          "username": ""
+        }
+      }
+    ],
+    "after": [
+      "DOCHEAD",
+      {
+        "docType": "SCH_PAGE",
+        "client": "66345db02630185b",
+        "uuid": "705f0c5067bd3436",
+        "updateTime": 1791856903440,
+        "version": "1791856903440",
+        "editVersion": "4.1.71",
+        "user": {
+          "uuid": "a105ac1cbcea426781eae07d21a61163",
+          "nickname": "",
+          "username": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "2e5b8ccacddca716",
+    "before": [
+      "ATTR",
+      {
+        "x": 365,
+        "y": 602,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 7.5,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "align": null,
+        "value": "SD_D3_MCU",
+        "keyVisible": false,
+        "valueVisible": true,
+        "key": "NET",
+        "fillColor": null,
+        "parentId": "283ac5945d0a0490",
+        "zIndex": 3,
+        "yAxisDirection": "up"
+      }
+    ],
+    "after": [
+      "ATTR",
+      {
+        "x": 365,
+        "y": 602,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 7.5,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "align": null,
+        "value": "SD_D1_MCU",
+        "keyVisible": false,
+        "valueVisible": true,
+        "key": "NET",
+        "fillColor": null,
+        "parentId": "283ac5945d0a0490",
+        "zIndex": 3,
+        "yAxisDirection": "up"
+      }
+    ]
+  },
+  {
+    "id": "eb7bd9f966af77f2",
+    "before": [
+      "ATTR",
+      {
+        "x": 365,
+        "y": 632,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 7.5,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "align": null,
+        "value": "SD_D0_MCU",
+        "keyVisible": false,
+        "valueVisible": true,
+        "key": "NET",
+        "fillColor": null,
+        "parentId": "fdb49814cb36c597",
+        "zIndex": 3,
+        "yAxisDirection": "up"
+      }
+    ],
+    "after": [
+      "ATTR",
+      {
+        "x": 365,
+        "y": 632,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 7.5,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "align": null,
+        "value": "SD_CMD_MCU",
+        "keyVisible": false,
+        "valueVisible": true,
+        "key": "NET",
+        "fillColor": null,
+        "parentId": "fdb49814cb36c597",
+        "zIndex": 3,
+        "yAxisDirection": "up"
+      }
+    ]
+  },
+  {
+    "id": "71ce3d2ff0ceba94",
+    "before": [
+      "ATTR",
+      {
+        "x": 365,
+        "y": 612,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 7.5,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "align": null,
+        "value": "SD_D2_MCU",
+        "keyVisible": false,
+        "valueVisible": true,
+        "key": "NET",
+        "fillColor": null,
+        "parentId": "e03aab35e857374e",
+        "zIndex": 3,
+        "yAxisDirection": "up"
+      }
+    ],
+    "after": [
+      "ATTR",
+      {
+        "x": 365,
+        "y": 612,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 7.5,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "align": null,
+        "value": "SD_D0_MCU",
+        "keyVisible": false,
+        "valueVisible": true,
+        "key": "NET",
+        "fillColor": null,
+        "parentId": "e03aab35e857374e",
+        "zIndex": 3,
+        "yAxisDirection": "up"
+      }
+    ]
+  },
+  {
+    "id": "4dceb39f567c04c6",
+    "before": [
+      "ATTR",
+      {
+        "x": 365,
+        "y": 652,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 7.5,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "align": null,
+        "value": "SD_CMD_MCU",
+        "keyVisible": false,
+        "valueVisible": true,
+        "key": "NET",
+        "fillColor": null,
+        "parentId": "d26968d96a730038",
+        "zIndex": 3,
+        "yAxisDirection": "up"
+      }
+    ],
+    "after": [
+      "ATTR",
+      {
+        "x": 365,
+        "y": 652,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 7.5,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "align": null,
+        "value": "SD_D2_MCU",
+        "keyVisible": false,
+        "valueVisible": true,
+        "key": "NET",
+        "fillColor": null,
+        "parentId": "d26968d96a730038",
+        "zIndex": 3,
+        "yAxisDirection": "up"
+      }
+    ]
+  },
+  {
+    "id": "d91d47eafd1e3249",
+    "before": [
+      "ATTR",
+      {
+        "x": 365,
+        "y": 622,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 7.5,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "align": null,
+        "value": "SD_D1_MCU",
+        "keyVisible": false,
+        "valueVisible": true,
+        "key": "NET",
+        "fillColor": null,
+        "parentId": "016a254194456fe8",
+        "zIndex": 3,
+        "yAxisDirection": "up"
+      }
+    ],
+    "after": [
+      "ATTR",
+      {
+        "x": 365,
+        "y": 622,
+        "rotation": 0,
+        "color": null,
+        "fontFamily": null,
+        "fontSize": 7.5,
+        "fontWeight": null,
+        "italic": null,
+        "underline": null,
+        "align": null,
+        "value": "SD_CLK_MCU",
+        "keyVisible": false,
+        "valueVisible": true,
+        "key": "NET",
+        "fillColor": null,
+        "parentId": "016a254194456fe8",
+        "zIndex": 3,
+        "yAxisDirection": "up"
+      }
+    ]
+  },
+  {
+    "id": "2948d233403de986",
+    "before": [
+      "TEXT",
+      {
+        "x": 45,
+        "y": 1155,
+        "rotation": 0,
+        "color": "#303030",
+        "fontFamily": null,
+        "fontSize": 14,
+        "fontWeight": true,
+        "italic": null,
+        "underline": null,
+        "align": "LEFT_BOTTOM",
+        "value": "SerialLeg 日志板 R0.2 — DM-MC02 P16 直插 / USB 联锁草稿",
+        "fillColor": "#303030",
+        "zIndex": 525,
+        "yAxisDirection": "up"
+      }
+    ],
+    "after": null
+  },
+  {
+    "id": "9d9bbd7b20eef4f0",
+    "before": null,
+    "after": [
+      "TEXT",
+      {
+        "x": 45,
+        "y": 1155,
+        "rotation": 0,
+        "color": "#303030",
+        "fontFamily": null,
+        "fontSize": 14,
+        "fontWeight": true,
+        "italic": false,
+        "underline": false,
+        "align": "LEFT_BOTTOM",
+        "value": "SerialLeg 日志板 R0.6 — P16 直插 / USB 联锁 / SD 引脚重排",
+        "fillColor": "#303030",
+        "zIndex": 747,
+        "yAxisDirection": "up"
+      }
+    ]
+  }
+]

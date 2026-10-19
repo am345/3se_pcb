@@ -1,0 +1,9 @@
+{
+  "stepReadSuccess": true,
+  "stepValidSolidCount": 1,
+  "stepVolume_mm3": 3110.9893967115263,
+  "stlTriangles": 4176,
+  "stlNonManifoldOrBoundaryEdges": 0,
+  "precisionForMeshWelding_mm": 1e-06,
+  "physicalTest": false
+}

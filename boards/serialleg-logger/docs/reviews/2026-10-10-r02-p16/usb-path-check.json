@@ -1,0 +1,84 @@
+{
+  "nets": {
+    "USB_DM_MCU": {
+      "segmentCount": 4,
+      "layers": [
+        1
+      ],
+      "widthsMil": [
+        6
+      ],
+      "totalCenterlineMil": 280.0337527750378,
+      "vias": 0
+    },
+    "USB_DP_MCU": {
+      "segmentCount": 12,
+      "layers": [
+        1
+      ],
+      "widthsMil": [
+        6
+      ],
+      "totalCenterlineMil": 280.0343560572969,
+      "vias": 0
+    },
+    "USB_DM": {
+      "segmentCount": 12,
+      "layers": [
+        1
+      ],
+      "widthsMil": [
+        6
+      ],
+      "totalCenterlineMil": 1258.1250501237055,
+      "vias": 0
+    },
+    "USB_DP": {
+      "segmentCount": 12,
+      "layers": [
+        1
+      ],
+      "widthsMil": [
+        6
+      ],
+      "totalCenterlineMil": 1252.278542239835,
+      "vias": 0
+    }
+  },
+  "totalDmMil": 1538.1588028987433,
+  "totalDpMil": 1532.3128982971318,
+  "differenceMil": 5.845904601611437,
+  "differenceMm": 0.1484859768809305,
+  "scope": "原生直线中心线长度之和；不包含封装内传播延迟，不等于阻抗认证。",
+  "referencePlaneCheck": {
+    "sampleStepMaxMil": 1,
+    "uncoveredCenterlineRanges": [
+      {
+        "net": "USB_DP",
+        "start": [
+          1545.8000000000002,
+          439.4
+        ],
+        "end": [
+          1586.8000000000002,
+          439.4
+        ],
+        "samples": 42
+      },
+      {
+        "net": "USB_DM",
+        "start": [
+          1545.8321568627453,
+          360.6
+        ],
+        "end": [
+          1586.8000000000002,
+          360.6
+        ],
+        "samples": 42
+      }
+    ],
+    "method": "对最终 L2 覆铜多边形按不大于 1mil 间隔采样 USB 直线中心线；不是电磁仿真。",
+    "result": "仅 USB 接口 PTH 焊盘避空处约 1.04mm 端接段缺少 L2 投影铜；数据线主路径未发现其他空隙。"
+  }
+}

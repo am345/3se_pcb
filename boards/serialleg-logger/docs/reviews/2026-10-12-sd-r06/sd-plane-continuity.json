@@ -1,0 +1,8 @@
+{
+  "sameL2ConnectedCopperRegion": true,
+  "matchingRegionCount": 1,
+  "regionArea_mm2": 707.9742126332914,
+  "coveredTrackArea_mm2": 36.21338153783144,
+  "uncoveredTrackArea_mm2": 0.0,
+  "scope": "二维实际 Gerber 连通区域，不能代替层叠阻抗或实物波形验证。"
+}

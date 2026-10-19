@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-12",
+  "baseCommit": "27a9aebb6f87ded35f4d1f7330f6f76075f9c465",
+  "scope": "正式 PCB 字节与已检查副本比较、工程索引版本、原理图未改；新会话只读重开检查",
+  "pcbVersion": "1791814612820",
+  "pcbHeader": {
+    "docType": "PCB",
+    "client": "369d2b8ca6d73ced",
+    "uuid": "b306d946a8c90058",
+    "updateTime": 1791814612820,
+    "version": "1791814612820",
+    "editVersion": "4.1.71",
+    "user": {}
+  },
+  "pcbBytes": 1881269,
+  "pcbEqualsCheckedWork": true,
+  "schematicUnchanged": true,
+  "indexOtherFieldsUnchanged": true,
+  "canonicalNative": {
+    "verified": false,
+    "error": "Command failed: D:/lceda-pro/lceda-pro.exe invoke --session 2df357ae-a027-4769-b93e-95ae7b0a3c1e --ext-uuid eda --timeout 30000 --code const t=await eda.dmt_EditorControl.openDocument(\"b306d946a8c90058\"); if(!t)throw new Error(\"PCB 未载入\");await eda.dmt_EditorControl.activateDocument(t);return {tabId:t,drc:await eda.pcb_Drc.check(true,false,true),pcbInfo:await eda.dmt_Pcb.getAllPcbsInfo()};\nREQUEST_TIMEOUT: invoke timed out after 29750ms (budget 30000ms; gave up waiting; the code may still be running in the render, and its result will be discarded)\n"
+  },
+  "pcbBytesUnchangedAfterRead": true
+}

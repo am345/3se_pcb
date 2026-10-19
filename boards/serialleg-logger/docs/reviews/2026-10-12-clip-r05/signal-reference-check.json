@@ -1,0 +1,1184 @@
+{
+  "method": "用实际四层 Gerber 扣除非 GND 线、过孔、通孔及相应面 SMD 焊盘；L1→L2，L4→L3，L3→更近的 L4。仅二维投影，不证明真实回流或阻抗。",
+  "correction": "R0.4 将 L3 仅对照 L2，忽略了更近 L4；R0.4 的 SD 参考面结论不作为本版通过证据。",
+  "physicalLayerIds": {
+    "1": "L1",
+    "15": "L2",
+    "16": "L3",
+    "2": "L4"
+  },
+  "nets": {
+    "SD_CD_N": {
+      "length_including_branches_mm": 67.75736052336488,
+      "without_ground_projection_mm": 27.72362057799113,
+      "segments": [
+        {
+          "id": "b383b70e0ab79dd5",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.6426200000000009,
+          "without_ground_projection_mm": 0.07350410124746176
+        },
+        {
+          "id": "e5aae6d3ed49ee5b",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.24785506894150827,
+          "without_ground_projection_mm": 0.24785506894150827
+        },
+        {
+          "id": "11515721f65c8463",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.28448000000000206,
+          "without_ground_projection_mm": 0.28448000000000206
+        },
+        {
+          "id": "bb0b3e8167702c45",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 1.7779999999999987,
+          "without_ground_projection_mm": 0.704458369952274
+        },
+        {
+          "id": "3561bc28b061b505",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.7184204896855336,
+          "without_ground_projection_mm": 0.561307238314925
+        },
+        {
+          "id": "90a9cb32a09f9f17",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 4.317999999999998,
+          "without_ground_projection_mm": 0.5613272014186457
+        },
+        {
+          "id": "9e6672685b4def76",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 10.16,
+          "without_ground_projection_mm": 5.639693030339039
+        },
+        {
+          "id": "3ffa768c3d5a2aea",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 9.413239999999998,
+          "without_ground_projection_mm": 0.561312133571743
+        },
+        {
+          "id": "f35e5fa8a6bb1381",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.7619999999999987,
+          "without_ground_projection_mm": 0.1639387681449307
+        },
+        {
+          "id": "7dd7df60a1a52290",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.4040835859076686,
+          "without_ground_projection_mm": 0.4040835859076686
+        },
+        {
+          "id": "8466c5beefad4762",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.3592102448427668,
+          "without_ground_projection_mm": 0.3592102448427668
+        },
+        {
+          "id": "aebe47df6dcc74de",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 6.35,
+          "without_ground_projection_mm": 0.24655122403488505
+        },
+        {
+          "id": "f9f91747a3ffe190",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.718420489685533,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "a8567ae1727ed69a",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 4.952999999999999,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "c79b6a5cc5ae2c48",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.7184204896855317,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "c1eb7957bea602c1",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.6299200000000003,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "8bc685fe243421b5",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.8737600000000008,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "f85b09f5cdab2e43",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 9.804400000000001,
+          "without_ground_projection_mm": 6.9514627214746625
+        },
+        {
+          "id": "8bc45aec680a247b",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 1.7601301997295518,
+          "without_ground_projection_mm": 1.5481961552723194
+        },
+        {
+          "id": "982237dd63e2d365",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 0.25400000000000134,
+          "without_ground_projection_mm": 0.25400000000000134
+        },
+        {
+          "id": "5d5107da98eef89b",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 11.206479999999999,
+          "without_ground_projection_mm": 8.08461
+        },
+        {
+          "id": "a97b21e8109dd0df",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 0.3232892203584897,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "68c576591c395eb2",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 1.0776307345282992,
+          "without_ground_projection_mm": 1.0776307345282992
+        }
+      ]
+    },
+    "SD_CLK": {
+      "length_including_branches_mm": 47.59649903153898,
+      "without_ground_projection_mm": 26.46997823003307,
+      "segments": [
+        {
+          "id": "48872851b1e6cd0b",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 1.4046199999999995,
+          "without_ground_projection_mm": 0.5613054701777589
+        },
+        {
+          "id": "da0ecbf60b1fae8a",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 0.25400000000000134,
+          "without_ground_projection_mm": 0.25400000000000134
+        },
+        {
+          "id": "2947d0595bda01aa",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 1.4368409793710646,
+          "without_ground_projection_mm": 1.4368409793710646
+        },
+        {
+          "id": "e3fc2127d7364d95",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 0.6349999999999998,
+          "without_ground_projection_mm": 0.6349999999999998
+        },
+        {
+          "id": "37b7a83de7894ee3",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 0.3592102448427668,
+          "without_ground_projection_mm": 0.3592102448427668
+        },
+        {
+          "id": "c6f09bf912c7dcaa",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 6.8580000000000005,
+          "without_ground_projection_mm": 2.145619791539392
+        },
+        {
+          "id": "f2418fbc08f42723",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 1.2572358569496807,
+          "without_ground_projection_mm": 1.1758251012567134
+        },
+        {
+          "id": "3e53ba0d1af7c33f",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 12.446,
+          "without_ground_projection_mm": 8.90332646669024
+        },
+        {
+          "id": "af5b4a8219df338f",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 1.0776307345282992,
+          "without_ground_projection_mm": 0.6026176121306104
+        },
+        {
+          "id": "69cca7ea6c839abd",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 14.224,
+          "without_ground_projection_mm": 9.804761880996093
+        },
+        {
+          "id": "23301dbbd0dd9594",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.46338121584716685,
+          "without_ground_projection_mm": 0.46338121584716685
+        },
+        {
+          "id": "09133a60cfef2b21",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 7.180580000000003,
+          "without_ground_projection_mm": 0.12808946718126535
+        }
+      ]
+    },
+    "SD_CLK_MCU": {
+      "length_including_branches_mm": 0.9913968195874172,
+      "without_ground_projection_mm": 0.0,
+      "segments": [
+        {
+          "id": "f49593b3e5e445a0",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.3911599999999993,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "827f7696a34687ed",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.02873681958742114,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "c4cab930f298db3c",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.5714999999999968,
+          "without_ground_projection_mm": 0.0
+        }
+      ]
+    },
+    "SD_CMD": {
+      "length_including_branches_mm": 39.77158996685469,
+      "without_ground_projection_mm": 19.856037591858936,
+      "segments": [
+        {
+          "id": "4a40e1bb9adccc97",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.12700000000000067,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "6d015740ff704e6f",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.7238286982428905,
+          "without_ground_projection_mm": 0.5613155761158372
+        },
+        {
+          "id": "55324124895579ff",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 1.257235856949682,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "7e85c070609f35b6",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 11.048999999999998,
+          "without_ground_projection_mm": 6.719320951686424
+        },
+        {
+          "id": "5237529d24c3239b",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 1.0776307345282992,
+          "without_ground_projection_mm": 0.9208510190036143
+        },
+        {
+          "id": "eced84c6c128d1db",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 11.43,
+          "without_ground_projection_mm": 8.184228596733242
+        },
+        {
+          "id": "2982c8b8a06289f4",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.7004599774433944,
+          "without_ground_projection_mm": 0.5613072383149201
+        },
+        {
+          "id": "9c2ad778e098ba27",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 6.377939999999999,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "1004ba38e7c9ab3a",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.6350000000000008,
+          "without_ground_projection_mm": 0.6350000000000008
+        },
+        {
+          "id": "98285bd10ef27443",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 0.7184204896855323,
+          "without_ground_projection_mm": 0.7184204896855323
+        },
+        {
+          "id": "ea13a85da88e9bb1",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 3.3020000000000014,
+          "without_ground_projection_mm": 0.6629400000000008
+        },
+        {
+          "id": "c5e4a815cc50c097",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 0.7620000000000005,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "62e4a174d3b57f14",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 0.7184204896855323,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "9fa1e887d6b7a0bf",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.8926537203193634,
+          "without_ground_projection_mm": 0.8926537203193634
+        }
+      ]
+    },
+    "SD_CMD_MCU": {
+      "length_including_branches_mm": 4.080310244842765,
+      "without_ground_projection_mm": 0.0,
+      "segments": [
+        {
+          "id": "c07315fbccadbeaa",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 1.026159999999999,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "6a10da8d0061d701",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 2.6873199999999997,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "7b0a6e3dcdbe0024",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.3592102448427668,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "1169edd8261a1587",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.007619999999999294,
+          "without_ground_projection_mm": 0.0
+        }
+      ]
+    },
+    "SD_D0": {
+      "length_including_branches_mm": 55.424289802394355,
+      "without_ground_projection_mm": 29.726758666122507,
+      "segments": [
+        {
+          "id": "1f72c3a28aedfd6a",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 0.35921024484276554,
+          "without_ground_projection_mm": 0.35921024484276554
+        },
+        {
+          "id": "8d738565019f3321",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 1.2700000000000014,
+          "without_ground_projection_mm": 1.2700000000000014
+        },
+        {
+          "id": "c671efa522201d1c",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 0.5388153672641496,
+          "without_ground_projection_mm": 0.21911824935408714
+        },
+        {
+          "id": "00153da4b680e654",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 3.9369999999999976,
+          "without_ground_projection_mm": 0.5613113146131212
+        },
+        {
+          "id": "da187495ded91c4a",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.8980256121069163,
+          "without_ground_projection_mm": 0.5613077437244959
+        },
+        {
+          "id": "c684082fe31f76be",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 1.6509999999999998,
+          "without_ground_projection_mm": 0.5613195361385515
+        },
+        {
+          "id": "5826f7bac18dfaf3",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 11.175999999999998,
+          "without_ground_projection_mm": 5.641966039050848
+        },
+        {
+          "id": "a68c0ce0bd7d5f4f",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 1.0776307345282992,
+          "without_ground_projection_mm": 1.0776307345282992
+        },
+        {
+          "id": "baf21a81926d826f",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 16.2179,
+          "without_ground_projection_mm": 7.996119999999999
+        },
+        {
+          "id": "38b9b26d8e0205f9",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 1.0776307345282985,
+          "without_ground_projection_mm": 1.0776307345282985
+        },
+        {
+          "id": "c3e3a3519b2418e2",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 7.381239999999998,
+          "without_ground_projection_mm": 0.5613069602181078
+        },
+        {
+          "id": "e0a8fb0de2c07a0e",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.5080000000000009,
+          "without_ground_projection_mm": 0.5080000000000009
+        },
+        {
+          "id": "e3997016f2d2ddd0",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.26162000000000063,
+          "without_ground_projection_mm": 0.26162000000000063
+        },
+        {
+          "id": "f823296c78cd3813",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 0.5388153672641496,
+          "without_ground_projection_mm": 0.5388153672641496
+        },
+        {
+          "id": "d3e0d17c9ac0eea3",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 1.142999999999999,
+          "without_ground_projection_mm": 1.142999999999999
+        },
+        {
+          "id": "da6d9036f719ba0b",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 2.2860000000000014,
+          "without_ground_projection_mm": 2.2860000000000014
+        },
+        {
+          "id": "6f29ccc48f08eaf6",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 1.0776307345282965,
+          "without_ground_projection_mm": 1.0776307345282965
+        },
+        {
+          "id": "23bac08a14b47096",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 1.524000000000001,
+          "without_ground_projection_mm": 1.524000000000001
+        },
+        {
+          "id": "64e9772a37c5f805",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 2.0829548722908036,
+          "without_ground_projection_mm": 2.0829548722908036
+        },
+        {
+          "id": "6bb3f44d75c66a51",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 0.1269999999999989,
+          "without_ground_projection_mm": 0.1269999999999989
+        },
+        {
+          "id": "6fdf3ef9640893db",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.29081613504068093,
+          "without_ground_projection_mm": 0.29081613504068093
+        }
+      ]
+    },
+    "SD_D0_MCU": {
+      "length_including_branches_mm": 2.6950019420088043,
+      "without_ground_projection_mm": 0.0,
+      "segments": [
+        {
+          "id": "6d658c770eda5a51",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.34036000000000044,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "079817d2958f8200",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 2.1463,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "e0fb1a2e0e61daf3",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.2083419420088039,
+          "without_ground_projection_mm": 0.0
+        }
+      ]
+    },
+    "SD_D1": {
+      "length_including_branches_mm": 54.709649606668975,
+      "without_ground_projection_mm": 28.975520980545834,
+      "segments": [
+        {
+          "id": "aa87c5fd3b26136f",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.3810000000000002,
+          "without_ground_projection_mm": 0.16746160085524586
+        },
+        {
+          "id": "c3ddc8110b0d98a7",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.3992650553203975,
+          "without_ground_projection_mm": 0.3992650553203975
+        },
+        {
+          "id": "5c530518a1990f5c",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 3.556000000000001,
+          "without_ground_projection_mm": 3.556000000000001
+        },
+        {
+          "id": "6f8c7cd7ce0e19b0",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 0.35921024484276803,
+          "without_ground_projection_mm": 0.35921024484276803
+        },
+        {
+          "id": "6c117b91b2633595",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 3.4289999999999985,
+          "without_ground_projection_mm": 1.1226301935898242
+        },
+        {
+          "id": "e1a5de605fb5de54",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 10.540999999999999,
+          "without_ground_projection_mm": 6.024588543296375
+        },
+        {
+          "id": "014ff6bd9bf782eb",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 1.0776307345282992,
+          "without_ground_projection_mm": 1.0776307345282992
+        },
+        {
+          "id": "9b3c705c47a4394d",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 18.966179999999998,
+          "without_ground_projection_mm": 13.363339999999996
+        },
+        {
+          "id": "6c26fae3708ecdcc",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.5255345320718697,
+          "without_ground_projection_mm": 0.5255345320718697
+        },
+        {
+          "id": "19448b1deb35579b",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.6350000000000016,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "eee61f0ebc7b8742",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.17960512242138277,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "43b0af1228e02b17",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.13461999999999996,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "727be0eea2c3d71f",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 8.77824,
+          "without_ground_projection_mm": 0.5613169807764571
+        },
+        {
+          "id": "e2e6850212c7e9ed",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 4.490128060534575,
+          "without_ground_projection_mm": 0.5613072383149201
+        },
+        {
+          "id": "4266e5993d238f53",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 1.257235856949682,
+          "without_ground_projection_mm": 1.257235856949682
+        }
+      ]
+    },
+    "SD_D1_MCU": {
+      "length_including_branches_mm": 2.2553886011566004,
+      "without_ground_projection_mm": 0.0,
+      "segments": [
+        {
+          "id": "da096b48cab2a7ff",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 1.61036,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "ddddb76dd8b20add",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.4418286011566016,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "acf28da0fed7c950",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.20319999999999894,
+          "without_ground_projection_mm": 0.0
+        }
+      ]
+    },
+    "SD_D2": {
+      "length_including_branches_mm": 8.920061057950928,
+      "without_ground_projection_mm": 2.6347270118536,
+      "segments": [
+        {
+          "id": "c95a65746f138ad7",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 1.4046199999999995,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "96250d2598af8613",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 1.2572358569496807,
+          "without_ground_projection_mm": 0.5613308367218051
+        },
+        {
+          "id": "fe145dc0a83854ac",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.63246,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "789acad0ac334e93",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 1.2356832422591166,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "0b2720eacc52f18b",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.5079999999999991,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "bcd81e4e450fef4e",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.3592102448427668,
+          "without_ground_projection_mm": 0.1839297182431273
+        },
+        {
+          "id": "77caa1d70fdc4923",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 1.0083800000000025,
+          "without_ground_projection_mm": 0.7536146581598011
+        },
+        {
+          "id": "5616b1a875dee91e",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.7184204896855323,
+          "without_ground_projection_mm": 0.5745453821008636
+        },
+        {
+          "id": "fce56f7b7e0207ac",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 1.79605122421383,
+          "without_ground_projection_mm": 0.5613064166280033
+        }
+      ]
+    },
+    "SD_D2_MCU": {
+      "length_including_branches_mm": 2.0654739374974844,
+      "without_ground_projection_mm": 1.1226697342083654,
+      "segments": [
+        {
+          "id": "150a9a43b3c5d9b5",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 1.102360000000001,
+          "without_ground_projection_mm": 0.5613349788039521
+        },
+        {
+          "id": "342625b36a1b23f4",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.6146799999999999,
+          "without_ground_projection_mm": 0.5613347554044132
+        },
+        {
+          "id": "5caded9c3ac90bc5",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.3484339374974835,
+          "without_ground_projection_mm": 0.0
+        }
+      ]
+    },
+    "SD_D3": {
+      "length_including_branches_mm": 17.048903878194327,
+      "without_ground_projection_mm": 8.64213873954771,
+      "segments": [
+        {
+          "id": "9c48a40700f6f2a8",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.11938000000000137,
+          "without_ground_projection_mm": 0.11938000000000137
+        },
+        {
+          "id": "475456d9c277c39d",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.35921024484276803,
+          "without_ground_projection_mm": 0.35921024484276803
+        },
+        {
+          "id": "3fcc35092d9b02c1",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 1.9756563466352128,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "4f8f2ddba14c2d4e",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 3.2359600000000004,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "28d6c8ee045c03b8",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 2.2987,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "9c5dcdd53bf45368",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.36998655218804877,
+          "without_ground_projection_mm": 0.36998655218804877
+        },
+        {
+          "id": "593bb66896cc9f4b",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.37337999999999916,
+          "without_ground_projection_mm": 0.37337999999999916
+        },
+        {
+          "id": "b937a1af1d734561",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 1.5239999999999991,
+          "without_ground_projection_mm": 1.5239999999999991
+        },
+        {
+          "id": "13eedec76a64a409",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 3.174999999999999,
+          "without_ground_projection_mm": 3.174999999999999
+        },
+        {
+          "id": "6d5aa1eb9681c8e9",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 1.0776307345282992,
+          "without_ground_projection_mm": 1.0776307345282992
+        },
+        {
+          "id": "4f27b8190954e397",
+          "layerId": 16,
+          "closestReferenceLayerId": 2,
+          "length_mm": 0.6349999999999998,
+          "without_ground_projection_mm": 0.6349999999999998
+        },
+        {
+          "id": "2375d8040bfc31cc",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.25400000000000134,
+          "without_ground_projection_mm": 0.25400000000000134
+        },
+        {
+          "id": "b1353b864e762583",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.2539999999999978,
+          "without_ground_projection_mm": 0.2539999999999978
+        },
+        {
+          "id": "de950a6b46da4b5b",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 1.397000000000002,
+          "without_ground_projection_mm": 0.5005512079885968
+        }
+      ]
+    },
+    "SD_D3_MCU": {
+      "length_including_branches_mm": 2.8703986546364755,
+      "without_ground_projection_mm": 0.0,
+      "segments": [
+        {
+          "id": "fc0fcc5cb199e5de",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 1.8643600000000013,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "73efe58221575a91",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.37357865463647233,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "994397c01a496f35",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 0.6324600000000018,
+          "without_ground_projection_mm": 0.0
+        }
+      ]
+    },
+    "USB_DM": {
+      "length_including_branches_mm": 18.65529572161004,
+      "without_ground_projection_mm": 1.0053706803602882,
+      "segments": [
+        {
+          "id": "6409f3d1e5c14188",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 4.66973318295596,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "3e14c9df564461d2",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 1.3309599999999993,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "0be4a42b2f28a31b",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 1.3919200000000003,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "fd3e23478ab892ed",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 2.2961599999999995,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "b8431db221a2010f",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.07184204896855363,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "b09869a642627516",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 6.223000000000001,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "9ab3d59fc1c74807",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.7184204896855311,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "ddeb6e93b21525da",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.5156199999999984,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "d4c8496cafc8b37e",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 1.4376399999999998,
+          "without_ground_projection_mm": 1.0053706803602882
+        }
+      ]
+    },
+    "USB_DM_MCU": {
+      "length_including_branches_mm": 1.8494352735835915,
+      "without_ground_projection_mm": 1.1226385111593244,
+      "segments": [
+        {
+          "id": "ca687dcf1bb88c11",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 1.102360000000001,
+          "without_ground_projection_mm": 0.5613324007744254
+        },
+        {
+          "id": "a4a0b21d17b3395d",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.7470752735835906,
+          "without_ground_projection_mm": 0.561306110384899
+        }
+      ]
+    },
+    "USB_DP": {
+      "length_including_branches_mm": 18.655283206106862,
+      "without_ground_projection_mm": 1.0053804526092953,
+      "segments": [
+        {
+          "id": "249edb6100332e4b",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 4.3679965772880385,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "0237ae0760bb50df",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 1.4579854000000005,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "a10eb2a4145bd884",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 2.2961599999999995,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "adf3dd8f29edfca5",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.0718420489685549,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "7442888e760c83d4",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 2.52783433500751,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "7052d105805b212d",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.784148799999997,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "86e8b6631be48a29",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.6426199999999973,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "5215a773f1719a2d",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 4.0748458,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "b2732b759cd2b42c",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.17960512242138277,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "cc795edcf12ca919",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.6349999999999998,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "597c744d9a1b6ce6",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.17960512242138277,
+          "without_ground_projection_mm": 0.0
+        },
+        {
+          "id": "2ffa06f3ac1c12e8",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 1.4376399999999998,
+          "without_ground_projection_mm": 1.0053804526092953
+        }
+      ]
+    },
+    "USB_DP_MCU": {
+      "length_including_branches_mm": 1.8494352735835915,
+      "without_ground_projection_mm": 1.1226419029814807,
+      "segments": [
+        {
+          "id": "70b38bdcccbc0d49",
+          "layerId": 1,
+          "closestReferenceLayerId": 15,
+          "length_mm": 1.102360000000001,
+          "without_ground_projection_mm": 0.5613317010501966
+        },
+        {
+          "id": "6bb2363ae0bf7ac7",
+          "layerId": 2,
+          "closestReferenceLayerId": 16,
+          "length_mm": 0.7470752735835906,
+          "without_ground_projection_mm": 0.5613102019312841
+        }
+      ]
+    }
+  },
+  "usb_total_mm": {
+    "DM": 20.504730995193633,
+    "DP": 20.504718479690453
+  },
+  "sd_reference_verified": false,
+  "note": "本次未改 SD 走线。投板前需按近邻铜面重新优化 SD 路径并验证信号质量；20 MHz 测试起点不代替此项。"
+}

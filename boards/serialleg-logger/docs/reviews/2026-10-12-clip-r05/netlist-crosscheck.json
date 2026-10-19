@@ -1,0 +1,7 @@
+{
+  "components": 65,
+  "pinEntries": 250,
+  "differences": [],
+  "schematicUnchangedFromR04": true,
+  "schematicERC": "本轮未重跑；原理图文件未改，R0.4 ERC 的一条 U1 显示属性警告仍适用"
+}

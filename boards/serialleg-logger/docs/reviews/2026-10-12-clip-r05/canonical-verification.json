@@ -1,0 +1,151 @@
+{
+  "date": "2026-10-12",
+  "canonicalEditorMatchedBaseline": true,
+  "pcbVersion": "1791825473808",
+  "schematicUnchanged": true,
+  "pcbEqualsCheckedCopy": true,
+  "loaded": {
+    "tabId": "b306d946a8c90058@7299e5e11eab3773f3e5682ef1b80e9eff10ba03057ef7fcf72bf1f04f53ce86",
+    "drc": [],
+    "tree": {
+      "id": "editor-window-main",
+      "tabs": [
+        {
+          "title": "Start Page",
+          "tabId": "tab_page1",
+          "icon": {
+            "iconClassName": "icon-eda-logo"
+          },
+          "tabStyle": {
+            "width": "auto",
+            "minWidth": "76px"
+          },
+          "isAbleDelete": false,
+          "group": "start_blank",
+          "draggable": true,
+          "data": {
+            "doctype": -1
+          },
+          "isDisplayNone": false
+        },
+        {
+          "tabId": "705f0c5067bd3436@7299e5e11eab3773f3e5682ef1b80e9eff10ba03057ef7fcf72bf1f04f53ce86",
+          "title": "Main.Logger",
+          "icon": {
+            "iconClassName": "icon-eda-page icon-color-blue"
+          },
+          "draggable": true,
+          "isAbleDelete": true,
+          "notUseI18n": true,
+          "data": {
+            "containerId": "editor-window-main",
+            "doctype": 1,
+            "ticket": 30312,
+            "updateTime": 1791733447480,
+            "data-model-sheet-uuid": "705f0c5067bd3436",
+            "title": "Main",
+            "pid": "7299e5e11eab3773f3e5682ef1b80e9eff10ba03057ef7fcf72bf1f04f53ce86",
+            "version": "1791733447480",
+            "schematicName": "Logger",
+            "data-schematic-uuid": "4aaaff8693e51ceb",
+            "simSchematicName": "",
+            "isBlockSymbolSheet": false,
+            "creator": "a105ac1cbcea426781eae07d21a61163",
+            "owner": "a105ac1cbcea426781eae07d21a61163",
+            "_extApiOpenEventPublished": true,
+            "sch": true
+          },
+          "titleStyle": {}
+        },
+        {
+          "tabId": "b306d946a8c90058@7299e5e11eab3773f3e5682ef1b80e9eff10ba03057ef7fcf72bf1f04f53ce86",
+          "title": "Logger",
+          "icon": {
+            "iconClassName": "icon-eda-pcb icon-color-green"
+          },
+          "draggable": true,
+          "isAbleDelete": true,
+          "notUseI18n": true,
+          "data": {
+            "doctype": 3,
+            "ticket": 35785,
+            "updateTime": 1791825473808,
+            "isProjectLib": false,
+            "real-title": "Logger",
+            "pid": "7299e5e11eab3773f3e5682ef1b80e9eff10ba03057ef7fcf72bf1f04f53ce86",
+            "isPartition": false,
+            "owner": "a105ac1cbcea426781eae07d21a61163",
+            "drcResult": [
+              {
+                "id": "DRCTab|_|Errors",
+                "title": [
+                  "All",
+                  "(0)"
+                ],
+                "args": {
+                  "iconCls": "icon-eda-eye",
+                  "eyeState": true,
+                  "treeNodeType": "errors"
+                },
+                "children": []
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "componentCount": 65,
+    "lineCount": 633,
+    "viaCount": 92,
+    "outline": [
+      {
+        "async": true,
+        "primitiveType": "Polyline",
+        "net": null,
+        "layer": 11,
+        "polygon": {
+          "polygon": [
+            270,
+            -430,
+            "L",
+            270,
+            60,
+            390,
+            90,
+            390,
+            150,
+            405,
+            165,
+            405,
+            490,
+            130,
+            490,
+            130,
+            940,
+            170,
+            980,
+            170,
+            1335,
+            1100,
+            1335,
+            1100,
+            1410,
+            1190,
+            1410,
+            1190,
+            24,
+            950,
+            24,
+            950,
+            -430,
+            270,
+            -430
+          ]
+        },
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "06bf6d5071462681"
+      }
+    ]
+  }
+}

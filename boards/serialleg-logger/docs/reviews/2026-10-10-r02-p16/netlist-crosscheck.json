@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-10",
+  "schematicComponents": 65,
+  "pcbComponents": 65,
+  "schematicPinEntries": 250,
+  "pcbPinEntries": 250,
+  "differences": [],
+  "criticalConnections": {
+    "J1": {
+      "part": "SGDBM-08-024P-H40",
+      "pins": {
+        "1": "GND",
+        "2": "MAIN_PWR_IN",
+        "3": "GND",
+        "4": "5V_IN",
+        "5": "GND",
+        "6": "5V_IN",
+        "7": "GND",
+        "8": "",
+        "9": "UART_RX_EXT",
+        "10": "",
+        "11": "UART_TX_EXT",
+        "12": "",
+        "13": "",
+        "14": "",
+        "15": "",
+        "16": "",
+        "17": "",
+        "18": "",
+        "19": "",
+        "20": "",
+        "21": "",
+        "22": "",
+        "23": "",
+        "24": ""
+      }
+    },
+    "J4": {
+      "part": "",
+      "pins": {
+        "1": "GND",
+        "2": "3V3",
+        "3": "PROG_TX",
+        "4": "PROG_RX",
+        "5": "EN",
+        "6": "BOOT"
+      }
+    },
+    "U6": {
+      "part": "TPS3808G01DBVR",
+      "pins": {
+        "1": "USB_EN_GATED",
+        "2": "GND",
+        "3": "3V3",
+        "4": "",
+        "5": "MAIN_SENSE",
+        "6": "3V3"
+      }
+    },
+    "R28": {
+      "value": "10kΩ",
+      "part": "0603WAF1002T5E",
+      "pins": {
+        "1": "USB_EN",
+        "2": "USB_EN_GATED"
+      }
+    },
+    "R29": {
+      "value": "100kΩ",
+      "part": "0603WAF1003T5E",
+      "pins": {
+        "1": "MAIN_PWR_IN",
+        "2": "MAIN_SENSE_MID"
+      }
+    },
+    "R30": {
+      "value": "10kΩ",
+      "part": "0603WAF1002T5E",
+      "pins": {
+        "1": "MAIN_SENSE",
+        "2": "GND"
+      }
+    },
+    "R31": {
+      "value": "100kΩ",
+      "part": "0603WAF1003T5E",
+      "pins": {
+        "1": "MAIN_SENSE_MID",
+        "2": "MAIN_SENSE"
+      }
+    },
+    "R11": {
+      "value": "100kΩ",
+      "part": "0603WAF1003T5E",
+      "pins": {
+        "1": "UART_RX_BUF",
+        "2": "3V3"
+      }
+    },
+    "U3": {
+      "part": "TPS2553DBVR-1",
+      "pins": {
+        "1": "5V_SYS",
+        "2": "GND",
+        "3": "USB_EN_GATED",
+        "4": "USB_FAULT_N",
+        "5": "USB_ILIM",
+        "6": "USB_SWITCHED"
+      }
+    },
+    "R4": {
+      "value": "49.9kΩ",
+      "part": "0603WAF4992T5E",
+      "pins": {
+        "1": "USB_ILIM",
+        "2": "GND"
+      }
+    }
+  }
+}

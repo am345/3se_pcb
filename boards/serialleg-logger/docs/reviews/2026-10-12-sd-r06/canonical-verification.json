@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-12",
+  "canonicalEditorMatchedBaseline": true,
+  "pcbVersion": "1791856297817",
+  "schematicEqualsCheckedCopy": true,
+  "schematicVersion": "1791856903440",
+  "pcbEqualsCheckedCopy": true,
+  "loaded": {
+    "tabId": "b306d946a8c90058@7299e5e11eab3773f3e5682ef1b80e9eff10ba03057ef7fcf72bf1f04f53ce86",
+    "tree": {
+      "id": "editor-window-main",
+      "tabs": [
+        {
+          "title": "Start Page",
+          "tabId": "tab_page1",
+          "icon": {
+            "iconClassName": "icon-eda-logo"
+          },
+          "tabStyle": {
+            "width": "auto",
+            "minWidth": "76px"
+          },
+          "isAbleDelete": false,
+          "group": "start_blank",
+          "draggable": true,
+          "data": {
+            "doctype": -1
+          },
+          "isDisplayNone": false
+        },
+        {
+          "tabId": "b306d946a8c90058@7299e5e11eab3773f3e5682ef1b80e9eff10ba03057ef7fcf72bf1f04f53ce86",
+          "title": "Logger",
+          "icon": {
+            "iconClassName": "icon-eda-pcb icon-color-green"
+          },
+          "draggable": true,
+          "isAbleDelete": true,
+          "notUseI18n": true,
+          "data": {
+            "doctype": 3,
+            "ticket": 35785,
+            "updateTime": 1791825473808,
+            "isProjectLib": false,
+            "real-title": "Logger",
+            "pid": "7299e5e11eab3773f3e5682ef1b80e9eff10ba03057ef7fcf72bf1f04f53ce86",
+            "isPartition": false,
+            "owner": "a105ac1cbcea426781eae07d21a61163"
+          }
+        }
+      ]
+    },
+    "drc": [],
+    "componentCount": 65,
+    "lineCount": 615,
+    "viaCount": 77,
+    "outline": [
+      {
+        "async": true,
+        "primitiveType": "Polyline",
+        "net": null,
+        "layer": 11,
+        "polygon": {
+          "polygon": [
+            270,
+            -430,
+            "L",
+            270,
+            60,
+            390,
+            90,
+            390,
+            150,
+            405,
+            165,
+            405,
+            490,
+            130,
+            490,
+            130,
+            940,
+            170,
+            980,
+            170,
+            1335,
+            1100,
+            1335,
+            1100,
+            1410,
+            1190,
+            1410,
+            1190,
+            24,
+            950,
+            24,
+            950,
+            -430,
+            270,
+            -430
+          ]
+        },
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "06bf6d5071462681"
+      }
+    ]
+  },
+  "schematicERC": [
+    {
+      "type": "warn",
+      "rule": "ATTRMATCHCODE",
+      "primitives": [
+        {
+          "primitiveId": "a57e5f99cd335263",
+          "sheet": "705f0c5067bd3436",
+          "name": "U1($1I2)"
+        }
+      ]
+    }
+  ],
+  "netlistDifferences": []
+}

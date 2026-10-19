@@ -1,0 +1,357 @@
+{
+  "manual_routing_only": true,
+  "autorouter_used": false,
+  "baseline_lines": 569,
+  "final_lines": 626,
+  "baseline_vias": 119,
+  "final_vias": 129,
+  "changed_components": [
+    {
+      "ref": "C10",
+      "before": {
+        "x": 1200,
+        "y": 510,
+        "rotation": 180,
+        "layer": 1
+      },
+      "after": {
+        "x": 700,
+        "y": 500,
+        "rotation": 180,
+        "layer": 1
+      }
+    },
+    {
+      "ref": "C11",
+      "before": {
+        "x": 1270,
+        "y": 420,
+        "rotation": 90,
+        "layer": 1
+      },
+      "after": {
+        "x": 820,
+        "y": 530,
+        "rotation": 180,
+        "layer": 1
+      }
+    },
+    {
+      "ref": "C15",
+      "before": {
+        "x": 920,
+        "y": 220,
+        "rotation": 0,
+        "layer": 1
+      },
+      "after": {
+        "x": 831.5,
+        "y": 724,
+        "rotation": 0,
+        "layer": 1
+      }
+    },
+    {
+      "ref": "C16",
+      "before": {
+        "x": 800,
+        "y": 495,
+        "rotation": 180,
+        "layer": 1
+      },
+      "after": {
+        "x": 1240,
+        "y": 570,
+        "rotation": 180,
+        "layer": 2
+      }
+    },
+    {
+      "ref": "C17",
+      "before": {
+        "x": 870,
+        "y": 445,
+        "rotation": 180,
+        "layer": 1
+      },
+      "after": {
+        "x": 1490,
+        "y": 520,
+        "rotation": 0,
+        "layer": 2
+      }
+    },
+    {
+      "ref": "D1",
+      "before": {
+        "x": 1735,
+        "y": 1400,
+        "rotation": 90,
+        "layer": 2
+      },
+      "after": {
+        "x": 1440,
+        "y": 1580,
+        "rotation": 0,
+        "layer": 2
+      }
+    },
+    {
+      "ref": "D2",
+      "before": {
+        "x": 1640,
+        "y": 1400,
+        "rotation": 0,
+        "layer": 1
+      },
+      "after": {
+        "x": 1440,
+        "y": 1580,
+        "rotation": 0,
+        "layer": 1
+      }
+    },
+    {
+      "ref": "J2",
+      "before": {
+        "x": 1640,
+        "y": 400,
+        "rotation": 90,
+        "layer": 1
+      },
+      "after": {
+        "x": 1020,
+        "y": 375,
+        "rotation": 0,
+        "layer": 1
+      }
+    },
+    {
+      "ref": "R25",
+      "before": {
+        "x": 1614,
+        "y": 1595,
+        "rotation": 90,
+        "layer": 1
+      },
+      "after": {
+        "x": 1250,
+        "y": 1680,
+        "rotation": 90,
+        "layer": 2
+      }
+    },
+    {
+      "ref": "R26",
+      "before": {
+        "x": 1730,
+        "y": 1490,
+        "rotation": 0,
+        "layer": 2
+      },
+      "after": {
+        "x": 1440,
+        "y": 1670,
+        "rotation": 90,
+        "layer": 2
+      }
+    },
+    {
+      "ref": "R27",
+      "before": {
+        "x": 1640,
+        "y": 1490,
+        "rotation": 90,
+        "layer": 1
+      },
+      "after": {
+        "x": 1530,
+        "y": 1580,
+        "rotation": 180,
+        "layer": 1
+      }
+    },
+    {
+      "ref": "R28",
+      "before": {
+        "x": 1020,
+        "y": 595,
+        "rotation": 0,
+        "layer": 1
+      },
+      "after": {
+        "x": 1470,
+        "y": 680,
+        "rotation": 0,
+        "layer": 2
+      }
+    },
+    {
+      "ref": "R30",
+      "before": {
+        "x": 800,
+        "y": 560,
+        "rotation": 180,
+        "layer": 1
+      },
+      "after": {
+        "x": 1240,
+        "y": 650,
+        "rotation": 180,
+        "layer": 2
+      }
+    },
+    {
+      "ref": "R4",
+      "before": {
+        "x": 1090,
+        "y": 615,
+        "rotation": -90,
+        "layer": 1
+      },
+      "after": {
+        "x": 1070,
+        "y": 700,
+        "rotation": 0,
+        "layer": 2
+      }
+    },
+    {
+      "ref": "R5",
+      "before": {
+        "x": 1018,
+        "y": 715,
+        "rotation": -90,
+        "layer": 1
+      },
+      "after": {
+        "x": 1060,
+        "y": 830,
+        "rotation": 0,
+        "layer": 2
+      }
+    },
+    {
+      "ref": "R6",
+      "before": {
+        "x": 1070,
+        "y": 380,
+        "rotation": 0,
+        "layer": 1
+      },
+      "after": {
+        "x": 1230,
+        "y": 510,
+        "rotation": 0,
+        "layer": 2
+      }
+    },
+    {
+      "ref": "R7",
+      "before": {
+        "x": 1130,
+        "y": 610,
+        "rotation": -90,
+        "layer": 1
+      },
+      "after": {
+        "x": 1130,
+        "y": 610,
+        "rotation": 270,
+        "layer": 2
+      }
+    },
+    {
+      "ref": "R9",
+      "before": {
+        "x": 700,
+        "y": 865,
+        "rotation": 0,
+        "layer": 1
+      },
+      "after": {
+        "x": 700,
+        "y": 887,
+        "rotation": 0,
+        "layer": 1
+      }
+    },
+    {
+      "ref": "SW1",
+      "before": {
+        "x": 1400,
+        "y": 1700,
+        "rotation": 0,
+        "layer": 1
+      },
+      "after": {
+        "x": 910,
+        "y": 1700,
+        "rotation": 0,
+        "layer": 1
+      }
+    },
+    {
+      "ref": "SW2",
+      "before": {
+        "x": 2000,
+        "y": 1700,
+        "rotation": 0,
+        "layer": 1
+      },
+      "after": {
+        "x": 1440,
+        "y": 1700,
+        "rotation": 0,
+        "layer": 1
+      }
+    },
+    {
+      "ref": "SW3",
+      "before": {
+        "x": 1700,
+        "y": 1700,
+        "rotation": 0,
+        "layer": 1
+      },
+      "after": {
+        "x": 1170,
+        "y": 1700,
+        "rotation": 0,
+        "layer": 1
+      }
+    },
+    {
+      "ref": "U5",
+      "before": {
+        "x": 1350,
+        "y": 480,
+        "rotation": 0,
+        "layer": 1
+      },
+      "after": {
+        "x": 1060,
+        "y": 540,
+        "rotation": 0,
+        "layer": 1
+      }
+    },
+    {
+      "ref": "U6",
+      "before": {
+        "x": 965,
+        "y": 490,
+        "rotation": 0,
+        "layer": 1
+      },
+      "after": {
+        "x": 1380,
+        "y": 565,
+        "rotation": 0,
+        "layer": 2
+      }
+    }
+  ],
+  "bom_identity_fields_unchanged": true,
+  "note": "保留部分导入前历史走线；受影响网络人工逐网规划，不能称为从零全手工布线。原生保存可能自动合并或拆分共线线段。"
+}

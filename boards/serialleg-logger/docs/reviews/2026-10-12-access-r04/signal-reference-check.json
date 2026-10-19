@@ -1,0 +1,1258 @@
+{
+  "method": "实际 Gerber 剔除非 GND 走线、过孔和通孔焊盘；L1/L3 取 L2、底层取 L3。过孔/通孔端接邻域另列，未作电磁仿真。",
+  "nets": {
+    "SD_CD_N": {
+      "length_mm": 67.75736052336488,
+      "layers": [
+        1,
+        2,
+        16
+      ],
+      "widths_mil": [
+        8
+      ],
+      "via_count": 5,
+      "uncovered_mm": 12.782489571903318,
+      "outside_own_transition_mm": 6.906461555697311,
+      "segments": [
+        {
+          "id": "b383b70e0ab79dd5",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.07350410124746176,
+          "outside_own_transition_mm": 0.0026397210191682063,
+          "bbox_mil": [
+            683.0999999999999,
+            728.1,
+            683.0999999999999,
+            730.993862253837
+          ]
+        },
+        {
+          "id": "e5aae6d3ed49ee5b",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.24785506894150827,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            683.0999999999999,
+            721.2,
+            690.0,
+            728.1
+          ]
+        },
+        {
+          "id": "11515721f65c8463",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.28448000000000206,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            690.0,
+            710.0,
+            690.0,
+            721.2
+          ]
+        },
+        {
+          "id": "bb0b3e8167702c45",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.5613349788039486,
+          "outside_own_transition_mm": 0.002534978803947041,
+          "bbox_mil": [
+            660.0,
+            787.9001976848839,
+            660.0,
+            810.0
+          ]
+        },
+        {
+          "id": "3561bc28b061b505",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.561307238314925,
+          "outside_own_transition_mm": 0.0025072383149266062,
+          "bbox_mil": [
+            644.3738521834025,
+            810.0,
+            660.0,
+            825.6261478165975
+          ]
+        },
+        {
+          "id": "90a9cb32a09f9f17",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.5613272014186457,
+          "outside_own_transition_mm": 0.002527201418644154,
+          "bbox_mil": [
+            640.0,
+            977.9005038811557,
+            640.0,
+            1000.0
+          ]
+        },
+        {
+          "id": "9e6672685b4def76",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.561334829647361,
+          "outside_own_transition_mm": 0.0025348296473595155,
+          "bbox_mil": [
+            640.0,
+            1000.0,
+            662.0997964428095,
+            1000.0
+          ]
+        },
+        {
+          "id": "3ffa768c3d5a2aea",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.561312133571743,
+          "outside_own_transition_mm": 0.002512133571741515,
+          "bbox_mil": [
+            1047.9010971034745,
+            114.80000000000001,
+            1070.0,
+            114.80000000000001
+          ]
+        },
+        {
+          "id": "f35e5fa8a6bb1381",
+          "layer": 2,
+          "ref": 16,
+          "uncovered_mm": 0.1639387681449307,
+          "outside_own_transition_mm": 0.0026104572817242655,
+          "bbox_mil": [
+            455.00000000000006,
+            344.7,
+            461.4542822104304,
+            344.7
+          ]
+        },
+        {
+          "id": "7dd7df60a1a52290",
+          "layer": 2,
+          "ref": 16,
+          "uncovered_mm": 0.4040835859076686,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            440.0,
+            344.7,
+            455.00000000000006,
+            349.99999999999994
+          ]
+        },
+        {
+          "id": "8466c5beefad4762",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.3592102448427668,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            429.99999999999994,
+            340.0,
+            440.0,
+            349.99999999999994
+          ]
+        },
+        {
+          "id": "aebe47df6dcc74de",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.24655122403488505,
+          "outside_own_transition_mm": 0.0028480113236053484,
+          "bbox_mil": [
+            429.99999999999994,
+            330.2932588962644,
+            429.99999999999994,
+            340.0
+          ]
+        },
+        {
+          "id": "f85b09f5cdab2e43",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 6.373889698947455,
+          "outside_own_transition_mm": 6.373889698947455,
+          "bbox_mil": [
+            1089.0,
+            700.0594606713601,
+            1089.0,
+            951.0
+          ]
+        },
+        {
+          "id": "8bc45aec680a247b",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.5064864452282986,
+          "outside_own_transition_mm": 0.5064864452282986,
+          "bbox_mil": [
+            1074.9,
+            951.0,
+            1089.0,
+            965.1
+          ]
+        },
+        {
+          "id": "982237dd63e2d365",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.25400000000000134,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            1070.0,
+            114.80000000000001,
+            1080.0,
+            114.80000000000001
+          ]
+        },
+        {
+          "id": "5d5107da98eef89b",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.5005612834097328,
+          "outside_own_transition_mm": 0.0028580706984544513,
+          "bbox_mil": [
+            1080.0,
+            114.80000000000001,
+            1080.0,
+            134.50713714211548
+          ]
+        },
+        {
+          "id": "68c576591c395eb2",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.5613127694419844,
+          "outside_own_transition_mm": 0.002512769441985908,
+          "bbox_mil": [
+            674.3736982031879,
+            710.0,
+            690.0,
+            725.6263017968121
+          ]
+        }
+      ]
+    },
+    "SD_CLK": {
+      "length_mm": 47.59649903153898,
+      "layers": [
+        1,
+        16
+      ],
+      "widths_mil": [
+        8
+      ],
+      "via_count": 2,
+      "uncovered_mm": 2.320305028832145,
+      "outside_own_transition_mm": 0.010875638163190454,
+      "segments": [
+        {
+          "id": "48872851b1e6cd0b",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.5613054701777589,
+          "outside_own_transition_mm": 0.0025054701777591504,
+          "bbox_mil": [
+            515.0,
+            600.0,
+            515.0,
+            622.0986405581796
+          ]
+        },
+        {
+          "id": "da0ecbf60b1fae8a",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.25400000000000134,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            515.0,
+            590.0,
+            515.0,
+            600.0
+          ]
+        },
+        {
+          "id": "2947d0595bda01aa",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.35219389682199864,
+          "outside_own_transition_mm": 0.002688769026532451,
+          "bbox_mil": [
+            505.19532705766335,
+            580.1953270576633,
+            515.0,
+            590.0
+          ]
+        },
+        {
+          "id": "69cca7ea6c839abd",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.5613349788039539,
+          "outside_own_transition_mm": 0.0025349788039541465,
+          "bbox_mil": [
+            995.0,
+            275.0,
+            995.0,
+            297.0998023151163
+          ]
+        },
+        {
+          "id": "23301dbbd0dd9594",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.46338121584716685,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            982.1000000000001,
+            275.0,
+            995.0,
+            287.9
+          ]
+        },
+        {
+          "id": "09133a60cfef2b21",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.12808946718126535,
+          "outside_own_transition_mm": 0.003146420154944707,
+          "bbox_mil": [
+            977.0571075912889,
+            287.9,
+            982.1000000000001,
+            287.9
+          ]
+        }
+      ]
+    },
+    "SD_CLK_MCU": {
+      "length_mm": 0.9913968195874172,
+      "layers": [
+        1
+      ],
+      "widths_mil": [
+        8
+      ],
+      "via_count": 0,
+      "uncovered_mm": 0,
+      "outside_own_transition_mm": 0,
+      "segments": []
+    },
+    "SD_CMD": {
+      "length_mm": 39.7715899668547,
+      "layers": [
+        1,
+        2,
+        16
+      ],
+      "widths_mil": [
+        8
+      ],
+      "via_count": 2,
+      "uncovered_mm": 3.7729242894373245,
+      "outside_own_transition_mm": 0.9789886033742566,
+      "segments": [
+        {
+          "id": "6d015740ff704e6f",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.5613155761158372,
+          "outside_own_transition_mm": 0.002551140956376274,
+          "bbox_mil": [
+            454.49037520953664,
+            600.0,
+            470.0,
+            615.7422691623203
+          ]
+        },
+        {
+          "id": "eced84c6c128d1db",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.5613349788039521,
+          "outside_own_transition_mm": 0.00253497880395237,
+          "bbox_mil": [
+            970.0,
+            355.0,
+            970.0,
+            377.0998023151162
+          ]
+        },
+        {
+          "id": "2982c8b8a06289f4",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.5613072383149201,
+          "outside_own_transition_mm": 0.0025072383149215816,
+          "bbox_mil": [
+            954.3738521834026,
+            355.0,
+            970.0,
+            370.6261478165974
+          ]
+        },
+        {
+          "id": "1004ba38e7c9ab3a",
+          "layer": 2,
+          "ref": 16,
+          "uncovered_mm": 0.6350000000000008,
+          "outside_own_transition_mm": 0.07622874909639173,
+          "bbox_mil": [
+            470.0,
+            585.0,
+            490.0,
+            600.0
+          ]
+        },
+        {
+          "id": "98285bd10ef27443",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.561312775883251,
+          "outside_own_transition_mm": 0.0025127758832512817,
+          "bbox_mil": [
+            470.0,
+            600.0,
+            485.6263019761296,
+            615.6263019761296
+          ]
+        },
+        {
+          "id": "9fa1e887d6b7a0bf",
+          "layer": 2,
+          "ref": 16,
+          "uncovered_mm": 0.8926537203193634,
+          "outside_own_transition_mm": 0.8926537203193634,
+          "bbox_mil": [
+            490.0,
+            560.0,
+            514.7,
+            585.0
+          ]
+        }
+      ]
+    },
+    "SD_CMD_MCU": {
+      "length_mm": 4.080310244842765,
+      "layers": [
+        1
+      ],
+      "widths_mil": [
+        8
+      ],
+      "via_count": 0,
+      "uncovered_mm": 0,
+      "outside_own_transition_mm": 0,
+      "segments": []
+    },
+    "SD_D0": {
+      "length_mm": 55.42428980239436,
+      "layers": [
+        1,
+        2,
+        16
+      ],
+      "widths_mil": [
+        8
+      ],
+      "via_count": 5,
+      "uncovered_mm": 6.2056172125955,
+      "outside_own_transition_mm": 0.05744713089572157,
+      "segments": [
+        {
+          "id": "1f72c3a28aedfd6a",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.35921024484276554,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            540.0,
+            580.0,
+            550.0,
+            590.0
+          ]
+        },
+        {
+          "id": "8d738565019f3321",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.2657843257163872,
+          "outside_own_transition_mm": 0.02208111300510751,
+          "bbox_mil": [
+            540.0,
+            590.0,
+            540.0,
+            600.4639498313538
+          ]
+        },
+        {
+          "id": "00153da4b680e654",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.5613287990622382,
+          "outside_own_transition_mm": 0.0025287990622366863,
+          "bbox_mil": [
+            525.0,
+            787.9004409818016,
+            525.0,
+            810.0
+          ]
+        },
+        {
+          "id": "da187495ded91c4a",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.5613077437244959,
+          "outside_own_transition_mm": 0.0025077437244973725,
+          "bbox_mil": [
+            525.0,
+            810.0,
+            540.6261618866185,
+            825.6261618866185
+          ]
+        },
+        {
+          "id": "c684082fe31f76be",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.5613195361385515,
+          "outside_own_transition_mm": 0.002519536138549938,
+          "bbox_mil": [
+            550.0,
+            877.9008056638365,
+            550.0,
+            900.0
+          ]
+        },
+        {
+          "id": "5826f7bac18dfaf3",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.5613288685062514,
+          "outside_own_transition_mm": 0.002528868506251669,
+          "bbox_mil": [
+            550.0,
+            900.0,
+            572.0995617522146,
+            900.0
+          ]
+        },
+        {
+          "id": "38b9b26d8e0205f9",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.5613103017047003,
+          "outside_own_transition_mm": 0.0025103017047019105,
+          "bbox_mil": [
+            989.9999999999999,
+            201.5,
+            1005.6262330978449,
+            217.1262330978449
+          ]
+        },
+        {
+          "id": "c3e3a3519b2418e2",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.5613069602181078,
+          "outside_own_transition_mm": 0.002506960218106258,
+          "bbox_mil": [
+            967.9013007788146,
+            201.5,
+            989.9999999999999,
+            201.5
+          ]
+        },
+        {
+          "id": "e0a8fb0de2c07a0e",
+          "layer": 2,
+          "ref": 16,
+          "uncovered_mm": 0.5080000000000009,
+          "outside_own_transition_mm": 0.014250311778660318,
+          "bbox_mil": [
+            565.0,
+            489.7,
+            585.0,
+            489.7
+          ]
+        },
+        {
+          "id": "e3997016f2d2ddd0",
+          "layer": 2,
+          "ref": 16,
+          "uncovered_mm": 0.26162000000000063,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            585.0,
+            489.7,
+            585.0,
+            500.0
+          ]
+        },
+        {
+          "id": "f823296c78cd3813",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.5388153672641496,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            585.0,
+            485.0,
+            600.0,
+            500.0
+          ]
+        },
+        {
+          "id": "d3e0d17c9ac0eea3",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.031195199006520014,
+          "outside_own_transition_mm": 0.00347726094809353,
+          "bbox_mil": [
+            600.0,
+            483.7718425587984,
+            600.0,
+            485.0
+          ]
+        },
+        {
+          "id": "64e9772a37c5f805",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.45527373137065114,
+          "outside_own_transition_mm": 0.0025362358095163758,
+          "bbox_mil": [
+            530.7928786971047,
+            569.071445151619,
+            545.0,
+            580.0
+          ]
+        },
+        {
+          "id": "6bb3f44d75c66a51",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.1269999999999989,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            545.0,
+            580.0,
+            550.0,
+            580.0
+          ]
+        },
+        {
+          "id": "6fdf3ef9640893db",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.29081613504068093,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            550.0,
+            580.0,
+            555.0,
+            590.3
+          ]
+        }
+      ]
+    },
+    "SD_D0_MCU": {
+      "length_mm": 2.6950019420088043,
+      "layers": [
+        1
+      ],
+      "widths_mil": [
+        8
+      ],
+      "via_count": 0,
+      "uncovered_mm": 0,
+      "outside_own_transition_mm": 0,
+      "segments": []
+    },
+    "SD_D1": {
+      "length_mm": 54.70964960666898,
+      "layers": [
+        1,
+        2,
+        16
+      ],
+      "widths_mil": [
+        8
+      ],
+      "via_count": 5,
+      "uncovered_mm": 5.627237612115389,
+      "outside_own_transition_mm": 0.023055728200112324,
+      "segments": [
+        {
+          "id": "aa87c5fd3b26136f",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.16746160085524586,
+          "outside_own_transition_mm": 0.0025927618862873203,
+          "bbox_mil": [
+            603.4070235883762,
+            610.3,
+            610.0,
+            610.3
+          ]
+        },
+        {
+          "id": "c3ddc8110b0d98a7",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.3992650553203975,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            610.0,
+            610.3,
+            625.0,
+            615.0
+          ]
+        },
+        {
+          "id": "5c530518a1990f5c",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.24656023254290815,
+          "outside_own_transition_mm": 0.0028570198316302253,
+          "bbox_mil": [
+            590.0,
+            780.2929042305941,
+            590.0,
+            790.0
+          ]
+        },
+        {
+          "id": "6f8c7cd7ce0e19b0",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.35921024484276803,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            590.0,
+            790.0,
+            600.0,
+            800.0
+          ]
+        },
+        {
+          "id": "6c117b91b2633595",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 1.1226301935898242,
+          "outside_own_transition_mm": 0.0050301935898211525,
+          "bbox_mil": [
+            600.0,
+            800.0,
+            600.0,
+            935.0
+          ]
+        },
+        {
+          "id": "e1a5de605fb5de54",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.5613311170018367,
+          "outside_own_transition_mm": 0.0025311170018369467,
+          "bbox_mil": [
+            600.0,
+            935.0,
+            622.0996502756628,
+            935.0
+          ]
+        },
+        {
+          "id": "9b3c705c47a4394d",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.5613140001711621,
+          "outside_own_transition_mm": 0.0025140001711623228,
+          "bbox_mil": [
+            1045.0,
+            158.30000000000004,
+            1045.0,
+            180.39897638469145
+          ]
+        },
+        {
+          "id": "6c26fae3708ecdcc",
+          "layer": 2,
+          "ref": 16,
+          "uncovered_mm": 0.5255345320718697,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            465.0,
+            444.7,
+            485.0,
+            450.0
+          ]
+        },
+        {
+          "id": "727be0eea2c3d71f",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.5613169807764571,
+          "outside_own_transition_mm": 0.0025169807764555685,
+          "bbox_mil": [
+            1022.9009062686434,
+            158.30000000000004,
+            1045.0,
+            158.30000000000004
+          ]
+        },
+        {
+          "id": "e2e6850212c7e9ed",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.5613072383149201,
+          "outside_own_transition_mm": 0.0025072383149190697,
+          "bbox_mil": [
+            465.0,
+            450.0,
+            480.6261478165974,
+            465.6261478165974
+          ]
+        },
+        {
+          "id": "4266e5993d238f53",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.5613064166279995,
+          "outside_own_transition_mm": 0.0025064166279997165,
+          "bbox_mil": [
+            609.3738750582213,
+            615.0,
+            625.0,
+            630.6261249417787
+          ]
+        }
+      ]
+    },
+    "SD_D1_MCU": {
+      "length_mm": 2.2553886011566004,
+      "layers": [
+        1
+      ],
+      "widths_mil": [
+        8
+      ],
+      "via_count": 0,
+      "uncovered_mm": 0,
+      "outside_own_transition_mm": 0,
+      "segments": []
+    },
+    "SD_D2": {
+      "length_mm": 8.920061057950928,
+      "layers": [
+        1,
+        2
+      ],
+      "widths_mil": [
+        8
+      ],
+      "via_count": 1,
+      "uncovered_mm": 2.6347270118536,
+      "outside_own_transition_mm": 0.9583270118536023,
+      "segments": [
+        {
+          "id": "96250d2598af8613",
+          "layer": 2,
+          "ref": 16,
+          "uncovered_mm": 0.5613308367218051,
+          "outside_own_transition_mm": 0.002530836721805349,
+          "bbox_mil": [
+            615.0,
+            570.0,
+            630.6268047690986,
+            585.6268047690987
+          ]
+        },
+        {
+          "id": "bcd81e4e450fef4e",
+          "layer": 2,
+          "ref": 16,
+          "uncovered_mm": 0.1839297182431273,
+          "outside_own_transition_mm": 0.1839297182431273,
+          "bbox_mil": [
+            674.7,
+            544.8796082271084,
+            679.8203917728916,
+            550.0
+          ]
+        },
+        {
+          "id": "77caa1d70fdc4923",
+          "layer": 2,
+          "ref": 16,
+          "uncovered_mm": 0.7536146581598011,
+          "outside_own_transition_mm": 0.7536146581598011,
+          "bbox_mil": [
+            645.0301315685118,
+            550.0,
+            674.7,
+            550.0
+          ]
+        },
+        {
+          "id": "5616b1a875dee91e",
+          "layer": 2,
+          "ref": 16,
+          "uncovered_mm": 0.5745453821008636,
+          "outside_own_transition_mm": 0.01574538210086381,
+          "bbox_mil": [
+            615.0,
+            554.0053174888608,
+            630.9946825111392,
+            570.0
+          ]
+        },
+        {
+          "id": "fce56f7b7e0207ac",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.5613064166280033,
+          "outside_own_transition_mm": 0.0025064166280047407,
+          "bbox_mil": [
+            615.0,
+            554.3738750582212,
+            630.6261249417788,
+            570.0
+          ]
+        }
+      ]
+    },
+    "SD_D2_MCU": {
+      "length_mm": 2.0654739374974844,
+      "layers": [
+        1,
+        2
+      ],
+      "widths_mil": [
+        8
+      ],
+      "via_count": 1,
+      "uncovered_mm": 1.1226697342083654,
+      "outside_own_transition_mm": 0.00506973420836232,
+      "segments": [
+        {
+          "id": "150a9a43b3c5d9b5",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.5613349788039521,
+          "outside_own_transition_mm": 0.002534978803950594,
+          "bbox_mil": [
+            616.1,
+            710.0,
+            616.1,
+            732.0998023151162
+          ]
+        },
+        {
+          "id": "342625b36a1b23f4",
+          "layer": 2,
+          "ref": 16,
+          "uncovered_mm": 0.5613347554044132,
+          "outside_own_transition_mm": 0.002534755404411726,
+          "bbox_mil": [
+            616.1,
+            710.0,
+            638.1997935198588,
+            710.0
+          ]
+        }
+      ]
+    },
+    "SD_D3": {
+      "length_mm": 17.04890387819433,
+      "layers": [
+        1,
+        2,
+        16
+      ],
+      "widths_mil": [
+        8
+      ],
+      "via_count": 2,
+      "uncovered_mm": 3.3531779626273175,
+      "outside_own_transition_mm": 0.14943833852508812,
+      "segments": [
+        {
+          "id": "9c48a40700f6f2a8",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.11938000000000137,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            660.0,
+            585.3,
+            660.0,
+            590.0
+          ]
+        },
+        {
+          "id": "475456d9c277c39d",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.35921024484276803,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            660.0,
+            590.0,
+            670.0,
+            600.0
+          ]
+        },
+        {
+          "id": "9c5dcdd53bf45368",
+          "layer": 2,
+          "ref": 16,
+          "uncovered_mm": 0.36998655218804877,
+          "outside_own_transition_mm": 0.14152038563986588,
+          "bbox_mil": [
+            514.7,
+            489.7,
+            525.0,
+            500.0
+          ]
+        },
+        {
+          "id": "593bb66896cc9f4b",
+          "layer": 2,
+          "ref": 16,
+          "uncovered_mm": 0.37337999999999916,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            525.0,
+            475.0,
+            525.0,
+            489.7
+          ]
+        },
+        {
+          "id": "b937a1af1d734561",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.5613349788039539,
+          "outside_own_transition_mm": 0.0025349788039541465,
+          "bbox_mil": [
+            525.0,
+            475.0,
+            525.0,
+            497.0998023151163
+          ]
+        },
+        {
+          "id": "4f27b8190954e397",
+          "layer": 16,
+          "ref": 15,
+          "uncovered_mm": 0.5613349788039503,
+          "outside_own_transition_mm": 0.002534978803950594,
+          "bbox_mil": [
+            680.0,
+            567.9001976848838,
+            680.0,
+            590.0
+          ]
+        },
+        {
+          "id": "2375d8040bfc31cc",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.25400000000000134,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            680.0,
+            590.0,
+            680.0,
+            600.0
+          ]
+        },
+        {
+          "id": "b1353b864e762583",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.2539999999999978,
+          "outside_own_transition_mm": 0.0,
+          "bbox_mil": [
+            670.0,
+            600.0,
+            680.0,
+            600.0
+          ]
+        },
+        {
+          "id": "de950a6b46da4b5b",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.5005512079885968,
+          "outside_own_transition_mm": 0.0028479952773174944,
+          "bbox_mil": [
+            680.0,
+            600.0,
+            699.706740471992,
+            600.0
+          ]
+        }
+      ]
+    },
+    "SD_D3_MCU": {
+      "length_mm": 2.8703986546364755,
+      "layers": [
+        1
+      ],
+      "widths_mil": [
+        8
+      ],
+      "via_count": 0,
+      "uncovered_mm": 0,
+      "outside_own_transition_mm": 0,
+      "segments": []
+    },
+    "USB_DM": {
+      "length_mm": 18.65529572161004,
+      "layers": [
+        2
+      ],
+      "widths_mil": [
+        6
+      ],
+      "via_count": 0,
+      "uncovered_mm": 1.0053706803602882,
+      "outside_own_transition_mm": 0.0008006803602882417,
+      "segments": [
+        {
+          "id": "d4c8496cafc8b37e",
+          "layer": 2,
+          "ref": 16,
+          "uncovered_mm": 1.0053706803602882,
+          "outside_own_transition_mm": 0.0008006803602882417,
+          "bbox_mil": [
+            570.6,
+            6.2,
+            570.6,
+            45.78152284883025
+          ]
+        }
+      ]
+    },
+    "USB_DM_MCU": {
+      "length_mm": 1.8494352735835915,
+      "layers": [
+        1,
+        2
+      ],
+      "widths_mil": [
+        6
+      ],
+      "via_count": 1,
+      "uncovered_mm": 1.1226385111593244,
+      "outside_own_transition_mm": 0.005064946243769572,
+      "segments": [
+        {
+          "id": "ca687dcf1bb88c11",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.5613324007744254,
+          "outside_own_transition_mm": 0.0025324007744238486,
+          "bbox_mil": [
+            750.0000000000001,
+            710.0,
+            750.0000000000001,
+            732.0997008178907
+          ]
+        },
+        {
+          "id": "a4a0b21d17b3395d",
+          "layer": 2,
+          "ref": 16,
+          "uncovered_mm": 0.561306110384899,
+          "outside_own_transition_mm": 0.0025325454693457235,
+          "bbox_mil": [
+            738.7299286250151,
+            690.9911462808587,
+            750.0000000000001,
+            710.0
+          ]
+        }
+      ]
+    },
+    "USB_DP": {
+      "length_mm": 18.65528320610686,
+      "layers": [
+        2
+      ],
+      "widths_mil": [
+        6
+      ],
+      "via_count": 0,
+      "uncovered_mm": 1.0053804526092953,
+      "outside_own_transition_mm": 0.0008104526092953535,
+      "segments": [
+        {
+          "id": "2ffa06f3ac1c12e8",
+          "layer": 2,
+          "ref": 16,
+          "uncovered_mm": 1.0053804526092953,
+          "outside_own_transition_mm": 0.0008104526092953535,
+          "bbox_mil": [
+            649.4,
+            6.2,
+            649.4,
+            45.78190758304313
+          ]
+        }
+      ]
+    },
+    "USB_DP_MCU": {
+      "length_mm": 1.8494352735835915,
+      "layers": [
+        1,
+        2
+      ],
+      "widths_mil": [
+        6
+      ],
+      "via_count": 1,
+      "uncovered_mm": 1.1226419029814807,
+      "outside_own_transition_mm": 0.005068338065925897,
+      "segments": [
+        {
+          "id": "70b38bdcccbc0d49",
+          "layer": 1,
+          "ref": 15,
+          "uncovered_mm": 0.5613317010501966,
+          "outside_own_transition_mm": 0.0025317010501950676,
+          "bbox_mil": [
+            783.5,
+            710.0,
+            783.5,
+            732.0996732696927
+          ]
+        },
+        {
+          "id": "6bb2363ae0bf7ac7",
+          "layer": 2,
+          "ref": 16,
+          "uncovered_mm": 0.5613102019312841,
+          "outside_own_transition_mm": 0.0025366370157308294,
+          "bbox_mil": [
+            783.5,
+            690.9910077190201,
+            794.7701535262728,
+            710.0
+          ]
+        }
+      ]
+    }
+  },
+  "usb_pair_total_mm": {
+    "DM": 20.504730995193633,
+    "DP": 20.50471847969045
+  }
+}

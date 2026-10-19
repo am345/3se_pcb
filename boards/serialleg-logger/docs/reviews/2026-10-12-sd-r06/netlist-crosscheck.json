@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-12",
+  "components": 65,
+  "pinEntries": 250,
+  "differences": [],
+  "changesFromR05": [
+    {
+      "ref": "U1",
+      "pin": "15",
+      "old": "SD_CMD_MCU",
+      "new": "SD_D2_MCU"
+    },
+    {
+      "ref": "U1",
+      "pin": "16",
+      "old": "SD_CLK_MCU",
+      "new": "SD_D3_MCU"
+    },
+    {
+      "ref": "U1",
+      "pin": "17",
+      "old": "SD_D0_MCU",
+      "new": "SD_CMD_MCU"
+    },
+    {
+      "ref": "U1",
+      "pin": "18",
+      "old": "SD_D1_MCU",
+      "new": "SD_CLK_MCU"
+    },
+    {
+      "ref": "U1",
+      "pin": "19",
+      "old": "SD_D2_MCU",
+      "new": "SD_D0_MCU"
+    },
+    {
+      "ref": "U1",
+      "pin": "20",
+      "old": "SD_D3_MCU",
+      "new": "SD_D1_MCU"
+    }
+  ],
+  "ERC": [
+    {
+      "type": "warn",
+      "rule": "ATTRMATCHCODE",
+      "primitives": [
+        {
+          "primitiveId": "a57e5f99cd335263",
+          "sheet": "705f0c5067bd3436",
+          "name": "U1($1I2)"
+        }
+      ]
+    }
+  ]
+}

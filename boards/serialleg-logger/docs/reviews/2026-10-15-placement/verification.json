@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-15",
+  "software": "嘉立创 EDA 专业版 4.1.71.7a7261be",
+  "scope": "43 器件布局、板框、参考地与接口避让；未布信号和电源连接线",
+  "source": "hardware/pcb/Logger.epcb2",
+  "document": {
+    "docType": "PCB",
+    "client": "2085853bf4601752",
+    "uuid": "b306d946a8c90058",
+    "updateTime": 1792120256529,
+    "version": "1792120256529"
+  },
+  "component_count": 43,
+  "netlist_pin_entries": 195,
+  "netlist_matches_schematic": true,
+  "electrical_connectivity_unchanged": true,
+  "native_rule_thresholds_unchanged": true,
+  "native_rule_count": 33,
+  "signal_line_count": 0,
+  "via_count": 0,
+  "native_drc": {
+    "unconnected": 161,
+    "other_errors": 0
+  },
+  "schematic_erc": {
+    "errors": 0,
+    "warnings": [
+      {
+        "type": "warn",
+        "rule": "ATTRMATCHCODE",
+        "primitives": [
+          {
+            "primitiveId": "a57e5f99cd335263",
+            "sheet": "705f0c5067bd3436",
+            "name": "U1($1I83)"
+          }
+        ]
+      }
+    ]
+  },
+  "board_bbox_mm": [
+    46.6,
+    44.35
+  ],
+  "board_area_mm2": 1486.9050000000007,
+  "old_working_rectangle_area_mm2": 3223.154844,
+  "body_minimum_gap_mm": 0.2160015999999976,
+  "pad_to_board_minimum_gap_mm": 0.30871975232397036,
+  "placement_readback_max_error_mil": 0,
+  "reference_planes": [
+    {
+      "layer": 15,
+      "solid_region_count": 1,
+      "hole_count": 11,
+      "reference_corridor_covered": true,
+      "units_scale_mil": 10
+    },
+    {
+      "layer": 16,
+      "solid_region_count": 1,
+      "hole_count": 11,
+      "reference_corridor_covered": true,
+      "units_scale_mil": 10
+    }
+  ],
+  "mechanical_interface_envelopes": [
+    {
+      "ref": "P15",
+      "extra_envelope_mm": 0.5,
+      "gap_mm": 0.3750008303926107,
+      "overlap_mm2": 0.0
+    },
+    {
+      "ref": "P13",
+      "extra_envelope_mm": 0.5,
+      "gap_mm": 0.5250010334662178,
+      "overlap_mm2": 0.0
+    },
+    {
+      "ref": "P12",
+      "extra_envelope_mm": 0.5,
+      "gap_mm": 0.6451757186501553,
+      "overlap_mm2": 0.0
+    },
+    {
+      "ref": "P11",
+      "extra_envelope_mm": 0.5,
+      "gap_mm": 0.5107941544845359,
+      "overlap_mm2": 0.0
+    },
+    {
+      "ref": "P8",
+      "extra_envelope_mm": 0.5,
+      "gap_mm": 9.724083064153447,
+      "overlap_mm2": 0.0
+    },
+    {
+      "ref": "P7",
+      "extra_envelope_mm": 0.5,
+      "gap_mm": 1.679634830188494,
+      "overlap_mm2": 0.0
+    },
+    {
+      "ref": "P6",
+      "extra_envelope_mm": 0.5,
+      "gap_mm": 0.1300370267677078,
+      "overlap_mm2": 0.0
+    }
+  ],
+  "mechanical_assumptions": {
+    "damiao_model": "CtrBoard-H7_V1.0-240112A.step",
+    "nominal_gap_mm": 7.5,
+    "extra_planar_connector_envelope_mm": 0.5
+  },
+  "limitations": [
+    "具体插头包胶、线缆弯曲和实物叠高尚未试配；0.5 mm 为已有机械设计的检查包络，不是通用插拔标准。",
+    "板框已经变更，R0.5/R0.6 托架 STEP/STL 不适用于本布局；本轮仅固定三个新托面/卡扣的元件禁布区域。",
+    "制造层叠与阻抗线宽仍须按实际板厂确认；当前为布局和参考面规划，未完成信号完整性验证。",
+    "首版无线关闭；天线本体伸出板边并禁止走线/铜，不代表完成整机射频净空及性能验证。",
+    "未生成生产发布；丝印在详细布线结束后仍需进行最终装配可读性检查。"
+  ]
+}
