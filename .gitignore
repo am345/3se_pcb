@@ -24,6 +24,9 @@ __pycache__/
 _autosave-*
 fp-info-cache
 
+# 嘉立创 EDA 专业版自动备份（<工程名>_backup/<工程名>_<时间>.epro2）
+*_backup/
+
 # 不全局忽略 ZIP、CSV、PDF、STEP 或旧 EDA 工程，它们可能是必要源资料
 
 # 本地 AI 工具权限设置（随压缩包带入时不入库）
