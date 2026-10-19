@@ -1,0 +1,96 @@
+{
+  "name": "3SE 超级电容组",
+  "owner_uuid": "a105ac1cbcea426781eae07d21a61163",
+  "creator_uuid": "a105ac1cbcea426781eae07d21a61163",
+  "created_at": "2026-10-17 08:44:55",
+  "updated_at": "2026-10-17 08:44:55",
+  "modifier_uuid": "a105ac1cbcea426781eae07d21a61163",
+  "content": "10 串 3.0V 34F+10F 超级电容组；满电 29 V；BW6103 挑片被动泄放",
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "ticket": 1,
+  "g_ticket": 1,
+  "boards": [],
+  "block_symbol_attrs_groups": {},
+  "default_sheet": "4eecc2c5ca25ddc1",
+  "branch_uuid": "",
+  "pcb_count": 0,
+  "format": "folder",
+  "profile": {
+    "boards": {
+      "b51a39d637cc222d": {
+        "uuid": "b51a39d637cc222d",
+        "title": "超级电容组",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "4ee81a91427e3b7c": {
+        "uuid": "4ee81a91427e3b7c",
+        "name": "电容组原理图",
+        "board": "b51a39d637cc222d",
+        "source": "",
+        "version": "1792329443949",
+        "updateTime": 1792329443949
+      }
+    },
+    "sheets": {
+      "db3481a6d3fa88dd": {
+        "uuid": "db3481a6d3fa88dd",
+        "title": "01_电容组原理图",
+        "schematic_uuid": "4ee81a91427e3b7c",
+        "zIndex": 2,
+        "source": "",
+        "version": "1792329443949",
+        "updateTime": 1792329443949
+      }
+    },
+    "pcbs": {
+      "44118b1981d013fd": {
+        "uuid": "44118b1981d013fd",
+        "title": "电容组PCB",
+        "board": "b51a39d637cc222d",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1792409666447",
+        "updateTime": 1792409666447
+      }
+    },
+    "panels": {
+      "f2a62589dd1d6b60": {
+        "uuid": "f2a62589dd1d6b60",
+        "title": "Panel1",
+        "zIndex": null
+      }
+    },
+    "blockSymbols": {},
+    "owner": {
+      "uuid": "a105ac1cbcea426781eae07d21a61163"
+    },
+    "simSchematics": {},
+    "simulations": {}
+  },
+  "config": {
+    "defaultSheet": "4eecc2c5ca25ddc1",
+    "settings": {
+      "UNIVERSAL": {
+        "dataType": "UNIVERSAL",
+        "data": {
+          "allowLibRename": true,
+          "defaultNetName": true,
+          "wireMultipleNet": true,
+          "netFlagCrossLayerConnection": true,
+          "netLabelCrossPageConnection": true,
+          "busGenerateNetClass": true,
+          "relevanceDisplayRow": "SINGLE",
+          "relevanceBelongSchPage": "NAME",
+          "relevanceLocation": "ZONE",
+          "multipartCrossLayer": true,
+          "nonElectronicAddIntoBom": false,
+          "nonElectronicUpdatePcb": false
+        }
+      }
+    }
+  }
+}

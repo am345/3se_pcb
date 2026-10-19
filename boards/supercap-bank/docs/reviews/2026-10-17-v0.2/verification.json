@@ -1,0 +1,404 @@
+{
+  "board": "supercap-bank",
+  "designVersion": "V0.2 draft（第二版布局）",
+  "date": "2026-10-17",
+  "software": "嘉立创 EDA 专业版 4.1.71.7a7261be（原生 CLI/API）",
+  "baseCommit": "07390ed345e7569e52c4ad76c256a5ca174a12c4",
+  "workingTreeCommitted": false,
+  "checkedAfterReopen": true,
+  "schematic": {
+    "pages": [
+      "01_电容组原理图"
+    ],
+    "components": 144,
+    "pins": 328,
+    "nets": 73,
+    "ercItems": 0,
+    "pinDiffVsPlan": 0,
+    "textsPerPage": {
+      "01_电容组原理图": 26
+    },
+    "pageSize": "A2（2339 × 1654，单位 10 mil）"
+  },
+  "pcb": {
+    "outlineMm": [
+      42.3,
+      76
+    ],
+    "cornerRadiusMm": 2,
+    "layers": 2,
+    "copper": "1 oz（客户端默认层叠）",
+    "components": 144,
+    "pinDiffVsSchematic": 0,
+    "drcItems": 0,
+    "unrouted": 0,
+    "pours": 68,
+    "poursFilledAfterReopen": 68,
+    "traces": 143,
+    "vias": {
+      "total": 199,
+      "0.8/0.4mm": 187,
+      "0.6/0.3mm": 12
+    },
+    "padsMatchingPlan": 328,
+    "mountingHoles": "4 × Ø2.2 mm 非金属化（M2），半径 2 mm 内禁止布线/填充/覆铜",
+    "ruleChanges": "覆铜对贴片焊盘改为十字连接、插件焊盘直连；新增“焊盘直连”覆铜规则，经 41 个约束区域用于 2512、肖特基与 F1",
+    "traceCorners": {
+      "135deg": 53,
+      "90deg": 0
+    },
+    "padConnection": {
+      "smdPads": "十字（发散）连接，辐条 0.254 mm、间隙 0.254 mm",
+      "thtPads": "直连",
+      "directRegions": 41,
+      "directRule": "焊盘直连（约束区域：2512、PMEG4010BEA、F1）",
+      "verifiedIn": "重开并重铺后导出的 Gerber"
+    },
+    "designators": {
+      "layer": "装配层",
+      "top": 124,
+      "bottom": 20
+    },
+    "fiducials": {
+      "count": 3,
+      "positionsMm": [
+        [
+          5.6,
+          71.6
+        ],
+        [
+          36.5,
+          71.2
+        ],
+        [
+          33,
+          1.8
+        ]
+      ],
+      "copperDiameterMm": 1,
+      "maskOpeningMm": 2,
+      "keepoutRadiusMm": 1.5
+    },
+    "traceSegments": 196
+  },
+  "fabricationExport": {
+    "gerber": "可生成；放在被 Git 忽略的 outputs/v0.2-check-2026-10-18-r1via/，非生产发布",
+    "platedHoles": {
+      "0.30": 12,
+      "0.40": 187,
+      "0.914": 20,
+      "1.10": 20,
+      "2.20": 2
+    },
+    "nonPlatedHoles": {
+      "2.20": 4
+    },
+    "drillFiles": "Drill_PTH_Through.DRL 含全部 241 个金属化孔；Drill_PTH_Through_Via.DRL 另列 199 个过孔（坐标重复，客户端导出格式）"
+  },
+  "notRun": [
+    "样板制作",
+    "实物装配",
+    "泄放温升测量",
+    "BW6103 阈值与单体容量实测",
+    "控制板 29 V 配套修改",
+    "铜皮温升仿真（只做了直流电阻与电流分布计算）"
+  ],
+  "fileLevelEdits": "两页 .esch2 按官方只追加日志格式追加 91 条 TEXT 记录（删除遗留文字、移动单元标题），除把 DOCHEAD 的 ticket 同步为新的最大值外未改动已有行；重开验证通过",
+  "singlePageMerge": {
+    "erc": 0,
+    "pinDiffVsPlan": 0,
+    "pinDiffVsPcb": 0,
+    "pcbComponentsMovedAfterImport": 0,
+    "pcbDrcItems": 0,
+    "duplicateNetNameWarningsCleared": 31,
+    "legacyTextsTombstoned": 14
+  },
+  "relayout": {
+    "date": "2026-10-17",
+    "scope": "仅 PCB：控制组移到板边条带，泄放链重排，走线 45°，焊盘连接方式，位号移到装配层，加 Mark 点；单体、接口、板框与原理图不变",
+    "offlinePlanCheck": {
+      "minClearanceMm": 0.3,
+      "issues": 0
+    },
+    "afterReopen": {
+      "erc": 0,
+      "drcItems": 0,
+      "unrouted": 0,
+      "poursRefilled": "68/68",
+      "pinDiffSchVsPcb": 0,
+      "pinDiffPlanVsPcb": 0,
+      "padsMatchingPlan": 328,
+      "regionRules": 41
+    },
+    "apiFindings": [
+      "逐焊盘覆铜连接设置（pcb_PrimitivePad.modify heatWelding）重开后丢失",
+      "getCopperRegion 返回的填充不含十字辐条，以 Gerber 核对",
+      "覆铜规则 connectMode：0 发散，1 直连"
+    ]
+  },
+  "change20261018": {
+    "scope": "F1 两侧补 5 个 0.8/0.4 mm 过孔（CAP+ 2 个、VC10 3 个），接口器件不动",
+    "offlineCheck": {
+      "issues": 0,
+      "nearestOtherNetMm": 1.93
+    },
+    "netlistSync": {
+      "reason": "可见窗口自动保存重写原理图后 DRC 提示网表不一致",
+      "importChanges": true,
+      "componentsMoved": 0
+    },
+    "afterReopen": {
+      "drcItems": 0,
+      "unrouted": 0,
+      "poursFilled": "68/68",
+      "vias": 199,
+      "traces": 143,
+      "pinDiffSchVsPcb": 0,
+      "pinDiffPlanVsPcb": 0,
+      "padsMatchingPlan": 328,
+      "regionRules": 41
+    },
+    "ercAfterReopen": {
+      "warnings": 4,
+      "rule": "ONENETNAME",
+      "nets": [
+        "VC3",
+        "VC4",
+        "VC5",
+        "VC6"
+      ],
+      "cleared": true,
+      "note": "自动保存重写原理图后出现；同日按 change20261018b 清除"
+    },
+    "drillCheck": {
+      "0.40": 187,
+      "platedTotal": 241,
+      "nonPlated": 4
+    }
+  },
+  "change20261018b": {
+    "ercCleanup": {
+      "cause": "可见窗口自动保存（07:25、08:25）重写原理图后，VC3–VC6 母线上各 17 条已清空的重复网络名重新带上值",
+      "apiDeletePersisted": false,
+      "method": "图页文件追加删除记录（官方只追加日志格式），每根导线保留一条网络名，同步 DOCHEAD ticket",
+      "recordsAppended": 200,
+      "duplicateLabelsRemoved": 68,
+      "blankLabelsRemoved": 132,
+      "guiSaveTest": "可见窗口会话用 API 改 VC3 母线颜色再改回并保存：重复名称未再出现，但 VC3 网络名被清空（17 个引脚变为自动命名）；已在后台会话用 API 改回 VC3",
+      "afterReopen": {
+        "ercItems": 0,
+        "pins": 328,
+        "nets": 73,
+        "pinDiffSchVsPcb": 0
+      }
+    },
+    "silkscreen": {
+      "requirement": "嘉立创标准工艺：字高 ≥ 1.0 mm，线宽 ≥ 0.153 mm",
+      "before": {
+        "lineWidthMm": 0.15,
+        "fontSizeMm": {
+          "stageLabels": 1.2,
+          "polarity": 1.4,
+          "version": 0.9,
+          "bottomText": 0.75
+        },
+        "measuredHeightMm": {
+          "stageLabels": 0.84,
+          "plus": 0.85,
+          "version": 0.64,
+          "bottomText": 0.54
+        }
+      },
+      "after": {
+        "lineWidthMm": 0.18,
+        "fontSizeMm": {
+          "stageLabels": 1.5,
+          "polarity": 1.7,
+          "version": 1.5,
+          "bottomText": 1.5
+        },
+        "measuredHeightMm": {
+          "text": 1.05,
+          "plus": 1.04
+        }
+      },
+      "heightRule": "实际字高 ≈ 0.58 × 字号 + 线宽（Gerber 实测）",
+      "bottomText": [
+        "3SE SUPERCAP 10S",
+        "34F+10F 1980J V0.2"
+      ],
+      "moves": {
+        "stageLabelsMm": 0.85,
+        "stageLabelToViaMm": {
+          "before": 0.14,
+          "after": 0.32
+        },
+        "polarityY": {
+          "from": 70.9,
+          "to": 70.5
+        },
+        "polarityToJ1PadMm": 0.28
+      },
+      "measuredFrom": "outputs/v0.2-check-2026-10-18/gerber（修改前）与 outputs/v0.2-check-2026-10-18-silk/gerber（修改后）"
+    },
+    "netlistSync": {
+      "importChanges": true,
+      "componentsMoved": 0,
+      "drcItems": 0
+    },
+    "afterReopen": {
+      "ercItems": 0,
+      "drcItems": 0,
+      "unrouted": 0,
+      "poursFilled": "68/68",
+      "vias": 199,
+      "traces": 143,
+      "pinDiffSchVsPcb": 0,
+      "pinDiffPlanVsPcb": 0,
+      "padsMatchingPlan": 328,
+      "designatorsOnAssembly": {
+        "top": 124,
+        "bottom": 20
+      },
+      "regionRules": 41,
+      "strings": 15
+    },
+    "exportedTo": "outputs/v0.2-check-2026-10-18-silk/（Git 忽略）"
+  },
+  "routingReview20261018": {
+    "source": "outputs/v0.2-check-2026-10-18-silk/gerber（R1 过孔调整前）；调整后用 outputs/v0.2-check-2026-10-18-r1via/gerber 复算",
+    "method": {
+      "rasterMm": 0.05,
+      "copper": "1 oz 按 35 µm、20 °C，方块电阻约 0.49 mΩ",
+      "via": "孔铜 20 µm、板厚 1.6 mm",
+      "currentA": 14.5,
+      "split34F10F": [
+        0.77,
+        0.23
+      ],
+      "equipotential": "单体与 J1 焊盘（含引脚、焊锡，两层相连）、F1 焊盘",
+      "thermalSimulation": false,
+      "copperThicknessMeasured": false
+    },
+    "connectivity": {
+      "nets": 73,
+      "shorts": 0,
+      "splitNets": 0,
+      "slivers": 0,
+      "unnamedCopper": "4 个 NPTH 孔位上与孔同径的铜盘"
+    },
+    "clearanceMm": {
+      "minDifferentNet": 0.2,
+      "minBetweenNodes": 0.22,
+      "capPlusToVC0": 0.3,
+      "edgeStraight": 0.39,
+      "edgeBottomCorners": 0.23,
+      "holeCenterToCopper": 1.96,
+      "rasterError": 0.05
+    },
+    "currentPath14_5A": {
+      "nodes": {
+        "nets": "VC1–VC4、VC6–VC9",
+        "mOhm": 0.23,
+        "mW": 49
+      },
+      "VC5": {
+        "mOhm": 0.7,
+        "mW": 146
+      },
+      "VC0": {
+        "mOhm": 0.37,
+        "mW": 78
+      },
+      "VC10": {
+        "mOhm": 0.28,
+        "mW": 58
+      },
+      "CAP+": {
+        "mOhm": 0.12,
+        "mW": 26
+      },
+      "totalW": 0.7,
+      "totalWAt8_4A": 0.23,
+      "typicalAperMmPerLayer": "0.5–1.5",
+      "cornerPeaksAperMm": {
+        "VC5": 7,
+        "VC0": 5,
+        "nodes": 2.5
+      },
+      "VC5PassageAvgAperMm": 1.6,
+      "viaMaxA": {
+        "besideF1": 1.16,
+        "others": 0.53
+      },
+      "earlierEstimateMOhm": {
+        "nodes": 0.13,
+        "VC5": 0.5
+      }
+    },
+    "padsAndMask": {
+      "r1ViaBefore": {
+        "ringIntoPadMm": 0.13,
+        "holeIntoOpeningMm": 0.08
+      },
+      "b1Vias": {
+        "count": 40,
+        "ringIntoOpeningMm": 0.06,
+        "holeOutsideOpeningMm": 0.14
+      },
+      "d1Via": {
+        "ringIntoOpeningMm": 0.03,
+        "holeOutsideOpeningMm": 0.12,
+        "changed": false
+      },
+      "schottkyToCellPadSameNetOverlapMm": 0.07,
+      "nearestOtherNetToCellPadMm": {
+        "10F+ ~ Rk05 漏极端": 0.31,
+        "10F+ ~ Rk01 SEL": 0.41,
+        "10F+ ~ Rk01 负端": 0.57,
+        "34F+ ~ Rk04 中点端": 0.57
+      }
+    },
+    "leadsVsHoles": {
+      "TV1245": {
+        "leadMm": 0.6,
+        "holeMm": 1.1,
+        "source": "Eaton 10554 尺寸表（检索摘录，PDF 未能直接打开）"
+      },
+      "TV1030": {
+        "leadMm": 0.6,
+        "holeMm": 0.914,
+        "source": "RS 参数"
+      }
+    },
+    "silkUnchangedSincePolarityCheck": true,
+    "image": "images/current-density-14.5a.png"
+  },
+  "change20261018c": {
+    "scope": "R1 侧 PWR_LEDK 换层过孔由 (8.153, 75.2) 移到 (9.2, 75.2)；顶层改为水平加 45° 两段，底层起点右移",
+    "offlineCheck": {
+      "issues": 0,
+      "ringToR1OpeningMm": 0.245,
+      "nearestOtherNetPadMm": 0.95,
+      "toJ1PadMm": 1.35,
+      "toBoardEdgeMm": 0.5
+    },
+    "afterReopen": {
+      "ercItems": 0,
+      "drcItems": 0,
+      "unrouted": 0,
+      "poursFilled": "68/68",
+      "vias": 199,
+      "traces": 143,
+      "corners45": 53,
+      "pinDiffSchVsPcb": 0,
+      "pinDiffPlanVsPcb": 0,
+      "padsMatchingPlan": 328,
+      "regionRules": 41,
+      "schematicChanged": false
+    },
+    "exportDiff": "图形变化仅在顶层、底层铜 x 7.6–9.7、y 74.3–75.6 mm 内，钻孔仅此过孔坐标；其余层图形不变（各层一个未被引用的光圈定义数值每次导出都会变）",
+    "viaHolesInsideMaskOpenings": 0,
+    "exportedTo": "outputs/v0.2-check-2026-10-18-r1via/（Git 忽略）"
+  }
+}
