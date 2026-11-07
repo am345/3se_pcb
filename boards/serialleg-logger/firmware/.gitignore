@@ -1,0 +1,10 @@
+# ESP-IDF 构建产物、组件缓存和本机生成的完整配置
+build/
+managed_components/
+sdkconfig
+sdkconfig.old
+
+# 本机编辑器设置（含个人路径）
+.vscode/
+.clangd
+CMakePresets.json

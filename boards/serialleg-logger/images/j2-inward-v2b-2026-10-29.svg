@@ -1,0 +1,889 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="1314" style="background:#111;font-family:sans-serif">
+<line x1="0.0" y1="0" x2="0.0" y2="9999" stroke="#222"/><text x="0.02" y="12" fill="#666" font-size="10">3700</text>
+<line x1="136.8" y1="0" x2="136.8" y2="9999" stroke="#222"/><text x="136.82" y="12" fill="#666" font-size="10">3800</text>
+<line x1="273.7" y1="0" x2="273.7" y2="9999" stroke="#222"/><text x="273.72" y="12" fill="#666" font-size="10">3900</text>
+<line x1="410.5" y1="0" x2="410.5" y2="9999" stroke="#222"/><text x="410.52" y="12" fill="#666" font-size="10">4000</text>
+<line x1="547.4" y1="0" x2="547.4" y2="9999" stroke="#222"/><text x="547.42" y="12" fill="#666" font-size="10">4100</text>
+<line x1="684.2" y1="0" x2="684.2" y2="9999" stroke="#222"/><text x="684.22" y="12" fill="#666" font-size="10">4200</text>
+<line x1="821.1" y1="0" x2="821.1" y2="9999" stroke="#222"/><text x="821.12" y="12" fill="#666" font-size="10">4300</text>
+<line x1="957.9" y1="0" x2="957.9" y2="9999" stroke="#222"/><text x="957.92" y="12" fill="#666" font-size="10">4400</text>
+<line x1="1094.7" y1="0" x2="1094.7" y2="9999" stroke="#222"/><text x="1094.72" y="12" fill="#666" font-size="10">4500</text>
+<line x1="1231.6" y1="0" x2="1231.6" y2="9999" stroke="#222"/><text x="1231.62" y="12" fill="#666" font-size="10">4600</text>
+<line x1="0" y1="1286.3" x2="9999" y2="1286.3" stroke="#222"/><text x="2" y="1284.3" fill="#666" font-size="10">-1700</text>
+<line x1="0" y1="1149.5" x2="9999" y2="1149.5" stroke="#222"/><text x="2" y="1147.5" fill="#666" font-size="10">-1600</text>
+<line x1="0" y1="1012.6" x2="9999" y2="1012.6" stroke="#222"/><text x="2" y="1010.6" fill="#666" font-size="10">-1500</text>
+<line x1="0" y1="875.8" x2="9999" y2="875.8" stroke="#222"/><text x="2" y="873.8" fill="#666" font-size="10">-1400</text>
+<line x1="0" y1="738.9" x2="9999" y2="738.9" stroke="#222"/><text x="2" y="736.9" fill="#666" font-size="10">-1300</text>
+<line x1="0" y1="602.1" x2="9999" y2="602.1" stroke="#222"/><text x="2" y="600.1" fill="#666" font-size="10">-1200</text>
+<line x1="0" y1="465.3" x2="9999" y2="465.3" stroke="#222"/><text x="2" y="463.3" fill="#666" font-size="10">-1100</text>
+<line x1="0" y1="328.4" x2="9999" y2="328.4" stroke="#222"/><text x="2" y="326.4" fill="#666" font-size="10">-1000</text>
+<line x1="0" y1="191.6" x2="9999" y2="191.6" stroke="#222"/><text x="2" y="189.6" fill="#666" font-size="10">-900</text>
+<line x1="0" y1="54.7" x2="9999" y2="54.7" stroke="#222"/><text x="2" y="52.7" fill="#666" font-size="10">-800</text>
+<path d="M377.6,33.0L769.1,33.0L769.1,1156.3L233.3,1156.3L233.3,1485.4L80.1,1485.4L80.1,1912.4L492.6,1912.4L492.6,2223.0L-1254.9,2223.0L-1254.9,345.5L-295.9,345.5L-295.9,33.0L377.6,33.0" fill="none" stroke="#f0f" stroke-width="2"/>
+<path d="M-992.1,2224.0L-157.4,2224.0L-157.4,2531.6L-992.1,2531.6L-992.1,2224.0Z" fill="#880" fill-opacity="0.15" stroke="#8a8" stroke-dasharray="4 3"/>
+<path d="M-992.1,2224.0L-157.4,2224.0L-157.4,2531.6L-992.1,2531.6L-992.1,2224.0Z" fill="#880" fill-opacity="0.15" stroke="#8a8" stroke-dasharray="4 3"/>
+<path d="M-992.1,2224.0L-157.4,2224.0L-157.4,2531.6L-992.1,2531.6L-992.1,2224.0Z" fill="#880" fill-opacity="0.15" stroke="#8a8" stroke-dasharray="4 3"/>
+<path d="M-992.1,2224.0L-157.4,2224.0L-157.4,2531.6L-992.1,2531.6L-992.1,2224.0Z" fill="#880" fill-opacity="0.15" stroke="#8a8" stroke-dasharray="4 3"/>
+<path d="M656.8,588.4L769.1,588.4L769.1,711.6L656.8,711.6L656.8,588.4Z" fill="#0a0" fill-opacity="0.15" stroke="#8a8" stroke-dasharray="4 3"/>
+<path d="M732.1,588.4L769.1,588.4L769.1,711.6L732.1,711.6L732.1,588.4Z" fill="#0a0" fill-opacity="0.15" stroke="#8a8" stroke-dasharray="4 3"/>
+<path d="M-68.4,2222.3L-68.4,2127.9L41.1,2127.9L41.1,2222.3L-68.4,2222.3Z" fill="#0a0" fill-opacity="0.15" stroke="#8a8" stroke-dasharray="4 3"/>
+<path d="M-68.4,2222.3L-68.4,2196.3L41.1,2196.3L41.1,2222.3L-68.4,2222.3Z" fill="#0a0" fill-opacity="0.15" stroke="#8a8" stroke-dasharray="4 3"/>
+<path d="M615.8,123.2L615.8,33.3L752.6,33.3L752.6,123.2L615.8,123.2Z" fill="#0a0" fill-opacity="0.15" stroke="#8a8" stroke-dasharray="4 3"/>
+<path d="M615.8,61.6L615.8,33.3L752.6,33.3L752.6,61.6L615.8,61.6Z" fill="#0a0" fill-opacity="0.15" stroke="#8a8" stroke-dasharray="4 3"/>
+<path d="M-853.8,556.8L-851.9,553.3L-849.3,550.1L-816.0,516.7L-812.8,514.2L-809.3,512.3L-805.4,511.1L-801.3,510.7L-530.0,510.7L-528.1,509.7L-523.8,508.4L-519.2,507.9L-349.0,507.9L-330.8,489.8L-327.3,486.9L-323.2,484.7L-318.8,483.4L-314.3,482.9L-309.7,483.4L-305.3,484.7L-301.3,486.9L-297.7,489.8L-294.8,493.3L-292.7,497.4L-291.3,501.8L-290.9,506.3L-291.3,510.9L-292.7,515.3L-294.8,519.3L-297.7,522.9L-322.7,547.9L-326.3,550.8L-330.3,552.9L-332.0,553.5L-334.7,554.3L-339.3,554.7L-519.2,554.7L-523.8,554.3L-528.1,552.9L-529.9,552.0L-792.8,552.0L-814.1,573.3L-814.1,608.2L-781.7,575.9L-778.6,573.3L-775.0,571.4L-771.2,570.2L-767.1,569.8L-529.9,569.8L-528.1,568.9L-523.7,567.5L-519.2,567.1L-332.9,567.1L-330.8,565.0L-327.3,562.1L-323.2,560.0L-318.8,558.6L-314.3,558.2L-309.7,558.6L-305.3,560.0L-301.3,562.1L-297.7,565.0L-294.8,568.6L-292.7,572.6L-291.3,577.0L-290.9,581.6L-291.3,586.1L-292.7,590.5L-294.8,594.6L-297.7,598.1L-306.6,607.0L-310.2,609.9L-314.2,612.1L-318.6,613.4L-323.2,613.9L-519.2,613.9L-523.7,613.4L-528.1,612.1L-529.9,611.1L-758.6,611.1L-779.9,632.4L-779.9,726.4L-747.5,694.1L-744.4,691.5L-740.8,689.6L-737.0,688.4L-732.9,688.0L-724.0,688.0L-724.0,662.2L-723.6,658.1L-722.5,654.3L-720.5,650.7L-718.0,647.6L-709.8,639.4L-706.6,636.8L-703.1,634.9L-699.2,633.7L-695.2,633.3L-678.7,633.3L-674.7,633.7L-670.8,634.9L-667.3,636.8L-664.1,639.4L-655.9,647.6L-653.3,650.7L-651.4,654.3L-650.3,658.1L-649.9,662.2L-649.9,688.0L-519.2,688.0L-515.1,688.4L-511.3,689.6L-507.7,691.5L-504.6,694.1L-502.0,697.2L-500.1,700.8L-498.9,704.7L-498.5,708.7L-498.9,712.7L-500.1,716.6L-502.0,720.2L-504.6,723.3L-507.7,725.9L-511.3,727.8L-515.1,729.0L-519.2,729.4L-662.3,729.4L-666.3,729.0L-670.2,727.8L-673.8,725.9L-676.9,723.3L-685.1,715.1L-686.9,712.9L-688.8,715.1L-697.0,723.3L-700.1,725.9L-703.7,727.8L-707.5,729.0L-711.6,729.4L-724.4,729.4L-745.7,750.7L-745.7,840.1L-724.0,818.5L-724.0,794.2L-723.6,790.2L-722.5,786.3L-720.5,782.8L-718.0,779.6L-709.8,771.4L-706.6,768.8L-703.1,766.9L-699.2,765.8L-695.2,765.4L-678.7,765.4L-674.7,765.8L-670.8,766.9L-667.3,768.8L-664.1,771.4L-655.9,779.6L-654.1,781.8L-652.3,779.6L-644.1,771.4L-641.0,768.8L-637.4,766.9L-633.5,765.8L-629.5,765.4L-613.1,765.4L-609.0,765.8L-605.1,766.9L-601.6,768.8L-598.4,771.4L-590.2,779.6L-587.7,782.8L-585.8,786.3L-584.6,790.2L-584.2,794.2L-584.2,806.4L-519.2,806.4L-356.3,806.4L-328.9,779.1L-325.8,776.5L-322.2,774.6L-318.4,773.4L-314.3,773.0L-310.3,773.4L-306.4,774.6L-302.8,776.5L-299.7,779.1L-297.1,782.2L-295.2,785.8L-294.1,789.7L-293.7,793.7L-294.1,797.7L-295.2,801.6L-297.1,805.2L-299.7,808.3L-333.1,841.7L-335.0,843.3L-336.2,844.3L-339.8,846.2L-343.7,847.3L-347.7,847.7L-519.2,847.7L-565.9,847.7L-565.4,849.3L-565.0,853.3L-565.0,865.5L-519.3,865.5L-378.0,865.5L-366.8,854.3L-363.7,851.8L-360.1,849.9L-356.3,848.7L-352.2,848.3L-314.3,848.3L-310.3,848.7L-306.4,849.9L-302.8,851.8L-299.7,854.3L-297.1,857.5L-295.2,861.0L-294.1,864.9L-293.7,868.9L-294.1,873.0L-295.2,876.9L-297.1,880.4L-299.7,883.6L-302.8,886.1L-306.4,888.0L-310.3,889.2L-314.3,889.6L-343.7,889.6L-354.9,900.8L-358.0,903.4L-361.6,905.3L-365.4,906.5L-369.5,906.9L-519.3,906.9L-577.5,906.9L-581.5,906.5L-585.4,905.3L-589.0,903.4L-592.1,900.8L-600.3,892.6L-602.1,890.4L-603.9,892.6L-612.1,900.8L-615.3,903.4L-618.8,905.3L-622.7,906.5L-626.7,906.9L-643.2,906.9L-647.2,906.5L-651.1,905.3L-654.6,903.4L-657.8,900.8L-665.0,893.6L-665.1,894.1L-667.0,897.7L-669.6,900.8L-677.2,908.4L-677.2,943.3L-676.8,942.4L-676.0,941.5L-674.2,939.3L-665.4,930.6L-662.3,928.0L-658.7,926.1L-654.9,924.9L-650.8,924.5L-519.2,924.5L-314.4,923.5L-310.4,923.9L-306.5,925.1L-302.9,927.0L-299.8,929.5L-297.2,932.7L-295.3,936.2L-294.1,940.1L-293.7,944.1L-294.0,948.1L-295.2,952.0L-297.1,955.6L-299.6,958.8L-302.8,961.3L-306.3,963.3L-310.2,964.5L-314.2,964.9L-519.1,965.8L-519.1,965.8L-519.2,965.8L-638.9,965.8L-638.9,967.1L-627.8,978.3L-150.5,978.3L-146.5,978.7L-142.6,979.9L-139.0,981.8L-135.9,984.3L21.5,1141.7L24.0,1144.8L25.9,1148.4L27.1,1152.3L27.5,1156.3L27.5,1265.8L27.1,1269.8L25.9,1273.7L24.0,1277.3L21.5,1280.4L-27.2,1329.1L-27.2,1412.3L21.0,1460.5L23.6,1463.7L25.5,1467.3L26.7,1471.1L27.1,1475.2L27.1,1491.6L26.7,1495.6L25.5,1499.5L23.6,1503.1L21.0,1506.2L17.9,1508.8L14.3,1510.7L10.5,1511.8L6.4,1512.2L2.4,1511.8L-1.5,1510.7L-5.0,1508.8L-8.2,1506.2L-10.7,1503.1L-12.7,1499.5L-13.8,1495.6L-14.2,1491.6L-14.2,1483.7L-62.5,1435.4L-65.1,1432.3L-67.0,1428.7L-68.2,1424.9L-68.6,1420.8L-68.6,1374.5L-101.7,1407.7L-104.8,1410.2L-108.4,1412.1L-112.3,1413.3L-116.3,1413.7L-225.0,1413.7L-233.5,1422.1L-233.5,1427.8L-233.8,1431.8L-235.0,1435.7L-236.9,1439.3L-239.5,1442.4L-242.6,1445.0L-246.2,1446.9L-250.1,1448.1L-254.1,1448.5L-258.1,1448.1L-262.0,1446.9L-265.6,1445.0L-268.7,1442.4L-271.3,1439.3L-273.2,1435.7L-274.4,1431.8L-274.8,1427.8L-274.8,1413.6L-274.4,1409.5L-273.2,1405.7L-272.6,1404.4L-279.3,1411.2L-279.3,1427.8L-279.7,1431.8L-280.9,1435.7L-282.8,1439.3L-285.3,1442.4L-288.5,1445.0L-292.1,1446.9L-295.9,1448.1L-300.0,1448.5L-304.0,1448.1L-307.9,1446.9L-311.4,1445.0L-314.6,1442.4L-317.1,1439.3L-319.0,1435.7L-320.2,1431.8L-320.6,1427.8L-320.6,1411.0L-325.1,1411.0L-325.1,1427.8L-325.5,1431.8L-326.7,1435.7L-328.6,1439.3L-331.2,1442.4L-334.3,1445.0L-337.9,1446.9L-341.8,1448.1L-345.8,1448.5L-349.8,1448.1L-353.7,1446.9L-357.3,1445.0L-360.4,1442.4L-363.0,1439.3L-364.9,1435.7L-366.1,1431.8L-366.5,1427.8L-366.5,1401.3L-366.4,1401.0L-370.8,1405.4L-370.8,1427.8L-371.2,1431.8L-372.4,1435.7L-374.3,1439.3L-376.9,1442.4L-380.0,1445.0L-383.6,1446.9L-387.5,1448.1L-391.5,1448.5L-395.5,1448.1L-399.4,1446.9L-403.0,1445.0L-406.1,1442.4L-408.7,1439.3L-410.6,1435.7L-411.8,1431.8L-412.2,1427.8L-412.2,1396.9L-411.8,1392.9L-411.6,1392.3L-410.6,1389.0L-408.7,1385.4L-406.1,1382.3L-329.3,1305.5L-326.2,1302.9L-322.6,1301.0L-318.8,1299.8L-314.7,1299.5L-310.7,1299.8L-306.8,1301.0L-303.3,1302.9L-300.1,1305.5L-297.6,1308.6L-295.6,1312.2L-294.5,1316.1L-294.1,1320.1L-294.5,1324.1L-295.6,1328.0L-297.6,1331.6L-300.1,1334.7L-335.1,1369.7L-334.9,1369.7L-323.3,1369.7L-287.5,1333.9L-287.5,1306.4L-287.1,1302.4L-285.9,1298.5L-284.0,1295.0L-281.5,1291.8L-247.2,1257.6L-244.1,1255.0L-240.5,1253.1L-236.7,1252.0L-232.6,1251.6L-228.6,1252.0L-224.7,1253.1L-221.2,1255.0L-218.0,1257.6L-215.5,1260.7L-213.5,1264.3L-212.4,1268.2L-212.0,1272.2L-212.4,1276.3L-213.5,1280.1L-215.5,1283.7L-218.0,1286.8L-246.2,1315.0L-246.2,1319.6L-232.1,1305.5L-228.9,1302.9L-225.3,1301.0L-221.5,1299.8L-217.4,1299.5L-150.5,1299.5L-146.5,1299.8L-142.6,1301.0L-139.0,1302.9L-135.9,1305.5L-133.3,1308.6L-131.4,1312.2L-130.3,1316.1L-129.9,1320.1L-130.3,1324.1L-131.4,1328.0L-133.3,1331.6L-135.9,1334.7L-139.0,1337.3L-142.6,1339.2L-146.5,1340.4L-150.5,1340.8L-208.9,1340.8L-242.7,1374.6L-241.5,1374.0L-237.6,1372.8L-233.6,1372.4L-124.9,1372.4L-89.1,1336.6L-89.1,1272.2L-88.7,1268.2L-87.5,1264.3L-85.6,1260.7L-83.0,1257.6L-79.9,1255.0L-76.3,1253.1L-72.5,1252.0L-68.4,1251.6L-64.4,1252.0L-60.5,1253.1L-56.9,1255.0L-53.8,1257.6L-51.2,1260.7L-49.3,1264.3L-48.2,1268.2L-47.8,1272.2L-47.8,1291.2L-13.8,1257.2L-13.8,1164.9L-159.1,1019.6L-196.4,1019.6L-53.8,1162.2L-51.2,1165.4L-49.3,1168.9L-48.2,1172.8L-47.8,1176.8L-47.8,1190.9L-48.2,1195.0L-49.3,1198.8L-51.2,1202.4L-53.8,1205.5L-56.9,1208.1L-60.5,1210.0L-64.4,1211.2L-68.4,1211.6L-72.5,1211.2L-76.3,1210.0L-79.9,1208.1L-83.0,1205.5L-85.6,1202.4L-87.5,1198.8L-88.7,1195.0L-89.1,1190.9L-89.1,1185.4L-227.5,1047.0L-278.5,1047.0L-135.9,1189.6L-133.3,1192.7L-131.4,1196.3L-130.3,1200.2L-129.9,1204.2L-129.9,1238.8L-130.3,1242.9L-131.4,1246.7L-133.3,1250.3L-135.9,1253.4L-139.0,1256.0L-142.6,1257.9L-146.5,1259.1L-150.5,1259.5L-154.6,1259.1L-158.4,1257.9L-162.0,1256.0L-165.1,1253.4L-167.7,1250.3L-169.6,1246.7L-170.8,1242.9L-171.2,1238.8L-171.2,1212.8L-212.9,1171.1L-212.4,1172.8L-212.0,1176.8L-212.0,1190.9L-212.4,1195.0L-213.5,1198.8L-215.5,1202.4L-218.0,1205.5L-221.2,1208.1L-224.7,1210.0L-228.6,1211.2L-232.6,1211.6L-236.7,1211.2L-240.5,1210.0L-244.1,1208.1L-247.2,1205.5L-249.8,1202.4L-251.7,1198.8L-252.9,1195.0L-253.3,1190.9L-253.3,1185.4L-337.0,1101.7L-360.6,1101.7L-300.1,1162.2L-297.6,1165.4L-295.6,1168.9L-294.5,1172.8L-294.1,1176.8L-294.1,1238.8L-294.5,1242.9L-295.6,1246.7L-297.6,1250.3L-300.1,1253.4L-303.3,1256.0L-306.8,1257.9L-310.7,1259.1L-314.7,1259.5L-318.8,1259.1L-322.6,1257.9L-326.2,1256.0L-329.3,1253.4L-331.9,1250.3L-333.8,1246.7L-335.0,1242.9L-335.4,1238.8L-335.4,1185.4L-391.7,1129.1L-408.5,1129.1L-382.2,1155.4L-379.7,1158.5L-377.8,1162.1L-376.6,1166.0L-376.2,1170.0L-376.2,1190.9L-376.6,1195.0L-377.8,1198.8L-379.7,1202.4L-382.2,1205.5L-385.4,1208.1L-388.9,1210.0L-392.8,1211.2L-396.8,1211.6L-400.9,1211.2L-404.7,1210.0L-408.3,1208.1L-411.5,1205.5L-414.0,1202.4L-415.9,1198.8L-417.1,1195.0L-417.5,1190.9L-417.5,1178.6L-439.6,1156.5L-800.5,1156.5L-804.6,1156.1L-808.4,1154.9L-812.0,1153.0L-815.1,1150.4L-849.3,1116.2L-851.9,1113.1L-853.8,1109.5L-855.0,1105.6L-855.4,1101.6L-855.4,564.7L-855.0,560.7L-853.8,556.8Z" fill="#880" fill-opacity="0.15" stroke="#8a8" stroke-dasharray="4 3"/>
+<path d="M-554.5,1431.8L-555.6,1435.7L-557.6,1439.3L-560.1,1442.4L-563.3,1445.0L-566.8,1446.9L-570.7,1448.1L-574.7,1448.5L-578.8,1448.1L-582.6,1446.9L-586.2,1445.0L-589.3,1442.4L-591.9,1439.3L-593.8,1435.7L-595.0,1431.8L-595.4,1427.8L-595.4,1422.7L-595.0,1418.7L-593.8,1414.8L-591.9,1411.3L-589.3,1408.1L-534.6,1353.4L-531.5,1350.8L-527.9,1348.9L-524.0,1347.7L-520.0,1347.3L-516.0,1347.7L-512.1,1348.9L-508.5,1350.8L-505.4,1353.4L-502.8,1356.5L-500.9,1360.1L-499.7,1364.0L-499.3,1368.0L-499.7,1372.0L-500.9,1375.9L-502.8,1379.5L-505.4,1382.6L-554.5,1431.7L-554.5,1431.8Z" fill="#880" fill-opacity="0.15" stroke="#8a8" stroke-dasharray="4 3"/>
+<path d="M-634.9,1360.1L-633.0,1356.5L-630.4,1353.4L-627.3,1350.8L-623.7,1348.9L-619.8,1347.7L-615.8,1347.3L-611.8,1347.7L-607.9,1348.9L-604.3,1350.8L-601.2,1353.4L-598.6,1356.5L-596.7,1360.1L-595.5,1364.0L-595.1,1368.0L-595.1,1377.3L-595.5,1381.3L-596.7,1385.2L-598.6,1388.8L-599.9,1390.4L-599.9,1427.8L-600.3,1431.8L-601.5,1435.7L-603.4,1439.3L-606.0,1442.4L-609.1,1445.0L-612.7,1446.9L-616.5,1448.1L-620.6,1448.5L-624.6,1448.1L-628.5,1446.9L-632.1,1445.0L-635.2,1442.4L-637.8,1439.3L-639.7,1435.7L-640.8,1431.8L-641.2,1427.8L-641.2,1382.1L-640.8,1378.1L-639.7,1374.2L-637.8,1370.6L-636.5,1369.0L-636.5,1368.0L-636.1,1364.0L-634.9,1360.1Z" fill="#880" fill-opacity="0.15" stroke="#8a8" stroke-dasharray="4 3"/>
+<path d="M-619.8,1231.8L-615.8,1231.4L-611.8,1231.8L-607.9,1233.0L-604.3,1234.9L-601.2,1237.5L-598.6,1240.6L-596.7,1244.2L-595.5,1248.1L-595.1,1252.1L-595.1,1286.7L-595.5,1290.8L-596.7,1294.6L-598.6,1298.2L-601.2,1301.3L-604.3,1303.9L-607.9,1305.8L-611.8,1307.0L-615.8,1307.4L-619.8,1307.0L-623.7,1305.8L-627.3,1303.9L-630.4,1301.3L-633.0,1298.2L-634.9,1294.6L-636.1,1290.8L-636.5,1286.7L-636.5,1252.1L-636.1,1248.1L-634.9,1244.2L-633.0,1240.6L-630.4,1237.5L-627.3,1234.9L-623.7,1233.0L-619.8,1231.8Z" fill="#880" fill-opacity="0.15" stroke="#8a8" stroke-dasharray="4 3"/>
+<path d="M-417.1,1268.2L-415.9,1264.3L-414.0,1260.7L-411.5,1257.6L-408.3,1255.0L-404.7,1253.1L-400.9,1252.0L-396.8,1251.6L-392.8,1252.0L-388.9,1253.1L-385.4,1255.0L-382.2,1257.6L-379.7,1260.7L-377.8,1264.3L-376.6,1268.2L-376.2,1272.2L-376.2,1293.7L-376.6,1297.7L-377.8,1301.6L-379.7,1305.2L-382.2,1308.3L-416.7,1342.8L-416.7,1427.8L-417.1,1431.8L-418.3,1435.7L-420.2,1439.3L-422.7,1442.4L-425.9,1445.0L-429.4,1446.9L-433.3,1448.1L-437.3,1448.5L-441.4,1448.1L-445.3,1446.9L-448.8,1445.0L-452.0,1442.4L-454.5,1439.3L-456.4,1435.7L-457.6,1431.8L-458.0,1427.8L-458.0,1334.2L-457.6,1330.2L-456.4,1326.3L-454.5,1322.7L-452.0,1319.6L-417.5,1285.1L-417.5,1272.2L-417.1,1268.2Z" fill="#880" fill-opacity="0.15" stroke="#8a8" stroke-dasharray="4 3"/>
+<path d="M-520.0,1307.4L-524.0,1307.0L-527.9,1305.8L-531.5,1303.9L-534.6,1301.3L-537.2,1298.2L-539.1,1294.6L-540.3,1290.8L-540.7,1286.7L-540.3,1282.7L-539.1,1278.8L-537.2,1275.2L-534.6,1272.1L-531.5,1269.5L-527.9,1267.6L-524.0,1266.5L-520.0,1266.1L-494.3,1266.1L-485.9,1257.6L-485.9,1252.1L-485.5,1248.1L-484.4,1244.2L-482.4,1240.6L-479.9,1237.5L-476.7,1234.9L-473.2,1233.0L-469.3,1231.8L-465.3,1231.4L-461.2,1231.8L-457.4,1233.0L-453.8,1234.9L-450.7,1237.5L-448.1,1240.6L-446.2,1244.2L-445.0,1248.1L-444.6,1252.1L-444.6,1266.2L-445.0,1270.2L-446.2,1274.1L-448.1,1277.7L-450.7,1280.8L-471.2,1301.3L-474.3,1303.9L-477.9,1305.8L-481.8,1307.0L-485.8,1307.4L-520.0,1307.4Z" fill="#880" fill-opacity="0.15" stroke="#8a8" stroke-dasharray="4 3"/>
+<path d="M-56.9,1501.9L-59.3,1505.2L-62.3,1508.0L-65.7,1510.1L-69.5,1511.5L-73.5,1512.2L-77.5,1512.1L-81.5,1511.2L-85.2,1509.5L-88.5,1507.1L-89.2,1506.5L-199.0,1506.5L-203.0,1506.1L-206.9,1504.9L-210.4,1503.0L-213.6,1500.4L-216.1,1497.3L-218.1,1493.7L-219.2,1489.9L-219.6,1485.8L-219.2,1481.8L-218.1,1477.9L-216.1,1474.4L-213.6,1471.2L-210.4,1468.7L-206.9,1466.7L-203.0,1465.6L-199.0,1465.2L-81.4,1465.2L-80.1,1465.3L-78.7,1465.3L-78.1,1465.5L-77.4,1465.6L-76.1,1466.0L-74.8,1466.3L-74.2,1466.5L-73.5,1466.7L-72.3,1467.4L-71.1,1467.9L-70.5,1468.3L-69.9,1468.7L-68.9,1469.5L-67.8,1470.3L-61.2,1476.0L-58.5,1479.0L-56.3,1482.4L-54.9,1486.2L-54.2,1490.2L-54.4,1494.3L-55.3,1498.2L-56.9,1501.9Z" fill="#880" fill-opacity="0.15" stroke="#8a8" stroke-dasharray="4 3"/>
+<path d="M-392.8,1401.7L-396.8,1402.1L-437.9,1402.1L-441.9,1401.7L-445.8,1400.5L-449.4,1398.6L-452.5,1396.0L-479.9,1368.7L-482.4,1365.5L-484.4,1362.0L-485.5,1358.1L-485.9,1354.1L-485.9,1252.1L-485.5,1248.1L-484.4,1244.2L-482.4,1240.6L-479.9,1237.5L-476.7,1234.9L-473.2,1233.0L-469.3,1231.8L-465.3,1231.4L-461.2,1231.8L-457.4,1233.0L-453.8,1234.9L-450.7,1237.5L-448.1,1240.6L-446.2,1244.2L-445.0,1248.1L-444.6,1252.1L-444.6,1345.5L-429.3,1360.8L-405.4,1360.8L-390.1,1345.5L-390.1,1241.2L-389.7,1237.1L-388.6,1233.3L-386.7,1229.7L-384.1,1226.5L-266.1,1108.6L-463.5,1108.6L-595.1,1240.1L-595.1,1252.1L-595.5,1256.1L-596.7,1260.0L-598.6,1263.6L-601.2,1266.7L-604.3,1269.3L-607.9,1271.2L-611.8,1272.4L-615.8,1272.8L-619.8,1272.4L-623.7,1271.2L-627.3,1269.3L-630.4,1266.7L-633.0,1263.6L-634.9,1260.0L-636.1,1256.1L-636.5,1252.1L-636.5,1231.6L-636.1,1227.5L-634.9,1223.7L-633.0,1220.1L-630.4,1217.0L-486.7,1073.3L-483.6,1070.7L-480.0,1068.8L-476.1,1067.6L-472.1,1067.2L-248.0,1067.2L485.7,333.5L485.7,280.3L486.0,276.2L487.2,272.3L489.1,268.8L491.7,265.6L580.4,177.0L583.5,174.4L587.1,172.5L591.0,171.3L595.0,170.9L599.0,171.3L602.9,172.5L606.5,174.4L609.6,177.0L612.2,180.1L614.1,183.7L615.3,187.5L615.7,191.6L615.3,195.6L614.1,199.5L612.2,203.1L609.6,206.2L527.0,288.8L527.0,342.1L526.6,346.1L525.4,350.0L523.5,353.6L520.9,356.7L501.5,376.2L595.0,376.2L599.0,376.6L602.9,377.8L606.5,379.7L609.6,382.2L612.2,385.4L614.1,388.9L615.3,392.8L615.7,396.8L615.3,400.9L614.1,404.7L612.2,408.3L609.6,411.5L606.5,414.0L602.9,415.9L599.0,417.1L595.0,417.5L483.4,417.5L-348.8,1249.7L-348.8,1354.1L-349.2,1358.1L-350.4,1362.0L-352.3,1365.5L-354.9,1368.7L-382.2,1396.0L-385.4,1398.6L-388.9,1400.5L-392.8,1401.7Z" fill="#880" fill-opacity="0.15" stroke="#8a8" stroke-dasharray="4 3"/>
+<line x1="-138.9" y1="1929.5" x2="-102.2" y2="1929.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>BOOT</title></line>
+<line x1="-199.0" y1="1989.5" x2="-179.0" y2="1969.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>BOOT</title></line>
+<line x1="-179.0" y1="1969.5" x2="-171.2" y2="1969.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>BOOT</title></line>
+<line x1="-171.2" y1="1969.5" x2="-162.4" y2="1960.7" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>BOOT</title></line>
+<line x1="-162.4" y1="1960.7" x2="-162.4" y2="1952.9" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>BOOT</title></line>
+<line x1="-162.4" y1="1952.9" x2="-138.9" y2="1929.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>BOOT</title></line>
+<line x1="-21.0" y1="1929.5" x2="-20.5" y2="1929.0" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-20.5" y1="1929.0" x2="-20.5" y2="1881.6" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-102.2" y1="1929.5" x2="-102.2" y2="1881.6" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>BOOT</title></line>
+<line x1="-950.5" y1="2126.9" x2="-968.7" y2="2145.1" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>EN</title></line>
+<line x1="-968.7" y1="2145.1" x2="-1023.6" y2="2145.1" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>EN</title></line>
+<line x1="-1023.6" y1="2145.1" x2="-1023.6" y2="2136.7" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>EN</title></line>
+<line x1="-1023.6" y1="2136.7" x2="-1062.9" y2="2097.4" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>EN</title></line>
+<line x1="-1062.9" y1="2097.4" x2="-1062.9" y2="2041.9" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>EN</title></line>
+<line x1="-1062.9" y1="2041.9" x2="-1023.6" y2="2002.6" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>EN</title></line>
+<line x1="-1023.6" y1="2002.6" x2="-1023.6" y2="1997.4" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>EN</title></line>
+<line x1="-1112.6" y1="1690.0" x2="-1156.3" y2="1690.0" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>PROG_TX</title></line>
+<line x1="-950.5" y1="1852.1" x2="-970.5" y2="1832.1" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>PROG_TX</title></line>
+<line x1="-970.5" y1="1832.1" x2="-978.3" y2="1832.1" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>PROG_TX</title></line>
+<line x1="-950.5" y1="1897.9" x2="-970.5" y2="1877.9" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>PROG_RX</title></line>
+<line x1="-970.5" y1="1877.9" x2="-978.3" y2="1877.9" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>PROG_RX</title></line>
+<line x1="-1029.4" y1="1826.8" x2="-1156.3" y2="1826.8" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>PROG_RX</title></line>
+<line x1="-1029.4" y1="1826.8" x2="-978.3" y2="1877.9" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>PROG_RX</title></line>
+<line x1="-978.3" y1="1832.1" x2="-1026.3" y2="1784.1" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>PROG_TX</title></line>
+<line x1="-1026.3" y1="1784.1" x2="-1026.3" y2="1776.3" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>PROG_TX</title></line>
+<line x1="-1026.3" y1="1776.3" x2="-1112.6" y2="1690.0" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>PROG_TX</title></line>
+<line x1="-1023.6" y1="1997.4" x2="-1057.3" y2="1963.7" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>EN</title></line>
+<line x1="-1057.3" y1="1963.7" x2="-1156.3" y2="1963.7" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>EN</title></line>
+<line x1="-1156.3" y1="2100.5" x2="-1156.3" y2="2168.9" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>BOOT</title></line>
+<line x1="-115.5" y1="2121.1" x2="-115.5" y2="2032.1" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-199.0" y1="2035.3" x2="-118.6" y2="2035.3" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-118.6" y1="2035.3" x2="-115.5" y2="2032.1" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-115.5" y1="2032.1" x2="-21.0" y2="1937.6" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-21.0" y1="1937.6" x2="-21.0" y2="1929.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-314.3" y1="431.1" x2="-355.1" y2="471.8" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>SD_CD_N</title></line>
+<line x1="-314.3" y1="506.3" x2="-339.3" y2="531.3" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>SD_D1</title></line>
+<line x1="-339.3" y1="531.3" x2="-519.2" y2="531.3" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>SD_D1</title></line>
+<line x1="-314.3" y1="581.6" x2="-323.2" y2="590.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>SD_D0</title></line>
+<line x1="-233.1" y1="431.1" x2="-233.1" y2="506.3" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-233.1" y1="506.3" x2="-233.1" y2="581.6" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-233.1" y1="581.6" x2="-233.1" y2="793.7" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-233.1" y1="793.7" x2="-233.1" y2="868.9" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-233.1" y1="868.9" x2="-233.1" y2="944.2" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-407.2" y1="704.7" x2="-322.3" y2="619.9" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-322.3" y1="619.9" x2="-286.3" y2="619.9" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-286.3" y1="619.9" x2="-248.0" y2="581.6" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-248.0" y1="581.6" x2="-233.1" y2="581.6" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-470.4" y1="767.9" x2="-407.2" y2="704.7" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-20.5" y1="1881.6" x2="-20.5" y2="1450.5" stroke="#48f" stroke-width="27.4" stroke-linecap="round" opacity="0.55"><title>3V3</title></line>
+<line x1="-1156.3" y1="2168.9" x2="-916.8" y2="2168.9" stroke="#48f" stroke-width="13.7" stroke-linecap="round" opacity="0.55"><title>BOOT</title></line>
+<line x1="-916.8" y1="2168.9" x2="-752.6" y2="2004.7" stroke="#48f" stroke-width="13.7" stroke-linecap="round" opacity="0.55"><title>BOOT</title></line>
+<line x1="-752.6" y1="2004.7" x2="-218.9" y2="2004.7" stroke="#48f" stroke-width="13.7" stroke-linecap="round" opacity="0.55"><title>BOOT</title></line>
+<line x1="-102.2" y1="1888.0" x2="-218.9" y2="2004.7" stroke="#48f" stroke-width="13.7" stroke-linecap="round" opacity="0.55"><title>BOOT</title></line>
+<line x1="-102.2" y1="1888.0" x2="-102.2" y2="1881.6" stroke="#48f" stroke-width="13.7" stroke-linecap="round" opacity="0.55"><title>BOOT</title></line>
+<line x1="68.4" y1="1026.3" x2="68.4" y2="910.0" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="68.4" y1="910.0" x2="0.0" y2="841.6" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="0.0" y1="841.6" x2="-205.3" y2="841.6" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-205.3" y1="841.6" x2="-233.0" y2="868.9" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-233.0" y1="793.7" x2="-185.6" y2="793.7" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-185.6" y1="793.7" x2="-136.8" y2="745.0" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-519.2" y1="768.0" x2="-470.4" y2="767.9" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-470.4" y1="767.9" x2="-424.2" y2="767.7" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-424.2" y1="767.7" x2="-684.2" y2="767.7" stroke="#48f" stroke-width="27.4" stroke-linecap="round" opacity="0.55"><title>3V3</title></line>
+<line x1="-684.2" y1="767.7" x2="-793.7" y2="877.2" stroke="#48f" stroke-width="27.4" stroke-linecap="round" opacity="0.55"><title>3V3</title></line>
+<line x1="-793.7" y1="877.2" x2="-793.7" y2="1341.1" stroke="#48f" stroke-width="27.4" stroke-linecap="round" opacity="0.55"><title>3V3</title></line>
+<line x1="-793.7" y1="1341.1" x2="-1026.3" y2="1341.1" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-1026.3" y1="1341.1" x2="-1081.1" y2="1395.8" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-1081.1" y1="1395.8" x2="-1081.1" y2="1477.9" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-1081.1" y1="1477.9" x2="-1156.3" y2="1553.2" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-1156.3" y1="1553.2" x2="-1081.1" y2="1628.4" stroke="#48f" stroke-width="13.7" stroke-linecap="round" opacity="0.55"><title>3V3</title></line>
+<line x1="-1081.1" y1="1628.4" x2="-1081.1" y2="1836.4" stroke="#48f" stroke-width="13.7" stroke-linecap="round" opacity="0.55"><title>3V3</title></line>
+<line x1="-1081.1" y1="1836.4" x2="-1033.2" y2="1884.3" stroke="#48f" stroke-width="13.7" stroke-linecap="round" opacity="0.55"><title>3V3</title></line>
+<line x1="-1033.2" y1="1884.3" x2="-1023.6" y2="1916.2" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="-199.0" y1="1577.4" x2="-153.3" y2="1577.4" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>LED_ERR</title></line>
+<line x1="-437.3" y1="1427.8" x2="-437.3" y2="1334.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D1_MCU</title></line>
+<line x1="-437.3" y1="1334.2" x2="-396.8" y2="1293.7" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D1_MCU</title></line>
+<line x1="-396.8" y1="1293.7" x2="-396.8" y2="1272.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D1_MCU</title></line>
+<line x1="-391.5" y1="1427.8" x2="-391.5" y2="1396.9" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D0_MCU</title></line>
+<line x1="-391.5" y1="1396.9" x2="-314.7" y2="1320.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D0_MCU</title></line>
+<line x1="-314.7" y1="1390.3" x2="-266.8" y2="1342.4" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CLK_MCU</title></line>
+<line x1="-266.8" y1="1342.4" x2="-266.8" y2="1306.4" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CLK_MCU</title></line>
+<line x1="-266.8" y1="1306.4" x2="-232.6" y2="1272.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CLK_MCU</title></line>
+<line x1="-300.0" y1="1427.8" x2="-300.0" y2="1402.6" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD_MCU</title></line>
+<line x1="-300.0" y1="1402.6" x2="-217.4" y2="1320.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD_MCU</title></line>
+<line x1="-217.4" y1="1320.1" x2="-150.5" y2="1320.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD_MCU</title></line>
+<line x1="-254.1" y1="1427.8" x2="-254.1" y2="1413.6" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3_MCU</title></line>
+<line x1="-254.1" y1="1413.6" x2="-233.6" y2="1393.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3_MCU</title></line>
+<line x1="-233.6" y1="1393.1" x2="-116.3" y2="1393.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3_MCU</title></line>
+<line x1="-116.3" y1="1393.1" x2="-68.4" y2="1345.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3_MCU</title></line>
+<line x1="-68.4" y1="1345.2" x2="-68.4" y2="1272.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3_MCU</title></line>
+<line x1="-199.0" y1="1485.8" x2="-81.4" y2="1485.8" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D2_MCU</title></line>
+<line x1="-81.4" y1="1485.8" x2="-74.9" y2="1491.6" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D2_MCU</title></line>
+<line x1="-396.8" y1="1190.9" x2="-396.8" y2="1170.0" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D1</title></line>
+<line x1="-396.8" y1="1170.0" x2="-431.1" y2="1135.8" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D1</title></line>
+<line x1="-431.1" y1="1135.8" x2="-800.5" y2="1135.8" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D1</title></line>
+<line x1="-800.5" y1="1135.8" x2="-834.7" y2="1101.6" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D1</title></line>
+<line x1="-834.7" y1="1101.6" x2="-834.7" y2="564.7" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D1</title></line>
+<line x1="-834.7" y1="564.7" x2="-801.3" y2="531.4" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D1</title></line>
+<line x1="-801.3" y1="531.4" x2="-519.2" y2="531.4" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D1</title></line>
+<line x1="-314.7" y1="1238.8" x2="-314.7" y2="1176.8" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D0</title></line>
+<line x1="-314.7" y1="1176.8" x2="-383.2" y2="1108.4" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D0</title></line>
+<line x1="-383.2" y1="1108.4" x2="-766.3" y2="1108.4" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D0</title></line>
+<line x1="-766.3" y1="1108.4" x2="-800.5" y2="1074.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D0</title></line>
+<line x1="-800.5" y1="1074.2" x2="-800.5" y2="623.9" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D0</title></line>
+<line x1="-800.5" y1="623.9" x2="-767.1" y2="590.5" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D0</title></line>
+<line x1="-767.1" y1="590.5" x2="-519.2" y2="590.5" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D0</title></line>
+<line x1="-323.2" y1="590.5" x2="-519.2" y2="590.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>SD_D0</title></line>
+<line x1="-232.6" y1="1190.9" x2="-232.6" y2="1176.8" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>$1N279</title></line>
+<line x1="-232.6" y1="1176.8" x2="-328.4" y2="1081.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>$1N279</title></line>
+<line x1="-328.4" y1="1081.1" x2="-732.1" y2="1081.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>$1N279</title></line>
+<line x1="-732.1" y1="1081.1" x2="-766.3" y2="1046.8" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>$1N279</title></line>
+<line x1="-766.3" y1="1046.8" x2="-766.3" y2="742.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>$1N279</title></line>
+<line x1="-766.3" y1="742.1" x2="-732.9" y2="708.7" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>$1N279</title></line>
+<line x1="-732.9" y1="708.7" x2="-711.6" y2="708.7" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>$1N279</title></line>
+<line x1="-711.6" y1="708.7" x2="-703.4" y2="700.5" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>$1N279</title></line>
+<line x1="-703.4" y1="700.5" x2="-703.4" y2="662.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>$1N279</title></line>
+<line x1="-703.4" y1="662.2" x2="-695.2" y2="654.0" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>$1N279</title></line>
+<line x1="-695.2" y1="654.0" x2="-678.7" y2="654.0" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>$1N279</title></line>
+<line x1="-678.7" y1="654.0" x2="-670.5" y2="662.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>$1N279</title></line>
+<line x1="-670.5" y1="662.2" x2="-670.5" y2="700.5" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>$1N279</title></line>
+<line x1="-670.5" y1="700.5" x2="-662.3" y2="708.7" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>$1N279</title></line>
+<line x1="-662.3" y1="708.7" x2="-519.2" y2="708.7" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>$1N279</title></line>
+<line x1="-150.5" y1="1238.8" x2="-150.5" y2="1204.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-150.5" y1="1204.2" x2="-301.1" y2="1053.7" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-301.1" y1="1053.7" x2="-697.9" y2="1053.7" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-697.9" y1="1053.7" x2="-732.1" y2="1019.5" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-703.4" y1="794.2" x2="-695.2" y2="786.0" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-695.2" y1="786.0" x2="-678.7" y2="786.0" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-678.7" y1="786.0" x2="-670.5" y2="794.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-670.5" y1="794.2" x2="-670.5" y2="818.9" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-670.5" y1="818.9" x2="-662.3" y2="827.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-662.3" y1="827.1" x2="-645.9" y2="827.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-645.9" y1="827.1" x2="-637.7" y2="818.9" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-637.7" y1="818.9" x2="-637.7" y2="794.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-637.7" y1="794.2" x2="-629.5" y2="786.0" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-629.5" y1="786.0" x2="-613.1" y2="786.0" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-613.1" y1="786.0" x2="-604.8" y2="794.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-604.8" y1="794.2" x2="-604.8" y2="818.9" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-604.8" y1="818.9" x2="-596.6" y2="827.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-596.6" y1="827.1" x2="-519.2" y2="827.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-68.4" y1="1190.9" x2="-68.4" y2="1176.8" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-68.4" y1="1176.8" x2="-218.9" y2="1026.3" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-218.9" y1="1026.3" x2="-663.7" y2="1026.3" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-663.7" y1="1026.3" x2="-697.9" y2="992.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-684.2" y1="853.3" x2="-676.0" y2="845.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-676.0" y1="845.1" x2="-659.6" y2="845.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-659.6" y1="845.1" x2="-651.4" y2="853.3" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-651.4" y1="853.3" x2="-651.4" y2="878.0" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-651.4" y1="878.0" x2="-643.2" y2="886.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-643.2" y1="886.2" x2="-626.7" y2="886.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-626.7" y1="886.2" x2="-618.5" y2="878.0" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-618.5" y1="878.0" x2="-618.5" y2="853.3" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-618.5" y1="853.3" x2="-610.3" y2="845.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-610.3" y1="845.1" x2="-593.9" y2="845.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-593.9" y1="845.1" x2="-585.7" y2="853.3" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-585.7" y1="853.3" x2="-585.7" y2="878.0" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-585.7" y1="878.0" x2="-577.5" y2="886.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-577.5" y1="886.2" x2="-519.3" y2="886.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-519.3" y1="886.2" x2="-369.5" y2="886.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-369.5" y1="886.2" x2="-352.2" y2="868.9" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-352.2" y1="868.9" x2="-314.3" y2="868.9" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-519.2" y1="827.1" x2="-347.7" y2="827.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-347.7" y1="827.1" x2="-314.3" y2="793.7" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-483.2" y1="1427.8" x2="-483.1" y2="1471.1" stroke="#e44" stroke-width="10.9" stroke-linecap="round" opacity="0.75"><title>SD_CD_N</title></line>
+<line x1="-519.2" y1="471.8" x2="-513.7" y2="471.8" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>SD_CD_N</title></line>
+<line x1="-513.7" y1="471.8" x2="-410.5" y2="472.1" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>SD_CD_N</title></line>
+<line x1="-355.1" y1="471.8" x2="-513.7" y2="471.8" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>SD_CD_N</title></line>
+<line x1="-513.7" y1="471.8" x2="-519.2" y2="471.8" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>SD_CD_N</title></line>
+<line x1="-483.1" y1="1471.1" x2="-529.6" y2="1517.6" stroke="#48f" stroke-width="13.7" stroke-linecap="round" opacity="0.55"><title>SD_CD_N</title></line>
+<line x1="-529.6" y1="1517.6" x2="-875.8" y2="1517.6" stroke="#48f" stroke-width="13.7" stroke-linecap="round" opacity="0.55"><title>SD_CD_N</title></line>
+<line x1="-875.8" y1="1517.6" x2="-944.2" y2="1449.2" stroke="#48f" stroke-width="13.7" stroke-linecap="round" opacity="0.55"><title>SD_CD_N</title></line>
+<line x1="-944.2" y1="1449.2" x2="-944.2" y2="513.2" stroke="#48f" stroke-width="13.7" stroke-linecap="round" opacity="0.55"><title>SD_CD_N</title></line>
+<line x1="-944.2" y1="513.2" x2="-903.2" y2="472.1" stroke="#48f" stroke-width="13.7" stroke-linecap="round" opacity="0.55"><title>SD_CD_N</title></line>
+<line x1="-903.2" y1="472.1" x2="-410.5" y2="472.1" stroke="#48f" stroke-width="13.7" stroke-linecap="round" opacity="0.55"><title>SD_CD_N</title></line>
+<line x1="-620.6" y1="1427.8" x2="-620.6" y2="1382.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>USB_DP_MCU</title></line>
+<line x1="-620.6" y1="1382.1" x2="-615.8" y2="1377.3" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>USB_DP_MCU</title></line>
+<line x1="-615.8" y1="1377.3" x2="-615.8" y2="1368.0" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>USB_DP_MCU</title></line>
+<line x1="-574.7" y1="1427.8" x2="-574.7" y2="1422.7" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>USB_DM_MCU</title></line>
+<line x1="-574.7" y1="1422.7" x2="-520.0" y2="1368.0" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>USB_DM_MCU</title></line>
+<line x1="153.3" y1="752.2" x2="205.3" y2="752.6" stroke="#e44" stroke-width="20.5" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-1023.6" y1="2069.6" x2="-1005.8" y2="2069.6" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-136.8" y1="637.1" x2="-75.3" y2="637.1" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-331.7" y1="704.7" x2="-287.4" y2="704.7" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-519.2" y1="649.6" x2="-444.7" y2="649.6" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-548.2" y1="402.7" x2="-636.3" y2="402.7" stroke="#e44" stroke-width="34.2" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-548.2" y1="1198.3" x2="-656.8" y2="1198.3" stroke="#e44" stroke-width="34.2" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-1068.2" y1="404.6" x2="-1163.2" y2="404.6" stroke="#e44" stroke-width="34.2" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-1068.2" y1="1239.4" x2="-1163.2" y2="1239.4" stroke="#e44" stroke-width="34.2" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="264.4" y1="111.3" x2="264.4" y2="198.4" stroke="#48f" stroke-width="13.7" stroke-linecap="round" opacity="0.55"><title>GND</title></line>
+<line x1="221.3" y1="111.3" x2="221.3" y2="198.4" stroke="#48f" stroke-width="13.7" stroke-linecap="round" opacity="0.55"><title>GND</title></line>
+<line x1="178.2" y1="111.3" x2="178.2" y2="198.4" stroke="#48f" stroke-width="13.7" stroke-linecap="round" opacity="0.55"><title>GND</title></line>
+<line x1="135.1" y1="111.3" x2="135.1" y2="198.4" stroke="#48f" stroke-width="13.7" stroke-linecap="round" opacity="0.55"><title>GND</title></line>
+<line x1="-663.7" y1="1806.3" x2="-663.7" y2="1895.3" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-574.7" y1="1806.3" x2="-574.7" y2="1895.3" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-485.8" y1="1806.3" x2="-485.8" y2="1895.3" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-663.7" y1="1717.4" x2="-574.7" y2="1717.4" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-574.7" y1="1717.4" x2="-485.8" y2="1717.4" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-663.7" y1="1806.3" x2="-574.7" y2="1806.3" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-574.7" y1="1806.3" x2="-485.8" y2="1806.3" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-663.7" y1="1717.4" x2="-663.7" y2="1806.3" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-574.7" y1="1717.4" x2="-574.7" y2="1806.3" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-485.8" y1="1717.4" x2="-485.8" y2="1806.3" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-663.7" y1="1895.3" x2="-574.7" y2="1895.3" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-574.7" y1="1895.3" x2="-485.8" y2="1895.3" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-619.2" y1="1761.8" x2="-663.7" y2="1806.3" stroke="#e44" stroke-width="20.5" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-619.2" y1="1850.8" x2="-663.7" y2="1895.3" stroke="#e44" stroke-width="20.5" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-530.3" y1="1761.8" x2="-574.7" y2="1806.3" stroke="#e44" stroke-width="20.5" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-530.3" y1="1850.8" x2="-574.7" y2="1895.3" stroke="#e44" stroke-width="20.5" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-199.0" y1="2126.9" x2="-253.2" y2="2126.9" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-199.0" y1="2081.1" x2="-253.2" y2="2081.1" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-950.5" y1="1989.5" x2="-889.5" y2="1989.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-950.5" y1="2035.3" x2="-889.5" y2="2035.3" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-834.7" y1="2148.4" x2="-834.7" y2="2183.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-951.9" y1="2183.5" x2="-834.7" y2="2183.5" stroke="#e44" stroke-width="20.5" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-697.9" y1="2148.4" x2="-697.9" y2="2183.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-834.7" y1="2183.5" x2="-697.9" y2="2183.5" stroke="#e44" stroke-width="20.5" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-561.1" y1="2148.4" x2="-561.1" y2="2183.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-697.9" y1="2183.5" x2="-561.1" y2="2183.5" stroke="#e44" stroke-width="20.5" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-424.2" y1="2148.4" x2="-424.2" y2="2183.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-561.1" y1="2183.5" x2="-424.2" y2="2183.5" stroke="#e44" stroke-width="20.5" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-287.4" y1="2148.4" x2="-287.4" y2="2183.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-424.2" y1="2183.5" x2="-287.4" y2="2183.5" stroke="#e44" stroke-width="20.5" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-287.4" y1="2183.5" x2="-197.6" y2="2183.5" stroke="#e44" stroke-width="20.5" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-951.9" y1="1429.2" x2="-903.2" y2="1477.9" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-903.2" y1="1477.9" x2="-821.1" y2="1477.9" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-197.6" y1="1429.2" x2="-246.3" y2="1477.9" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-20.5" y1="1450.5" x2="-6.8" y2="1450.5" stroke="#48f" stroke-width="27.4" stroke-linecap="round" opacity="0.55"><title>3V3</title></line>
+<line x1="-6.8" y1="1450.5" x2="184.7" y2="1258.9" stroke="#48f" stroke-width="27.4" stroke-linecap="round" opacity="0.55"><title>3V3</title></line>
+<line x1="6.4" y1="1491.6" x2="6.4" y2="1475.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D2</title></line>
+<line x1="6.4" y1="1475.2" x2="-47.9" y2="1420.8" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D2</title></line>
+<line x1="-47.9" y1="1420.8" x2="-47.9" y2="1320.5" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D2</title></line>
+<line x1="-47.9" y1="1320.5" x2="6.8" y2="1265.8" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D2</title></line>
+<line x1="6.8" y1="1265.8" x2="6.8" y2="1156.3" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D2</title></line>
+<line x1="6.8" y1="1156.3" x2="-150.5" y2="998.9" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D2</title></line>
+<line x1="-150.5" y1="998.9" x2="-636.3" y2="998.9" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D2</title></line>
+<line x1="-650.8" y1="945.2" x2="-519.2" y2="945.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D2</title></line>
+<line x1="-519.2" y1="945.2" x2="-314.3" y2="944.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D2</title></line>
+<line x1="-636.3" y1="998.9" x2="-659.6" y2="975.7" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D2</title></line>
+<line x1="-659.6" y1="975.7" x2="-659.6" y2="953.9" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D2</title></line>
+<line x1="-659.6" y1="953.9" x2="-650.8" y2="945.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D2</title></line>
+<line x1="-345.8" y1="1427.8" x2="-345.8" y2="1401.3" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CLK_MCU</title></line>
+<line x1="-345.8" y1="1401.3" x2="-334.9" y2="1390.3" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CLK_MCU</title></line>
+<line x1="-334.9" y1="1390.3" x2="-314.7" y2="1390.3" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CLK_MCU</title></line>
+<line x1="-732.1" y1="1019.5" x2="-732.1" y2="855.8" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-732.1" y1="855.8" x2="-703.4" y2="827.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-703.4" y1="827.1" x2="-703.4" y2="794.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_CMD</title></line>
+<line x1="-697.9" y1="992.1" x2="-697.9" y2="899.9" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-697.9" y1="899.9" x2="-684.2" y2="886.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-684.2" y1="886.2" x2="-684.2" y2="853.3" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>SD_D3</title></line>
+<line x1="-369.5" y1="1354.1" x2="-369.5" y2="1241.2" stroke="#48f" stroke-width="8.2" stroke-linecap="round" opacity="0.55"><title>USB_DM</title></line>
+<line x1="-396.8" y1="1381.4" x2="-369.5" y2="1354.1" stroke="#48f" stroke-width="8.2" stroke-linecap="round" opacity="0.55"><title>USB_DM</title></line>
+<line x1="-437.9" y1="1381.4" x2="-396.8" y2="1381.4" stroke="#48f" stroke-width="8.2" stroke-linecap="round" opacity="0.55"><title>USB_DM</title></line>
+<line x1="-465.3" y1="1354.1" x2="-437.9" y2="1381.4" stroke="#48f" stroke-width="8.2" stroke-linecap="round" opacity="0.55"><title>USB_DM</title></line>
+<line x1="-465.3" y1="1252.1" x2="-465.3" y2="1354.1" stroke="#48f" stroke-width="8.2" stroke-linecap="round" opacity="0.55"><title>USB_DM</title></line>
+<line x1="-465.3" y1="1266.2" x2="-465.3" y2="1252.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>USB_DM</title></line>
+<line x1="-485.8" y1="1286.7" x2="-465.3" y2="1266.2" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>USB_DM</title></line>
+<line x1="-520.0" y1="1286.7" x2="-485.8" y2="1286.7" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>USB_DM</title></line>
+<line x1="-472.1" y1="1087.9" x2="-239.5" y2="1087.9" stroke="#48f" stroke-width="8.2" stroke-linecap="round" opacity="0.55"><title>USB_DP</title></line>
+<line x1="-615.8" y1="1252.1" x2="-615.8" y2="1231.6" stroke="#48f" stroke-width="8.2" stroke-linecap="round" opacity="0.55"><title>USB_DP</title></line>
+<line x1="-615.8" y1="1231.6" x2="-472.1" y2="1087.9" stroke="#48f" stroke-width="8.2" stroke-linecap="round" opacity="0.55"><title>USB_DP</title></line>
+<line x1="-615.8" y1="1286.7" x2="-615.8" y2="1252.1" stroke="#e44" stroke-width="8.2" stroke-linecap="round" opacity="0.75"><title>USB_DP</title></line>
+<line x1="154.1" y1="587.6" x2="154.1" y2="670.2" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>$1N305</title></line>
+<line x1="154.1" y1="670.2" x2="153.3" y2="671.0" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>$1N305</title></line>
+<line x1="-153.3" y1="1577.4" x2="-118.6" y2="1628.4" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>LED_ERR</title></line>
+<line x1="-118.4" y1="1792.6" x2="-143.7" y2="1792.6" stroke="#e44" stroke-width="20.5" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-118.4" y1="1546.3" x2="-136.8" y2="1525.8" stroke="#e44" stroke-width="20.5" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-7.7" y1="2032.1" x2="-16.4" y2="1981.5" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-7.7" y1="2121.1" x2="-16.4" y2="2082.7" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="54.7" y1="2018.4" x2="136.8" y2="2018.4" stroke="#48f" stroke-width="10.9" stroke-linecap="round" opacity="0.55"><title>DBUS_S</title></line>
+<line x1="21.9" y1="2107.4" x2="240.8" y2="2107.4" stroke="#48f" stroke-width="16.4" stroke-linecap="round" opacity="0.55"><title>DBUS_5V</title></line>
+<line x1="240.8" y1="2107.4" x2="273.7" y2="2074.5" stroke="#48f" stroke-width="16.4" stroke-linecap="round" opacity="0.55"><title>DBUS_5V</title></line>
+<line x1="273.7" y1="2074.5" x2="273.7" y2="2018.4" stroke="#48f" stroke-width="16.4" stroke-linecap="round" opacity="0.55"><title>DBUS_5V</title></line>
+<line x1="54.7" y1="1853.5" x2="54.7" y2="2107.4" stroke="#e44" stroke-width="16.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="54.7" y1="2107.4" x2="355.8" y2="2107.4" stroke="#e44" stroke-width="16.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="355.8" y1="2107.4" x2="410.5" y2="2052.6" stroke="#e44" stroke-width="16.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="410.5" y1="2052.6" x2="410.5" y2="2018.4" stroke="#e44" stroke-width="16.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-199.0" y1="1623.1" x2="-177.9" y2="1623.1" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>LED_REC</title></line>
+<line x1="-177.9" y1="1623.1" x2="-161.5" y2="1639.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>LED_REC</title></line>
+<line x1="-161.5" y1="1639.5" x2="-161.5" y2="1667.7" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>LED_REC</title></line>
+<line x1="-161.5" y1="1667.7" x2="-118.6" y2="1710.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>LED_REC</title></line>
+<line x1="21.9" y1="1577.1" x2="21.9" y2="1630.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>DBUS_S</title></line>
+<line x1="21.9" y1="1713.9" x2="21.9" y2="1767.3" stroke="#e44" stroke-width="16.4" stroke-linecap="round" opacity="0.75"><title>DBUS_5V</title></line>
+<line x1="21.9" y1="1767.3" x2="21.9" y2="2107.4" stroke="#48f" stroke-width="16.4" stroke-linecap="round" opacity="0.55"><title>DBUS_5V</title></line>
+<line x1="-37.6" y1="1792.6" x2="-37.4" y2="1792.4" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>$1N336</title></line>
+<line x1="-37.4" y1="1792.4" x2="-37.4" y2="1710.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>$1N336</title></line>
+<line x1="-37.4" y1="1546.5" x2="-37.6" y2="1546.3" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>$1N338</title></line>
+<line x1="-37.4" y1="1628.4" x2="-37.4" y2="1546.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>$1N338</title></line>
+<line x1="33.5" y1="1562.1" x2="21.9" y2="1577.1" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>DBUS_S</title></line>
+<line x1="33.5" y1="1698.9" x2="21.9" y2="1713.9" stroke="#e44" stroke-width="16.4" stroke-linecap="round" opacity="0.75"><title>DBUS_5V</title></line>
+<line x1="33.5" y1="1835.7" x2="54.7" y2="1853.5" stroke="#e44" stroke-width="16.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="21.9" y1="1630.5" x2="54.7" y2="1663.3" stroke="#48f" stroke-width="10.9" stroke-linecap="round" opacity="0.55"><title>DBUS_S</title></line>
+<line x1="54.7" y1="1663.3" x2="54.7" y2="2018.4" stroke="#48f" stroke-width="10.9" stroke-linecap="round" opacity="0.55"><title>DBUS_S</title></line>
+<line x1="256.4" y1="587.6" x2="295.9" y2="548.2" stroke="#e44" stroke-width="41.1" stroke-linecap="round" opacity="0.75"><title>5V</title></line>
+<line x1="295.9" y1="548.2" x2="331.2" y2="548.2" stroke="#e44" stroke-width="41.1" stroke-linecap="round" opacity="0.75"><title>5V</title></line>
+<line x1="331.2" y1="548.2" x2="394.4" y2="548.2" stroke="#e44" stroke-width="41.1" stroke-linecap="round" opacity="0.75"><title>5V</title></line>
+<line x1="394.4" y1="548.2" x2="410.5" y2="564.3" stroke="#e44" stroke-width="41.1" stroke-linecap="round" opacity="0.75"><title>5V</title></line>
+<line x1="410.5" y1="564.3" x2="455.5" y2="564.3" stroke="#e44" stroke-width="41.1" stroke-linecap="round" opacity="0.75"><title>5V</title></line>
+<line x1="455.5" y1="564.3" x2="482.5" y2="537.5" stroke="#e44" stroke-width="41.1" stroke-linecap="round" opacity="0.75"><title>5V</title></line>
+<line x1="482.5" y1="537.5" x2="533.7" y2="537.5" stroke="#e44" stroke-width="41.1" stroke-linecap="round" opacity="0.75"><title>5V</title></line>
+<line x1="331.2" y1="656.0" x2="331.2" y2="711.6" stroke="#e44" stroke-width="41.1" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="410.5" y1="639.9" x2="410.5" y2="697.9" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="482.5" y1="666.7" x2="444.7" y2="666.7" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="331.2" y1="656.0" x2="394.4" y2="656.0" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="394.4" y1="656.0" x2="410.5" y2="639.9" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="410.5" y1="639.9" x2="437.9" y2="639.9" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="437.9" y1="639.9" x2="482.5" y2="666.7" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="584.9" y1="666.7" x2="605.7" y2="687.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>BUCK_BST</title></line>
+<line x1="605.7" y1="687.5" x2="605.7" y2="738.9" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>BUCK_BST</title></line>
+<line x1="533.7" y1="666.7" x2="533.7" y2="735.4" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>$1N304</title></line>
+<line x1="533.7" y1="735.4" x2="530.1" y2="738.9" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>$1N304</title></line>
+<line x1="530.1" y1="738.9" x2="533.7" y2="742.5" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>$1N304</title></line>
+<line x1="533.7" y1="742.5" x2="533.7" y2="852.9" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>$1N304</title></line>
+<line x1="533.7" y1="980.7" x2="513.2" y2="978.4" stroke="#e44" stroke-width="41.1" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="533.7" y1="980.7" x2="533.7" y2="1081.1" stroke="#e44" stroke-width="41.1" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="513.2" y1="978.4" x2="451.6" y2="1040.0" stroke="#48f" stroke-width="41.1" stroke-linecap="round" opacity="0.55"><title>3V3</title></line>
+<line x1="82.1" y1="1040.0" x2="68.4" y2="1026.3" stroke="#48f" stroke-width="41.1" stroke-linecap="round" opacity="0.55"><title>3V3</title></line>
+<line x1="184.7" y1="1258.9" x2="184.7" y2="1101.6" stroke="#48f" stroke-width="27.4" stroke-linecap="round" opacity="0.55"><title>3V3</title></line>
+<line x1="184.7" y1="1101.6" x2="246.3" y2="1040.0" stroke="#48f" stroke-width="27.4" stroke-linecap="round" opacity="0.55"><title>3V3</title></line>
+<line x1="451.6" y1="1040.0" x2="246.3" y2="1040.0" stroke="#48f" stroke-width="41.1" stroke-linecap="round" opacity="0.55"><title>3V3</title></line>
+<line x1="246.3" y1="1040.0" x2="82.1" y2="1040.0" stroke="#48f" stroke-width="41.1" stroke-linecap="round" opacity="0.55"><title>3V3</title></line>
+<line x1="-369.5" y1="1241.2" x2="465.3" y2="406.4" stroke="#48f" stroke-width="8.2" stroke-linecap="round" opacity="0.55"><title>USB_DM</title></line>
+<line x1="465.3" y1="406.4" x2="465.3" y2="300.5" stroke="#48f" stroke-width="8.2" stroke-linecap="round" opacity="0.55"><title>USB_DM</title></line>
+<line x1="465.3" y1="300.5" x2="529.3" y2="300.5" stroke="#48f" stroke-width="8.2" stroke-linecap="round" opacity="0.55"><title>USB_DM</title></line>
+<line x1="437.9" y1="410.5" x2="437.9" y2="233.2" stroke="#48f" stroke-width="8.2" stroke-linecap="round" opacity="0.55"><title>USB_DP</title></line>
+<line x1="437.9" y1="233.2" x2="529.3" y2="233.2" stroke="#48f" stroke-width="8.2" stroke-linecap="round" opacity="0.55"><title>USB_DP</title></line>
+<line x1="529.3" y1="367.8" x2="724.9" y2="367.8" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>VBUS_BIAS</title></line>
+<line x1="724.9" y1="367.8" x2="724.9" y2="533.7" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>VBUS_BIAS</title></line>
+<line x1="643.6" y1="533.7" x2="584.9" y2="537.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="533.7" y1="964.7" x2="605.7" y2="964.7" stroke="#e44" stroke-width="41.1" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="605.7" y1="964.7" x2="703.4" y2="964.7" stroke="#e44" stroke-width="41.1" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="584.9" y1="537.5" x2="643.2" y2="595.8" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="643.2" y1="595.8" x2="643.2" y2="936.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="643.2" y1="936.5" x2="703.4" y2="936.5" stroke="#e44" stroke-width="13.7" stroke-linecap="round" opacity="0.75"><title>3V3</title></line>
+<line x1="703.4" y1="828.7" x2="703.4" y2="773.2" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="703.4" y1="1100.8" x2="643.2" y2="1100.2" stroke="#e44" stroke-width="27.4" stroke-linecap="round" opacity="0.75"><title>GND</title></line>
+<line x1="-239.5" y1="1087.9" x2="-68.4" y2="916.8" stroke="#48f" stroke-width="8.2" stroke-linecap="round" opacity="0.55"><title>USB_DP</title></line>
+<line x1="-68.4" y1="916.8" x2="-83.9" y2="901.4" stroke="#48f" stroke-width="8.2" stroke-linecap="round" opacity="0.55"><title>USB_DP</title></line>
+<line x1="-83.9" y1="901.4" x2="-45.2" y2="862.7" stroke="#48f" stroke-width="8.2" stroke-linecap="round" opacity="0.55"><title>USB_DP</title></line>
+<line x1="-45.2" y1="862.7" x2="-29.7" y2="878.1" stroke="#48f" stroke-width="8.2" stroke-linecap="round" opacity="0.55"><title>USB_DP</title></line>
+<line x1="-29.7" y1="878.1" x2="437.9" y2="410.5" stroke="#48f" stroke-width="8.2" stroke-linecap="round" opacity="0.55"><title>USB_DP</title></line>
+<circle cx="177.9" cy="437.9" r="16.4" fill="#bbb"><title>5V_IN</title></circle>
+<circle cx="225.8" cy="437.9" r="16.4" fill="#bbb"><title>5V_IN</title></circle>
+<circle cx="225.8" cy="488.1" r="16.4" fill="#bbb"><title>5V_IN</title></circle>
+<circle cx="178.6" cy="488.1" r="16.4" fill="#bbb"><title>5V_IN</title></circle>
+<circle cx="-20.5" cy="1881.6" r="16.4" fill="#bbb"><title>3V3</title></circle>
+<circle cx="-102.2" cy="1881.6" r="16.4" fill="#bbb"><title>BOOT</title></circle>
+<circle cx="-1156.3" cy="2168.9" r="16.4" fill="#bbb"><title>BOOT</title></circle>
+<circle cx="68.4" cy="1026.3" r="16.4" fill="#bbb"><title>3V3</title></circle>
+<circle cx="-424.2" cy="767.7" r="16.4" fill="#bbb"><title>3V3</title></circle>
+<circle cx="-793.7" cy="1341.1" r="16.4" fill="#bbb"><title>3V3</title></circle>
+<circle cx="-1033.2" cy="1884.3" r="16.4" fill="#bbb"><title>3V3</title></circle>
+<circle cx="-136.8" cy="1436.8" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="54.7" cy="1217.9" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-483.1" cy="1471.1" r="16.4" fill="#bbb"><title>SD_CD_N</title></circle>
+<circle cx="-410.5" cy="472.1" r="16.4" fill="#bbb"><title>SD_CD_N</title></circle>
+<circle cx="595.3" cy="451.6" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-677.4" cy="1252.1" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-478.9" cy="1190.5" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="205.3" cy="752.6" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-1005.8" cy="2069.6" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-143.7" cy="1792.6" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-136.8" cy="1525.8" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-75.3" cy="637.1" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-287.4" cy="704.7" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-444.7" cy="649.6" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-636.3" cy="402.7" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-656.8" cy="1198.3" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-1163.2" cy="404.6" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-1163.2" cy="1239.4" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="264.4" cy="198.4" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="221.3" cy="198.4" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="178.2" cy="198.4" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="135.1" cy="198.4" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-619.2" cy="1761.8" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-619.2" cy="1850.8" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-530.3" cy="1761.8" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-530.3" cy="1850.8" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-253.2" cy="2126.9" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-253.2" cy="2081.1" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-889.5" cy="1989.5" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-889.5" cy="2035.3" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-834.7" cy="2148.4" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-697.9" cy="2148.4" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-561.1" cy="2148.4" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-424.2" cy="2148.4" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-287.4" cy="2148.4" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-821.1" cy="1477.9" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-246.3" cy="1477.9" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="369.5" cy="287.4" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="136.8" cy="424.2" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-27.4" cy="697.9" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-164.2" cy="903.2" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-1176.8" cy="602.1" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-1176.8" cy="875.8" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-1176.8" cy="1081.1" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-971.6" cy="396.8" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-1026.3" cy="629.5" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-1026.3" cy="916.8" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-1026.3" cy="1231.6" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-1190.5" cy="1354.7" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-1204.2" cy="1621.6" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-1204.2" cy="1895.3" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-889.5" cy="1642.1" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-301.1" cy="1710.5" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-287.4" cy="1956.8" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-342.1" cy="2080.0" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="437.9" cy="102.6" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="396.8" cy="390.0" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="54.7" cy="492.6" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-136.8" cy="424.2" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-465.3" cy="1252.1" r="16.4" fill="#bbb"><title>USB_DM</title></circle>
+<circle cx="-615.8" cy="1252.1" r="16.4" fill="#bbb"><title>USB_DP</title></circle>
+<circle cx="-16.4" cy="2082.7" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="-16.4" cy="1981.5" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="21.9" cy="1630.5" r="16.4" fill="#bbb"><title>DBUS_S</title></circle>
+<circle cx="21.9" cy="1767.3" r="16.4" fill="#bbb"><title>DBUS_5V</title></circle>
+<circle cx="19.2" cy="1562.1" r="16.4" fill="#bbb"><title>DBUS_S</title></circle>
+<circle cx="19.2" cy="1698.9" r="16.4" fill="#bbb"><title>DBUS_5V</title></circle>
+<circle cx="331.2" cy="711.6" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="410.5" cy="697.9" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="444.7" cy="666.7" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="451.6" cy="478.9" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="369.5" cy="711.6" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="355.8" cy="937.4" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="513.2" cy="978.4" r="16.4" fill="#bbb"><title>3V3</title></circle>
+<circle cx="123.2" cy="1122.1" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="703.4" cy="773.2" r="16.4" fill="#bbb"><title>GND</title></circle>
+<circle cx="643.2" cy="1100.2" r="16.4" fill="#bbb"><title>GND</title></circle>
+<rect x="-573.0" y="926.3" width="107.7" height="37.8" fill="#c66" opacity="0.8"/>
+<text x="-519.2" y="945.2" fill="#fff" font-size="9" text-anchor="middle">J5.1</text><title>SD_D2</title>
+<rect x="-573.1" y="867.3" width="107.7" height="37.8" fill="#c66" opacity="0.8"/>
+<text x="-519.3" y="886.2" fill="#fff" font-size="9" text-anchor="middle">J5.2</text><title>SD_D3</title>
+<rect x="-573.0" y="808.2" width="107.7" height="37.8" fill="#c66" opacity="0.8"/>
+<text x="-519.2" y="827.1" fill="#fff" font-size="9" text-anchor="middle">J5.3</text><title>SD_CMD</title>
+<rect x="-573.0" y="749.1" width="107.7" height="37.8" fill="#c66" opacity="0.8"/>
+<text x="-519.2" y="768.0" fill="#fff" font-size="9" text-anchor="middle">J5.4</text><title>3V3</title>
+<rect x="-573.0" y="689.8" width="107.7" height="37.8" fill="#c66" opacity="0.8"/>
+<text x="-519.2" y="708.7" fill="#fff" font-size="9" text-anchor="middle">J5.5</text><title>$1N279</title>
+<rect x="-573.0" y="630.7" width="107.7" height="37.8" fill="#c66" opacity="0.8"/>
+<text x="-519.2" y="649.6" fill="#fff" font-size="9" text-anchor="middle">J5.6</text><title>GND</title>
+<rect x="-573.0" y="571.6" width="107.7" height="37.8" fill="#c66" opacity="0.8"/>
+<text x="-519.2" y="590.5" fill="#fff" font-size="9" text-anchor="middle">J5.7</text><title>SD_D0</title>
+<rect x="-573.0" y="512.5" width="107.7" height="37.8" fill="#c66" opacity="0.8"/>
+<text x="-519.2" y="531.4" fill="#fff" font-size="9" text-anchor="middle">J5.8</text><title>SD_D1</title>
+<rect x="-573.0" y="452.9" width="107.7" height="37.8" fill="#c66" opacity="0.8"/>
+<text x="-519.2" y="471.8" fill="#fff" font-size="9" text-anchor="middle">J5.9</text><title>SD_CD_N</title>
+<rect x="-585.8" y="370.4" width="75.3" height="64.6" fill="#c66" opacity="0.8"/>
+<text x="-548.2" y="402.7" fill="#fff" font-size="9" text-anchor="middle">J5.10</text><title>GND</title>
+<rect x="-585.8" y="1150.4" width="75.3" height="95.8" fill="#c66" opacity="0.8"/>
+<text x="-548.2" y="1198.3" fill="#fff" font-size="9" text-anchor="middle">J5.13</text><title>GND</title>
+<rect x="-1129.8" y="1205.2" width="123.2" height="68.4" fill="#c66" opacity="0.8"/>
+<text x="-1068.2" y="1239.4" fill="#fff" font-size="9" text-anchor="middle">J5.12</text><title>GND</title>
+<rect x="-1129.8" y="370.4" width="123.2" height="68.4" fill="#c66" opacity="0.8"/>
+<text x="-1068.2" y="404.6" fill="#fff" font-size="9" text-anchor="middle">J5.11</text><title>GND</title>
+<rect x="-420.1" y="1169.1" width="46.5" height="43.5" fill="#c66" opacity="0.8"/>
+<text x="-396.8" y="1190.9" fill="#fff" font-size="9" text-anchor="middle">R16.2</text><title>SD_D1</title>
+<rect x="-420.1" y="1250.4" width="46.5" height="43.5" fill="#c66" opacity="0.8"/>
+<text x="-396.8" y="1272.2" fill="#fff" font-size="9" text-anchor="middle">R16.1</text><title>SD_D1_MCU</title>
+<rect x="-338.0" y="1217.0" width="46.5" height="43.5" fill="#c66" opacity="0.8"/>
+<text x="-314.7" y="1238.8" fill="#fff" font-size="9" text-anchor="middle">R15.2</text><title>SD_D0</title>
+<rect x="-338.0" y="1298.3" width="46.5" height="43.5" fill="#c66" opacity="0.8"/>
+<text x="-314.7" y="1320.1" fill="#fff" font-size="9" text-anchor="middle">R15.1</text><title>SD_D0_MCU</title>
+<rect x="-255.9" y="1169.1" width="46.5" height="43.5" fill="#c66" opacity="0.8"/>
+<text x="-232.6" y="1190.9" fill="#fff" font-size="9" text-anchor="middle">R13.2</text><title>$1N279</title>
+<rect x="-255.9" y="1250.4" width="46.5" height="43.5" fill="#c66" opacity="0.8"/>
+<text x="-232.6" y="1272.2" fill="#fff" font-size="9" text-anchor="middle">R13.1</text><title>SD_CLK_MCU</title>
+<rect x="-173.8" y="1217.0" width="46.5" height="43.5" fill="#c66" opacity="0.8"/>
+<text x="-150.5" y="1238.8" fill="#fff" font-size="9" text-anchor="middle">R14.2</text><title>SD_CMD</title>
+<rect x="-173.8" y="1298.3" width="46.5" height="43.5" fill="#c66" opacity="0.8"/>
+<text x="-150.5" y="1320.1" fill="#fff" font-size="9" text-anchor="middle">R14.1</text><title>SD_CMD_MCU</title>
+<rect x="-91.7" y="1169.1" width="46.5" height="43.5" fill="#c66" opacity="0.8"/>
+<text x="-68.4" y="1190.9" fill="#fff" font-size="9" text-anchor="middle">R18.2</text><title>SD_D3</title>
+<rect x="-91.7" y="1250.4" width="46.5" height="43.5" fill="#c66" opacity="0.8"/>
+<text x="-68.4" y="1272.2" fill="#fff" font-size="9" text-anchor="middle">R18.1</text><title>SD_D3_MCU</title>
+<rect x="-15.4" y="1468.3" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="6.4" y="1491.6" fill="#fff" font-size="9" text-anchor="middle">R17.2</text><title>SD_D2</title>
+<rect x="-96.7" y="1468.3" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-74.9" y="1491.6" fill="#fff" font-size="9" text-anchor="middle">R17.1</text><title>SD_D2_MCU</title>
+<rect x="-336.1" y="920.9" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-314.3" y="944.2" fill="#fff" font-size="9" text-anchor="middle">R22.2</text><title>SD_D2</title>
+<rect x="-254.8" y="920.9" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-233.0" y="944.2" fill="#fff" font-size="9" text-anchor="middle">R22.1</text><title>3V3</title>
+<rect x="-336.1" y="845.6" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-314.3" y="868.9" fill="#fff" font-size="9" text-anchor="middle">R23.2</text><title>SD_D3</title>
+<rect x="-254.8" y="845.6" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-233.0" y="868.9" fill="#fff" font-size="9" text-anchor="middle">R23.1</text><title>3V3</title>
+<rect x="-336.1" y="770.4" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-314.3" y="793.7" fill="#fff" font-size="9" text-anchor="middle">R19.2</text><title>SD_CMD</title>
+<rect x="-254.8" y="770.4" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-233.0" y="793.7" fill="#fff" font-size="9" text-anchor="middle">R19.1</text><title>3V3</title>
+<rect x="-336.1" y="558.3" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-314.3" y="581.6" fill="#fff" font-size="9" text-anchor="middle">R20.2</text><title>SD_D0</title>
+<rect x="-254.8" y="558.3" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-233.0" y="581.6" fill="#fff" font-size="9" text-anchor="middle">R20.1</text><title>3V3</title>
+<rect x="-336.1" y="483.0" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-314.3" y="506.3" fill="#fff" font-size="9" text-anchor="middle">R21.2</text><title>SD_D1</title>
+<rect x="-254.8" y="483.0" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-233.0" y="506.3" fill="#fff" font-size="9" text-anchor="middle">R21.1</text><title>3V3</title>
+<rect x="-336.1" y="407.8" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-314.3" y="431.1" fill="#fff" font-size="9" text-anchor="middle">R24.2</text><title>SD_CD_N</title>
+<rect x="-254.8" y="407.8" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-233.0" y="431.1" fill="#fff" font-size="9" text-anchor="middle">R24.1</text><title>3V3</title>
+<rect x="-353.3" y="680.5" width="43.1" height="48.4" fill="#c66" opacity="0.8"/>
+<text x="-331.7" y="704.7" fill="#fff" font-size="9" text-anchor="middle">C14.2</text><title>GND</title>
+<rect x="-428.8" y="680.5" width="43.1" height="48.4" fill="#c66" opacity="0.8"/>
+<text x="-407.2" y="704.7" fill="#fff" font-size="9" text-anchor="middle">C14.1</text><title>3V3</title>
+<rect x="-173.1" y="599.1" width="72.7" height="75.9" fill="#c66" opacity="0.8"/>
+<text x="-136.8" y="637.1" fill="#fff" font-size="9" text-anchor="middle">C13.2</text><title>GND</title>
+<rect x="-173.1" y="707.0" width="72.7" height="75.9" fill="#c66" opacity="0.8"/>
+<text x="-136.8" y="745.0" fill="#fff" font-size="9" text-anchor="middle">C13.1</text><title>3V3</title>
+<rect x="-153.5" y="2098.4" width="75.9" height="72.7" fill="#c66" opacity="0.8"/>
+<text x="-115.5" y="2134.7" fill="#fff" font-size="9" text-anchor="middle">C6.2</text><title>3V3</title>
+<rect x="-45.7" y="2098.4" width="75.9" height="72.7" fill="#c66" opacity="0.8"/>
+<text x="-7.7" y="2134.7" fill="#fff" font-size="9" text-anchor="middle">C6.1</text><title>GND</title>
+<rect x="-1047.8" y="2048.0" width="48.4" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-1023.6" y="2069.6" fill="#fff" font-size="9" text-anchor="middle">C8.2</text><title>GND</title>
+<rect x="-1047.8" y="2123.5" width="48.4" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-1023.6" y="2145.1" fill="#fff" font-size="9" text-anchor="middle">C8.1</text><title>EN</title>
+<rect x="-45.7" y="1995.8" width="75.9" height="72.7" fill="#c66" opacity="0.8"/>
+<text x="-7.7" y="2032.1" fill="#fff" font-size="9" text-anchor="middle">C10.2</text><title>GND</title>
+<rect x="-153.5" y="1995.8" width="75.9" height="72.7" fill="#c66" opacity="0.8"/>
+<text x="-115.5" y="2032.1" fill="#fff" font-size="9" text-anchor="middle">C10.1</text><title>3V3</title>
+<rect x="-59.2" y="1771.0" width="43.1" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-37.6" y="1792.6" fill="#fff" font-size="9" text-anchor="middle">D1.2</text><title>$1N336</title>
+<rect x="-140.0" y="1771.0" width="43.1" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-118.4" y="1792.6" fill="#fff" font-size="9" text-anchor="middle">D1.1</text><title>GND</title>
+<rect x="-59.2" y="1524.7" width="43.1" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-37.6" y="1546.3" fill="#fff" font-size="9" text-anchor="middle">D2.2</text><title>$1N338</title>
+<rect x="-140.0" y="1524.7" width="43.1" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-118.4" y="1546.3" fill="#fff" font-size="9" text-anchor="middle">D2.1</text><title>GND</title>
+<rect x="256.3" y="57.5" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="264.4" y="111.3" fill="#fff" font-size="9" text-anchor="middle">J1.1</text><title>GND</title>
+<rect x="256.3" y="272.8" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="264.4" y="326.6" fill="#fff" font-size="9" text-anchor="middle">J1.2</text><title></title>
+<rect x="213.2" y="57.5" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="221.3" y="111.3" fill="#fff" font-size="9" text-anchor="middle">J1.3</text><title>GND</title>
+<rect x="170.1" y="57.5" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="178.2" y="111.3" fill="#fff" font-size="9" text-anchor="middle">J1.5</text><title>GND</title>
+<rect x="127.0" y="57.5" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="135.1" y="111.3" fill="#fff" font-size="9" text-anchor="middle">J1.7</text><title>GND</title>
+<rect x="127.0" y="272.8" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="135.1" y="326.6" fill="#fff" font-size="9" text-anchor="middle">J1.8</text><title></title>
+<rect x="83.9" y="57.5" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="92.0" y="111.3" fill="#fff" font-size="9" text-anchor="middle">J1.9</text><title></title>
+<rect x="83.9" y="272.8" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="92.0" y="326.6" fill="#fff" font-size="9" text-anchor="middle">J1.10</text><title></title>
+<rect x="40.8" y="57.5" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="48.9" y="111.3" fill="#fff" font-size="9" text-anchor="middle">J1.11</text><title></title>
+<rect x="40.8" y="272.8" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="48.9" y="326.6" fill="#fff" font-size="9" text-anchor="middle">J1.12</text><title></title>
+<rect x="-2.2" y="57.5" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="5.9" y="111.3" fill="#fff" font-size="9" text-anchor="middle">J1.13</text><title></title>
+<rect x="-2.2" y="272.8" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="5.9" y="326.6" fill="#fff" font-size="9" text-anchor="middle">J1.14</text><title></title>
+<rect x="-45.3" y="57.5" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="-37.2" y="111.3" fill="#fff" font-size="9" text-anchor="middle">J1.15</text><title></title>
+<rect x="-45.3" y="272.8" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="-37.2" y="326.6" fill="#fff" font-size="9" text-anchor="middle">J1.16</text><title></title>
+<rect x="-88.4" y="57.5" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="-80.3" y="111.3" fill="#fff" font-size="9" text-anchor="middle">J1.17</text><title></title>
+<rect x="-88.4" y="272.8" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="-80.3" y="326.6" fill="#fff" font-size="9" text-anchor="middle">J1.18</text><title></title>
+<rect x="-131.5" y="57.5" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="-123.4" y="111.3" fill="#fff" font-size="9" text-anchor="middle">J1.19</text><title></title>
+<rect x="-131.5" y="272.8" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="-123.4" y="326.6" fill="#fff" font-size="9" text-anchor="middle">J1.20</text><title></title>
+<rect x="-174.6" y="57.5" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="-166.5" y="111.3" fill="#fff" font-size="9" text-anchor="middle">J1.21</text><title></title>
+<rect x="-174.6" y="272.8" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="-166.5" y="326.6" fill="#fff" font-size="9" text-anchor="middle">J1.22</text><title></title>
+<rect x="-217.7" y="57.5" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="-209.6" y="111.3" fill="#fff" font-size="9" text-anchor="middle">J1.23</text><title></title>
+<rect x="-217.7" y="272.8" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="-209.6" y="326.6" fill="#fff" font-size="9" text-anchor="middle">J1.24</text><title></title>
+<rect x="213.2" y="272.8" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="221.3" y="326.6" fill="#fff" font-size="9" text-anchor="middle">J1.4</text><title>5V_IN</title>
+<rect x="170.1" y="272.8" width="16.1" height="107.7" fill="#66c" opacity="0.8"/>
+<text x="178.2" y="326.6" fill="#fff" font-size="9" text-anchor="middle">J1.6</text><title>5V_IN</title>
+<ellipse cx="-1156.3" cy="2100.5" rx="48.5" ry="48.5" fill="#db4" opacity="0.8"/>
+<text x="-1156.3" y="2100.5" fill="#fff" font-size="9" text-anchor="middle">J4.6</text><title>BOOT</title>
+<ellipse cx="-1156.3" cy="1963.7" rx="48.5" ry="48.5" fill="#db4" opacity="0.8"/>
+<text x="-1156.3" y="1963.7" fill="#fff" font-size="9" text-anchor="middle">J4.5</text><title>EN</title>
+<ellipse cx="-1156.3" cy="1826.8" rx="48.5" ry="48.5" fill="#db4" opacity="0.8"/>
+<text x="-1156.3" y="1826.8" fill="#fff" font-size="9" text-anchor="middle">J4.4</text><title>PROG_RX</title>
+<ellipse cx="-1156.3" cy="1690.0" rx="48.5" ry="48.5" fill="#db4" opacity="0.8"/>
+<text x="-1156.3" y="1690.0" fill="#fff" font-size="9" text-anchor="middle">J4.3</text><title>PROG_TX</title>
+<ellipse cx="-1156.3" cy="1553.2" rx="48.5" ry="48.5" fill="#db4" opacity="0.8"/>
+<text x="-1156.3" y="1553.2" fill="#fff" font-size="9" text-anchor="middle">J4.2</text><title>3V3</title>
+<rect x="-1204.8" y="1367.8" width="97.0" height="97.0" fill="#db4" opacity="0.8"/>
+<text x="-1156.3" y="1416.3" fill="#fff" font-size="9" text-anchor="middle">J4.1</text><title>GND</title>
+<rect x="136.6" y="560.6" width="35.0" height="53.9" fill="#c66" opacity="0.8"/>
+<text x="154.1" y="587.6" fill="#fff" font-size="9" text-anchor="middle">Q1.1</text><title>$1N305</title>
+<rect x="238.9" y="560.6" width="35.0" height="53.9" fill="#c66" opacity="0.8"/>
+<text x="256.4" y="587.6" fill="#fff" font-size="9" text-anchor="middle">Q1.2</text><title>5V</title>
+<rect x="187.8" y="452.8" width="35.0" height="53.9" fill="#c66" opacity="0.8"/>
+<text x="205.3" y="479.8" fill="#fff" font-size="9" text-anchor="middle">Q1.3</text><title>5V_IN</title>
+<rect x="130.0" y="730.4" width="46.5" height="43.5" fill="#c66" opacity="0.8"/>
+<text x="153.3" y="752.2" fill="#fff" font-size="9" text-anchor="middle">R1.2</text><title>GND</title>
+<rect x="130.0" y="649.1" width="46.5" height="43.5" fill="#c66" opacity="0.8"/>
+<text x="153.3" y="670.9" fill="#fff" font-size="9" text-anchor="middle">R1.1</text><title>$1N305</title>
+<rect x="-1046.9" y="1894.4" width="46.5" height="43.5" fill="#c66" opacity="0.8"/>
+<text x="-1023.6" y="1916.2" fill="#fff" font-size="9" text-anchor="middle">R2.2</text><title>3V3</title>
+<rect x="-1046.9" y="1975.7" width="46.5" height="43.5" fill="#c66" opacity="0.8"/>
+<text x="-1023.6" y="1997.5" fill="#fff" font-size="9" text-anchor="middle">R2.1</text><title>EN</title>
+<rect x="-42.7" y="1906.2" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-20.9" y="1929.5" fill="#fff" font-size="9" text-anchor="middle">R3.2</text><title>3V3</title>
+<rect x="-124.0" y="1906.2" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-102.2" y="1929.5" fill="#fff" font-size="9" text-anchor="middle">R3.1</text><title>BOOT</title>
+<rect x="-639.1" y="1264.9" width="46.5" height="43.5" fill="#c66" opacity="0.8"/>
+<text x="-615.8" y="1286.7" fill="#fff" font-size="9" text-anchor="middle">R8.2</text><title>USB_DP</title>
+<rect x="-639.1" y="1346.2" width="46.5" height="43.5" fill="#c66" opacity="0.8"/>
+<text x="-615.8" y="1368.0" fill="#fff" font-size="9" text-anchor="middle">R8.1</text><title>USB_DP_MCU</title>
+<rect x="-543.3" y="1264.9" width="46.5" height="43.5" fill="#c66" opacity="0.8"/>
+<text x="-520.0" y="1286.7" fill="#fff" font-size="9" text-anchor="middle">R9.2</text><title>USB_DM</title>
+<rect x="-543.3" y="1346.2" width="46.5" height="43.5" fill="#c66" opacity="0.8"/>
+<text x="-520.0" y="1368.0" fill="#fff" font-size="9" text-anchor="middle">R9.1</text><title>USB_DM_MCU</title>
+<rect x="-59.2" y="1687.2" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-37.4" y="1710.5" fill="#fff" font-size="9" text-anchor="middle">R26.2</text><title>$1N336</title>
+<rect x="-140.4" y="1687.2" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-118.6" y="1710.5" fill="#fff" font-size="9" text-anchor="middle">R26.1</text><title>LED_REC</title>
+<rect x="-59.2" y="1605.1" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-37.4" y="1628.4" fill="#fff" font-size="9" text-anchor="middle">R27.2</text><title>$1N338</title>
+<rect x="-140.4" y="1605.1" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="-118.6" y="1628.4" fill="#fff" font-size="9" text-anchor="middle">R27.1</text><title>LED_ERR</title>
+<rect x="703.1" y="510.4" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="724.9" y="533.7" fill="#fff" font-size="9" text-anchor="middle">R28.2</text><title>VBUS_BIAS</title>
+<rect x="621.8" y="510.4" width="43.5" height="46.5" fill="#c66" opacity="0.8"/>
+<text x="643.6" y="533.7" fill="#fff" font-size="9" text-anchor="middle">R28.1</text><title>3V3</title>
+<rect x="-220.6" y="2116.2" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-199.0" y="2126.9" fill="#fff" font-size="9" text-anchor="middle">U1.1</text><title>GND</title>
+<rect x="-220.6" y="2070.4" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-199.0" y="2081.1" fill="#fff" font-size="9" text-anchor="middle">U1.2</text><title>GND</title>
+<rect x="-220.6" y="2024.6" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-199.0" y="2035.3" fill="#fff" font-size="9" text-anchor="middle">U1.3</text><title>3V3</title>
+<rect x="-220.6" y="1978.8" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-199.0" y="1989.5" fill="#fff" font-size="9" text-anchor="middle">U1.4</text><title>BOOT</title>
+<rect x="-220.6" y="1933.0" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-199.0" y="1943.7" fill="#fff" font-size="9" text-anchor="middle">U1.5</text><title></title>
+<rect x="-220.6" y="1887.2" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-199.0" y="1897.9" fill="#fff" font-size="9" text-anchor="middle">U1.6</text><title></title>
+<rect x="-220.6" y="1841.5" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-199.0" y="1852.2" fill="#fff" font-size="9" text-anchor="middle">U1.7</text><title></title>
+<rect x="-220.6" y="1795.6" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-199.0" y="1806.3" fill="#fff" font-size="9" text-anchor="middle">U1.8</text><title></title>
+<rect x="-220.6" y="1749.8" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-199.0" y="1760.5" fill="#fff" font-size="9" text-anchor="middle">U1.9</text><title></title>
+<rect x="-220.6" y="1704.1" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-199.0" y="1714.8" fill="#fff" font-size="9" text-anchor="middle">U1.10</text><title></title>
+<rect x="-220.6" y="1658.2" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-199.0" y="1668.9" fill="#fff" font-size="9" text-anchor="middle">U1.11</text><title></title>
+<rect x="-220.6" y="1612.4" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-199.0" y="1623.1" fill="#fff" font-size="9" text-anchor="middle">U1.12</text><title>LED_REC</title>
+<rect x="-220.6" y="1566.7" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-199.0" y="1577.4" fill="#fff" font-size="9" text-anchor="middle">U1.13</text><title>LED_ERR</title>
+<rect x="-220.6" y="1520.8" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-199.0" y="1531.5" fill="#fff" font-size="9" text-anchor="middle">U1.14</text><title></title>
+<rect x="-220.6" y="1475.1" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-199.0" y="1485.8" fill="#fff" font-size="9" text-anchor="middle">U1.15</text><title>SD_D2_MCU</title>
+<rect x="-264.8" y="1406.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-254.1" y="1427.8" fill="#fff" font-size="9" text-anchor="middle">U1.16</text><title>SD_D3_MCU</title>
+<rect x="-310.7" y="1406.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-300.0" y="1427.8" fill="#fff" font-size="9" text-anchor="middle">U1.17</text><title>SD_CMD_MCU</title>
+<rect x="-356.5" y="1406.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-345.8" y="1427.8" fill="#fff" font-size="9" text-anchor="middle">U1.18</text><title>SD_CLK_MCU</title>
+<rect x="-402.2" y="1406.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-391.5" y="1427.8" fill="#fff" font-size="9" text-anchor="middle">U1.19</text><title>SD_D0_MCU</title>
+<rect x="-448.0" y="1406.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-437.3" y="1427.8" fill="#fff" font-size="9" text-anchor="middle">U1.20</text><title>SD_D1_MCU</title>
+<rect x="-493.9" y="1406.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-483.2" y="1427.8" fill="#fff" font-size="9" text-anchor="middle">U1.21</text><title>SD_CD_N</title>
+<rect x="-539.6" y="1406.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-528.9" y="1427.8" fill="#fff" font-size="9" text-anchor="middle">U1.22</text><title></title>
+<rect x="-585.4" y="1406.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-574.7" y="1427.8" fill="#fff" font-size="9" text-anchor="middle">U1.23</text><title>USB_DM_MCU</title>
+<rect x="-631.3" y="1406.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-620.6" y="1427.8" fill="#fff" font-size="9" text-anchor="middle">U1.24</text><title>USB_DP_MCU</title>
+<rect x="-677.0" y="1406.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-666.3" y="1427.8" fill="#fff" font-size="9" text-anchor="middle">U1.25</text><title></title>
+<rect x="-722.8" y="1406.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-712.1" y="1427.8" fill="#fff" font-size="9" text-anchor="middle">U1.26</text><title></title>
+<rect x="-768.7" y="1406.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-758.0" y="1427.8" fill="#fff" font-size="9" text-anchor="middle">U1.27</text><title></title>
+<rect x="-814.4" y="1406.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-803.7" y="1427.8" fill="#fff" font-size="9" text-anchor="middle">U1.28</text><title></title>
+<rect x="-860.2" y="1406.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-849.5" y="1427.8" fill="#fff" font-size="9" text-anchor="middle">U1.29</text><title></title>
+<rect x="-905.9" y="1406.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-895.2" y="1427.8" fill="#fff" font-size="9" text-anchor="middle">U1.30</text><title></title>
+<rect x="-972.1" y="1475.1" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-950.5" y="1485.8" fill="#fff" font-size="9" text-anchor="middle">U1.31</text><title></title>
+<rect x="-972.1" y="1520.8" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-950.5" y="1531.5" fill="#fff" font-size="9" text-anchor="middle">U1.32</text><title></title>
+<rect x="-972.1" y="1566.7" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-950.5" y="1577.4" fill="#fff" font-size="9" text-anchor="middle">U1.33</text><title></title>
+<rect x="-972.1" y="1612.4" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-950.5" y="1623.1" fill="#fff" font-size="9" text-anchor="middle">U1.34</text><title></title>
+<rect x="-972.1" y="1658.2" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-950.5" y="1668.9" fill="#fff" font-size="9" text-anchor="middle">U1.35</text><title></title>
+<rect x="-972.1" y="1704.1" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-950.5" y="1714.8" fill="#fff" font-size="9" text-anchor="middle">U1.36</text><title></title>
+<rect x="-972.1" y="1749.8" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-950.5" y="1760.5" fill="#fff" font-size="9" text-anchor="middle">U1.37</text><title></title>
+<rect x="-972.1" y="1795.6" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-950.5" y="1806.3" fill="#fff" font-size="9" text-anchor="middle">U1.38</text><title></title>
+<rect x="-972.1" y="1841.5" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-950.5" y="1852.2" fill="#fff" font-size="9" text-anchor="middle">U1.39</text><title>PROG_TX</title>
+<rect x="-972.1" y="1887.2" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-950.5" y="1897.9" fill="#fff" font-size="9" text-anchor="middle">U1.40</text><title>PROG_RX</title>
+<rect x="-972.1" y="1933.0" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-950.5" y="1943.7" fill="#fff" font-size="9" text-anchor="middle">U1.41</text><title></title>
+<rect x="-972.1" y="1978.8" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-950.5" y="1989.5" fill="#fff" font-size="9" text-anchor="middle">U1.42</text><title>GND</title>
+<rect x="-972.1" y="2024.6" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-950.5" y="2035.3" fill="#fff" font-size="9" text-anchor="middle">U1.43</text><title>GND</title>
+<rect x="-972.1" y="2070.4" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-950.5" y="2081.1" fill="#fff" font-size="9" text-anchor="middle">U1.44</text><title></title>
+<rect x="-972.1" y="2116.2" width="43.1" height="21.5" fill="#c66" opacity="0.8"/>
+<text x="-950.5" y="2126.9" fill="#fff" font-size="9" text-anchor="middle">U1.45</text><title>EN</title>
+<rect x="-905.9" y="2163.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-895.2" y="2184.8" fill="#fff" font-size="9" text-anchor="middle">U1.46</text><title>GND</title>
+<rect x="-860.2" y="2163.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-849.5" y="2184.8" fill="#fff" font-size="9" text-anchor="middle">U1.47</text><title>GND</title>
+<rect x="-814.4" y="2163.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-803.7" y="2184.8" fill="#fff" font-size="9" text-anchor="middle">U1.48</text><title>GND</title>
+<rect x="-768.7" y="2163.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-758.0" y="2184.8" fill="#fff" font-size="9" text-anchor="middle">U1.49</text><title>GND</title>
+<rect x="-722.8" y="2163.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-712.1" y="2184.8" fill="#fff" font-size="9" text-anchor="middle">U1.50</text><title>GND</title>
+<rect x="-677.0" y="2163.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-666.3" y="2184.8" fill="#fff" font-size="9" text-anchor="middle">U1.51</text><title>GND</title>
+<rect x="-631.3" y="2163.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-620.6" y="2184.8" fill="#fff" font-size="9" text-anchor="middle">U1.52</text><title>GND</title>
+<rect x="-585.4" y="2163.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-574.7" y="2184.8" fill="#fff" font-size="9" text-anchor="middle">U1.53</text><title>GND</title>
+<rect x="-539.6" y="2163.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-528.9" y="2184.8" fill="#fff" font-size="9" text-anchor="middle">U1.54</text><title>GND</title>
+<rect x="-493.9" y="2163.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-483.2" y="2184.8" fill="#fff" font-size="9" text-anchor="middle">U1.55</text><title>GND</title>
+<rect x="-448.0" y="2163.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-437.3" y="2184.8" fill="#fff" font-size="9" text-anchor="middle">U1.56</text><title>GND</title>
+<rect x="-402.2" y="2163.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-391.5" y="2184.8" fill="#fff" font-size="9" text-anchor="middle">U1.57</text><title>GND</title>
+<rect x="-356.5" y="2163.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-345.8" y="2184.8" fill="#fff" font-size="9" text-anchor="middle">U1.58</text><title>GND</title>
+<rect x="-310.7" y="2163.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-300.0" y="2184.8" fill="#fff" font-size="9" text-anchor="middle">U1.59</text><title>GND</title>
+<rect x="-264.8" y="2163.2" width="21.5" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-254.1" y="2184.8" fill="#fff" font-size="9" text-anchor="middle">U1.60</text><title>GND</title>
+<rect x="-219.2" y="2161.9" width="43.1" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-197.6" y="2183.5" fill="#fff" font-size="9" text-anchor="middle">U1.GND</text><title>GND</title>
+<rect x="-973.5" y="2161.9" width="43.1" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-951.9" y="2183.5" fill="#fff" font-size="9" text-anchor="middle">U1.GND</text><title>GND</title>
+<rect x="-219.2" y="1407.6" width="43.1" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-197.6" y="1429.2" fill="#fff" font-size="9" text-anchor="middle">U1.GND</text><title>GND</title>
+<rect x="-973.5" y="1407.6" width="43.1" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="-951.9" y="1429.2" fill="#fff" font-size="9" text-anchor="middle">U1.GND</text><title>GND</title>
+<rect x="-518.1" y="1863.0" width="64.6" height="64.6" fill="#c66" opacity="0.8"/>
+<text x="-485.8" y="1895.3" fill="#fff" font-size="9" text-anchor="middle">U1.GND</text><title>GND</title>
+<rect x="-607.0" y="1863.0" width="64.6" height="64.6" fill="#c66" opacity="0.8"/>
+<text x="-574.7" y="1895.3" fill="#fff" font-size="9" text-anchor="middle">U1.GND</text><title>GND</title>
+<rect x="-696.0" y="1863.0" width="64.6" height="64.6" fill="#c66" opacity="0.8"/>
+<text x="-663.7" y="1895.3" fill="#fff" font-size="9" text-anchor="middle">U1.GND</text><title>GND</title>
+<rect x="-518.1" y="1774.0" width="64.6" height="64.6" fill="#c66" opacity="0.8"/>
+<text x="-485.8" y="1806.3" fill="#fff" font-size="9" text-anchor="middle">U1.GND</text><title>GND</title>
+<rect x="-607.0" y="1774.0" width="64.6" height="64.6" fill="#c66" opacity="0.8"/>
+<text x="-574.7" y="1806.3" fill="#fff" font-size="9" text-anchor="middle">U1.GND</text><title>GND</title>
+<rect x="-696.0" y="1774.0" width="64.6" height="64.6" fill="#c66" opacity="0.8"/>
+<text x="-663.7" y="1806.3" fill="#fff" font-size="9" text-anchor="middle">U1.GND</text><title>GND</title>
+<rect x="-518.1" y="1685.1" width="64.6" height="64.6" fill="#c66" opacity="0.8"/>
+<text x="-485.8" y="1717.4" fill="#fff" font-size="9" text-anchor="middle">U1.GND</text><title>GND</title>
+<rect x="-607.0" y="1685.1" width="64.6" height="64.6" fill="#c66" opacity="0.8"/>
+<text x="-574.7" y="1717.4" fill="#fff" font-size="9" text-anchor="middle">U1.GND</text><title>GND</title>
+<rect x="-696.0" y="1685.1" width="64.6" height="64.6" fill="#c66" opacity="0.8"/>
+<text x="-663.7" y="1717.4" fill="#fff" font-size="9" text-anchor="middle">U1.GND</text><title>GND</title>
+<rect x="502.3" y="340.8" width="53.9" height="53.9" fill="#db4" opacity="0.8"/>
+<text x="529.3" y="367.8" fill="#fff" font-size="9" text-anchor="middle">J2.1</text><title>VBUS_BIAS</title>
+<ellipse cx="529.3" cy="300.5" rx="27.0" ry="27.0" fill="#db4" opacity="0.8"/>
+<text x="529.3" y="300.5" fill="#fff" font-size="9" text-anchor="middle">J2.2</text><title>USB_DM</title>
+<ellipse cx="529.3" cy="233.2" rx="27.0" ry="27.0" fill="#db4" opacity="0.8"/>
+<text x="529.3" y="233.2" fill="#fff" font-size="9" text-anchor="middle">J2.3</text><title>USB_DP</title>
+<ellipse cx="529.3" cy="165.9" rx="27.0" ry="27.0" fill="#db4" opacity="0.8"/>
+<text x="529.3" y="165.9" fill="#fff" font-size="9" text-anchor="middle">J2.4</text><title>GND</title>
+<rect x="4.8" y="1530.6" width="57.5" height="62.9" fill="#c66" opacity="0.8"/>
+<text x="33.5" y="1562.1" fill="#fff" font-size="9" text-anchor="middle">J6.1</text><title>DBUS_S</title>
+<rect x="4.8" y="1667.4" width="57.5" height="62.9" fill="#c66" opacity="0.8"/>
+<text x="33.5" y="1698.9" fill="#fff" font-size="9" text-anchor="middle">J6.2</text><title>DBUS_5V</title>
+<rect x="4.8" y="1804.2" width="57.5" height="62.9" fill="#c66" opacity="0.8"/>
+<text x="33.5" y="1835.7" fill="#fff" font-size="9" text-anchor="middle">J6.3</text><title>GND</title>
+<rect x="88.3" y="1969.9" width="97.0" height="97.0" fill="#db4" opacity="0.8"/>
+<text x="136.8" y="2018.4" fill="#fff" font-size="9" text-anchor="middle">J7.1</text><title>DBUS_S</title>
+<ellipse cx="273.7" cy="2018.4" rx="48.5" ry="48.5" fill="#db4" opacity="0.8"/>
+<text x="273.7" y="2018.4" fill="#fff" font-size="9" text-anchor="middle">J7.2</text><title>DBUS_5V</title>
+<ellipse cx="410.5" cy="2018.4" rx="48.5" ry="48.5" fill="#db4" opacity="0.8"/>
+<text x="410.5" y="2018.4" fill="#fff" font-size="9" text-anchor="middle">J7.3</text><title>GND</title>
+<rect x="294.9" y="618.0" width="72.7" height="75.9" fill="#c66" opacity="0.8"/>
+<text x="331.2" y="656.0" fill="#fff" font-size="9" text-anchor="middle">C1.2</text><title>GND</title>
+<rect x="294.9" y="510.2" width="72.7" height="75.9" fill="#c66" opacity="0.8"/>
+<text x="331.2" y="548.2" fill="#fff" font-size="9" text-anchor="middle">C1.1</text><title>5V</title>
+<rect x="386.3" y="618.3" width="48.4" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="410.5" y="639.9" fill="#fff" font-size="9" text-anchor="middle">C2.2</text><title>GND</title>
+<rect x="386.3" y="542.7" width="48.4" height="43.1" fill="#c66" opacity="0.8"/>
+<text x="410.5" y="564.3" fill="#fff" font-size="9" text-anchor="middle">C2.1</text><title>5V</title>
+<rect x="508.5" y="714.7" width="43.1" height="48.4" fill="#c66" opacity="0.8"/>
+<text x="530.1" y="738.9" fill="#fff" font-size="9" text-anchor="middle">C3.2</text><title>$1N304</title>
+<rect x="584.1" y="714.7" width="43.1" height="48.4" fill="#c66" opacity="0.8"/>
+<text x="605.7" y="738.9" fill="#fff" font-size="9" text-anchor="middle">C3.1</text><title>BUCK_BST</title>
+<rect x="667.1" y="790.7" width="72.7" height="75.9" fill="#c66" opacity="0.8"/>
+<text x="703.4" y="828.7" fill="#fff" font-size="9" text-anchor="middle">C4.2</text><title>GND</title>
+<rect x="667.1" y="898.5" width="72.7" height="75.9" fill="#c66" opacity="0.8"/>
+<text x="703.4" y="936.5" fill="#fff" font-size="9" text-anchor="middle">C4.1</text><title>3V3</title>
+<rect x="667.1" y="1062.8" width="72.7" height="75.9" fill="#c66" opacity="0.8"/>
+<text x="703.4" y="1100.8" fill="#fff" font-size="9" text-anchor="middle">C5.2</text><title>GND</title>
+<rect x="667.1" y="954.9" width="72.7" height="75.9" fill="#c66" opacity="0.8"/>
+<text x="703.4" y="992.9" fill="#fff" font-size="9" text-anchor="middle">C5.1</text><title>3V3</title>
+<rect x="442.1" y="826.5" width="183.2" height="52.8" fill="#c66" opacity="0.8"/>
+<text x="533.7" y="852.9" fill="#fff" font-size="9" text-anchor="middle">L1.1</text><title>$1N304</title>
+<rect x="442.1" y="954.3" width="183.2" height="52.8" fill="#c66" opacity="0.8"/>
+<text x="533.7" y="980.7" fill="#fff" font-size="9" text-anchor="middle">L1.2</text><title>3V3</title>
+<rect x="570.1" y="637.1" width="29.7" height="59.3" fill="#c66" opacity="0.8"/>
+<text x="584.9" y="666.7" fill="#fff" font-size="9" text-anchor="middle">U2.6</text><title>BUCK_BST</title>
+<rect x="518.9" y="637.1" width="29.7" height="59.3" fill="#c66" opacity="0.8"/>
+<text x="533.7" y="666.7" fill="#fff" font-size="9" text-anchor="middle">U2.5</text><title>$1N304</title>
+<rect x="467.7" y="637.1" width="29.7" height="59.3" fill="#c66" opacity="0.8"/>
+<text x="482.5" y="666.7" fill="#fff" font-size="9" text-anchor="middle">U2.4</text><title>GND</title>
+<rect x="467.7" y="507.9" width="29.7" height="59.3" fill="#c66" opacity="0.8"/>
+<text x="482.5" y="537.5" fill="#fff" font-size="9" text-anchor="middle">U2.3</text><title>5V</title>
+<rect x="518.9" y="507.9" width="29.7" height="59.3" fill="#c66" opacity="0.8"/>
+<text x="533.7" y="537.5" fill="#fff" font-size="9" text-anchor="middle">U2.2</text><title>5V</title>
+<rect x="570.1" y="507.9" width="29.7" height="59.3" fill="#c66" opacity="0.8"/>
+<text x="584.9" y="537.5" fill="#fff" font-size="9" text-anchor="middle">U2.1</text><title>3V3</title>
+<rect x="472.8" y="84.8" width="296.3" height="364.0" fill="none" stroke="#ff0" stroke-width="2"/><text x="472.83" y="98.8" fill="#ff0" font-size="12">J2（内移）</text>
+<rect x="659.6" y="4.1" width="425.6" height="481.7" fill="none" stroke="#0ff" stroke-width="2"/><text x="659.63" y="18.1" fill="#0ff" font-size="12">DM Type-C</text>
+<rect x="825.2" y="548.7" width="261.4" height="310.6" fill="none" stroke="#0ff" stroke-width="2"/><text x="825.23" y="562.7" fill="#0ff" font-size="12">DM P4</text>
+<rect x="825.2" y="912.7" width="261.4" height="309.3" fill="none" stroke="#0ff" stroke-width="2"/><text x="825.23" y="926.7" fill="#0ff" font-size="12">DM P5</text>
+<rect x="425.6" y="808.7" width="216.2" height="216.2" fill="none" stroke="#f80" stroke-width="2"/><text x="425.63" y="822.7" fill="#f80" font-size="12">L1 本体</text>
+<polyline points="769.1,33.0 1255.7,33.0 1255.7,533.7 957.9,533.7 957.9,1231.6 233.3,1231.6" fill="none" stroke="#f44" stroke-width="2"/>
+<text x="27.4" y="210.9" fill="#0f0" font-size="12" text-anchor="middle">J1</text>
+<text x="205.3" y="525.7" fill="#0f0" font-size="12" text-anchor="middle">Q1</text>
+<text x="153.3" y="703.6" fill="#0f0" font-size="12" text-anchor="middle">R1</text>
+<text x="684.2" y="525.7" fill="#0f0" font-size="12" text-anchor="middle">R28</text>
+<text x="529.3" y="258.8" fill="#0f0" font-size="12" text-anchor="middle">J2</text>
+<text x="331.2" y="594.1" fill="#0f0" font-size="12" text-anchor="middle">C1</text>
+<text x="410.5" y="594.1" fill="#0f0" font-size="12" text-anchor="middle">C2</text>
+<text x="567.9" y="730.9" fill="#0f0" font-size="12" text-anchor="middle">C3</text>
+<text x="703.4" y="874.6" fill="#0f0" font-size="12" text-anchor="middle">C4</text>
+<text x="703.4" y="1038.8" fill="#0f0" font-size="12" text-anchor="middle">C5</text>
+<text x="533.7" y="908.8" fill="#0f0" font-size="12" text-anchor="middle">L1</text>
+<text x="533.7" y="594.1" fill="#0f0" font-size="12" text-anchor="middle">U2</text>
+</svg>

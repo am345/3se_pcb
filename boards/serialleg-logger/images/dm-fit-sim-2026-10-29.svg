@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1012" height="882" viewBox="0 0 1012 882" font-family="Microsoft YaHei, sans-serif" font-size="12"><rect width="100%" height="100%" fill="#fff"/>
+<rect x="113.2" y="57.2" width="785.7" height="561.7" fill="#1f6f3f" fill-opacity="0.12" stroke="#0b3" />
+<rect x="422.7" y="257.5" width="72.8" height="161.0" fill="#4dabf7" fill-opacity="0.45" stroke="#1971c2" />
+<text x="459.1" y="343.6" fill="#222" font-size="10" text-anchor="middle">P16 3.5</text>
+<rect x="404.1" y="434.3" width="69.4" height="115.5" fill="#f08c00" fill-opacity="0.5" stroke="#b60" />
+<text x="438.8" y="497.7" fill="#222" font-size="10" text-anchor="middle">UART10 立插 4.1</text>
+<rect x="326.9" y="126.3" width="69.4" height="115.5" fill="#f08c00" fill-opacity="0.5" stroke="#b60" />
+<text x="361.7" y="189.7" fill="#222" font-size="10" text-anchor="middle">UART7 立插 4.1</text>
+<rect x="326.9" y="434.3" width="69.4" height="115.5" fill="#f08c00" fill-opacity="0.5" stroke="#b60" />
+<text x="361.7" y="497.7" fill="#222" font-size="10" text-anchor="middle">CAN3 立插 4.1</text>
+<rect x="770.5" y="339.4" width="39.2" height="49.0" fill="#999" fill-opacity="0.35" stroke="#777" />
+<rect x="479.3" y="446.5" width="44.8" height="63.0" fill="#999" fill-opacity="0.35" stroke="#777" />
+<rect x="401.1" y="563.1" width="64.4" height="49.8" fill="#4dabf7" fill-opacity="0.45" stroke="#1971c2" />
+<text x="433.3" y="593.6" fill="#222" font-size="10" text-anchor="middle">按键 3.3</text>
+<rect x="619.1" y="563.1" width="64.4" height="49.8" fill="#4dabf7" fill-opacity="0.45" stroke="#1971c2" />
+<text x="651.3" y="593.6" fill="#222" font-size="10" text-anchor="middle">按键 3.3</text>
+<rect x="825.3" y="329.9" width="68.6" height="220.5" fill="#4dabf7" fill-opacity="0.45" stroke="#1971c2" />
+<text x="859.6" y="445.7" fill="#222" font-size="10" text-anchor="middle">LCD 4.4</text>
+<rect x="790.3" y="142.4" width="37.2" height="142.4" fill="#e03131" fill-opacity="0.55" stroke="#a00" />
+<text x="809.0" y="219.2" fill="#222" font-size="10" text-anchor="middle">PWM 8.5</text>
+<rect x="860.2" y="142.3" width="37.2" height="142.4" fill="#e03131" fill-opacity="0.55" stroke="#a00" />
+<text x="878.8" y="219.1" fill="#222" font-size="10" text-anchor="middle">PWM 8.5</text>
+<rect x="824.2" y="142.4" width="37.2" height="142.4" fill="#e03131" fill-opacity="0.55" stroke="#a00" />
+<text x="842.8" y="219.2" fill="#222" font-size="10" text-anchor="middle">PWM 8.5</text>
+<rect x="734.6" y="63.2" width="98.0" height="67.9" fill="#4dabf7" fill-opacity="0.45" stroke="#1971c2" />
+<text x="783.6" y="102.7" fill="#222" font-size="10" text-anchor="middle">USART1 4.4</text>
+<rect x="114.1" y="245.0" width="195.3" height="186.2" fill="#4dabf7" fill-opacity="0.45" stroke="#1971c2" />
+<text x="211.8" y="343.7" fill="#222" font-size="10" text-anchor="middle">电源 XT60 5.3</text>
+<rect x="111.5" y="542.4" width="217.0" height="72.8" fill="#e03131" fill-opacity="0.55" stroke="#a00" />
+<text x="220.0" y="584.4" fill="#222" font-size="10" text-anchor="middle">XT30 8.9</text>
+<rect x="111.5" y="60.8" width="217.0" height="72.8" fill="#e03131" fill-opacity="0.55" stroke="#a00" />
+<text x="220.0" y="102.8" fill="#222" font-size="10" text-anchor="middle">XT30 8.9</text>
+<rect x="790.3" y="286.6" width="106.7" height="35.6" fill="#e03131" fill-opacity="0.55" stroke="#a00" />
+<text x="843.7" y="310.0" fill="#222" font-size="10" text-anchor="middle">P6 DBUS 8.0</text>
+<rect x="639.4" y="62.6" width="80.4" height="68.0" fill="#4dabf7" fill-opacity="0.45" stroke="#1971c2" />
+<text x="679.6" y="102.2" fill="#222" font-size="10" text-anchor="middle">485 4.3</text>
+<rect x="544.9" y="62.6" width="80.5" height="68.0" fill="#4dabf7" fill-opacity="0.45" stroke="#1971c2" />
+<text x="585.2" y="102.2" fill="#222" font-size="10" text-anchor="middle">485 4.3</text>
+<rect x="118.6" y="435.0" width="68.0" height="80.4" fill="#4dabf7" fill-opacity="0.45" stroke="#1971c2" />
+<text x="152.6" y="480.8" fill="#222" font-size="10" text-anchor="middle">CAN2 4.3</text>
+<rect x="118.6" y="160.6" width="68.0" height="80.4" fill="#4dabf7" fill-opacity="0.45" stroke="#1971c2" />
+<text x="152.6" y="206.4" fill="#222" font-size="10" text-anchor="middle">CAN1 4.3</text>
+<rect x="691.5" y="543.4" width="142.1" height="72.8" fill="#4dabf7" fill-opacity="0.45" stroke="#1971c2" />
+<text x="762.6" y="585.4" fill="#222" font-size="10" text-anchor="middle">SWD 3.4</text>
+<rect x="221.7" y="434.9" width="44.8" height="63.0" fill="#999" fill-opacity="0.35" stroke="#777" />
+<rect x="224.6" y="178.8" width="44.8" height="63.0" fill="#999" fill-opacity="0.35" stroke="#777" />
+<rect x="403.5" y="63.2" width="125.2" height="110.6" fill="#4dabf7" fill-opacity="0.45" stroke="#1971c2" />
+<text x="466.1" y="124.1" fill="#222" font-size="10" text-anchor="middle">Type-C 3.2</text>
+<rect x="653.0" y="474.8" width="72.8" height="72.8" fill="#4dabf7" fill-opacity="0.45" stroke="#1971c2" />
+<text x="689.4" y="516.8" fill="#222" font-size="10" text-anchor="middle">蜂鸣器 2.0</text>
+<path d="M410.8,247.0 L410.8,145.3 L782.7,145.3 L782.7,284.5 L788.2,284.5 L788.2,324.3 L979.9,324.3 L979.9,671.2 L492.0,671.2 L492.0,422.0 L410.8,422.0Z" fill="#7048e8" fill-opacity="0.10" stroke="#7048e8" stroke-width="2.5" />
+<path d="M410.8,247.0 L410.8,145.3 L702.7,145.3 L702.7,284.5 L788.2,284.5 L788.2,324.3 L979.9,324.3 L979.9,671.2 L492.0,671.2 L492.0,422.0 L410.8,422.0Z" fill="none" fill-opacity="0.10" stroke="#212529" stroke-width="1.5" stroke-dasharray="6 4"/>
+<rect x="737.0" y="244.3" width="23.8" height="23.8" fill="#7048e8"/>
+<circle cx="748.9" cy="220.7" r="11.9" fill="#7048e8"/>
+<circle cx="748.9" cy="185.1" r="11.9" fill="#7048e8"/>
+<text x="718.1" y="220.7" fill="#5f3dc4" font-size="13" text-anchor="middle">J7 建议</text>
+<rect x="732.5" y="281.8" width="8" height="20" fill="#5f3dc4"/>
+<text x="739.3" y="314.2" fill="#5f3dc4" font-size="10" text-anchor="middle">R29</text>
+<rect x="30" y="720" width="24" height="12" fill="#e03131" fill-opacity="0.6"/>
+<text x="62" y="732">高于日志板底面（≥7.0 mm）：日志板不能盖住</text>
+<rect x="30" y="740" width="24" height="12" fill="#f08c00" fill-opacity="0.6"/>
+<text x="62" y="752">立插 GH 座：插头从上方插，上方须留空</text>
+<rect x="30" y="760" width="24" height="12" fill="#4dabf7" fill-opacity="0.6"/>
+<text x="62" y="772">侧插/板边接口、按键等：插头从 DM 板边进入（数字为器件顶面高度 mm，z=0 为 DM 上表面）</text>
+<line x1="30" y1="788" x2="54" y2="788" stroke="#212529" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="62" y="792">日志板现板框（虚线）</text>
+<rect x="30" y="800" width="24" height="12" fill="#7048e8" fill-opacity="0.6"/>
+<text x="62" y="812">建议板框：右块下沿由 y −1605 下延到 −1830 mil，J7 立式 1×3 放在新增区，紧邻 P6 与 PWM</text>
+<text x="982" y="20" text-anchor="end" fill="#555">俯视，DM 坐标 mm（达妙 CtrBoard-H7_V1.0-240112A.step）；日志板底面离 DM 上表面 7.5 mm</text>
+</svg>

@@ -1,0 +1,95 @@
+# Keep this file ASCII: kconfgen reads it with the system code page on Windows.
+menu "SerialLeg Logger"
+
+    config LOGGER_USB_VID
+        hex "USB device VID (0 = any)"
+        default 0x0483
+        help
+            Default 0x0483:0x5740 is the STM32 virtual COM port of DM-MC02.
+            Set both VID and PID to 0 to open the first CDC device found.
+
+    config LOGGER_USB_PID
+        hex "USB device PID (0 = any)"
+        default 0x5740
+
+    config LOGGER_RING_KB
+        int "USB receive ring buffer (KB)"
+        range 16 1800
+        default 1024
+        help
+            Allocated in PSRAM (2 MB on N4R2). Absorbs SD write stalls only;
+            it cannot help if the input rate stays above the card write rate.
+
+    config LOGGER_SD_FREQ_KHZ
+        int "SDMMC clock (kHz)"
+        range 400 40000
+        default 20000
+        help
+            20 MHz default speed for the first board bring-up. 40000 selects
+            high speed and needs CLK waveform and CRC checks on the board.
+
+    config LOGGER_SYNC_MS
+        int "fsync period (ms)"
+        range 100 10000
+        default 1000
+        help
+            Buffered data is written and fsync'ed every period. On sudden power
+            loss roughly one period plus buffered data can be lost.
+
+    config LOGGER_FILE_MAX_MB
+        int "Max size of one log file (MB)"
+        range 1 3900
+        default 256
+        help
+            When reached, the file is closed and the next index is opened;
+            "part" in the metadata file increases.
+
+    config LOGGER_SD_CD_ENABLE
+        bool "Use card detect pin SD_CD_N"
+        default y
+
+    config LOGGER_SD_CD_ACTIVE_LOW
+        bool "SD_CD_N is low when a card is inserted"
+        depends on LOGGER_SD_CD_ENABLE
+        default y
+        help
+            Confirmed active low on the 2026-10-26 sample board.
+            The boot log prints the detected state.
+
+    config LOGGER_STATS_MS
+        int "Console statistics period (ms)"
+        range 500 60000
+        default 5000
+
+    config LOGGER_RECORD_ENABLED_ONLY
+        bool "Record only while the RC enables output"
+        default y
+        help
+            Uses output_enabled from the STATE frame. While disabled, data is
+            kept in a PSRAM pre-roll buffer and not written to the card. If
+            disabled, every USB session is recorded as before.
+
+    config LOGGER_PREROLL_MS
+        int "Pre-roll kept before enable (ms)"
+        depends on LOGGER_RECORD_ENABLED_ONLY
+        range 0 30000
+        default 3000
+
+    config LOGGER_POSTROLL_MS
+        int "Keep recording after disable (ms)"
+        depends on LOGGER_RECORD_ENABLED_ONLY
+        range 0 30000
+        default 3000
+        help
+            Re-enabling within this time continues the same file.
+
+    config LOGGER_PREROLL_KB
+        int "Pre-roll buffer in PSRAM (KB)"
+        depends on LOGGER_RECORD_ENABLED_ONLY
+        range 0 1024
+        default 768
+        help
+            At about 200 KB/s with the 1 kHz CONTROL frame, 768 KB covers about
+            3.8 s. Data older than LOGGER_PREROLL_MS is dropped anyway.
+
+endmenu

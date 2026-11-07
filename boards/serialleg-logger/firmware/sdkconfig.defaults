@@ -1,0 +1,20 @@
+# Keep this file ASCII: kconfgen reads it with the system code page on Windows.
+# ESP32-S3-MINI-1-N4R2: 4 MB flash, 2 MB quad PSRAM
+CONFIG_IDF_TARGET="esp32s3"
+CONFIG_ESPTOOLPY_FLASHSIZE_4MB=y
+CONFIG_ESP_DEFAULT_CPU_FREQ_MHZ_240=y
+CONFIG_FREERTOS_HZ=1000
+
+CONFIG_SPIRAM=y
+CONFIG_SPIRAM_MODE_QUAD=y
+CONFIG_SPIRAM_SPEED_80M=y
+CONFIG_SPIRAM_USE_CAPS_ALLOC=y
+# Boot without PSRAM; the ring buffer then falls back to internal RAM
+CONFIG_SPIRAM_IGNORE_NOTFOUND=y
+
+# Console on UART0 (J4) only; the GPIO19/20 USB PHY is used by the OTG host
+CONFIG_ESP_CONSOLE_UART_DEFAULT=y
+CONFIG_ESP_CONSOLE_SECONDARY_NONE=y
+
+# No wireless in the first firmware
+CONFIG_BT_ENABLED=n

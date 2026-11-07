@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.16)
+
+# 固件版本写入镜像与每个日志文件的元数据；改功能时递增
+set(PROJECT_VER "0.2.0")
+
+include($ENV{IDF_PATH}/tools/cmake/project.cmake)
+project(serialleg_logger)
