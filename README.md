@@ -6,11 +6,15 @@
 
 | 板子 | 用途 | 最近更新 |
 | --- | --- | --- |
-| [SerialLeg Logger](boards/serialleg-logger/README.md) | DM-MC02 P16 直插供电，USB 日志写入 microSD | 2026-10-16 |
-| [F103 工控板](boards/f103-industrial/README.md) | STM32F103 工控 / 培训板 | 2026-10-10 |
+| [SerialLeg Logger](boards/serialleg-logger/README.md) | DM-MC02 P16 直插供电，USB 日志写入 microSD，含 ESP32-S3 板载固件 | 2026-11-07 |
+| [F103 工控板](boards/f103-industrial/README.md) | STM32F103 工控 / 培训板 | 2026-11-07 |
 | [3SE 26 超级电容](boards/supercapacitor/README.md) | 超级电容控制板与功率板，含 STM32G474 板载固件 | 2026-10-17 |
+| [3SE 27 超级电容](boards/supercap-controller-27/README.md) | 控制板与功率板草稿，版本、参数与固件兼容性待确认 | 2026-11-07 |
 | [关节电容](boards/joint-capacitor/README.md) | 关节电容工程 | 2026-10-10 |
-| [超级电容组](boards/supercap-bank/README.md) | 10 串 3.0 V（34 F + 10 F）电容组，配合 3SE 26 超级电容控制板 | 2026-10-18 |
+| [超级电容组](boards/supercap-bank/README.md) | 10 串 3.0 V（34 F + 10 F）电容组，配合 3SE 26 超级电容控制板 | 2026-11-07 |
+| [底盘缓启动](boards/chassis-softstart/README.md) | 电管 Chassis 口与超电功率板之间的 LM5069 缓启动小板 | 2026-11-07 |
+| [TB48 调试电池架](boards/tb48-rack/README.md) | 自用调试的 TB48 电池架，黄铜刀片转 XT60，不上场 | 2026-11-05 |
+| [BW6103 挑片测试板](boards/bw6103-tester/README.md) | 插 SOT23 翻盖座逐颗测 BW6103 泄放开启阈值，给超级电容组挑片 | 2026-11-06 |
 
 “最近更新”是该板设计或记录最后一次修改的日期。当前版本、状态、投板版本和已知问题都以各板 README 为准；状态统一使用 `设计中`、`待投板`、`已投板`、`已验证`、`停用`，已投板不代表已验证。
 
