@@ -1,0 +1,100 @@
+{
+  "name": "3SE 27 超级电容",
+  "owner_uuid": "a105ac1cbcea426781eae07d21a61163",
+  "creator_uuid": "a105ac1cbcea426781eae07d21a61163",
+  "created_at": "2026-01-31 05:32:42",
+  "updated_at": "2026-10-24 02:54:19",
+  "modifier_uuid": "a105ac1cbcea426781eae07d21a61163",
+  "content": "",
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "ticket": 1,
+  "g_ticket": 283,
+  "boards": [],
+  "block_symbol_attrs_groups": {},
+  "default_sheet": "e3d2d1e2531e3533",
+  "branch_uuid": "",
+  "pcb_count": 0,
+  "format": "folder",
+  "profile": {
+    "boards": {
+      "59902a6115062d7f": {
+        "uuid": "59902a6115062d7f",
+        "title": "功率板(下板",
+        "zIndex": 2
+      },
+      "cede48e4015cbcf4": {
+        "uuid": "cede48e4015cbcf4",
+        "title": "控制板(上板",
+        "zIndex": 3
+      }
+    },
+    "schematics": {
+      "aaad4c89e610554f": {
+        "uuid": "aaad4c89e610554f",
+        "name": "Schematic3",
+        "board": "59902a6115062d7f",
+        "source": "",
+        "version": "1792485596118",
+        "updateTime": 1792485596118
+      },
+      "3c93da2ee0b0414b8405d3629ee89fb2": {
+        "uuid": "3c93da2ee0b0414b8405d3629ee89fb2",
+        "name": "Schematic2",
+        "board": "cede48e4015cbcf4",
+        "version": "1792486403925",
+        "updateTime": 1792486403925
+      }
+    },
+    "sheets": {
+      "dd68d502c4734039a28d410ef3a5ea7d": {
+        "uuid": "dd68d502c4734039a28d410ef3a5ea7d",
+        "title": "P1",
+        "schematic_uuid": "3c93da2ee0b0414b8405d3629ee89fb2",
+        "zIndex": 1,
+        "version": "1792486403925",
+        "updateTime": 1792486403925
+      },
+      "ec08c95717f68565": {
+        "uuid": "ec08c95717f68565",
+        "title": "P1",
+        "schematic_uuid": "aaad4c89e610554f",
+        "zIndex": 1,
+        "source": "",
+        "version": "1792485596118",
+        "updateTime": 1792485596118
+      }
+    },
+    "pcbs": {
+      "36b7f5491675426f81167ed01acaa0ca": {
+        "uuid": "36b7f5491675426f81167ed01acaa0ca",
+        "title": "PCB2",
+        "board": "cede48e4015cbcf4",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1792824858839",
+        "updateTime": 1792824858839
+      },
+      "2d2e058613dd318c": {
+        "uuid": "2d2e058613dd318c",
+        "title": "PCB4",
+        "board": "59902a6115062d7f",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1792789596594",
+        "updateTime": 1792789596594
+      }
+    },
+    "panels": {},
+    "blockSymbols": {},
+    "owner": {
+      "uuid": "a105ac1cbcea426781eae07d21a61163"
+    },
+    "simSchematics": {},
+    "simulations": {}
+  },
+  "config": {
+    "defaultSheet": "e3d2d1e2531e3533"
+  }
+}
