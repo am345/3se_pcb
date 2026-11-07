@@ -31,8 +31,8 @@
         "name": "电容组原理图",
         "board": "b51a39d637cc222d",
         "source": "",
-        "version": "1792329443949",
-        "updateTime": 1792329443949
+        "version": "1793272389556",
+        "updateTime": 1793272389556
       }
     },
     "sheets": {
@@ -42,8 +42,8 @@
         "schematic_uuid": "4ee81a91427e3b7c",
         "zIndex": 2,
         "source": "",
-        "version": "1792329443949",
-        "updateTime": 1792329443949
+        "version": "1793272389556",
+        "updateTime": 1793272389556
       }
     },
     "pcbs": {
@@ -53,8 +53,8 @@
         "board": "b51a39d637cc222d",
         "parent_uuid": "",
         "source": "",
-        "version": "1792409666447",
-        "updateTime": 1792409666447
+        "version": "1793523349371",
+        "updateTime": 1793523349371
       }
     },
     "panels": {
