@@ -1,0 +1,72 @@
+{
+  "name": "3SE 底盘缓启动",
+  "owner_uuid": "509613d038b8c0b867b92c1c523c4fb4",
+  "creator_uuid": "509613d038b8c0b867b92c1c523c4fb4",
+  "created_at": "2026-10-24 02:29:31",
+  "updated_at": "2026-10-24 02:29:31",
+  "modifier_uuid": "509613d038b8c0b867b92c1c523c4fb4",
+  "content": "",
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "ticket": 1,
+  "g_ticket": 1,
+  "boards": [],
+  "block_symbol_attrs_groups": {},
+  "default_sheet": "",
+  "branch_uuid": "",
+  "pcb_count": 1,
+  "format": "folder",
+  "profile": {
+    "boards": {
+      "987798cb8d678992": {
+        "uuid": "987798cb8d678992",
+        "title": "底盘缓启动",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "31ad54410d535af7": {
+        "uuid": "31ad54410d535af7",
+        "name": "缓启动原理图",
+        "board": "987798cb8d678992",
+        "source": "",
+        "version": "1793465311358",
+        "updateTime": 1793465311358
+      }
+    },
+    "sheets": {
+      "76d5bb1b77f44f44": {
+        "uuid": "76d5bb1b77f44f44",
+        "title": "01_缓启动原理图",
+        "schematic_uuid": "31ad54410d535af7",
+        "zIndex": 1,
+        "source": "",
+        "version": "1793465311358",
+        "updateTime": 1793465311358
+      }
+    },
+    "pcbs": {
+      "8c1f7cfe2f6769b0": {
+        "uuid": "8c1f7cfe2f6769b0",
+        "title": "缓启动PCB",
+        "board": "987798cb8d678992",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1794034311113",
+        "updateTime": 1794034311113
+      }
+    },
+    "panels": {},
+    "blockSymbols": {},
+    "owner": {
+      "uuid": "509613d038b8c0b867b92c1c523c4fb4"
+    },
+    "simSchematics": {},
+    "simulations": {}
+  },
+  "config": {
+    "defaultSheet": "",
+    "settings": {}
+  }
+}
