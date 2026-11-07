@@ -1,0 +1,72 @@
+{
+  "name": "3SE BW6103 测试板",
+  "owner_uuid": "3a73ae49ee1fe52fabc3a88795442864",
+  "creator_uuid": "3a73ae49ee1fe52fabc3a88795442864",
+  "created_at": "2026-11-04 06:45:20",
+  "updated_at": "2026-11-04 06:45:20",
+  "modifier_uuid": "3a73ae49ee1fe52fabc3a88795442864",
+  "content": "",
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "ticket": 1,
+  "g_ticket": 1,
+  "boards": [],
+  "block_symbol_attrs_groups": {},
+  "default_sheet": "",
+  "branch_uuid": "",
+  "pcb_count": 1,
+  "format": "folder",
+  "profile": {
+    "boards": {
+      "02ed6ecf3c02c36e": {
+        "uuid": "02ed6ecf3c02c36e",
+        "title": "Board1",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "6cc4ec16548df65e": {
+        "uuid": "6cc4ec16548df65e",
+        "name": "测试板原理图",
+        "board": "02ed6ecf3c02c36e",
+        "source": "",
+        "version": "1793952279182",
+        "updateTime": 1793952279182
+      }
+    },
+    "sheets": {
+      "5896662c653b89e3": {
+        "uuid": "5896662c653b89e3",
+        "title": "01_测试板原理图",
+        "schematic_uuid": "6cc4ec16548df65e",
+        "zIndex": 1,
+        "source": "",
+        "version": "1793952279182",
+        "updateTime": 1793952279182
+      }
+    },
+    "pcbs": {
+      "f5eee85ab92393e5": {
+        "uuid": "f5eee85ab92393e5",
+        "title": "测试板PCB",
+        "board": "02ed6ecf3c02c36e",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1793951668867",
+        "updateTime": 1793951668867
+      }
+    },
+    "panels": {},
+    "blockSymbols": {},
+    "owner": {
+      "uuid": "3a73ae49ee1fe52fabc3a88795442864"
+    },
+    "simSchematics": {},
+    "simulations": {}
+  },
+  "config": {
+    "defaultSheet": "",
+    "settings": {}
+  }
+}
