@@ -1,6 +1,8 @@
 # R0.6：SD 回流修复与布线检查
 
-日期：2026-10-12。嘉立创专业版 4.1.71.7a7261be。基线为 R0.5 卡扣工程，Git HEAD `27a9aebb6f87ded35f4d1f7330f6f76075f9c465` 加现有工作区修改；本次未提交或发布生产版本。准确的 PCB / 原理图版本号见 [正式工程回读](canonical-verification.json)。
+> 2026-11-09 起，本记录引用的原始导出和旧版资料已移出 Git，文中只保留文件名、不再链接；需要时在提交 `1e0d038` 中查看，例如 `git show 1e0d038:<仓库内路径>`。
+
+日期：2026-10-12。嘉立创专业版 4.1.71.7a7261be。基线为 R0.5 卡扣工程，Git HEAD `27a9aebb6f87ded35f4d1f7330f6f76075f9c465` 加现有工作区修改；本次未提交或发布生产版本。准确的 PCB / 原理图版本号见正式工程回读（`canonical-verification.json`）。
 
 本轮完成 SD 主通道重布、外围支路连接和工程检查。六根主信号均走顶层，其整个铜宽投影位于同一 L2 地铜连通区域。板框、P16 和所有接口位置、卡扣接触区保持。当前仍为设计草稿，未投板、未实物验证。
 
@@ -53,11 +55,11 @@ Espressif 说明 SDMMC 可映射到空闲 GPIO，并建议保留串阻；其 PCB
 
 ## 可追溯文件
 
-- [网表核对](netlist-crosscheck.json)、[原生 ERC](schematic-erc.json)、[正式工程电气复核](canonical-electrical-check.json)、[DRC](drc-final.json)。
-- [主通道长度与地参考](sd-main-reference.json)、[L2 连通区域](sd-plane-continuity.json)、[含分支的完整信号投影](signal-reference-check.json)。
-- [布局变更](layout-changes.json)、[原理图记录差异](schematic-source-changes.json)、[规则对比](rule-comparison.json)、[图元检查](primitive-check.json)。
-- [制造几何检查](manufacturing-check.json)、[器件本体检查](body-check.json)、[新坐标下的托架检查](bracket-check.json)。
-- [BOM](BOM.csv)、[默认装配坐标](pick-and-place.csv)、[原生几何回读](native-geometry.json)、[人工路径表](route-plan.json)。
+- 网表核对（`netlist-crosscheck.json`）、原生 ERC（`schematic-erc.json`）、正式工程电气复核（`canonical-electrical-check.json`）、DRC（`drc-final.json`）。
+- 主通道长度与地参考（`sd-main-reference.json`）、L2 连通区域（`sd-plane-continuity.json`）、含分支的完整信号投影（`signal-reference-check.json`）。
+- 布局变更（`layout-changes.json`）、原理图记录差异（`schematic-source-changes.json`）、规则对比（`rule-comparison.json`）、图元检查（`primitive-check.json`）。
+- 制造几何检查（`manufacturing-check.json`）、器件本体检查（`body-check.json`）、新坐标下的托架检查（`bracket-check.json`）。
+- BOM（`BOM.csv`）、默认装配坐标（`pick-and-place.csv`）、原生几何回读（`native-geometry.json`）、人工路径表（`route-plan.json`）。
 
 ## 仍需实物及制造确认
 

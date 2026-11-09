@@ -1,22 +1,22 @@
 # 3SE PCB
 
-3SE 的 PCB 设计仓库。按板子组织完整的可编辑工程、设计说明和验证记录，兼容嘉立创 EDA 专业版与 KiCad。
+3SE 的 PCB 设计仓库。按板子组织完整的可编辑工程、设计说明和验证记录。目前各板都是嘉立创 EDA 专业版工程，目录约定同样适用于 KiCad 工程。
 
 ## 板卡索引
 
 | 板子 | 用途 | 最近更新 |
 | --- | --- | --- |
-| [SerialLeg Logger](boards/serialleg-logger/README.md) | DM-MC02 P16 直插供电，USB 日志写入 microSD，含 ESP32-S3 板载固件 | 2026-11-07 |
-| [F103 工控板](boards/f103-industrial/README.md) | STM32F103 工控 / 培训板 | 2026-11-07 |
 | [3SE 26 超级电容](boards/supercapacitor/README.md) | 超级电容控制板与功率板，含 STM32G474 板载固件 | 2026-10-17 |
 | [3SE 27 超级电容](boards/supercap-controller-27/README.md) | 控制板与功率板草稿，版本、参数与固件兼容性待确认 | 2026-11-07 |
-| [关节电容](boards/joint-capacitor/README.md) | 关节电容工程 | 2026-10-10 |
 | [超级电容组](boards/supercap-bank/README.md) | 10 串 3.0 V（34 F + 10 F）电容组，配合 3SE 26 超级电容控制板 | 2026-11-07 |
-| [底盘缓启动](boards/chassis-softstart/README.md) | 电管 Chassis 口与超电功率板之间的 LM5069 缓启动小板 | 2026-11-07 |
-| [TB48 调试电池架](boards/tb48-rack/README.md) | 自用调试的 TB48 电池架，黄铜刀片转 XT60，不上场 | 2026-11-05 |
 | [BW6103 挑片测试板](boards/bw6103-tester/README.md) | 插 SOT23 翻盖座逐颗测 BW6103 泄放开启阈值，给超级电容组挑片 | 2026-11-06 |
+| [底盘缓启动](boards/chassis-softstart/README.md) | 电管 Chassis 口与超电功率板之间的 LM5069 缓启动小板 | 2026-11-07 |
+| [SerialLeg Logger](boards/serialleg-logger/README.md) | DM-MC02 P16 直插供电，USB 日志写入 microSD，含 ESP32-S3 板载固件 | 2026-11-07 |
+| [关节电容](boards/joint-capacitor/README.md) | 关节电容工程 | 2026-10-10 |
+| [F103 工控板](boards/f103-industrial/README.md) | STM32F103 工控 / 培训板 | 2026-11-07 |
+| [TB48 调试电池架](boards/tb48-rack/README.md) | 自用调试的 TB48 电池架，黄铜刀片转 XT60，不上场 | 2026-11-05 |
 
-“最近更新”是该板设计或记录最后一次修改的日期。当前版本、状态、投板版本和已知问题都以各板 README 为准；状态统一使用 `设计中`、`待投板`、`已投板`、`已验证`、`停用`，已投板不代表已验证。
+前五块属于超级电容与底盘供电链路，其余为独立板卡。“最近更新”是该板设计或记录最后一次修改的日期。当前版本、状态、投板版本和已知问题都以各板 README 为准；状态统一使用 `设计中`、`待投板`、`已投板`、`已验证`、`停用`，已投板不代表已验证。
 
 ## 开始使用
 
@@ -49,19 +49,21 @@ cd 3se_pcb
         ├── firmware/            # 随板维护的板载固件；需要时创建
         ├── docs/                # 设计依据、接口说明、验证记录
         ├── images/              # 原理图、PCB、实物预览
-        └── mechanical/          # 安装尺寸和外壳；需要时创建
+        ├── mechanical/          # 安装尺寸和外壳；需要时创建
+        ├── tools/               # 本板专用的检查脚本；需要时创建
+        └── outputs/             # 临时导出，Git 忽略，不随克隆提供
 ```
 
-`libraries/` 仅在多个工程确实需要共享自建库时创建；`scripts/` 仅存放已实际使用的共用工具。板级专用库优先随板保存，不依赖某台电脑的个人库目录。
+`libraries/` 仅在多个工程确实需要共享自建库时创建；`scripts/` 仅存放已实际使用的共用工具，只服务一块板的脚本放该板 `tools/`。板级专用库优先随板保存，不依赖某台电脑的个人库目录。
 
-2026-11-07 本地 worktree 的合并范围、版本取舍与检查限制见[整理记录](docs/worktree-consolidation-2026-11-07.md)。
+2026-11-07 本地 worktree 的合并范围、版本取舍与检查限制记录在提交 `1e0d038` 的 `docs/worktree-consolidation-2026-11-07.md`；该文件已于 2026-11-09 移出当前版本。
 
 ## 版本与生产文件
 
 - 每块板用一个稳定的英文目录名，例如 `serialleg-logger`。普通迭代由 Git 记录，不复制“最终版”“新最终版”目录。
 - 正式投板版本用板名加版本的 Git 标签，例如 `serialleg-logger/r1.0`；标签指向实际生成生产文件的提交。
 - 临时导出放各板 `outputs/`，Git 默认忽略。用于支撑结论的检查报告和实测记录放 `docs/`，保留日期、适用版本和检查范围。
-- 当前导入的日志板是设计草稿，没有生产发布；导入时的 BOM 和检查报告是历史快照。
+- 目前仓库还没有任何投板标签。F103 工控板、3SE 26 超级电容和日志板 v1 已有实物样板，但样板对应的源提交和生产文件待确认，见各板 README；各板检查记录中的 BOM、贴片坐标和 Gerber 都是当时的检查快照，不是生产发布。
 
 ## 设计原则
 

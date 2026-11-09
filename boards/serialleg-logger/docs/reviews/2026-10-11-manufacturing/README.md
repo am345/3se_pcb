@@ -1,6 +1,8 @@
 # R0.2 制造与机械收尾检查
 
-日期：2026-10-11。嘉立创 EDA 专业版 4.1.71.7a7261be，原生无界面 CLI/API；未使用 computer use 或自动布线。基线提交为 27a9aebb6f87ded35f4d1f7330f6f76075f9c465，加当前工作区修改。原理图文档版本 1791707528462，PCB 文档版本 1791709431364；详见 [快照](snapshot.json)。当前仍是设计草稿，没有投板、样板实测或生产标签。
+> 2026-11-09 起，本记录引用的原始导出和旧版资料已移出 Git，文中只保留文件名、不再链接；需要时在提交 `1e0d038` 中查看，例如 `git show 1e0d038:<仓库内路径>`。
+
+日期：2026-10-11。嘉立创 EDA 专业版 4.1.71.7a7261be，原生无界面 CLI/API；未使用 computer use 或自动布线。基线提交为 27a9aebb6f87ded35f4d1f7330f6f76075f9c465，加当前工作区修改。原理图文档版本 1791707528462，PCB 文档版本 1791709431364；详见快照（`snapshot.json`）。当前仍是设计草稿，没有投板、样板实测或生产标签。
 
 ## 这次完成的修复
 
@@ -11,19 +13,19 @@
 | P1 | P6 附近缺口拐角局部扩大 0.508 mm，重算受影响的三个 GND 填充缓存 | P6 名义间隙从 0.287 mm 增至 0.546 mm；P11 为 0.545 mm。保持 USB 插座处板边，保留铜间距规则 |
 | P2 | J4 定型为 BOOMELE 2.54-1x6P 直针 / C37208，同步原理图、PCB 与内嵌器件 | J4 属性匹配警告消失；引脚连接不变 |
 | P2 | 器件外框转装配层，保留功能标签与极性；移动 microSD 标签，增加 C15 正极“+” | 已查看顶底物理丝印与装配叠加图；丝印到阻焊开窗间距无本次阈值违规 |
-| P2 | 更新 BOM、默认装配坐标、安装核对图、供电预算和首板测试表 | [制造与测试说明](../../manufacturing-and-bringup.md)；默认 R12 DNP，64 位号装配 |
+| P2 | 更新 BOM、默认装配坐标、安装核对图、供电预算和首板测试表 | 制造与测试说明（`docs/manufacturing-and-bringup.md`）；默认 R12 DNP，64 位号装配 |
 
-本轮 574 条有效 LINE 与 119 个 VIA 的正文均未改变，见 [路径保留比较](route-preservation.json)。NPTH 焊盘、局部板框和 GND 填充发生了上述修改，不把“走线未变”扩展为“所有铜完全未变”。先前导入的历史自动布线部分仍存在，本板不能称为从零全手工布线。
+本轮 574 条有效 LINE 与 119 个 VIA 的正文均未改变，见路径保留比较（`route-preservation.json`）。NPTH 焊盘、局部板框和 GND 填充发生了上述修改，不把“走线未变”扩展为“所有铜完全未变”。先前导入的历史自动布线部分仍存在，本板不能称为从零全手工布线。
 
 ## 原生验证
 
 | 检查 | 最终结果 | 证据 |
 | --- | --- | --- |
-| 原生重开、保存和导出 | 成功；修改后的板框和实际填充被原生 Gerber 识别 | [快照](snapshot.json)，当前预览已更新 |
-| 原理图 ERC | 0 电气错误；U1 的 1 条 ATTRMATCHCODE 警告保留 | [schematic-erc.json](schematic-erc.json) |
-| PCB DRC | 0 项 | [pcb-drc.json](pcb-drc.json)，调用 `check(true, false, true)` |
-| 网表逐针比较 | 65 个器件、250 个引脚条目，0 差异 | [比较结果](netlist-crosscheck.json)、[原理图网表](schematic-netlist.json)、[PCB 网表](pcb-netlist.json) |
-| USB 中心线路径 | D− 39.0692 mm，D+ 38.9207 mm，差 0.148486 mm；顶层 6 mil，无过孔 | [路径与 L2 检查](usb-path-check.json) |
+| 原生重开、保存和导出 | 成功；修改后的板框和实际填充被原生 Gerber 识别 | 快照（`snapshot.json`），当前预览已更新 |
+| 原理图 ERC | 0 电气错误；U1 的 1 条 ATTRMATCHCODE 警告保留 | `schematic-erc.json` |
+| PCB DRC | 0 项 | `pcb-drc.json`，调用 `check(true, false, true)` |
+| 网表逐针比较 | 65 个器件、250 个引脚条目，0 差异 | 比较结果（`netlist-crosscheck.json`）、原理图网表（`schematic-netlist.json`）、PCB 网表（`pcb-netlist.json`） |
+| USB 中心线路径 | D− 39.0692 mm，D+ 38.9207 mm，差 0.148486 mm；顶层 6 mil，无过孔 | 路径与 L2 检查（`usb-path-check.json`） |
 | USB 地参考 | 主路径下方 L2 GND 连续；J2 通孔端接每根约 1.058 mm 位于必要反焊盘区 | 对当前实际 L2 填充作线与多边形几何比较；比旧 1 mil 采样结果更精确，不是新增长段缺地 |
 
 U1 警告来自库器件的显示属性比较：工程显示 ESP32-S3-MINI-1-N4R2，库的 `Name/Comment` 使用 `={Value}`，其值是 2.4GHz。制造商型号、采购编号 C3013941 和封装对应关系已核对；未把型号标注改为“2.4GHz”来消除提示。该警告没有被关闭或隐藏。模组资源名含 N8，不能仅凭资源名称替代 N4R2 型号核验。
@@ -32,7 +34,7 @@ U1 警告来自库器件的显示属性比较：工程显示 ESP32-S3-MINI-1-N4R
 
 ## 制造几何检查
 
-规则快照见 [pcb-rules.json](pcb-rules.json)。已补充制造检查阈值，但当前标准客户端的额外 DFM 检查器由私有版本开关控制；规则保存成功不代表这些检查器被实际运行。**这里的制造结果来自实际原生 Gerber 的独立几何检查，不是“原生完整 DFM 0 项”。**
+规则快照见 `pcb-rules.json`。已补充制造检查阈值，但当前标准客户端的额外 DFM 检查器由私有版本开关控制；规则保存成功不代表这些检查器被实际运行。**这里的制造结果来自实际原生 Gerber 的独立几何检查，不是“原生完整 DFM 0 项”。**
 
 依据 [嘉立创公开制造能力](https://jlcpcb.com/capabilities/pcb-capabilities)，本轮采用绿色阻焊、四层板进行下列筛查：
 
@@ -48,7 +50,7 @@ U1 警告来自库器件的显示属性比较：工程显示 ESP32-S3-MINI-1-N4R
 | NPTH / 连接器 PTH 孔区锡膏开口 | 不应覆盖孔区 | 未发现覆盖 |
 | 物理丝印源文字设置 | 字高 ≥40 mil，名义线宽 ≥6 mil | 满足源属性设置；不把每个字形的 Gerber 小圆孔径当成整条丝印线宽 |
 
-完整数值与范围在 [manufacturing-check.json](manufacturing-check.json)。检查脚本为 [check_manufacturing.py](../../../tools/check_manufacturing.py)，使用 Python 与 Shapely 2.1.2，圆和弧按折线近似；不是精确 CAM/场求解。阻焊桥检查只比较合并后的独立开窗，不把同网焊盘和过孔的共同开窗自动判成错误。钢网厚度、全部开窗面积比、所有字形最小实体线宽、阻抗与装配高度尚不在自动筛查范围内。
+完整数值与范围在 `manufacturing-check.json`。检查脚本为 [check_manufacturing.py](../../../tools/check_manufacturing.py)，使用 Python 与 Shapely 2.1.2，圆和弧按折线近似；不是精确 CAM/场求解。阻焊桥检查只比较合并后的独立开窗，不把同网焊盘和过孔的共同开窗自动判成错误。钢网厚度、全部开窗面积比、所有字形最小实体线宽、阻抗与装配高度尚不在自动筛查范围内。
 
 NPTH 成品铜计算扣除了实际钻掉的孔内材料，没有扩大孔径或忽略孔外残铜。原生 Gerber 会在零铜尺寸安装孔处生成极小中心闪点，它完全位于 Ø2.4 钻孔内，不是成品环形铜。孔外最小间距仍按实际铜计算。
 
@@ -62,10 +64,10 @@ python boards/serialleg-logger/tools/check_manufacturing.py <原生导出目录>
 
 ## 交付与仍需完成的实物工作
 
-- [BOM.csv](BOM.csv)：65 位号，含 R12 DNP；J1 的采购 SKU 仍为空，不用相近高度料号顶替。
-- [pick-and-place.csv](pick-and-place.csv)：从原生全量坐标中过滤 R12 后的 64 位号默认装配坐标，含 62 个 SMD 和 2 个通孔器件，不是 64 个贴片机作业项。当前原生格式为制表符分隔；通孔焊接和底面旋转约定必须由装配厂核对。
-- [pick-and-place-all.csv](pick-and-place-all.csv)：65 位号原生完整导出，仅供核对，含不装的 R12。
-- [机械核对图](../../../mechanical/p16-stack-check.svg)、[尺寸数据](mechanical-check.json)：基于主控 STEP 包围盒，未做实物插拔或三维装配认证。
-- [供电预算与首板测试表](../../manufacturing-and-bringup.md)：手册确认对外 5 V 共享 2 A；现有外设负载、USB 分担电流和写卡峰值仍需实测。
+- `BOM.csv`：65 位号，含 R12 DNP；J1 的采购 SKU 仍为空，不用相近高度料号顶替。
+- `pick-and-place.csv`：从原生全量坐标中过滤 R12 后的 64 位号默认装配坐标，含 62 个 SMD 和 2 个通孔器件，不是 64 个贴片机作业项。当前原生格式为制表符分隔；通孔焊接和底面旋转约定必须由装配厂核对。
+- `pick-and-place-all.csv`：65 位号原生完整导出，仅供核对，含不装的 R12。
+- 机械核对图（`mechanical/p16-stack-check.svg`）、尺寸数据（`mechanical-check.json`）：基于主控 STEP 包围盒，未做实物插拔或三维装配认证。
+- 供电预算与首板测试表（`docs/manufacturing-and-bringup.md`）：手册确认对外 5 V 共享 2 A；现有外设负载、USB 分担电流和写卡峰值仍需实测。
 
 发布前仍需取得 H40 公座并试配、由板厂确认 USB 90 Ω 层叠/工艺、在独立固件仓库实现日志功能，再完成供电、掉电和日志压力测试。本次没有订料、下单、实现固件或把板卡状态升级为“已验证”。

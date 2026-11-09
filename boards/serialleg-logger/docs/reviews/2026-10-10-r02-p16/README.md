@@ -1,8 +1,10 @@
 # R0.2 P16 直插修复与验证记录
 
+> 2026-11-09 起，本记录引用的原始导出和旧版资料已移出 Git，文中只保留文件名、不再链接；需要时在提交 `1e0d038` 中查看，例如 `git show 1e0d038:<仓库内路径>`。
+
 检查日期：2026-10-10。软件：嘉立创 EDA 专业版 4.1.71.7a7261be，使用原生 CLI/API 的无界面会话。设计仍为工作区草稿；未创建生产标签。
 
-源基线提交：27a9aebb6f87ded35f4d1f7330f6f76075f9c465，加本次工作区修改。原理图文档版本 1791658486223，PCB 文档版本 1791658055268。文档 ID、机械变换和层叠摘要见 [snapshot.json](snapshot.json)。本记录只适用于这个快照；后续修改必须重新检查。
+源基线提交：27a9aebb6f87ded35f4d1f7330f6f76075f9c465，加本次工作区修改。原理图文档版本 1791658486223，PCB 文档版本 1791658055268。文档 ID、机械变换和层叠摘要见 `snapshot.json`。本记录只适用于这个快照；后续修改必须重新检查。
 
 ## 已处理的工程问题
 
@@ -24,23 +26,23 @@
 | 检查 | 最终结果 | 文件与范围 |
 | --- | --- | --- |
 | 重开工程 | 成功 | eprj3 文件夹工程在原生客户端中重开，原理图和 PCB 均成功导出。 |
-| ERC | 0 电气错误；1 组警告 | [schematic-erc.json](schematic-erc.json)，ATTRMATCHCODE 涉及 U1、J4。 |
-| PCB DRC | 0 项 | [pcb-drc.json](pcb-drc.json)，调用严格检查并返回全部详细项；结果为空数组。 |
-| 原理图 / PCB 网表 | 0 差异 | [逐针比较](netlist-crosscheck.json)、[原理图网表](schematic-netlist.json)、[PCB 网表](pcb-netlist.json)。250 是导出网表条目数，包含模组的地引脚别名，不等于 250 个独立物理焊盘。 |
-| USB 路径 | 长度差约 0.1485 mm；均在顶层、无过孔 | [usb-path-check.json](usb-path-check.json)。 |
+| ERC | 0 电气错误；1 组警告 | `schematic-erc.json`，ATTRMATCHCODE 涉及 U1、J4。 |
+| PCB DRC | 0 项 | `pcb-drc.json`，调用严格检查并返回全部详细项；结果为空数组。 |
+| 原理图 / PCB 网表 | 0 差异 | 逐针比较（`netlist-crosscheck.json`）、原理图网表（`schematic-netlist.json`）、PCB 网表（`pcb-netlist.json`）。250 是导出网表条目数，包含模组的地引脚别名，不等于 250 个独立物理焊盘。 |
+| USB 路径 | 长度差约 0.1485 mm；均在顶层、无过孔 | `usb-path-check.json`。 |
 | 原理图与 PCB 预览 | 已查看 | 原理图由原生 PNG 导出；铜、丝印、装配和钻孔由原生 Gerber/Excellon 导出后光栅化叠加。不是 KiCad 源文件分析。 |
 
 ERC 警告没有隐藏：U1 当前制造商型号为 ESP32-S3-MINI-1-N4R2，LCSC C3013941 对应此型号，但原生库属性匹配仍有提示，封装/三维资源名含 N8；J4 是通用排针，具体制造商型号未定。二者都保留在报告中，采购定型时处理。参考 [LCSC 器件页](https://www.lcsc.com/product-image/C3013941.html) 和 [Espressif 模组手册](https://www.espressif.com/sites/default/files/documentation/esp32-s3-mini-1_mini-1u_datasheet_en.pdf)。
 
 ## DRC 与制造检查的边界
 
-实际规则保存在 [pcb-rules.json](pcb-rules.json)。主要当前值：普通线最小 5 mil、线线间距约 4 mil、焊盘/过孔间距约 6 mil、GND 填充到其他铜 10 mil，USB 差分长度差上限 10 mil。实际新填充通常按 12 mil 预留；安装孔和天线另有禁布区域。
+实际规则保存在 `pcb-rules.json`。主要当前值：普通线最小 5 mil、线线间距约 4 mil、焊盘/过孔间距约 6 mil、GND 填充到其他铜 10 mil，USB 差分长度差上限 10 mil。实际新填充通常按 12 mil 预留；安装孔和天线另有禁布区域。
 
 当前规则中 Copper Analysis、Drill Hole Analysis、Silkscreen Analysis、Solder Mask Analysis 的额外制造分析列表为空，器件高度与完整装配外框检查也未设为生产约束。因此“DRC 0 项”不等于完整 DFM、焊接装配或三维配合通过；本轮已检查的几何和图像范围见上表。
 
 候选四层参数已写入源文件，参考 [JLC04161H-3313](https://jlcpcb.com/impedance)：外铜 0.035 mm、两侧 PP 各 0.0994 mm、内铜 0.0152 mm、芯板 1.265 mm，标称板厚 1.6 mm。介电常数使用对应板厂参考值；损耗角未获得值，未编造。实际制造选型和 USB 90 Ω 差分阻抗需板厂确认，6 mil 线宽及主干 8 mil 间距不构成阻抗保证。
 
-原生 POUR/POURED 保存了实际填充缓存，不是只有边界，也未用普通绘图线假装地平面。针对物理层及填充记录运行了官方格式 companion 的 schema 检查：[format-check.json](format-check.json)。19 条记录中 3 条 POURED 通过；其余 16 条提示限于原生 POUR 的数值 groupId=0，以及物理层未知介质参数的 null。当前客户端能读写这些字段，未通过伪造数值消除提示；不能把这个结果称作严格 schema 全通过。原理图 14 条修改文字的 [格式检查](annotation-format-check.json) 另有原生省略 groupId、locked、strikeout 默认字段的提示；已重开确认文字、字号及旧说明清理结果，未伪称严格 schema 通过。格式 companion 基线为 9e42727，工程 skill 基线为 40c94e1，详见仓库 Skills 使用说明。
+原生 POUR/POURED 保存了实际填充缓存，不是只有边界，也未用普通绘图线假装地平面。针对物理层及填充记录运行了官方格式 companion 的 schema 检查：`format-check.json`。19 条记录中 3 条 POURED 通过；其余 16 条提示限于原生 POUR 的数值 groupId=0，以及物理层未知介质参数的 null。当前客户端能读写这些字段，未通过伪造数值消除提示；不能把这个结果称作严格 schema 全通过。原理图 14 条修改文字的格式检查（`annotation-format-check.json`） 另有原生省略 groupId、locked、strikeout 默认字段的提示；已重开确认文字、字号及旧说明清理结果，未伪称严格 schema 通过。格式 companion 基线为 9e42727，工程 skill 基线为 40c94e1，详见仓库 Skills 使用说明。
 
 ## 关键回流与机械检查
 
@@ -57,4 +59,4 @@ J1 选用 H40 公座，配合 H35 母座的名义高度 7.5 mm，依据 [山谷�
 3. **P1：制造参数。** 板厂确认层叠和阻抗，补齐阻焊、钢网、钻孔、焊盘环及装配检查；本次导出只用于审核，没有生产发布。
 4. **P2：固件与压力测试。** 主控 PC15 先使能对外 5 V；日志板再启动 USB。验证 USB 枚举、过流恢复、SD 长尾写入、STOP 关文件和持续日志负载。没有电池或掉电续写保证。
 
-当前 [BOM.csv](BOM.csv) 包含全部 65 个位号，R12 以 DNP 明确列出；正常装配为 64 个位号。该 BOM 是设计核对快照，不是下单清单。
+当前 `BOM.csv` 包含全部 65 个位号，R12 以 DNP 明确列出；正常装配为 64 个位号。该 BOM 是设计核对快照，不是下单清单。

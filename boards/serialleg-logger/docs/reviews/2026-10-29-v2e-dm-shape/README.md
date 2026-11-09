@@ -1,5 +1,7 @@
 # v2e：改为达妙扩展板外形并全板重新布局布线
 
+> 2026-11-09 起，本记录引用的原始导出和旧版资料已移出 Git，文中只保留文件名、不再链接；需要时在提交 `1e0d038` 中查看，例如 `git show 1e0d038:<仓库内路径>`。
+
 日期：2026-10-29。软件：嘉立创 EDA 专业版 4.1.71.7a7261be。源工程为分支 `codex/logger-v2` 上的**未提交**工作区，基于提交 `1cb5f2c`，在 [v2c 记录](../2026-10-29-v2c-uart8/README.md) 之后修改。电气连接与 v2c 相同（J7 由立式改为卧式直角排针 PZ254R-11-03P，网络不变）。
 
 ## 起因
@@ -118,7 +120,7 @@ SD 路径长度从 U1 焊盘到 J5 焊盘计，不含上拉支线：
 
 ## Gerber 导出与检查
 
-检查脚本为 [tools/gerber-check](../../../tools/gerber-check/)，数据见 [gerber-check.json](gerber-check.json)。
+检查脚本为 [tools/gerber-check](../../../tools/gerber-check/)，数据见 `gerber-check.json`。
 
 导出文件为 `outputs/2026-10-29-v2e-gerber/SerialLegLogger-v2e-2026-10-29.zip`（2026-11-04 用户加原生泪滴后重新导出），SHA-256 `bf04544a…2ba2a138`。这是检查用导出，不是生产发布。
 

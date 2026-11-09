@@ -1,8 +1,10 @@
 # 2026-10-16 顶底地铜与阻抗复核
 
+> 2026-11-09 起，本记录引用的原始导出和旧版资料已移出 Git，文中只保留文件名、不再链接；需要时在提交 `1e0d038` 中查看，例如 `git show 1e0d038:<仓库内路径>`。
+
 本页记录补铜完成、信号转角尚未进一步优化时的版本。当前工程的线长、连接线数量及预览以[后续转角优化记录](../2026-10-16-corners/README.md)为准；层叠、线宽和过孔保持不变。
 
-本记录对应 [SerialLegLogger.eprj3](../../../hardware/SerialLegLogger.eprj3) 及完整 `hardware` 目录的未提交工作树。软件为嘉立创 EDA 专业版 **4.1.71.7a7261be**，基础提交与原生检查数据保存在 [validation.json](validation.json)。
+本记录对应 [SerialLegLogger.eprj3](../../../hardware/SerialLegLogger.eprj3) 及完整 `hardware` 目录的未提交工作树。软件为嘉立创 EDA 专业版 **4.1.71.7a7261be**，基础提交与原生检查数据保存在 `validation.json`。
 
 ## 本次修改
 

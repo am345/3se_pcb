@@ -1,6 +1,8 @@
 # 2026-10-16 信号转角优化与复核
 
-检查对象为 [SerialLegLogger.eprj3](../../../hardware/SerialLegLogger.eprj3) 及完整 `hardware` 目录的未提交工作树。使用嘉立创 EDA 专业版 **4.1.71.7a7261be**。基础提交、修改前后坐标、原生 DRC 和回读量测保存在 [validation.json](validation.json)。
+> 2026-11-09 起，本记录引用的原始导出和旧版资料已移出 Git，文中只保留文件名、不再链接；需要时在提交 `1e0d038` 中查看，例如 `git show 1e0d038:<仓库内路径>`。
+
+检查对象为 [SerialLegLogger.eprj3](../../../hardware/SerialLegLogger.eprj3) 及完整 `hardware` 目录的未提交工作树。使用嘉立创 EDA 专业版 **4.1.71.7a7261be**。基础提交、修改前后坐标、原生 DRC 和回读量测保存在 `validation.json`。
 
 ## 修改范围
 

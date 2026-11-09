@@ -1,5 +1,7 @@
 # v2c：DBUS 改接 DM UART8，取消 J6
 
+> 2026-11-09 起，本记录引用的原始导出和旧版资料已移出 Git，文中只保留文件名、不再链接；需要时在提交 `1e0d038` 中查看，例如 `git show 1e0d038:<仓库内路径>`。
+
 日期：2026-10-29。软件：嘉立创 EDA 专业版 4.1.71.7a7261be。源工程为分支 `codex/logger-v2` 上的**未提交**工作区，基于提交 `1cb5f2c`，在 [v2b Gerber 检查](../2026-10-29-v2b-gerber-check/README.md) 之后修改。
 
 > 后续：同日的 [v2e](../2026-10-29-v2e-dm-shape/README.md) 改为达妙扩展板外形并全板重布。本记录中的原理图修改仍有效，PCB 位置、走线、检查数据和 Gerber 已被取代。
@@ -68,7 +70,7 @@ v2b 用 Samtec BCS-103-L-S-TE 排母从缺口倒插 DM P6，再把尾脚弯 90°
 
 ## Gerber 导出与检查
 
-导出设置同 [v2b 检查](../2026-10-29-v2b-gerber-check/README.md)，检查脚本为 [tools/gerber-check](../../../tools/gerber-check/)，数据见 [gerber-check.json](gerber-check.json)。
+导出设置同 [v2b 检查](../2026-10-29-v2b-gerber-check/README.md)，检查脚本为 [tools/gerber-check](../../../tools/gerber-check/)，数据见 `gerber-check.json`。
 
 导出文件为 `outputs/2026-10-29-v2c-gerber/SerialLegLogger-v2c-2026-10-29-r2.zip`，SHA-256 `e16eff8c…a9d95d`。这是检查用导出，不是生产发布。修正底面文字镜像之前的第一次导出已移到回收站。
 

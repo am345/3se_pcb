@@ -1,8 +1,10 @@
 # 丝印间距与 USB 插座侧短线修订
 
+> 2026-11-09 起，本记录引用的原始导出和旧版资料已移出 Git，文中只保留文件名、不再链接；需要时在提交 `1e0d038` 中查看，例如 `git show 1e0d038:<仓库内路径>`。
+
 日期：2026-10-16。软件：嘉立创 EDA 专业版 4.1.71.7a7261be。源工程为 `hardware/SerialLegLogger.eprj3` 及完整 `hardware/`；基于提交 `27a9aebb6f87ded35f4d1f7330f6f76075f9c465` 上的未提交工作树。本次未发布生产版本。
 
-本轮解决丝印到焊盘不足 0.15 mm，以及用户新增 USB_DP_CONN / USB_DM_CONN 两段 10 mil 走线尚未按当前层叠复核的问题。详细量测、源几何差异及模型参数见 [verification.json](verification.json)。
+本轮解决丝印到焊盘不足 0.15 mm，以及用户新增 USB_DP_CONN / USB_DM_CONN 两段 10 mil 走线尚未按当前层叠复核的问题。详细量测、源几何差异及模型参数见 `verification.json`。
 
 ## 丝印
 

@@ -42,15 +42,14 @@
 - [V0.3 硬壳](mechanical/shell-v0.3/README.md)：PETG / PLA 打印的贴身薄壳，上下两半在 PCB 底面下止口对扣，靠卡筋和摩擦固定，不用螺丝。上半压住卧放 10 F 和 PCB 板边，两侧与 2027 装甲支撑架之间垫 EVA 泡棉。STEP、STL 和生成脚本，2026-11-06 第三版草稿，未打印试装。
 - [单体测量与配组表](docs/cell-matching.xlsx)：按设计说明第 4.3 节的测法记录 34 F、10 F 容量和直流内阻，自动给出 10 串配组建议，并算偏离、29 V 首充分压和检录能量（Excel 2007 可开）。
 - [设计说明](docs/design.md)：选型、每串电路、29 V 路线（余量、挑片、配组、检录能量、控制板改动）、原理图与 PCB 布局（含参考的开源方案）、风险。
-- 原理图：[V0.2 单页预览](images/schematic.png)，保留历史追溯；V0.3 当前原理图以 `hardware/` 为准，本次未重新导出预览。
-- PCB：[顶面](images/pcb-top.png)、[底面（镜像视角）](images/pcb-bottom.png)（V0.2）。
+- 原理图：V0.3 当前原理图以 `hardware/` 为准，尚未导出整页预览。
 - V0.3：[布线结果（顶层 / 底层）](images/v0.3-routed-2026-10-28.png)、[摆放与底层节点分区](images/v0.3-placement-zones-2026-10-28.png)、[控制单元走线示意](images/v0.3-unit-routing-2026-10-28.png)、[EDA 画布](images/v0.3-pcb-canvas-2026-10-28.png)、[加宽后电流密度](images/v0.3-current-density-14.5a-2026-10-29.png)、[顶层丝印](images/v0.3-silk-top-2026-10-29.png)。
-- V0.2 历史载流图：[主电流 14.5 A 时的铜皮电流密度](images/current-density-14.5a.png)，不能用于当前 V0.3 布局；方法见[历史检查记录](docs/reviews/2026-10-17-v0.2/README.md)。
+- V0.2 的原理图、PCB 和 14.5 A 载流预览图（原 `images/schematic.png`、`pcb-top.png`、`pcb-bottom.png`、`current-density-14.5a.png`）已于 2026-11-09 移出 Git，需要时在提交 `1e0d038` 中查看；它们不能用于当前 V0.3，计算方法见[历史检查记录](docs/reviews/2026-10-17-v0.2/README.md)。
 - 数据手册：Bitwell BW6103 规格书；Eaton Technical Data 10554（TV 系列）；AOS AO3400A；Nexperia PMEG4010BEA；Bourns CRM2512；Littelfuse 0453 系列。具体引用页见设计说明。
 
 ## 验证与已知问题
 
-2026-11-07 仅进行 Git 整理、文件完整性与链接检查，没有修改 V0.3 工程，也未重跑客户端重开、ERC、DRC 或实测。按用户决定弃用 V0.2 的 C307348 换料分支，当前 Ck03 保留 V0.3 原有的 C14663；换料不再列为待办。合并范围见[仓库整理记录](../../docs/worktree-consolidation-2026-11-07.md)。
+2026-11-07 仅进行 Git 整理、文件完整性与链接检查，没有修改 V0.3 工程，也未重跑客户端重开、ERC、DRC 或实测。按用户决定弃用 V0.2 的 C307348 换料分支，当前 Ck03 保留 V0.3 原有的 C14663；换料不再列为待办。合并范围见提交 `1e0d038` 中的 `docs/worktree-consolidation-2026-11-07.md`。
 
 | 检查 | 日期与适用版本 | 结果及记录 |
 | --- | --- | --- |

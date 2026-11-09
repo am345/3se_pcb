@@ -59,7 +59,7 @@ v2c 之前曾做过布局紧凑化（面积 1540.5 → 1232.2 mm²），见 [v2b
 
 ![v2e Gerber 顶面](images/gerber-top-v2e-2026-10-29.svg)
 
-v2e：[原理图](images/schematic-v2e-2026-10-29.png) · [Gerber 底面](images/gerber-bottom-v2e-2026-10-29.svg) · [整机 3D 复核](images/dm-fit-v2e-2026-10-30.svg) · [装配模拟（重布前）](images/dm-fit-sim-2026-10-29.svg) · [外形方案](images/dm-shape-proposal-2026-10-29.svg) · [检查数据](docs/reviews/2026-10-29-v2e-dm-shape/verification.json)。[布局草案](images/dm-shape-placement-plan-2026-10-29.svg) 是重布前的规划图，与最终位置不完全一致。
+v2e：[原理图](images/schematic-v2e-2026-10-29.png) · [Gerber 底面](images/gerber-bottom-v2e-2026-10-29.svg) · [整机 3D 复核](images/dm-fit-v2e-2026-10-30.svg) · [装配模拟（重布前）](images/dm-fit-sim-2026-10-29.svg) · [外形方案](images/dm-shape-proposal-2026-10-29.svg) · [检查记录](docs/reviews/2026-10-29-v2e-dm-shape/README.md)。[布局草案](images/dm-shape-placement-plan-2026-10-29.svg) 是重布前的规划图，与最终位置不完全一致。
 
 - SD 全部走顶层（参考 L2），相对 CLK 的最大长度差 29.4 mil；USB 走底层（参考 L3），两线长度差 0.1 mil。
 - PROG_TX/RX、EN 走顶层，BOOT、UART8、SD_CD_N 走底层，长度和路径见 [v2e 记录](docs/reviews/2026-10-29-v2e-dm-shape/README.md)。
@@ -75,11 +75,11 @@ v2e：[原理图](images/schematic-v2e-2026-10-29.png) · [Gerber 底面](images
 - 主控固件：遥控接收改到 UART8（100000、8E2、RX 反相）；
 - 其余沿用 v2c 的待办：PE0 是否 5 V 容忍、接收机 DBUS 电平、J2 外形核对、线缆线序、日志板固件取消 BOOT 长按。
 
-以下为 v2c 及更早的图片和说明，板形、布局与走线均已被 v2e 取代，只作追溯：[v2b 画布](images/pcb-v2b-2026-10-28-canvas.png) · [v2c 原理图](images/schematic-v2c-2026-10-29.png) · [v2c Gerber 顶面](images/gerber-top-v2c-2026-10-29.svg) · [v2c Gerber 底面](images/gerber-bottom-v2c-2026-10-29.svg)；[v2b 原理图](images/schematic-v2b-2026-10-28.png) · [紧凑化规划](images/compact-plan-v2b-2026-10-28.svg) · [降压电路上移](images/buck-compact-v2b-2026-10-28.svg) · [J2 内移](images/j2-inward-v2b-2026-10-29.svg) · [DBUS 缺口与凸台](images/dbus-notch-v2b-2026-10-28.svg) · [J2 MX1.25 区](images/j2-mx125-v2b-2026-10-28.svg) · [v2 检查数据](docs/reviews/2026-10-27-v2-changes/verification.json) · [Gerber 顶面](images/gerber-top-v2b-2026-10-29.svg) · [Gerber 底面](images/gerber-bottom-v2b-2026-10-29.svg)。第一轮图片 [原理图](images/schematic-v2-2026-10-27.png)、[画布](images/pcb-v2-2026-10-27-canvas.png)、[J2 泪滴](images/usb-teardrop-v2-2026-10-27.svg) 对应 2026-10-27 的 USB-A 版本，已过期。
+以下为 v2c 及更早的图片和说明，板形、布局与走线均已被 v2e 取代，只作追溯：[v2b 画布](images/pcb-v2b-2026-10-28-canvas.png) · [v2c 原理图](images/schematic-v2c-2026-10-29.png) · [v2c Gerber 顶面](images/gerber-top-v2c-2026-10-29.svg) · [v2c Gerber 底面](images/gerber-bottom-v2c-2026-10-29.svg)；[v2b 原理图](images/schematic-v2b-2026-10-28.png) · [紧凑化规划](images/compact-plan-v2b-2026-10-28.svg) · [降压电路上移](images/buck-compact-v2b-2026-10-28.svg) · [J2 内移](images/j2-inward-v2b-2026-10-29.svg) · [DBUS 缺口与凸台](images/dbus-notch-v2b-2026-10-28.svg) · [J2 MX1.25 区](images/j2-mx125-v2b-2026-10-28.svg) · [v2 改版记录](docs/reviews/2026-10-27-v2-changes/README.md) · [Gerber 顶面](images/gerber-top-v2b-2026-10-29.svg) · [Gerber 底面](images/gerber-bottom-v2b-2026-10-29.svg)。第一轮图片 [原理图](images/schematic-v2-2026-10-27.png)、[画布](images/pcb-v2-2026-10-27-canvas.png)、[J2 泪滴](images/usb-teardrop-v2-2026-10-27.svg) 对应 2026-10-27 的 USB-A 版本，已过期。
 
 下列 2026-10-16 的说明对应 v1，v2e 已重做板形、布局和全部走线，仅作历史追溯。
 
-v1 预览：[顶面](images/pcb-silk-usb-2026-10-16-top.png) · [底面](images/pcb-silk-usb-2026-10-16-bottom.png) · [丝印间距](images/silk-clearance-2026-10-16.png) · [USB 短段](images/usb-conn-2026-10-16.png) · [v1 检查数据](docs/reviews/2026-10-16-silk-usb/verification.json)
+v1 预览：[顶面](images/pcb-silk-usb-2026-10-16-top.png) · [底面](images/pcb-silk-usb-2026-10-16-bottom.png) · [丝印间距](images/silk-clearance-2026-10-16.png) · [USB 短段](images/usb-conn-2026-10-16.png) · [v1 检查记录](docs/reviews/2026-10-16-silk-usb/README.md)
 
 - J1 保持底层插接方向；J5 已移出 UART10 插拔通道，板框为 CAN3、UART7、UART10、PWM、SBUS 等接口留出避让。
 - 保留用户可复用的走线。已检查 26 个非电源网络，将 SD_D2、SD_CLK_MCU、SD_CMD、SD_D3、BOOT 的五处焊盘外急转角改为 45° 过渡。SD 的 CLK/CMD/D0～D3 仍全部走顶层、无信号过孔，参考 L2；相对 CLK 的最大长度差约 42.45 mil，低于 50 mil 目标。
@@ -103,7 +103,8 @@ v1 预览：[顶面](images/pcb-silk-usb-2026-10-16-top.png) · [底面](images/
 - [2026-10-15 删除 J1 定位孔](docs/reviews/2026-10-15-j1-no-post/README.md)
 - [2026-10-15 布局与布线准备](docs/reviews/2026-10-15-placement/README.md)
 - [R0.6 SD 布线检查](docs/reviews/2026-10-12-sd-r06/README.md)
-- [R0.5 绝缘托架](mechanical/clip-mount/README.md)、[R0.4 接口避让](docs/reviews/2026-10-12-access-r04/README.md)
-- [历史制造及首板测试说明](docs/manufacturing-and-bringup.md)、[历史设计说明](docs/design-notes.txt)
+- [R0.5 绝缘托架检查](docs/reviews/2026-10-12-clip-r05/README.md)、[R0.4 接口避让](docs/reviews/2026-10-12-access-r04/README.md)
 
-2026-11-07 完成本地版本整理，保存了现有工程和固件；本次没有修改电气连接或固件代码，没有重跑 EDA 检查、固件构建或样板测试。上述结果仍是各自日期的历史记录。硬件兼容范围：固件 v0.2.0 沿用 v1 引脚，在 v2e 上尚未烧录验证，取消板载 BOOT 键后的行为仍需确认。整理范围见[仓库记录](../../docs/worktree-consolidation-2026-11-07.md)。
+2026-11-09 起，以下旧资料已移出 Git，需要时在提交 `1e0d038` 中查看（`git show 1e0d038:<仓库内路径>`）：R0.5 托架的 STEP/STL、生成脚本和效果图（原 `mechanical/clip-mount/`）、P16 叠装 SVG（原 `mechanical/`）、R0.6 时期的 `docs/design-notes.txt` 与 `docs/manufacturing-and-bringup.md`、各检查记录的原始导出（JSON、CSV、TXT），以及 r02–r06 等无人引用的旧预览图。检查记录的 README 仍保留，文中只写文件名、不再链接。
+
+2026-11-07 完成本地版本整理，保存了现有工程和固件；本次没有修改电气连接或固件代码，没有重跑 EDA 检查、固件构建或样板测试。上述结果仍是各自日期的历史记录。硬件兼容范围：固件 v0.2.0 沿用 v1 引脚，在 v2e 上尚未烧录验证，取消板载 BOOT 键后的行为仍需确认。整理范围见提交 `1e0d038` 中的 `docs/worktree-consolidation-2026-11-07.md`。

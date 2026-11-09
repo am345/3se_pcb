@@ -1,5 +1,7 @@
 # R0.4 接口避让与紧凑布局检查
 
+> 2026-11-09 起，本记录引用的原始导出和旧版资料已移出 Git，文中只保留文件名、不再链接；需要时在提交 `1e0d038` 中查看，例如 `git show 1e0d038:<仓库内路径>`。
+
 日期：2026-10-12。嘉立创专业版 4.1.71.7a7261be，使用原生 CLI/API；未使用 computer use、自动布线器或自动寻路。基线提交 `27a9aebb6f87ded35f4d1f7330f6f76075f9c465` 加工作区 R0.3 修改。PCB 版本 `1791814612820`，原理图版本 `1791733447480`。当前为设计草稿，未投板、未实物试配、无生产标签。
 
 ## 修改结果
@@ -16,15 +18,15 @@
 
 ![与达妙实体投影的前后对比](../../../images/p16-stack-r04.png)
 
-重新安排主控、供电、USB、SD 与联锁外围；三只侧按键位于左侧，D1 / D2 均在顶面。工作副本删除旧走线后，按逐网确定的节点表调用原生 API 落图，见 [人工路径表](manual-paths.json)。最终原生保存会合并或拆分线段，以 [原生几何快照](native-geometry.json) 为准：633 条 LINE、92 个 VIA，无完全重复图元。该数量不是布线质量指标。
+重新安排主控、供电、USB、SD 与联锁外围；三只侧按键位于左侧，D1 / D2 均在顶面。工作副本删除旧走线后，按逐网确定的节点表调用原生 API 落图，见人工路径表（`manual-paths.json`）。最终原生保存会合并或拆分线段，以原生几何快照（`native-geometry.json`） 为准：633 条 LINE、92 个 VIA，无完全重复图元。该数量不是布线质量指标。
 
 电气网表、器件型号和供电方案不变：仍由 P16 对外 5 V 供电，VCC_IN 仅用于主电源检测，USB 联锁保留，R12 默认 DNP。未增加电池。
 
 ## 机械依据和边界
 
-依据 [DM-MC02 官方资料仓库](https://gitee.com/kit-miao/dm-mc02) 提交 `0ad8a919495c6da38f36b9352ca1118e490ef4c2` 的 `3D模型/CtrBoard-H7_V1.0-240112A.step`，读取 293 个实体包围盒，保存为 [来源快照](damiao-source.json)。用户 Downloads 中《达妙科技 DM-MC-Board02 电机开发板使用说明书 V1.1》PDF 第 17 页（正文第 15 页）用于核对 BOOT0；原理图参考版本为 CtrBoard-H7_V1.0-240124。
+依据 [DM-MC02 官方资料仓库](https://gitee.com/kit-miao/dm-mc02) 提交 `0ad8a919495c6da38f36b9352ca1118e490ef4c2` 的 `3D模型/CtrBoard-H7_V1.0-240112A.step`，读取 293 个实体包围盒，保存为来源快照（`damiao-source.json`）。用户 Downloads 中《达妙科技 DM-MC-Board02 电机开发板使用说明书 V1.1》PDF 第 17 页（正文第 15 页）用于核对 BOOT0；原理图参考版本为 CtrBoard-H7_V1.0-240124。
 
-板框到插座包围盒的间隙取二维最短距离，坐标变换及逐项结果在 [mechanical-check.json](mechanical-check.json)：
+板框到插座包围盒的间隙取二维最短距离，坐标变换及逐项结果在 `mechanical-check.json`：
 
 ```text
 达妙全局 X / mm = 17.03159025 + 日志板 X / mil × 0.0254
@@ -56,14 +58,14 @@ P1 / SWD 后部、主控 SW1 / SW2 本体仍有部分或全部 PCB 投影覆盖�
 
 | 检查 | 本轮结果 | 证据 |
 | --- | --- | --- |
-| 原理图 ERC | 0 电气错误；保留 U1 的 1 条 ATTRMATCHCODE 显示属性警告 | [schematic-erc.json](schematic-erc.json) |
-| 原理图 / PCB 网表 | 65 器件、250 引脚条目，0 差异；原理图与本轮基线字节一致 | [逐针比较](netlist-crosscheck.json)、[原理图网表](schematic-netlist.json)、[PCB 网表](pcb-netlist.json) |
-| 实际覆铜 | 四层各一个 GND 区域，均使用原生 `rebuildCopperRegion()` 填充 | [填铜返回值](refill-result.json)、[几何](native-geometry.json)及实际 Gerber |
-| 原生 DRC | 检查副本保存、关页、重开后 `check(true, false, true)` 返回 0 项 | [drc-final.json](drc-final.json) |
-| 正式文件 | 正式 PCB 与已检查副本逐字节一致；PCB 头与索引版本一致，索引其他字段未改 | [canonical-verification.json](canonical-verification.json) |
-| 规则 / 交付数据 | 84 项规则记录未改；J1 和安装孔位置未改，器件型号、封装、引脚网络未改 | [规则比较](rule-comparison.json)、[原生规则](pcb-rules.json)、[交付核对](delivery-check.json) |
+| 原理图 ERC | 0 电气错误；保留 U1 的 1 条 ATTRMATCHCODE 显示属性警告 | `schematic-erc.json` |
+| 原理图 / PCB 网表 | 65 器件、250 引脚条目，0 差异；原理图与本轮基线字节一致 | 逐针比较（`netlist-crosscheck.json`）、原理图网表（`schematic-netlist.json`）、PCB 网表（`pcb-netlist.json`） |
+| 实际覆铜 | 四层各一个 GND 区域，均使用原生 `rebuildCopperRegion()` 填充 | 填铜返回值（`refill-result.json`）、几何（`native-geometry.json`）及实际 Gerber |
+| 原生 DRC | 检查副本保存、关页、重开后 `check(true, false, true)` 返回 0 项 | `drc-final.json` |
+| 正式文件 | 正式 PCB 与已检查副本逐字节一致；PCB 头与索引版本一致，索引其他字段未改 | `canonical-verification.json` |
+| 规则 / 交付数据 | 84 项规则记录未改；J1 和安装孔位置未改，器件型号、封装、引脚网络未改 | 规则比较（`rule-comparison.json`）、原生规则（`pcb-rules.json`）、交付核对（`delivery-check.json`） |
 | 正式路径独立重开 | 新 CLI 会话的 `openDocument` 超时，未取得该会话 DRC | 同上；不将这一步写成通过 |
-| 重复图元 / 坐标 | 无完全重复线段或过孔；默认装配坐标 64 位号，排除 R12 | [primitive-check.json](primitive-check.json) |
+| 重复图元 / 坐标 | 无完全重复线段或过孔；默认装配坐标 64 位号，排除 R12 | `primitive-check.json` |
 
 正式文件已经同步完成，唯一维护入口仍为 [hardware/SerialLegLogger.eprj3](../../../hardware/SerialLegLogger.eprj3)。完整工程包含原理图、PCB 及内嵌资源，不能只复制索引。正式路径 CLI 超时发生在页面打开阶段；已检查工作副本可原生保存和重开，且正式 PCB 与该副本完全相同。这里保留工具限制，不据此声称已完成正式路径的独立客户端验证。
 
@@ -71,7 +73,7 @@ U1 属性警告沿用 R0.2，未隐藏、忽略或关闭规则。250 为网表�
 
 ## 关键走线与地参考
 
-四层均实际填充 GND；L2 含外围低速控制线，不能称整板完全连续地平面。USB 底面主干参考 L3，顶面扇出参考 L2；SD 顶面及 L3 信号以 L2 为相邻参考，底面源端短段参考 L3。使用本轮实际 Gerber 剔除非 GND 信号、过孔和通孔铜后，比较线路中心线与地铜投影，见 [signal-reference-check.json](signal-reference-check.json)。这是二维几何核对，未进行电磁仿真。
+四层均实际填充 GND；L2 含外围低速控制线，不能称整板完全连续地平面。USB 底面主干参考 L3，顶面扇出参考 L2；SD 顶面及 L3 信号以 L2 为相邻参考，底面源端短段参考 L3。使用本轮实际 Gerber 剔除非 GND 信号、过孔和通孔铜后，比较线路中心线与地铜投影，见 `signal-reference-check.json`。这是二维几何核对，未进行电磁仿真。
 
 - USB D− / D+ 中心线总长分别约 20.504731 / 20.504718 mm，差值小于 0.001 mm；小数仅供计算复现，不代表实体精度。每路 1 个换层过孔，6 mil 线宽、配对主干间距 8 mil；扇出和局部调长处不保持统一间距。
 - USB 每路未被地铜投影覆盖的中心线约为 J2 通孔端接 1.005 mm、换层邻域合计 1.123 mm。将本网络通孔/过孔半径加 10 mil 的邻域单列后，仅余约 0.001～0.005 mm 的边界残差。不能把端接缺口描述为不存在。
@@ -82,7 +84,7 @@ U1 属性警告沿用 R0.2，未隐藏、忽略或关闭规则。250 为网表�
 
 ## 制造与装配检查
 
-使用原生 Gerber 与 [check_manufacturing.py](../../../tools/check_manufacturing.py)，Python / Shapely 2.1.2。规则阈值沿用前版；没有放宽电气间距或关闭规则。覆铜边界相对板框内缩 13 mil，修正凹角处原生填铜到板边不足的问题。结果见 [manufacturing-check.json](manufacturing-check.json)。
+使用原生 Gerber 与 [check_manufacturing.py](../../../tools/check_manufacturing.py)，Python / Shapely 2.1.2。规则阈值沿用前版；没有放宽电气间距或关闭规则。覆铜边界相对板框内缩 13 mil，修正凹角处原生填铜到板边不足的问题。结果见 `manufacturing-check.json`。
 
 | 项目 | 筛查阈值 / 方法 | 当前结果 |
 | --- | --- | --- |
@@ -98,14 +100,14 @@ U1 属性警告沿用 R0.2，未隐藏、忽略或关闭规则。250 为网表�
 
 已查看原生顶底铜图、装配图，以及本轮 Gerber 丝印、内层地参考和叠装对比预览。底面图为底面正视。原生 PDF 的自动 BOM 页不作为装配下单资料，使用本目录 CSV。
 
-64 个封装有 layer 48 本体外形，排除默认 DNP 的 R12 后实际筛查 63 个器件，同面无重叠、无小于 0.20 mm 的本体间隙；J1 缺少准确本体图形，未包含在该项通过范围内。变换由内嵌封装与原生焊盘坐标拟合，详见 [body-check.json](body-check.json)。该项不替代装配庭院、焊接、返修和真实器件高度检查。
+64 个封装有 layer 48 本体外形，排除默认 DNP 的 R12 后实际筛查 63 个器件，同面无重叠、无小于 0.20 mm 的本体间隙；J1 缺少准确本体图形，未包含在该项通过范围内。变换由内嵌封装与原生焊盘坐标拟合，详见 `body-check.json`。该项不替代装配庭院、焊接、返修和真实器件高度检查。
 
 制造几何筛查采用圆弧折线近似，阻焊桥仅比较独立开窗；未覆盖完整钢网开口比例、阻抗、所有高度公差或板厂 CAM。临时 Gerber / PDF 保留在板内 `outputs/access-r04-2026-10-12/`，**未作为生产包发布**。
 
 ## 装配资料与剩余事项
 
-- [BOM.csv](BOM.csv)：65 位号，标记 R12 DNP；H40 准确采购编号仍待确认。
-- [pick-and-place.csv](pick-and-place.csv)：64 位号默认装配坐标，UTF-8 BOM、逗号分隔；排除原生全量导出中仍包含的 R12。底面旋转和通孔装配约定需与装配厂核对。
-- [当前板说明](../../../README.md)、[制造准备与首板测试](../../manufacturing-and-bringup.md)已更新。旧版预览、坐标和报告是历史记录，不用于本版下单。
+- `BOM.csv`：65 位号，标记 R12 DNP；H40 准确采购编号仍待确认。
+- `pick-and-place.csv`：64 位号默认装配坐标，UTF-8 BOM、逗号分隔；排除原生全量导出中仍包含的 R12。底面旋转和通孔装配约定需与装配厂核对。
+- [当前板说明](../../../README.md)、制造准备与首板测试（`docs/manufacturing-and-bringup.md`）已更新。旧版预览、坐标和报告是历史记录，不用于本版下单。
 
 后续需 H40/H35、安装柱及完整线束实物试配；确认出卡、侧按键和主控接口操作空间，BOOT0 按拆板维护。还需确认层叠、阻抗和装配工艺，测量共享 5 V 负载、P16 电流及掉电反灌，实现独立日志板固件并完成首板测试。本轮 DRC 和几何筛查均不能升级为实测功能通过。
